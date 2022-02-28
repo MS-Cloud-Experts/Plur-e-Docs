@@ -1,28 +1,29 @@
-ProcessMethod: GetRegisteredPutAway
-Description:
+**ProcessMethod**: GetRegisteredPutAway
+
+**Description**:
 This method returns the elements of the table "Registered Whse. Activity Hdr." filtered so that only "Registered Put-Away" is visible. In this case, the filtered record is brought in the "No" field. returning the "Registered Whse. Activity Hdr" and the "Registered Whse. Activity Line" in JSON format.
 
 Note: There is a table called "Registered Whse. Activity Hdr." which contains all registered Put-Aways and Pick-Ups, changing only the Type for differences between one or the other.
 
-Input:
-Parameters: 
--	No: Allows you to bring a single Registered Whse Activity Hdr. 
+**Input**:
+**Parameters**: 
+-	**No**: Allows you to bring a single Registered Whse Activity Hdr. 
 
-Ouput:  
+**Ouput**:  
 
--	RegisteredWhseActivity: Contains a Registered WhseActivityHdr and an array of lines expressed in the key: RegisteredWhseActivityLine.
+-	**RegisteredWhseActivity**: Contains a Registered WhseActivityHdr and an array of lines expressed in the key: RegisteredWhseActivityLine.
 -	
-   Note: Each RegisteredWhseActivityLine array must contain 2 lines.
+   **Note**: Each RegisteredWhseActivityLine array must contain 2 lines.
 
 The first must have the Action Type: Take and the second must be Place.
 
 This tells us that the first one takes the Item from the Origin Bin and stores it in the second line that would represent the Destination Bin.
 
-Example:
+**Example**:
 
-"jsonRequest":"{"ProcessMethod":"GetRegisteredPutAway","Parameters":[{"No":"10111"}]}"
+`"jsonRequest":"{"ProcessMethod":"GetRegisteredPutAway","Parameters":[{"No":"10111"}]}"`
 
-Outputs:
+**Outputs**:
 
  
 ```
