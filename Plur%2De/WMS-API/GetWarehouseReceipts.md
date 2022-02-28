@@ -4,18 +4,29 @@
 Allows you to bring a list of open Warehouse Receipts to be posted in a Warehouse Activity (Warehouse Put-Away) or assign a License Plate.
 
 **Parameters**: 
-assigned_user_id: filter that allows obtaining only the warehouse receipts of a user. If it is left blank, it brings all the existing ones.
+
+**Input**:
+
+**Parameters**: 
+-	**assigned_user_id**: filter that allows obtaining only the warehouse receipts of a user. If it is left blank, it brings all the existing ones.
 
 **Ouput**: Returns an array of Warehouse Receipts in Json format.
 
+-	**WarehouseReceipts**: Returns an array of Warehouse Receipts expressed in the key: `WarehouseReceipts`
+
 **Example**:
 
+**Request:**
 `"jsonRequest":"{"ProcessMethod":"GetWarehouseReceipts","Parameters":[{"assigned_user_id":""}]}"`
 
 **Error**:
 `"{"Error":"The Warehouse Receipt List is Empty"}"`
 
 **Output**:
+
+**WarehouseReceipts:**
+
+![image.png](/.attachments/image-eaca9fc1-e4fe-46d1-86ad-2b28cb94e452.png)
 
 ```
 {
