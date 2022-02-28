@@ -9,7 +9,7 @@
 
 **Ouput**: 
 
-**WarehouseReceipt**: Contains a WarehouseReceiptHeader and an array of lines expressed in the key: WarehouseReceiptLines.
+**WarehouseReceipt**: Contains a `WarehouseReceiptHeader` and an array of lines expressed in the key: `WarehouseReceiptLines`.
 
 **Example**:
 
