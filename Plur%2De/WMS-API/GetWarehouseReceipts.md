@@ -28,6 +28,8 @@ Allows you to bring a list of open Warehouse Receipts to be posted in a Warehous
 
 ![image.png](/.attachments/image-eaca9fc1-e4fe-46d1-86ad-2b28cb94e452.png)
 
+**Output:**
+
 ```
 {
   "WarehouseReceipts": [
