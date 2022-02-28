@@ -1,17 +1,19 @@
-ProcessMethod: GetWarehouseReceipt
-Description: It allows to bring a particular Warehouse Receipt through the key field No.
+**ProcessMethod**: GetWarehouseReceipt
+**Description**: It allows to bring a particular Warehouse Receipt through the key field No.
 Parameters: 
-No: Allows you to bring a single Warehouse Receipt. 
+**No**: Allows you to bring a single Warehouse Receipt. 
 
-Ouput: The output of this method is made up of the Warehouse Receipt Header and Warehouse Receipt Lines in format Json
+**Ouput**: The output of this method is made up of the Warehouse Receipt Header and Warehouse Receipt Lines in format Json
 
-Example:
-"jsonRequest":"{"ProcessMethod":"GetWarehouseReceipt","Parameters":[{"No":"107292"}]}"
+**Example**:
+`"jsonRequest":"{"ProcessMethod":"GetWarehouseReceipt","Parameters":[{"No":"107292"}]}"`
 
-Error:
-{"Error":"The Warehouse Receipt does not exist"}"
+**Error**:
+`{"Error":"The Warehouse Receipt does not exist"}"`
 
-Output:
+**Output**:
+
+```
 {
   "WarehouseReceipt": {
     "WarehouseReceiptHeader": {
@@ -566,4 +568,6 @@ Output:
     ]
   }
 }
+```
+
 
