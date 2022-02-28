@@ -21,6 +21,12 @@ This tells us that the first one takes the Item from the **Origin Bin** and stor
 
 **Example**:
 
+**Registered WhseActivityHdr:**
+![image.png](/.attachments/image-630904a0-db24-4f9a-9dff-26d3b9290f35.png)
+
+**RegisteredWhseActivityLine:**
+![image.png](/.attachments/image-df634b8c-8f92-4037-bef4-c5a513f4a1f0.png)
+
 `"jsonRequest":"{"ProcessMethod":"GetRegisteredPutAway","Parameters":[{"No":"10111"}]}"`
 
 **Outputs**:
