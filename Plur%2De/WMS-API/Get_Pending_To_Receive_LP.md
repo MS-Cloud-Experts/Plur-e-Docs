@@ -5,7 +5,7 @@ This method allows you to obtain the pending License Plates by believing the ori
 
 **Input**:
 **Parameters**: 
--	**No**: Allows you to bring a single Warehouse Receipt. 
+-	**No**: ARepresents the Warehouse Receipt number to which you want to assign a LP. 
 -	**ItemNo**: Warehouse Receipt Number
 -	**BinCode**: Bin Code assigned to the product in the Warehouse Receipt.
 -	**UnitofMeasureCode**: Unit of measure assigned to the product in the Warehouse Receipt.
