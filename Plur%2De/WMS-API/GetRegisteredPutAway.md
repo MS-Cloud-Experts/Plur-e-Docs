@@ -11,7 +11,7 @@ Note: There is a table called "**Registered Whse. Activity Hdr.**" which contain
 
 **Ouput**:  
 
--	**RegisteredWhseActivity**: Contains a **RegisteredWhseActivityHdr** and an array of lines expressed in the key: **RegisteredWhseActivityLine**.
+-	**RegisteredWhseActivity**: Contains a `RegisteredWhseActivityHdr` and an array of lines expressed in the key: `RegisteredWhseActivityLine`.
 -	
    **Note**: Each RegisteredWhseActivityLine array must contain 2 lines.
 
