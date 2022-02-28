@@ -12,7 +12,7 @@ assigned_user_id: filter that allows obtaining only the warehouse receipts of a 
 
 `"jsonRequest":"{"ProcessMethod":"GetWarehouseReceipts","Parameters":[{"assigned_user_id":""}]}"`
 
-Error:
+**Error**:
 `"{"Error":"The Warehouse Receipt List is Empty"}"`
 
 Output:
