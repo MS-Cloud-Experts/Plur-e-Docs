@@ -15,9 +15,9 @@ Note: There is a table called "Registered Whse. Activity Hdr." which contains al
 -	
    **Note**: Each RegisteredWhseActivityLine array must contain 2 lines.
 
-The first must have the Action Type: Take and the second must be Place.
+The first must have the Action Type: **Take** and the second must be **Place**.
 
-This tells us that the first one takes the Item from the Origin Bin and stores it in the second line that would represent the Destination Bin.
+This tells us that the first one takes the Item from the **Origin Bin** and stores it in the second line that would represent the **Destination Bin**.
 
 **Example**:
 
