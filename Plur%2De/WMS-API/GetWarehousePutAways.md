@@ -1,27 +1,27 @@
-ProcessMethod: GetWarehousePutAway
+**ProcessMethod**: GetWarehousePutAway
 
-Description:
+**Description**:
 This method returns the elements of the table "Warehouse Activity Header" filtered so that only "Put-Away" is visible. In this case, the filtered record is brought in the "No" field. returning the "Warehouse Activity Header" and the "Warehouse Activity Line" in JSON format.
 
 Note: There is a table called " Warehouse Activity Header" which contains all registered Put-Aways and Pick, changing only the Type for differences between one or the other.
 
-Input:
-Parameters: 
--	No: Allows you to bring a single Warehouse Activity Header. 
+**Input**:
+**Parameters**: 
+-	**No**: Allows you to bring a single Warehouse Activity Header. 
 
-Ouput:  
+**Ouput**:  
 
--	WarehousePutAways: Contains a Registered WarehousePutAwayHeader and an array of lines expressed in the key: WarehouseActivityLine.
+-	**WarehousePutAways**: Contains a Registered `WarehousePutAwayHeader` and an array of lines expressed in the key: `WarehouseActivityLine`.
 -	
    Note: Each WarehouseActivityLine array must contain 2 lines.
 
-The first must have the Action Type: Take and the second must be Place.
+The first must have the **Action Type**: **Take** and the second must be **Place**.
 
 This tells us that the first one takes the Item from the Origin Bin and stores it in the second line that would represent the Destination Bin.
 
-Example:
+**Example**:
 
-Request:
+**Request**:
     "jsonRequest":"{\"ProcessMethod\":\"GetWarehousePutAway\",\"Parameters\":[{\"No\":\"10112\"}]}"
 
 Outputs:
