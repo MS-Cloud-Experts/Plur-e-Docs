@@ -11,7 +11,7 @@ Note: There is a table called "**Registered Whse. Activity Hdr.**" which contain
 
 **Ouput**:  
 
--	**RegisteredWhseActivity**: Contains a Registered WhseActivityHdr and an array of lines expressed in the key: RegisteredWhseActivityLine.
+-	**RegisteredWhseActivity**: Contains a **RegisteredWhseActivityHdr** and an array of lines expressed in the key: **RegisteredWhseActivityLine**.
 -	
    **Note**: Each RegisteredWhseActivityLine array must contain 2 lines.
 
@@ -27,6 +27,7 @@ This tells us that the first one takes the Item from the **Origin Bin** and stor
 **RegisteredWhseActivityLine:**
 ![image.png](/.attachments/image-df634b8c-8f92-4037-bef4-c5a513f4a1f0.png)
 
+**Request:**
 `"jsonRequest":"{"ProcessMethod":"GetRegisteredPutAway","Parameters":[{"No":"10111"}]}"`
 
 **Outputs**:
