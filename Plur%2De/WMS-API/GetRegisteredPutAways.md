@@ -14,6 +14,15 @@ This method returns the elements of the table "Registered Whse. Activity Hdr." f
 
 **Example**:
 
+**RegisteredPutAways:** 
+
+The following image shows the Warehouse Put-Aways registered using filter.
+
+![image.png](/.attachments/image-026b253b-c368-452f-9791-e28b41970178.png)
+
+**RegisteredPutAways: **
+![image.png](/.attachments/image-f09e0815-5c59-4f7f-93d3-0eff33d43537.png)
+
 **Request:**
 
     "jsonRequest":"{\"ProcessMethod\":\"GetRegisteredPutAways\",\"Parameters\":[{\"assigned_user_id\":\"\"}]}"
