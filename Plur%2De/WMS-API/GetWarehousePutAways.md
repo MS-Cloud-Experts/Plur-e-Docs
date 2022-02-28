@@ -17,7 +17,7 @@ Note: There is a table called " Warehouse Activity Header" which contains all re
 
 The first must have the **Action Type**: **Take** and the second must be **Place**.
 
-This tells us that the first one takes the Item from the Origin Bin and stores it in the second line that would represent the Destination Bin.
+This tells us that the first one takes the Item from the `Origin Bin` and stores it in the second line that would represent the `Destination Bin`.
 
 **Example**:
 
