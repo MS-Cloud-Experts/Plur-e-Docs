@@ -30,7 +30,7 @@ The difference between the number of labels created minus the total amounts to R
 
 **Outputs**:
 
-`"{"Created":false,"Message":"","LP_Pending_To_Receive":5.0,"LP_Received":""}"`
+`"{"Created":false,"Message":"","LP_Pending_To_Receive":5.0,"LP_Received":"15"}"`
 
 **Errors**:
 
