@@ -1,4 +1,5 @@
 **ProcessMethod**: GetWarehouseReceipt
+
 **Description**: It allows to bring a particular Warehouse Receipt through the key field No.
 Parameters: 
 **No**: Allows you to bring a single Warehouse Receipt. 
