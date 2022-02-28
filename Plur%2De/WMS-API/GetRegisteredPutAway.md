@@ -1,9 +1,9 @@
 **ProcessMethod**: GetRegisteredPutAway
 
 **Description**:
-This method returns the elements of the table "Registered Whse. Activity Hdr." filtered so that only "Registered Put-Away" is visible. In this case, the filtered record is brought in the "No" field. returning the "Registered Whse. Activity Hdr" and the "Registered Whse. Activity Line" in JSON format.
+This method returns the elements of the table "**Registered Whse. Activity Hdr.**" filtered so that only "**Registered Put-Away**" is visible. In this case, the filtered record is brought in the "**No**" field. returning the "**Registered Whse. Activity Hdr**" and the "R**egistered Whse. Activity Line**" in JSON format.
 
-Note: There is a table called "Registered Whse. Activity Hdr." which contains all registered Put-Aways and Pick-Ups, changing only the Type for differences between one or the other.
+Note: There is a table called "**Registered Whse. Activity Hdr.**" which contains all registered **Put-Aways** and **Pick-Ups**, changing only the Type for differences between one or the other.
 
 **Input**:
 **Parameters**: 
