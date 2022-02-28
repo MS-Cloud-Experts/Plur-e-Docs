@@ -25,6 +25,8 @@ Request:
     "jsonRequest":"{\"ProcessMethod\":\"GetWarehousePutAway\",\"Parameters\":[{\"No\":\"10112\"}]}"
 
 Outputs:
+
+```
 {
   "WarehousePutAways": {
     "WarehousePutAwayHeader": {
@@ -1301,4 +1303,6 @@ Outputs:
     ]
   }
 }
+```
+
 
