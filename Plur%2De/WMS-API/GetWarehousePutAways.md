@@ -21,8 +21,15 @@ This tells us that the first one takes the Item from the `Origin Bin` and stores
 
 **Example**:
 
+**WarehousePutAwayHeader:**
+![image.png](/.attachments/image-e64a6139-5636-4d83-9337-1d3ec743901f.png)
+
+**WarehouseActivityLine:**
+![image.png](/.attachments/image-04c42856-a2bc-4fc0-a83d-676c995ecfc0.png)
+
 **Request**:
-    "jsonRequest":"{\"ProcessMethod\":\"GetWarehousePutAway\",\"Parameters\":[{\"No\":\"10112\"}]}"
+
+    `"jsonRequest":"{\"ProcessMethod\":\"GetWarehousePutAway\",\"Parameters\":[{\"No\":\"10112\"}]}"`
 
 Outputs:
 
