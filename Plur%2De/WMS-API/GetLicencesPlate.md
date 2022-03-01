@@ -366,5 +366,7 @@ Outputs:
   }
 }
 ```
+**Error**:
+`{"Error":"The Licences Plate List is Empty"}`
 
 
