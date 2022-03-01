@@ -1,7 +1,9 @@
 **ProcessMethod**: CreateLP_FromWarehouseReceiptLine
 
 **Description**:
-This method allows you to obtain the pending License Plates by believing the original Purch Order.
+This method allows you to generate License Plates within Business Central associated with a Purch Order, which in turn is associated with a Warehouse Receipt.
+
+The output of this method returns the number of LPs that were generated at the time of executing the process, including previous ones that may have existed.
 
 **Input**:
 
@@ -20,6 +22,10 @@ This method allows you to obtain the pending License Plates by believing the ori
 -	**Message**: Used to return messages returned by Business Central, possibly when an error is generated.
 -	**LP_Pending_To_Receive**: Number of pending LP still to be assigned in the Purch Order / Warehouse Receipt.
 -	**LP_Received**: Number of assigned LP assigned in the Warehouse Receipt.
+
+**Important Note:** It must be validated that the number to receive of the element is not greater than the quantities of the Order in the Warehouse Receipt.
+
+To do this, method X must be executed before carrying out this process.
 
 **Example**:
 
