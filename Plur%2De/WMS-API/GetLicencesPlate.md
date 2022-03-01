@@ -5,7 +5,7 @@ Method that returns the combination of a License Plate Headers / License Plate L
 
 **Input**:
 **Parameters**: 
--	No: Number of the License Plate that you want to filter.
+-	**No**: Number of the License Plate that you want to filter.
 
 **Ouput**: 
 -	**LicensePlates**: Contains the information of a License Plate header in **LicensePlatesHeaders** and **LicensePlatesLines** contains an array of License Plate Lines.
