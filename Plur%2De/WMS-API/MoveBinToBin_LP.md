@@ -5,61 +5,39 @@ Method that returns the combination of a License Plate Headers / License Plate L
 
 **Input**:
 **Parameters**: 
--	**BinCode**: Bin Code that you want to filter.
--	**LocationCode**: Location Code of the License Plate that you want to filter.
--	**ItemNo**: Item No of the License Plate that you want to filter.
+-	**LPNo**: Number of LP you want to move.
+-	**Zone**: Location Code of the License Plate that you want to filter.
+-	**FromBin**: Item No of the License Plate that you want to filter.
+-	**ToBin**: Unit of Measure Code of the License Plate that you want to filter.
+-	**LocationCode**: Unit of Measure Code of the License Plate that you want to filter.
+-	**ItemNo**: Unit of Measure Code of the License Plate that you want to filter.
+-	**Qty**: Unit of Measure Code of the License Plate that you want to filter.
 -	**UnitofMeasureCode**: Unit of Measure Code of the License Plate that you want to filter.
 
 **Ouput**: 
--	**TotalQty**: Total Items in Location/Bin.
--	**TotalQtyInLP**: Total Items in Location/Bin assigned to LP.
--	**Details**: An Array that breaks down the License Plates associated with the Items assigned to the location and their respective quantities.
-
-Note: This will display relevant information on whether or not it is necessary to break an LP before performing the bin-to-bin move..
+-	**Posted**: Number..
 
 
 **Example**:
 
 Request:
 
-`"jsonRequest":"{\"ProcessMethod\":\"GetBinContent_LP\",\"Parameters\":[{\"BinCode\":\"STO1\",\"LocationCode\":\"CCC\",\"ItemNo\":\"1900-S\",\"UnitofMeasureCode\":\"PCS\"}]}"`
+`"jsonRequest":"{\"ProcessMethod\":\"MoveBinToBin_LP\",\"Parameters\":[{\"LPNo\":\"LP000445\",\"Zone\":\"STO\",\"FromBin\":\"STO2\",\"ToBin\":\"STO1\",\"LocationCode\":\"CCC\",\"ItemNo\":\"1900-S\",\"Qty\":\"5\",\"UnitofMeasureCode\":\"PCS\"}]}"`
 
 Outputs:
 
 
 ```
 {
-  "TotalQty": 25.0,
-  "TotalQtyInLP": 25.0,
-  "Details": [
-    {
-      "LP": "LP000441",
-      "Qty": "5"
-    },
-    {
-      "LP": "LP000442",
-      "Qty": "5"
-    },
-    {
-      "LP": "LP000443",
-      "Qty": "5"
-    },
-    {
-      "LP": "LP000444",
-      "Qty": "5"
-    },
-    {
-      "LP": "LP000445",
-      "Qty": "5"
-    }
-  ]
+  "Posted":212
 }
+
 ```
 **Errors**:
 ```{
   "Error": {
-    "Code": "Not found",
-    "Message": "The Bin Code (STOa1) was not found"
+    "Code": "Configuration Error",
+    "Message": "The License Plate is already in the specified location and bin."
   }
 }
 
