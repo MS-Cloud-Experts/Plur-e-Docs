@@ -5,14 +5,19 @@ Method that returns the combination of a License Plate Headers / License Plate L
 
 **Input**:
 **Parameters**: 
--	**BinCode**: Number of the License Plate that you want to filter.
--	**LocationCode**: Number of the License Plate that you want to filter.
--	**ItemNo**: Number of the License Plate that you want to filter.
--	**UnitofMeasureCode**: Number of the License Plate that you want to filter.
+-	**BinCode**: Bin Code that you want to filter.
+-	**LocationCode**: Location Code of the License Plate that you want to filter.
+-	**ItemNo**: Item No of the License Plate that you want to filter.
+-	**UnitofMeasureCode**: Unit of Measure Code of the License Plate that you want to filter.
 
 **Ouput**: 
--	**LicensePlates**: Contains the information of a License Plate header in **LicensePlatesHeaders** and **LicensePlatesLines** contains an array of License Plate Lines.
--	
+-	**TotalQty**: Total Items in Location/Bin.
+-	**TotalQtyInLP**: Total Items in Location/Bin assigned to LP.
+-	**Details**: An Array that breaks down the License Plates associated with the Items assigned to the location and their respective quantities.
+
+Note: This will display relevant information on whether or not it is necessary to break an LP before performing the bin-to-bin move..
+
+
 **Example**:
 
 Request:
@@ -51,23 +56,26 @@ Outputs:
 }
 ```
 **Errors**:
-`{
+```{
   "Error": {
     "Code": "Not found",
     "Message": "The Bin Code (STOa1) was not found"
   }
-}`
-`{
+}
+
+{
   "Error": {
     "Code": "Not found",
     "Message": "The Location Code (CCCa) was not found"
   }
-}`
-`{
+}
+
+{
   "Error": {
     "Code": "Not found",
     "Message": "The Item No (190a0-S) was not found"
   }
-}`
+}
+```
 
 
