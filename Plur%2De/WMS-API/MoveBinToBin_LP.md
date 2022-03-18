@@ -6,9 +6,9 @@ Method that returns the combination of a License Plate Headers / License Plate L
 **Input**:
 **Parameters**: 
 -	**LPNo**: Number of LP you want to move.
--	**Zone**: Location Code of the License Plate that you want to filter.
--	**FromBin**: Item No of the License Plate that you want to filter.
--	**ToBin**: Unit of Measure Code of the License Plate that you want to filter.
+-	**Zone**: Zoneof LP you want to move.
+-	**FromBin**: Bin where the LP you want to move is currently located.
+-	**ToBin**: Destination bin where you want to move the LP to..
 -	**LocationCode**: Unit of Measure Code of the License Plate that you want to filter.
 -	**ItemNo**: Unit of Measure Code of the License Plate that you want to filter.
 -	**Qty**: Unit of Measure Code of the License Plate that you want to filter.
