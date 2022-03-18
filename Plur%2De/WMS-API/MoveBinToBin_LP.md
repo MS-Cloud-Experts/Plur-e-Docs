@@ -1,7 +1,7 @@
 **ProcessMethod**: MoveBinToBin_LP
 
 **Description**:
-Method that returns the combination of a License Plate Headers / License Plate Lines according to the number with which it is filtered.
+This method allows you to move an Item with its associated LP into the inventory.
 
 **Input**:
 **Parameters**: 
