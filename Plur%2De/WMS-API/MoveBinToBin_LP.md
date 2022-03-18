@@ -15,7 +15,7 @@ Method that returns the combination of a License Plate Headers / License Plate L
 -	**UnitofMeasureCode**: Unit of Measure Code of the License Plate that you want to move.
 
 **Ouput**: 
--	**Posted**: Number..
+-	**Posted**: If the output presents the Posted value, it implies that the inventory movement was generated correctly.
 
 
 **Example**:
