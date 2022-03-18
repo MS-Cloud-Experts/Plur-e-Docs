@@ -1,7 +1,9 @@
 **ProcessMethod**: GetBinContent_LP
 
 **Description**:
-Method that returns the combination of a License Plate Headers / License Plate Lines according to the number with which it is filtered.
+This method allows obtaining the amounts associated by LP to a certain Item given the Location and the Bin.
+
+The purpose of the method is to be able to use the MoveBintoBin method properly.
 
 **Input**:
 **Parameters**: 
