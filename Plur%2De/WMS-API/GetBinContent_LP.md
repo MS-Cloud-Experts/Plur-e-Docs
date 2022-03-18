@@ -50,7 +50,24 @@ Outputs:
   ]
 }
 ```
-**Error**:
-`{"Error":"The Licences Plate List is Empty"}`
+**Errors**:
+`{
+  "Error": {
+    "Code": "Not found",
+    "Message": "The Bin Code (STOa1) was not found"
+  }
+}`
+`{
+  "Error": {
+    "Code": "Not found",
+    "Message": "The Location Code (CCCa) was not found"
+  }
+}`
+`{
+  "Error": {
+    "Code": "Not found",
+    "Message": "The Item No (190a0-S) was not found"
+  }
+}`
 
 
