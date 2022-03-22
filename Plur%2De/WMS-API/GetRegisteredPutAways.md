@@ -187,4 +187,14 @@ The following image shows the Warehouse Put-Aways registered using filter.
 
 **Errors**:
 
-`"{"Error":"The Registered Whse. Activity Hdr. not exist"}"`
+
+```
+{
+  "Error": {
+    "Code": "Not found",
+    "Message": The Registered Whse. Activity Hdr. not exist"
+  }
+}
+```
+
+
