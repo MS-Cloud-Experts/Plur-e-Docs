@@ -7,9 +7,11 @@ The purpose of the method is to be able to use the [MoveBinToBin_LP](/Plur%2De/W
 
 **Input**:
 **Parameters**: 
--	**UserID**: Bin Code that you want to filter.
--	**LocationCode**: Location Code of the License Plate that you want to filter.
--	**Default**: Item No of the License Plate that you want to filter.
+-	**UserID**: represents the ID of the user whose Default is to be updated.
+-	**LocationCode**: represents the location of the user whose Default is to be updated.
+-	**Default**: Boolean value that will update the Default of the warehouse employee.
+
+Note: before activating a default for a new location, it cannot be active for a previous one, otherwise it will give an error when executing the method.
 
 **Ouput**: 
 -	**TotalQty**: Total Items in Location/Bin.
