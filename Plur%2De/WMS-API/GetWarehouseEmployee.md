@@ -6,12 +6,10 @@ This method allows obtaining the amounts associated by LP to a certain Item give
 The purpose of the method is to be able to use the [MoveBinToBin_LP](/Plur%2De/WMS-API/MoveBinToBin_LP) method properly.
 
 **Ouput**: 
--	**WarehouseEmployees**: Total Items in Location/Bin.
--	**UserID**: Total Items in Location/Bin assigned to LP.
--	**LocationCode**: An Array that breaks down the License Plates associated with the Items assigned 
--	**Default**: An Array that breaks down the License Plates associated with the Items assigned to the 
-
-Note: This will display relevant information on whether or not it is necessary to break an LP before performing the bin-to-bin move..
+-	**WarehouseEmployees**: An array of users with their corresponding Location and whether or not it is default.
+-	**UserID**: Represents the user ID.
+-	**LocationCode**: Represents the location assigned to the user. 
+-	**Default**: Represents if the location is configured as default for the user.
 
 
 **Example**:
