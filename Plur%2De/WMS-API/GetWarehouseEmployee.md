@@ -1,9 +1,7 @@
 **ProcessMethod**: GetWarehouseEmployee
 
 **Description**:
-This method allows obtaining the amounts associated by LP to a certain Item given the Location and the Bin.
-
-The purpose of the method is to be able to use the [MoveBinToBin_LP](/Plur%2De/WMS-API/MoveBinToBin_LP) method properly.
+Method that allows obtaining the list of Warehouse Employees with their respective locations.
 
 **Ouput**: 
 -	**WarehouseEmployees**: An array of users with their corresponding Location and whether or not it is default.
@@ -120,28 +118,6 @@ Outputs:
       "Default": false
     }
   ]
-}
-```
-**Errors**:
-```{
-  "Error": {
-    "Code": "Not found",
-    "Message": "The Bin Code (STOa1) was not found"
-  }
-}
-
-{
-  "Error": {
-    "Code": "Not found",
-    "Message": "The Location Code (CCCa) was not found"
-  }
-}
-
-{
-  "Error": {
-    "Code": "Not found",
-    "Message": "The Item No (190a0-S) was not found"
-  }
 }
 ```
 
