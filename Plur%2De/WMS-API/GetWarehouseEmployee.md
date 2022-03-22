@@ -5,17 +5,11 @@ This method allows obtaining the amounts associated by LP to a certain Item give
 
 The purpose of the method is to be able to use the [MoveBinToBin_LP](/Plur%2De/WMS-API/MoveBinToBin_LP) method properly.
 
-**Input**:
-**Parameters**: 
--	**BinCode**: Bin Code that you want to filter.
--	**LocationCode**: Location Code of the License Plate that you want to filter.
--	**ItemNo**: Item No of the License Plate that you want to filter.
--	**UnitofMeasureCode**: Unit of Measure Code of the License Plate that you want to filter.
-
 **Ouput**: 
--	**TotalQty**: Total Items in Location/Bin.
--	**TotalQtyInLP**: Total Items in Location/Bin assigned to LP.
--	**Details**: An Array that breaks down the License Plates associated with the Items assigned to the location and their respective quantities.
+-	**WarehouseEmployees**: Total Items in Location/Bin.
+-	**UserID**: Total Items in Location/Bin assigned to LP.
+-	**LocationCode**: An Array that breaks down the License Plates associated with the Items assigned 
+-	**Default**: An Array that breaks down the License Plates associated with the Items assigned to the 
 
 Note: This will display relevant information on whether or not it is necessary to break an LP before performing the bin-to-bin move..
 
@@ -24,7 +18,7 @@ Note: This will display relevant information on whether or not it is necessary t
 
 Request:
 
-`"jsonRequest":"{\"ProcessMethod\":\"GetBinContent_LP\",\"Parameters\":[{\"BinCode\":\"STO1\",\"LocationCode\":\"CCC\",\"ItemNo\":\"1900-S\",\"UnitofMeasureCode\":\"PCS\"}]}"`
+`"jsonRequest":"{"ProcessMethod":"GetWarehouseEmployee","Parameters":[{}]}"`
 
 Outputs:
 
