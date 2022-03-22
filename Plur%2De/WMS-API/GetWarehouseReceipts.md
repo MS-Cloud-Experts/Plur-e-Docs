@@ -20,8 +20,15 @@ Allows you to bring a list of open Warehouse Receipts to be posted in a Warehous
 `"jsonRequest":"{"ProcessMethod":"GetWarehouseReceipts","Parameters":[{"assigned_user_id":""}]}"`
 
 **Error**:
-`"{"Error":"The Warehouse Receipt List is Empty"}"`
 
+```
+{
+  "Error": {
+    "Code": "Not found",
+    "Message": The Warehouse Receipt List is Empty."
+  }
+}
+```
 **Output**:
 
 **WarehouseReceipts:**
