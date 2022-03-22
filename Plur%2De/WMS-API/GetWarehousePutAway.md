@@ -1314,7 +1314,12 @@ Outputs:
 
 **Errors**:
 
-`"{"Error":" The Warehouse Put-Away does not exist"}`"
-
-
+```
+{
+  "Error": {
+    "Code": "Not found",
+    "Message": The Warehouse Put-Away does not exist""
+  }
+}
+```
 
