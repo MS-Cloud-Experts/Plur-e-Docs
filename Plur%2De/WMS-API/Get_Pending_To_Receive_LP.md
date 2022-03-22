@@ -34,4 +34,12 @@ The difference between the number of labels created minus the total amounts to R
 
 **Errors**:
 
-`{"Error":"The Warehouse Receipt does not exist"}`
+
+```
+{
+  "Error": {
+    "Code": "Not found",
+    "Message": "The Warehouse Receipt Lines is empty"
+  }
+}
+```
