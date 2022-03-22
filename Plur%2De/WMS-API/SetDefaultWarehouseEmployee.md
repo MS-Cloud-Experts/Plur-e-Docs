@@ -7,10 +7,9 @@ The purpose of the method is to be able to use the [MoveBinToBin_LP](/Plur%2De/W
 
 **Input**:
 **Parameters**: 
--	**BinCode**: Bin Code that you want to filter.
+-	**UserID**: Bin Code that you want to filter.
 -	**LocationCode**: Location Code of the License Plate that you want to filter.
--	**ItemNo**: Item No of the License Plate that you want to filter.
--	**UnitofMeasureCode**: Unit of Measure Code of the License Plate that you want to filter.
+-	**Default**: Item No of the License Plate that you want to filter.
 
 **Ouput**: 
 -	**TotalQty**: Total Items in Location/Bin.
@@ -31,45 +30,103 @@ Outputs:
 
 ```
 {
-  "TotalQty": 25.0,
-  "TotalQtyInLP": 25.0,
-  "Details": [
+  "WarehouseEmployees": [
     {
-      "LP": "LP000441",
-      "Qty": "5"
+      "UserID": "GERMAN.GOMEZ",
+      "LocationCode": "MAIN",
+      "Default": false
     },
     {
-      "LP": "LP000442",
-      "Qty": "5"
+      "UserID": "GERMAN.GOMEZ",
+      "LocationCode": "PLUR-E M1",
+      "Default": true
     },
     {
-      "LP": "LP000443",
-      "Qty": "5"
+      "UserID": "GERMAN.GOMEZ 1",
+      "LocationCode": "PLUR-E M1",
+      "Default": true
     },
     {
-      "LP": "LP000444",
-      "Qty": "5"
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "AAA",
+      "Default": false
     },
     {
-      "LP": "LP000445",
-      "Qty": "5"
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "ADVANCED1",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "BBB",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "CCC",
+      "Default": true
+    },
+    {
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "EAST",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "MAIN WMS",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "PLUR-E M1",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "WEST",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "AAA",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "ADVANCED1",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "BBB",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "CCC",
+      "Default": true
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "EAST",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "MAIN WMS",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "PLUR-E M1",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "WEST",
+      "Default": false
     }
   ]
-}
-```
-**Errors**:
-```{
-  "Error": {
-    "Code": "Not found",
-    "Message": "The Bin Code (STOa1) was not found"
-  }
-}
-
-{
-  "Error": {
-    "Code": "Not found",
-    "Message": "The Location Code (CCCa) was not found"
-  }
 }
 
 {
