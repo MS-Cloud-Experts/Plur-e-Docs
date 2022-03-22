@@ -949,5 +949,11 @@ This tells us that the first one takes the Item from the **Origin Bin** and stor
 ```
 Errors:
 
-`"{"Error":"The Registered Whse. Activity Hdr. not exist"}"`
-
+```
+{
+  "Error": {
+    "Code": "Not found",
+    "Message": "The Registered Whse. Activity Hdr. not exist"
+  }
+}
+```
