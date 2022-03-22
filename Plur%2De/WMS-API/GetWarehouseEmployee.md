@@ -31,28 +31,101 @@ Outputs:
 
 ```
 {
-  "TotalQty": 25.0,
-  "TotalQtyInLP": 25.0,
-  "Details": [
+  "WarehouseEmployees": [
     {
-      "LP": "LP000441",
-      "Qty": "5"
+      "UserID": "GERMAN.GOMEZ",
+      "LocationCode": "MAIN",
+      "Default": false
     },
     {
-      "LP": "LP000442",
-      "Qty": "5"
+      "UserID": "GERMAN.GOMEZ",
+      "LocationCode": "PLUR-E M1",
+      "Default": true
     },
     {
-      "LP": "LP000443",
-      "Qty": "5"
+      "UserID": "GERMAN.GOMEZ 1",
+      "LocationCode": "PLUR-E M1",
+      "Default": true
     },
     {
-      "LP": "LP000444",
-      "Qty": "5"
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "AAA",
+      "Default": false
     },
     {
-      "LP": "LP000445",
-      "Qty": "5"
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "ADVANCED1",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "BBB",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "CCC",
+      "Default": true
+    },
+    {
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "EAST",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "MAIN WMS",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "PLUR-E M1",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR",
+      "LocationCode": "WEST",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "AAA",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "ADVANCED1",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "BBB",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "CCC",
+      "Default": true
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "EAST",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "MAIN WMS",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "PLUR-E M1",
+      "Default": false
+    },
+    {
+      "UserID": "IVAN.LABRADOR1",
+      "LocationCode": "WEST",
+      "Default": false
     }
   ]
 }
