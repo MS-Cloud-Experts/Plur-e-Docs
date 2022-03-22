@@ -30,10 +30,12 @@ It will return a number of Warehouse_Activity_No if the post was successful, oth
 `{"Warehouse_Activity_No":"10113"}`
 
 **Errors**:
-
 ```
-{"Error":"The Warehouse Receipt does not exist"}
-{"Error":"The source document Purchase Order 106040 is not released."}
-{"Error":"The Location does not exist. Identification fields and values: Code=''"}
+{
+  "Error": {
+    "Code": "Not found",
+    "Message": The Warehouse Receipt does not exist."
+  }
+}
 ```
 
