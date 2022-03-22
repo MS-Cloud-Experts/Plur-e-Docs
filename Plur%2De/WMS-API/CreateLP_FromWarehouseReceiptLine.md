@@ -44,6 +44,14 @@ To do this, method [Get_Pending_To_Receive_LP](/Plur%2De/WMS-API/Get_Pending_To_
 
 **Errors**:
 
-`{"Error":" The Warehouse Receipt Lines is empty"}`
+```
+{
+  "Error": {
+    "Code": "Not found",
+    "Message": "The Warehouse Receipt Lines is empty
+  }
+}
+```
+
 
 
