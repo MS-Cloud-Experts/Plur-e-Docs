@@ -5,12 +5,12 @@ MoveBinToBin_LP
 GetLicencesPlate
 GetLicencesPlatesByItemNo
 CreateLP_FromWarehouseReceiptLine
+GetWarehousePutAways
 Get_Pending_To_Receive_LP
 GetRegisteredPutAway
 GetWarehousePutAway
 Post_WarehousePutAways
 GetRegisteredPutAways
-GetWarehousePutAways
 Post_WarehouseReceipts
 GetWarehouseReceipts
 GetWarehouseReceipt
