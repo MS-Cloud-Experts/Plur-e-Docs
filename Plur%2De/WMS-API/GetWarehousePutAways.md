@@ -289,7 +289,11 @@ This method returns the elements of the table "**Warehouse Activity Header**" fi
   ]
 }
 ```
-
-
-`"{"Error":"The Warehouse Activity List is Empty"}"`
-
+```
+{
+  "Error": {
+    "Code": "Not found",
+    "Message": "The Warehouse Activity List is Empty"
+  }
+}
+```
