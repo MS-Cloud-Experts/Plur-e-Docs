@@ -125,9 +125,8 @@ Outputs:
 {
   "Error": {
     "Code": "Not found",
-    "Message": "The Item No (190a0-S) was not found"
+    "Message": "Warehouse Employee does not exist."
   }
 }
 ```
-'Error', 'Warehouse Employee does not exist.
 
