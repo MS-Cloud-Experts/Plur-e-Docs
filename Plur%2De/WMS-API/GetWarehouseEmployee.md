@@ -1,4 +1,4 @@
-**ProcessMethod**: GetBinContent_LP
+**ProcessMethod**: GetWarehouseEmployee
 
 **Description**:
 This method allows obtaining the amounts associated by LP to a certain Item given the Location and the Bin.
