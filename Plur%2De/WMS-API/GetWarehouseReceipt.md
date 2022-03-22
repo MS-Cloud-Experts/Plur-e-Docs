@@ -23,7 +23,16 @@
 `"jsonRequest":"{"ProcessMethod":"GetWarehouseReceipt","Parameters":[{"No":"107292"}]}"`
 
 **Error**:
-`{"Error":"The Warehouse Receipt does not exist"}"`
+
+```
+{
+  "Error": {
+    "Code": "Not found",
+    "Message": The Warehouse Receipt does not exist."
+  }
+}
+```
+
 
 **Output**:
 
