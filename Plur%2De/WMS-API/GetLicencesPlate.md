@@ -367,6 +367,13 @@ Outputs:
 }
 ```
 **Error**:
-`{"Error":"The Licences Plate List is Empty"}`
+```
+{
+  "Error": {
+    "Code": "Not found",
+    "Message": "The Licences Plate List is Empty"
+  }
+}
+```
 
 
