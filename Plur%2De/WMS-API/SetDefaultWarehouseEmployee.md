@@ -1,9 +1,8 @@
 **ProcessMethod**: SetDefaultWarehouseEmployee
 
 **Description**:
-This method allows obtaining the amounts associated by LP to a certain Item given the Location and the Bin.
+This method allows you to configure the default location of a warehouse employee.
 
-The purpose of the method is to be able to use the [MoveBinToBin_LP](/Plur%2De/WMS-API/MoveBinToBin_LP) method properly.
 
 **Input**:
 **Parameters**: 
@@ -14,12 +13,7 @@ The purpose of the method is to be able to use the [MoveBinToBin_LP](/Plur%2De/W
 Note: before activating a default for a new location, it cannot be active for a previous one, otherwise it will give an error when executing the method.
 
 **Ouput**: 
--	**TotalQty**: Total Items in Location/Bin.
--	**TotalQtyInLP**: Total Items in Location/Bin assigned to LP.
--	**Details**: An Array that breaks down the License Plates associated with the Items assigned to the location and their respective quantities.
-
-Note: This will display relevant information on whether or not it is necessary to break an LP before performing the bin-to-bin move..
-
+-	**Result**: Returns all the fields related to the record that was just updated.
 
 **Example**:
 
@@ -32,101 +26,98 @@ Outputs:
 
 ```
 {
-  "WarehouseEmployees": [
+  "Result": [
     {
-      "UserID": "GERMAN.GOMEZ",
-      "LocationCode": "MAIN",
-      "Default": false
-    },
-    {
-      "UserID": "GERMAN.GOMEZ",
-      "LocationCode": "PLUR-E M1",
-      "Default": true
-    },
-    {
-      "UserID": "GERMAN.GOMEZ 1",
-      "LocationCode": "PLUR-E M1",
-      "Default": true
-    },
-    {
-      "UserID": "IVAN.LABRADOR",
-      "LocationCode": "AAA",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR",
-      "LocationCode": "ADVANCED1",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR",
-      "LocationCode": "BBB",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR",
-      "LocationCode": "CCC",
-      "Default": true
-    },
-    {
-      "UserID": "IVAN.LABRADOR",
-      "LocationCode": "EAST",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR",
-      "LocationCode": "MAIN WMS",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR",
-      "LocationCode": "PLUR-E M1",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR",
-      "LocationCode": "WEST",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR1",
-      "LocationCode": "AAA",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR1",
-      "LocationCode": "ADVANCED1",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR1",
-      "LocationCode": "BBB",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR1",
-      "LocationCode": "CCC",
-      "Default": true
-    },
-    {
-      "UserID": "IVAN.LABRADOR1",
-      "LocationCode": "EAST",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR1",
-      "LocationCode": "MAIN WMS",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR1",
-      "LocationCode": "PLUR-E M1",
-      "Default": false
-    },
-    {
-      "UserID": "IVAN.LABRADOR1",
-      "LocationCode": "WEST",
-      "Default": false
+      "id": 7301,
+      "name": "WarehouseEmployee",
+      "company": "CRONUS USA, Inc.",
+      "position": "User ID=CONST(IVAN.LABRADOR1),Location Code=CONST(MAIN WMS)",
+      "recordId": "Warehouse Employee: IVAN.LABRADOR1,MAIN WMS",
+      "primaryKey": {
+        "fieldCount": 2,
+        "fields": [
+          {
+            "id": 1,
+            "name": "UserID",
+            "type": "Code",
+            "value": "IVAN.LABRADOR1",
+            "System": false
+          },
+          {
+            "id": 2,
+            "name": "LocationCode",
+            "type": "Code",
+            "value": "MAIN WMS",
+            "System": false
+          }
+        ]
+      },
+      "fieldCount": 9,
+      "fields": [
+        {
+          "id": 1,
+          "name": "UserID",
+          "type": "Code",
+          "value": "IVAN.LABRADOR1",
+          "System": false
+        },
+        {
+          "id": 2,
+          "name": "LocationCode",
+          "type": "Code",
+          "value": "MAIN WMS",
+          "System": false
+        },
+        {
+          "id": 4,
+          "name": "Default",
+          "type": "Boolean",
+          "value": true,
+          "System": false
+        },
+        {
+          "id": 7710,
+          "name": "ADCSUser",
+          "type": "Code",
+          "value": null,
+          "System": false
+        },
+        {
+          "id": 2000000000,
+          "name": "$systemId",
+          "type": "GUID",
+          "value": "{42B73F37-2E94-EC11-80F2-000D3A74F212}",
+          "System": false
+        },
+        {
+          "id": 2000000001,
+          "name": "SystemCreatedAt",
+          "type": "DateTime",
+          "value": "2022-02-22T22:24:36.797Z",
+          "System": false
+        },
+        {
+          "id": 2000000002,
+          "name": "SystemCreatedBy",
+          "type": "GUID",
+          "value": "{C8466A18-3206-4894-8B37-3ABD69030D7D}",
+          "System": false
+        },
+        {
+          "id": 2000000003,
+          "name": "SystemModifiedAt",
+          "type": "DateTime",
+          "value": "2022-03-22T22:32:51.367Z",
+          "System": false
+        },
+        {
+          "id": 2000000004,
+          "name": "SystemModifiedBy",
+          "type": "GUID",
+          "value": "{C8466A18-3206-4894-8B37-3ABD69030D7D}",
+          "System": false
+        }
+      ]
     }
   ]
 }
