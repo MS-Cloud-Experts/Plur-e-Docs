@@ -33,8 +33,12 @@ It will return a number of Registered_Whse_Activity if the post was successful, 
 **Errors**:
 
 ```
-{"Error":"The Warehouse Receipt does not exist"}
-{"Error":"The source document Purchase Order 106040 is not released."}
-{"Error":"The Location does not exist. Identification fields and values: Code=''"}
+{
+  "Error": {
+    "Code": "Not found",
+    "Message": The Warehouse Receipt does not exist"
+  }
+}
 ```
+
 
