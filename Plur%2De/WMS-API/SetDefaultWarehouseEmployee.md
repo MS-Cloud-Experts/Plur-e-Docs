@@ -1,4 +1,4 @@
-**ProcessMethod**: GetBinContent_LP
+**ProcessMethod**: SetDefaultWarehouseEmployee
 
 **Description**:
 This method allows obtaining the amounts associated by LP to a certain Item given the Location and the Bin.
@@ -24,7 +24,7 @@ Note: This will display relevant information on whether or not it is necessary t
 
 Request:
 
-`"jsonRequest":"{\"ProcessMethod\":\"GetBinContent_LP\",\"Parameters\":[{\"BinCode\":\"STO1\",\"LocationCode\":\"CCC\",\"ItemNo\":\"1900-S\",\"UnitofMeasureCode\":\"PCS\"}]}"`
+`"jsonRequest":"{\"ProcessMethod\":\"SetDefaultWarehouseEmployee\",\"Parameters\":[{\"UserID\":\"IVAN.LABRADOR1\",\"LocationCode\":\"MAIN WMS\",\"Default\":\"true\"}]}"`
 
 Outputs:
 
