@@ -10,7 +10,7 @@ This method allows to obtain all the units of measures configured in the Busines
 
 Request:
 
-`"jsonRequest":"{"ProcessMethod":"GetWarehouseEmployee","Parameters":[{}]}"`
+`"jsonRequest":"{"ProcessMethod":"GetUnitOfMeasure","Parameters":[{}]}"`
 
 Outputs:
 
