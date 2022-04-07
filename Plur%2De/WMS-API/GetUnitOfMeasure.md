@@ -1,14 +1,10 @@
-**ProcessMethod**: GetWarehouseEmployee
+**ProcessMethod**: GetUnitOfMeasure
 
 **Description**:
-Method that allows obtaining the list of Warehouse Employees with their respective locations.
+This method allows to obtain all the units of measures configured in the Business Central
 
 **Ouput**: 
--	**WarehouseEmployees**: An array of users with their corresponding Location and whether or not it is default.
--	**UserID**: Represents the user ID.
--	**LocationCode**: Represents the location assigned to the user. 
--	**Default**: Represents if the location is configured as default for the user.
-
+-	**UnitOfMeasure**: An array of Units of Measures
 
 **Example**:
 
