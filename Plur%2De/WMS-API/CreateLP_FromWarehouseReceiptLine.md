@@ -27,6 +27,9 @@ The output of this method returns the number of LPs that were generated at the t
 
 To do this, method [Get_Pending_To_Receive_LP](/Plur%2De/WMS-API/Get_Pending_To_Receive_LP) must be executed before carrying out this process.
 
+**Note**: It is mandatory to have the check "Managed by Plur-E" marked on the Item Card in order to create LP and carry out movements through Warehouse Reclass Journal and Warehouse Item Journal.
+![image.png](/.attachments/image-2938f245-9765-4198-97d8-43267217c1b2.png)
+
 **Example**:
 
 ![image.png](/.attachments/image-44d8d90f-abb7-43c9-b0d4-9ec569e283d2.png)
