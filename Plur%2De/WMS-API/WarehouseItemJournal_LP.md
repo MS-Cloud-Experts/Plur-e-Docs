@@ -1,18 +1,17 @@
 **ProcessMethod**: WarehouseItemJournal_LP
 
 **Description**:
-This method allows you to move an Item with its associated LP into the inventory.
+This method allows you to increase or decrease an Item with its associated LP into the inventory.
 
 **Input**:
 **Parameters**: 
--	**LPNo**: Number of LP you want to move.
--	**Zone**: Zoneof LP you want to move.
--	**FromBin**: Bin where the LP you want to move is currently located.
--	**ToBin**: Destination bin where you want to move the LP to..
+-	**LPNo**: Number of LP you want to increase or decrease.
+-	**Zone**: Zoneof LP you want to increase or decrease.
+-	**Bin**: Bin where the LP you want to increase or decrease is currently located.
 -	**LocationCode**: LP Location.
 -	**ItemNo**: Item you want to move.
--	**Qty**: QTY you want to move.
--	**UnitofMeasureCode**: Unit of Measure Code of the License Plate that you want to move.
+-	**Qty**: Quantities that you want to increase or decrease of an Item and an associated LP..
+-	**UnitofMeasureCode**: Unit of Measure Code of the License Plate that you want to to increase or decrease.
 
 **Ouput**: 
 -	**Posted**: If the output presents the Posted value, it implies that the inventory movement was generated correctly.
