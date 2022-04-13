@@ -47,6 +47,13 @@ To do this, method [Get_Pending_To_Receive_LP](/Plur%2De/WMS-API/Get_Pending_To_
 ```
 {
   "Error": {
+    "Code": "Configuration Error",
+    "Message": "The item 1972-S is not managed by the Plur-e WMS module. If you want to configure it, you must go to the Item Card and turn on the check 'Managed by Plur-E'"
+  }
+}
+
+{
+  "Error": {
     "Code": "Not found",
     "Message": "The Warehouse Receipt Lines is empty
   }
