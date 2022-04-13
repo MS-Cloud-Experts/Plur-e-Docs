@@ -33,6 +33,9 @@ Outputs:
 }
 
 ```
+
+**Note**: It is mandatory to have the check "Managed by Plur-E" marked on the Item Card in order to create LP and carry out movements through Warehouse Reclass Journal and Warehouse Item Journal.
+![image.png](/.attachments/image-2938f245-9765-4198-97d8-43267217c1b2.png)
 **Errors**:
 ```
 "Error": {
