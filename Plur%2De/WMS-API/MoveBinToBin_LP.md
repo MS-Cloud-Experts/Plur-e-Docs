@@ -34,7 +34,14 @@ Outputs:
 
 ```
 **Errors**:
-```{
+```
+"Error": {
+    "Code": "Configuration Error",
+    "Message": "The item 1972-S is not managed by the Plur-e WMS module. If you want to configure it, you must go to the Item Card and turn on the check 'Managed by Plur-E'"
+  }
+}
+
+{
   "Error": {
     "Code": "Configuration Error",
     "Message": "The License Plate is already in the specified location and bin."
