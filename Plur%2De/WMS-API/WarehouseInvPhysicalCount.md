@@ -5,12 +5,12 @@ This method allows you to increase or decrease an Item with its associated LP in
 
 **Input**:
 **Parameters**: 
--	**LPNo**: Number of LP you want to increase or decrease.
--	**Zone**: Zoneof LP you want to increase or decrease.
--	**Bin**: Bin where the LP you want to increase or decrease is currently located.
+-	**ZoneCode**: Number of LP you want to increase or decrease.
+-	**BinCode**: Zoneof LP you want to increase or decrease.
+-	**LocationCode**: Bin where the LP you want to increase or decrease is currently located.
 -	**LocationCode**: LP Location.
--	**ItemNo**: Item you want to move.
--	**Qty**: Quantities that you want to increase or decrease of an Item and an associated LP..
+-	**RegisteringDate**: Item you want to move.
+-	**WhseDocumentNo**: Quantities that you want to increase or decrease of an Item and an associated LP..
 -	**UnitofMeasureCode**: Unit of Measure Code of the License Plate that you want to to increase or decrease.
 
 **Ouput**: 
@@ -21,7 +21,7 @@ This method allows you to increase or decrease an Item with its associated LP in
 
 Request:
 
-`jsonRequest":"{\"ProcessMethod\":\"WarehouseItemJournal_LP\",\"Parameters\":[{\"LPNo\":\"LP000502\",\"Zone\":\"STO\",\"Bin\":\"STO2\",\"LocationCode\":\"BBB\",\"ItemNo\":\"1972-S\",\"Qty\":\"2\",\"UnitofMeasureCode\":\"PCS\"}]}`
+`jsonRequest":"{\"ProcessMethod\":\"WarehouseInvPhysicalCount\",\"Parameters\":[{\"ZoneCode\":\"STO\",\"BinCode\":\"\",\"LocationCode\":\"CCC\",\"RegisteringDate\":\"2022-04-19\",\"WhseDocumentNo\":\"DocumentNo\"}]}`
 
 **Outputs**:
 
@@ -31,9 +31,6 @@ Request:
   "Posted":212
 }
 ```
-
-**Note**: It is mandatory to have the check "Managed by Plur-E" marked on the Item Card in order to create LP and carry out movements through Warehouse Reclass Journal and Warehouse Item Journal.
-![image.png](/.attachments/image-2938f245-9765-4198-97d8-43267217c1b2.png)
 
 **Errors**:
 ```
