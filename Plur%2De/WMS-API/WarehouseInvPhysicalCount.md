@@ -9,8 +9,7 @@ This method allows you to increase or decrease an Item with its associated LP in
 -	**BinCode**: Specific Bin where you want to perform the inventory count.
 -	**LocationCode**: Specific Location where you want to perform the inventory count.
 -	**RegisteringDate**: Item you want to move.
--	**WhseDocumentNo**: Quantities that you want to increase or decrease of an Item and an associated LP..
--	**UnitofMeasureCode**: Unit of Measure Code of the License Plate that you want to to increase or decrease.
+-	**WhseDocumentNo**:
 
 **Ouput**: 
 -	**Posted**: If the output presents the Posted value, it implies that the inventory movement was generated correctly.
