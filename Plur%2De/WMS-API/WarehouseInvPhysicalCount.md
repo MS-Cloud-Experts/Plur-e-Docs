@@ -19,7 +19,7 @@ This method allows you to increase or decrease an Item with its associated LP in
 
 Request:
 
-`jsonRequest":"{\"ProcessMethod\":\"WarehouseInvPhysicalCount\",\"Parameters\":[{\"ZoneCode\":\"STO\",\"BinCode\":\"\",\"LocationCode\":\"CCC\",\"RegisteringDate\":\"2022-04-19\",\"WhseDocumentNo\":\"DocumentNo\"}]}`
+`jsonRequest":"{\"ProcessMethod\":\"Create_WarehouseInvPhysicalCount\",\"Parameters\":[{\"ZoneCode\":\"STO\",\"BinCode\":\"\",\"LocationCode\":\"CCC\",\"RegisteringDate\":\"2022-04-19\",\"WhseDocumentNo\":\"DocumentNo\"}]}`
 
 **Outputs**:
 
