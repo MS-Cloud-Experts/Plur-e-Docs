@@ -10,7 +10,7 @@ This method allows to obtain all the units of measures configured in the Busines
 
 Request:
 
-`"jsonRequest":"{"ProcessMethod":"GetUnitOfMeasure","Parameters":[{}]}"`
+`"jsonRequest":"{\"ProcessMethod\":\"GetUnitOfMeasure\",\"Parameters\":[{\"ItemNo\":\"100\"}]}"`
 
 Outputs:
 
@@ -19,51 +19,25 @@ Outputs:
 {
   "UnitOfMeasure": [
     {
-      "Code": "BOX",
-      "LocationCode": "Box"
+      "Code": "BOX"
     },
     {
-      "Code": "CAN",
-      "LocationCode": "Can"
+      "Code": "PALLET"
     },
     {
-      "Code": "DAY",
-      "LocationCode": "Day"
-    },
-    {
-      "Code": "HOUR",
-      "LocationCode": "Hour"
-    },
-    {
-      "Code": "KG",
-      "LocationCode": "Kilo"
-    },
-    {
-      "Code": "KM",
-      "LocationCode": "Kilometer"
-    },
-    {
-      "Code": "MILES",
-      "LocationCode": "Miles"
-    },
-    {
-      "Code": "PACK",
-      "LocationCode": "Pack"
-    },
-    {
-      "Code": "PALLET",
-      "LocationCode": "Pallet"
-    },
-    {
-      "Code": "PCS",
-      "LocationCode": "Piece"
-    },
-    {
-      "Code": "TEST",
-      "LocationCode": "ewewq"
+      "Code": "PCS"
     }
   ]
 }
 ```
+**Errors:**
+`
+{
+  "Error": {
+    "Code": "Configuration Error",
+    "Message": "There are no Units of Measure configured for product 10s0"
+  }
+}
+`
 
 
