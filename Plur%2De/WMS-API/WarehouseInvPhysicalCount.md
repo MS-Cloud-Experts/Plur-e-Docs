@@ -5,10 +5,9 @@ This method allows you to increase or decrease an Item with its associated LP in
 
 **Input**:
 **Parameters**: 
--	**ZoneCode**: Number of LP you want to increase or decrease.
--	**BinCode**: Zoneof LP you want to increase or decrease.
--	**LocationCode**: Bin where the LP you want to increase or decrease is currently located.
--	**LocationCode**: LP Location.
+-	**ZoneCode**: Specific Zone where you want to perform the inventory count.
+-	**BinCode**: Specific Bin where you want to perform the inventory count.
+-	**LocationCode**: Specific Location where you want to perform the inventory count.
 -	**RegisteringDate**: Item you want to move.
 -	**WhseDocumentNo**: Quantities that you want to increase or decrease of an Item and an associated LP..
 -	**UnitofMeasureCode**: Unit of Measure Code of the License Plate that you want to to increase or decrease.
