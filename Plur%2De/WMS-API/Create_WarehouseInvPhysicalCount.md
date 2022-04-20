@@ -14,8 +14,8 @@ Once the Journal has been created, the Warehouse Journal Lines are returned with
 -	**WhseDocumentNo**:
 
 **Ouput**: 
--	**Posted**: If the output presents the Posted value, it implies that the inventory movement was generated correctly.
-
+-The process will be executed correctly if it returns the lines of the Warehouse Item Journal.
+-	**Warehouse_Physical_Inventory_Journal**: Array of Warehouse Journals Lines.
 
 **Example**:
 
