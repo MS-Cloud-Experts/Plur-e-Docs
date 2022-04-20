@@ -1,17 +1,11 @@
-**ProcessMethod**: WarehouseInvPhysicalCount
+**ProcessMethod**: Get_WarehouseInvPhysicalCount
 
 **Description**:
-This method allows you to create a specific Journal to count physical inventory given certain parameters such as Location.
-
-Once the Journal has been created, the Warehouse Journal Lines are returned with the quantities to be counted and the associated licenses plates, as well as the Zone and Bin where they are located.
+This method returns an array of Warehouse Journals Lines special to the physical count given a Location.
 
 **Input**:
 **Parameters**: 
--	**ZoneCode**: Specific Zone where you want to perform the inventory count.
--	**BinCode**: Specific Bin where you want to perform the inventory count.
 -	**LocationCode**: Specific Location where you want to perform the inventory count.
--	**RegisteringDate**: Specifies the date for registering this journal. 
--	**WhseDocumentNo**:
 
 **Ouput**: 
 -The process will be executed correctly if it returns the lines of the Warehouse Item Journal.
@@ -21,7 +15,7 @@ Once the Journal has been created, the Warehouse Journal Lines are returned with
 
 Request:
 
-`jsonRequest":"{\"ProcessMethod\":\"Create_WarehouseInvPhysicalCount\",\"Parameters\":[{\"ZoneCode\":\"STO\",\"BinCode\":\"\",\"LocationCode\":\"CCC\",\"RegisteringDate\":\"2022-04-19\",\"WhseDocumentNo\":\"DocumentNo\"}]}`
+`jsonRequest":"{\"ProcessMethod\":\"Get_WarehouseInvPhysicalCount\",\"Parameters\":[{\"LocationCode\":\"CCC\"}]}`
 
 **Outputs**:
 
@@ -3425,29 +3419,8 @@ Request:
 ```
 {
   "Error": {
-    "Code": "Configuration Error",
-    "Message": "The item 1972-S is not managed by the Plur-e WMS module. If you want to configure it, you must go to the Item Card and turn on the check 'Managed by Plur-E'"
-  }
-}
-
-{
-  "Error": {
-    "Code": "Configuration Error",
-    "Message": "The License Plate is already in the specified location and bin."
-  }
-}
-
-{
-  "Error": {
     "Code": "Not found",
     "Message": "The Location Code (CCCa) was not found"
-  }
-}
-
-{
-  "Error": {
-    "Code": "Not found",
-    "Message": "The Item No (190a0-S) was not found"
   }
 }
 ```
