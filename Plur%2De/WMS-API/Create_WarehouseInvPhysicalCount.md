@@ -1,7 +1,9 @@
 **ProcessMethod**: WarehouseInvPhysicalCount
 
 **Description**:
-This method allows you to increase or decrease an Item with its associated LP into the inventory.
+This method allows you to create a specific Journal to count physical inventory given certain parameters such as Location.
+
+Once the Journal has been created, the Warehouse Journal Lines are returned with the quantities to be counted and the associated licenses plates, as well as the Zone and Bin where they are located.
 
 **Input**:
 **Parameters**: 
