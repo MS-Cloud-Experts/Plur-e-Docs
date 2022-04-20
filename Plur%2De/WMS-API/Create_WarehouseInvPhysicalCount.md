@@ -8,7 +8,7 @@ This method allows you to increase or decrease an Item with its associated LP in
 -	**ZoneCode**: Specific Zone where you want to perform the inventory count.
 -	**BinCode**: Specific Bin where you want to perform the inventory count.
 -	**LocationCode**: Specific Location where you want to perform the inventory count.
--	**RegisteringDate**: Item you want to move.
+-	**RegisteringDate**: Specifies the date for registering this journal. 
 -	**WhseDocumentNo**:
 
 **Ouput**: 
