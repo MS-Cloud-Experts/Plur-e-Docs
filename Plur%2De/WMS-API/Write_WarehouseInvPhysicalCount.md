@@ -7,57 +7,51 @@
       "fields": [
         {
           "name": "JournalTemplateName",
-          "value": "PHYSICAL I"
+          "value": "PHYSICAL I",
         },
         {
           "name": "JournalBatchName",
-          "value": "PLUR-E"
+          "value": "PLUR-E",
         },
         {
           "name": "LineNo",
-          "value": 10000
+          "value": 10000,
         },
         {
           "name": "RegisteringDate",
-          "value": "2022-04-19"
+          "value": "2022-04-19",
         },
         {
           "name": "LocationCode",
-          "value": "CCC"
+          "value": "CCC",   
         },
         {
           "name": "ItemNo",
-          "type": "Code",
-          "value": "1900-S"
+          "value": "1900-S",
         },
         {
           "name": "Qty(PhysInventory)",
-          "type": "Decimal",
-          "value": null
+          "value": null,
         },
         {
           "name": "UserID",
-          "type": "Code",
-          "value": "IVAN.LABRADOR1"
+          "value": "IVAN.LABRADOR1",    
         },
         {
           "name": "VariantCode",
-          "type": "Code",
-          "value": null
+          "value": null,
         },
         {
           "name": "SerialNo",
-          "type": "Code",
-          "value": null
+          "value": null,      
         },
         {
           "name": "LotNo",
-          "type": "Code",
-          "value": null
-        },
+          "value": null,     
+        },   
         {
           "name": "PLULicensePlates",
-          "value": "LP000442"
+          "value": "LP000442",      
         }
       ]
     },
@@ -66,54 +60,55 @@
       "fields": [
         {
           "name": "JournalTemplateName",
-          "value": "PHYSICAL I"
+          "value": "PHYSICAL I",       
         },
         {
           "name": "JournalBatchName",
-          "value": "PLUR-E"
+          "value": "PLUR-E",      
         },
         {
           "name": "LineNo",
-          "value": 20000
+          "value": 20000,
         },
         {
           "name": "RegisteringDate",
-          "value": "2022-04-19"
+          "value": "2022-04-19",
         },
         {
           "name": "LocationCode",
-          "value": "CCC"
+          "value": "CCC",
         },
         {
           "name": "ItemNo",
-          "value": "1900-S"
+          "value": "1900-S",       
         },
         {
           "name": "Qty(PhysInventory)",
-          "value": null
+          "value": null,      
         },
         {
           "name": "UserID",
-          "value": "IVAN.LABRADOR1"
+          "value": "IVAN.LABRADOR1",
         },
         {
           "name": "VariantCode",
-          "value": null
+          "value": null,
         },
         {
           "name": "SerialNo",
-          "value": null
+          "value": null,
         },
         {
           "name": "LotNo",
-          "value": null
+          "value": null,
         },
         {
           "name": "PLULicensePlates",
-          "value": "LP000443"
+          "value": "LP000443",    
         }
       ]
     }
   ]
+}
 }
 ```
