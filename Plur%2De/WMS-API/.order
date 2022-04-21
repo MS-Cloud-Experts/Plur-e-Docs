@@ -1,8 +1,8 @@
 Warehouse-Employee
+GetWarehouseEmployee
 Get-Licenses-Plate
 Create-Licenses-Plate
 WarehouseItemJournal_LP
-GetWarehouseEmployee
 GetBinContent_LP
 MoveBinToBin_LP
 GetWarehousePutAways
