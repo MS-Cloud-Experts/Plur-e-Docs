@@ -5,3 +5,4 @@ CreateLP_FromWarehouseReceiptLine
 GetUnitOfMeasure
 License-Plate-Status
 Get_Pending_To_Receive_LP
+GetWarehousePutAway
