@@ -5,7 +5,6 @@ SetDefaultWarehouseEmployee
 GetWarehouseEmployee
 GetBinContent_LP
 MoveBinToBin_LP
-GetLicencesPlatesByItemNo
 GetWarehousePutAways
 GetRegisteredPutAway
 GetWarehousePutAway
