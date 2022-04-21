@@ -16,6 +16,12 @@ Request:
 
 **Output**: 
 
+```
+{
+  "Posted": 322
+}
+```
+
 
 
 **Errors:**
