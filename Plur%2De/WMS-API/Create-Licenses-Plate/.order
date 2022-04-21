@@ -8,3 +8,4 @@ Get_Pending_To_Receive_LP
 GetWarehousePutAway
 GetRegisteredPutAways
 GetWarehouseReceipts
+GetWarehouseReceipt
