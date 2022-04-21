@@ -15,7 +15,17 @@ Request:
 `"jsonRequest":"{\"ProcessMethod\":\"Register_WarehouseInvPhysicalCount\",\"Parameters\":[{\"JournalTemplateName\":\"PHYSICAL I\",\"LocationCode\":\"CCC\"}]}"`
 
 **Output**: 
--The process will be executed correctly if it returns Yes.
+
+**Errors:**
+
+`
+{
+  "Error": {
+    "Code": "Configuration Error",
+    "Message": "The WhseJnlLine was not found in JournalTemplateName=PHYSICAL I and JournalBatchName=PLUR-E."
+  }
+}
+`
 
 
 
