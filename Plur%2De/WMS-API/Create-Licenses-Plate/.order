@@ -1,4 +1,5 @@
 GetRegisteredPutAway
+Post_WarehousePutAways
 GetWarehousePutAways
 CreateLP_FromWarehouseReceiptLine
 GetUnitOfMeasure
