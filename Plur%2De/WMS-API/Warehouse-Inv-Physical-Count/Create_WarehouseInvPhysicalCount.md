@@ -25,6 +25,9 @@ Request:
 
 **Outputs**:
 
+**Business Central:**
+![image.png](/.attachments/image-f9162b71-1b33-4ba3-9381-15c2266c106b.png)
+
 
 ```
 {
