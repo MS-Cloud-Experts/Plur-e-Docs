@@ -18,3 +18,4 @@ GetRegisteredPutAways
 Post_WarehouseReceipts
 GetWarehouseReceipts
 GetWarehouseReceipt
+Warehouse-Inv-Physical-Count
