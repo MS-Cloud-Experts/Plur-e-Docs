@@ -140,6 +140,6 @@ Request:
 
 **Output**: 
 -The process will be executed correctly if it returns the lines of the Warehouse Item Journal.
--	**Warehouse_Physical_Inventory_Journal**: Array of Warehouse Journals Lines.
+
 
 
