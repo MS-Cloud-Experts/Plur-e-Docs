@@ -2,7 +2,6 @@ Warehouse-Employee
 Get-Licenses-Plate
 Create-Licenses-Plate
 WarehouseItemJournal_LP
-SetDefaultWarehouseEmployee
 GetWarehouseEmployee
 GetBinContent_LP
 MoveBinToBin_LP
