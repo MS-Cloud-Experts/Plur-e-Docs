@@ -3,7 +3,6 @@ Warehouse-Employee
 Create-Licenses-Plate
 Get-Licenses-Plate
 GetBinContent_LP
-MoveBinToBin_LP
 GetWarehousePutAways
 GetRegisteredPutAway
 GetWarehousePutAway
