@@ -6,6 +6,5 @@ GetUnitOfMeasure
 License-Plate-Status
 GetWarehousePutAway
 GetRegisteredPutAways
-GetWarehouseReceipts
 GetWarehouseReceipt
 Post_WarehouseReceipts
