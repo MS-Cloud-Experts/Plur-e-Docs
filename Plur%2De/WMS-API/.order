@@ -6,7 +6,6 @@ GetBinContent_LP
 MoveBinToBin_LP
 GetLicencesPlate
 GetLicencesPlatesByItemNo
-CreateLP_FromWarehouseReceiptLine
 GetWarehousePutAways
 Get_Pending_To_Receive_LP
 GetRegisteredPutAway
