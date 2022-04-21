@@ -2,7 +2,6 @@ Warehouse-Employee
 Create-Licenses-Plate
 Get-Licenses-Plate
 Move-and-Edit-Licenses-Plates
-GetRegisteredPutAways
 Post_WarehouseReceipts
 GetWarehouseReceipts
 GetWarehouseReceipt
