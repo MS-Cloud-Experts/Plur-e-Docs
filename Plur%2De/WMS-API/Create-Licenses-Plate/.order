@@ -2,7 +2,6 @@ Warehouse-Receipts
 GetRegisteredPutAway
 Post_WarehousePutAways
 GetWarehousePutAways
-CreateLP_FromWarehouseReceiptLine
 GetUnitOfMeasure
 License-Plate-Status
 Get_Pending_To_Receive_LP
