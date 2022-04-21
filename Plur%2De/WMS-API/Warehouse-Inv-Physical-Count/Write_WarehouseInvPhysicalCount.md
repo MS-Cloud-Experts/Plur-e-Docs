@@ -132,6 +132,9 @@ This method allows you to update the physical quantities counted in a Warehouse 
 }
 ```
 
+**Business Central:**
+![image.png](/.attachments/image-4210cccd-fd7f-44cd-ae47-9a64f6be6ff8.png)
+
 **Example**:
 
 Request:
