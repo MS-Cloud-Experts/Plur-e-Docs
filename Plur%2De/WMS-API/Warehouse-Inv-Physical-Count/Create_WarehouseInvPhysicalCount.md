@@ -21,12 +21,12 @@ Once the Journal has been created, the Warehouse Journal Lines are returned with
 
 Request:
 
-`jsonRequest":"{\"ProcessMethod\":\"Create_WarehouseInvPhysicalCount\",\"Parameters\":[{\"ZoneCode\":\"STO\",\"BinCode\":\"\",\"LocationCode\":\"CCC\",\"RegisteringDate\":\"2022-04-19\",\"WhseDocumentNo\":\"DocumentNo\"}]}`
+`    "jsonRequest":"{\"ProcessMethod\":\"Create_WarehouseInvPhysicalCount\",\"Parameters\":[{\"ZoneCode\":\"STO\",\"BinCode\":\"\",\"LocationCode\":\"BBB\",\"RegisteringDate\":\"2022-04-19\",\"WhseDocumentNo\":\"DocumentNo\"}]}"`
 
 **Outputs**:
 
 **Business Central:**
-![image.png](/.attachments/image-f9162b71-1b33-4ba3-9381-15c2266c106b.png)
+![image.png](/.attachments/image-37de6afb-4994-4ec3-9700-7f1278bcd58d.png)
 
 
 ```
