@@ -9,3 +9,4 @@ GetWarehousePutAway
 GetRegisteredPutAways
 GetWarehouseReceipts
 GetWarehouseReceipt
+Post_WarehouseReceipts
