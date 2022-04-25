@@ -1,7 +1,7 @@
 **ProcessMethod**: PreRegister_WarehouseInvPhysicalCount
 
 **Description**:
-This method will create a split of the batch that you want to register, generating a batch called "NON COUNT" with the lines that were counted to zero. and it will return the main batch only with the lines that have quantities greater than zero.
+This method allows registering a Batch of physical inventory count, generating in turn the update of the Warehouse Entry and the associated License Plates.
 
 **Input**:
 **Parameters**: 
@@ -12,7 +12,18 @@ This method will create a split of the batch that you want to register, generati
 
 Request:
 
-`"jsonRequest":"{\"ProcessMethod\":\"PreRegister_WarehouseInvPhysicalCount\",\"Parameters\":[{\"JournalTemplateName\":\"PHYSICAL I\",\"LocationCode\":\"BBB\"}]}"`
+`
+"jsonRequest":
+{
+  "ProcessMethod": "Register_WarehouseInvPhysicalCount",
+  "Parameters": [
+    {
+      "JournalTemplateName": "PHYSICAL I",
+      "LocationCode": "BBB"
+    }
+  ]
+}
+`
 
 **Output**: 
 -	**Warehouse_Physical_Inventory_Counted**: It contains an array with the lines of the current batch but the lines that have zero quantities have been eliminated.
