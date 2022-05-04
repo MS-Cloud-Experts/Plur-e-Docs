@@ -4,8 +4,6 @@
 This method allows registering a Batch of physical inventory count, generating in turn the update of the Warehouse Entry and the associated License Plates.
 
 **Input**:
-**Parameters**: 
--	**JournalTemplateName**: JournalTemplateName.
 -	**LocationCode**: Specific Location where you want to perform the inventory count.
 
 **Example**:
@@ -18,7 +16,6 @@ Request:
   "ProcessMethod": "Register_WarehouseInvPhysicalCount",
   "Parameters": [
     {
-      "JournalTemplateName": "PHYSICAL I",
       "LocationCode": "BBB"
     }
   ]
