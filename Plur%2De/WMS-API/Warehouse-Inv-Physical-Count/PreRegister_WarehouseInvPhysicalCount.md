@@ -5,14 +5,13 @@ This method will create a split of the batch that you want to register, generati
 
 **Input**:
 **Parameters**: 
--	**JournalTemplateName**: JournalTemplateName.
 -	**LocationCode**: Specific Location where you want to perform the inventory count.
 
 **Example**:
 
 Request:
 
-`"jsonRequest":"{\"ProcessMethod\":\"PreRegister_WarehouseInvPhysicalCount\",\"Parameters\":[{\"JournalTemplateName\":\"PHYSICAL I\",\"LocationCode\":\"BBB\"}]}"`
+`"jsonRequest":"{\"ProcessMethod\":\"PreRegister_WarehouseInvPhysicalCount\",\"Parameters\":[{\"LocationCode\":\"BBB\"}]}"`
 
 **Output**: 
 -	**Warehouse_Physical_Inventory_Counted**: It contains an array with the lines of the current batch but the lines that have zero quantities have been eliminated.
