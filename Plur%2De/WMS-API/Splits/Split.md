@@ -62,7 +62,7 @@ Once the amounts of the LP have been obtained, we could already know the maximum
 
 In the image we see the field marked in yellow "**New Quantity**" this would be what should be left to our original LP, and it is the parameter **OriginalQuantityModified** that we will pass to our Request.
 
-
+The output will contain the post number of the 2 internal transactions that are executed. The input on the new LP and the output on the Original LP.
 
 **Outputs:**
 ```
