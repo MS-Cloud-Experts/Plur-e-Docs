@@ -1,4 +1,6 @@
-[{
+
+```
+{
   "ProcessMethod": "GenerateEmptyLP",
   "Parameters": [
     {
@@ -7,4 +9,5 @@
       "BinCode": ""
     }
   ]
-}]()
+}
+```
