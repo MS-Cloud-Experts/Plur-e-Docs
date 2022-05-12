@@ -14,7 +14,18 @@ Method that returns the combination of a License Plate Headers / License Plate L
 
 Request:
 
-`"jsonRequest":"{\"ProcessMethod\":\"GetLicencesPlate\",\"Parameters\":[{\"No\":\"LP000205\"}]}"`
+```
+{
+  "ProcessMethod": "GetLicencesPlate",
+  "Parameters": [
+    {
+      "No": "LP000205"
+    }
+  ]
+}
+```
+
+
 
 Outputs:
 
