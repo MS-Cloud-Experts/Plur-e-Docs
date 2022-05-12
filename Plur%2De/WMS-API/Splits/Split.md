@@ -1,11 +1,15 @@
 **ProcessMethod**: Split
 
 **Description**:
-Method to return a list of License Plates based on the ItemNo filter.
+This method allows you to split an existing License Plate into a new one.
 
 **Input**:
 Parameters: 
--	ItemNo: Represents the number of the Item to which an LP has been assigned.
+-	NewLicensePlateCode: Represents the code of the new License Plate to which the new quantities will be assigned. To create a new License Plate you must use this method:  [GenerateEmptyLP](/Plur%2De/WMS-API/Splits/GenerateEmptyLP)
+
+-	NewQuantity: Represents the number of the Item to which an LP has been assigned.
+-	OriginalQuantityModified: Represents the number of the Item to which an LP has been assigned.
+-	OriginalLicensePlateCode: Represents the number of the Item to which an LP has been assigned.
 
 **Ouput**: List of License Plates filtered by Item No.
 
@@ -15,8 +19,6 @@ Parameters:
 
 **Request**:
 
- 
-https://dev.azure.com/MSCloudExperts/Plur-e/_wiki/wikis/Plur-e.wiki/64/GenerateEmptyLP
 
 
 ```
