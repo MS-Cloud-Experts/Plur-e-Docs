@@ -5,55 +5,68 @@ This method allows you to split an existing License Plate into a new one.
 
 **Input**:
 Parameters: 
--	NewLicensePlateCode: Represents the code of the new License Plate to which the new quantities will be assigned. To create a new License Plate you must use this method:  [GenerateEmptyLP](/Plur%2De/WMS-API/Splits/GenerateEmptyLP)
+-	**NewLicensePlateCode**: Represents the code of the new License Plate to which the new quantities will be assigned. To create a new License Plate you must use this method:  [GenerateEmptyLP](/Plur%2De/WMS-API/Splits/GenerateEmptyLP)
 
--	NewQuantity: Represents the number of the Item to which an LP has been assigned.
--	OriginalQuantityModified: Represents the number of the Item to which an LP has been assigned.
--	OriginalLicensePlateCode: Represents the number of the Item to which an LP has been assigned.
+-	**NewQuantity**: Represents the decimal amounts that will be transferred to the new LP.
+-	**OriginalQuantityModified**: It represents the decimal quantities that remained from the original LP, that is, if at the beginning there were 10 units, and in the "NewQuantity" parameter 1 unit was transferred, then this parameter should be sent 9.
+-	**OriginalLicensePlateCode**: Represents the License Plate No of the original LP.
 
 **Ouput**: List of License Plates filtered by Item No.
 
--	**LicensePlatesHeaders**: Array of License Plates Headers.
+
 
 **Example**:
 
+To make a split we must first consult our original LP.
+
 **Request**:
-
-
 
 ```
 {
   "ProcessMethod": "GetLicencesPlate",
   "Parameters": [
     {
-      "No": "LP000555"
+      "No": "LP000535"
     }
   ]
 }
 ```
 
+**Output GetLicencesPlate:**
+![image.png](/.attachments/image-10381964-fbc5-48ed-8a94-81a8e68d2064.png)
 
-   
+**License Plate in Business Central:**
+![image.png](/.attachments/image-ca56f4ad-94f5-42cc-a8a3-02a626927018.png)
+
+
+Once the amounts of the LP have been obtained, we could already know the maximum amounts to divide and execute the Split process
+
+
+**Request:**
 ```
 {
   "ProcessMethod": "Split",
   "Parameters": [
     {
-      "NewLicensePlateCode": "LP000776",
+      "NewLicensePlateCode": "LP000777",
       "NewQuantity": "1",
-      "OriginalQuantityModified": "1",
-      "OriginalLicensePlateCode": "LP000555"
+      "OriginalQuantityModified": "2",
+      "OriginalLicensePlateCode": "LP000535"
     }
   ]
 }
 ```
 
+**This would be the equivalent in Buesiness Central:**
+![image.png](/.attachments/image-7633550e-9111-45ad-b374-fe695ce7d4fc.png)
+
+In the image we see the field marked in yellow "**New Quantity**" this would be what should be left to our original LP, and it is the parameter **OriginalQuantityModified** that we will pass to our Request.
+
+
 
 Outputs:
 
-![image.png](/.attachments/image-b17f021c-781d-4395-90ba-febe6dd9a647.png)
-
-![image.png](/.attachments/image-9b9ba8d0-1eb3-4caa-8bf3-53e204ef542e.png)
 
 
-![image.png](/.attachments/image-1308e655-084c-4096-aa82-684e8bea5092.png)
+
+
