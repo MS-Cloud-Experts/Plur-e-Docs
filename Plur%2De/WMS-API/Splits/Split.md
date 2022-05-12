@@ -64,7 +64,13 @@ In the image we see the field marked in yellow "**New Quantity**" this would be 
 
 
 
-Outputs:
+**Outputs:**
+```
+{
+  "Result_AjustOriginal": "{\"Posted\":527}",
+  "Result_AjustNew": "{\"Posted\":528}"
+}
+```
 
 
 
