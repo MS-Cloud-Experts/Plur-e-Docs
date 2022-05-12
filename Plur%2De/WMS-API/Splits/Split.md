@@ -72,6 +72,38 @@ The output will contain the post number of the 2 internal transactions that are 
 }
 ```
 
+**Possible Errors:**
+
+```
+{
+  "Error": {
+    "Code": "Configuration Error",
+    "Message": "The NewLicensePlateCode LP000555 was not found."
+  }
+}
+
+{
+  "Error": {
+    "Code": "Configuration Error",
+    "Message": "The OriginalLicensePlateCode LP000555 was not found."
+  }
+}
+
+{
+  "Error": {
+    "Code": "Configuration Error",
+    "Message": "The new License Plate LP000776 that will receive the Quantities cannot have lines."
+  }
+}
+
+{
+  "Error": {
+    "Code": "Configuration Error",
+    "Message": "The new License Plate LP000778 that will receive the Quantities cannot have lines."
+  }
+}
+```
+
 
 
 
