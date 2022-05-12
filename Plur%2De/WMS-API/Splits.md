@@ -15,6 +15,19 @@ Parameters:
 
 **Request**:
 
+
+```
+{
+  "ProcessMethod": "GetLicencesPlate",
+  "Parameters": [
+    {
+      "No": "LP000555"
+    }
+  ]
+}
+```
+
+
    
 ```
 {
