@@ -99,7 +99,7 @@ The output will contain the post number of the 2 internal transactions that are 
 {
   "Error": {
     "Code": "Configuration Error",
-    "Message": "The new License Plate LP000778 that will receive the Quantities cannot have lines."
+    "Message": "The amounts to be divided in the new License Plate= LP000779 cannot be greater than the Original License Plate=LP000555."
   }
 }
 ```
