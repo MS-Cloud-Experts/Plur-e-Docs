@@ -1,4 +1,4 @@
-**ProcessMethod**: GetLicencesPlatesByItemNo
+**ProcessMethod**: Split
 
 **Description**:
 Method to return a list of License Plates based on the ItemNo filter.
@@ -14,6 +14,9 @@ Parameters:
 **Example**:
 
 **Request**:
+
+ 
+https://dev.azure.com/MSCloudExperts/Plur-e/_wiki/wikis/Plur-e.wiki/64/GenerateEmptyLP
 
 
 ```
