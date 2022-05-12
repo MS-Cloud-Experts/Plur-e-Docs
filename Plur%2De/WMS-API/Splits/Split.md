@@ -57,6 +57,8 @@ Once the amounts of the LP have been obtained, we could already know the maximum
 }
 ```
 
+**Note**: the amounts in **NewQuantity** and in **OriginalQuantityModified** can never be greater than the original amounts on the LP.
+
 **This would be the equivalent in Buesiness Central:**
 ![image.png](/.attachments/image-7633550e-9111-45ad-b374-fe695ce7d4fc.png)
 
