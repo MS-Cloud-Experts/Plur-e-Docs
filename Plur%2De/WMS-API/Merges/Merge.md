@@ -32,31 +32,6 @@ To make a split we must first consult our original LP.
 }
 ```
 
-**Output GetLicencesPlate:**
-![image.png](/.attachments/image-10381964-fbc5-48ed-8a94-81a8e68d2064.png)
-
-**License Plate in Business Central:**
-![image.png](/.attachments/image-ca56f4ad-94f5-42cc-a8a3-02a626927018.png)
-
-
-Once the amounts of the LP have been obtained, we could already know the maximum amounts to divide and execute the Split process
-
-
-**Request:**
-```
-{
-  "ProcessMethod": "Split",
-  "Parameters": [
-    {
-      "NewLicensePlateCode": "LP000777",
-      "NewQuantity": "1",
-      "OriginalQuantityModified": "2",
-      "OriginalLicensePlateCode": "LP000535"
-    }
-  ]
-}
-```
-
 **Outputs:**
 
 ```
