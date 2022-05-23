@@ -41,6 +41,10 @@ To make a split we must first consult our original LP.
 }
 ```
 
+**Output in Business Central:**
+
+![image.png](/.attachments/image-22d13190-1dea-4f12-b276-300a344fc380.png)
+
 
 
 **Possible Errors:**
