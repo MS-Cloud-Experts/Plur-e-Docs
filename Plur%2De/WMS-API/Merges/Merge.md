@@ -22,10 +22,11 @@ To make a split we must first consult our original LP.
 
 ```
 {
-  "ProcessMethod": "GetLicencesPlate",
+  "ProcessMethod": "Merge",
   "Parameters": [
     {
-      "No": "LP000535"
+      "LicensePlatesHeadersAddedCode": "LP000820",
+      "LicensePlatesHeadersBaseCode": "LP000819"
     }
   ]
 }
