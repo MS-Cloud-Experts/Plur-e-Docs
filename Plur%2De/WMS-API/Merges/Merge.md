@@ -53,21 +53,21 @@ To make a split we must first consult our original LP.
 {
   "Error": {
     "Code": "Configuration Error",
-    "Message": "The NewLicensePlateCode LP000555 was not found."
+    "Message": "The LicensePlatesHeadersAddedCode LP000555 was not found."
   }
 }
 
 {
   "Error": {
     "Code": "Configuration Error",
-    "Message": "The OriginalLicensePlateCode LP000555 was not found."
+    "Message": "The LicensePlatesHeadersBaseCode LP000555 was not found."
   }
 }
 
 {
   "Error": {
     "Code": "Configuration Error",
-    "Message": "The new License Plate LP000776 that will receive the Quantities cannot have lines."
+    "Message": "License Plate LP000555 must be in Storage state to perform the Merge."
   }
 }
 
