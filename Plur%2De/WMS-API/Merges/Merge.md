@@ -74,7 +74,7 @@ To make a split we must first consult our original LP.
 {
   "Error": {
     "Code": "Configuration Error",
-    "Message": "The amounts to be divided in the new License Plate= LP000779 cannot be greater than the Original License Plate=LP000555."
+    "Message": "The new License PlateLP000555 that will receive the Quantities cannot have lines."
   }
 }
 ```
