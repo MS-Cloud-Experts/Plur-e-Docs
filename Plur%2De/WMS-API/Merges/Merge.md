@@ -5,11 +5,10 @@ This method allows you to split an existing License Plate into a new one.
 
 **Input**:
 Parameters: 
--	**NewLicensePlateCode**: Represents the code of the new License Plate to which the new quantities will be assigned. To create a new License Plate you must use this method:  [GenerateEmptyLP](/Plur%2De/WMS-API/Splits/GenerateEmptyLP)
+-	**LicensePlatesHeadersAddedCode**: It represents the License Plate number that will be used as an aggregator to a base License Plate, that is, this License Plate will transfer its elements to another License Plate (Base) and after the process it must be canceled and without quantities.
 
--	**NewQuantity**: Represents the decimal amounts that will be transferred to the new LP.
--	**OriginalQuantityModified**: It represents the decimal quantities that remained from the original LP, that is, if at the beginning there were 10 units, and in the "NewQuantity" parameter 1 unit was transferred, then this parameter should be sent 9.
--	**OriginalLicensePlateCode**: Represents the License Plate No of the original LP.
+-	**LicensePlatesHeadersBaseCode**: Represents the License Plate number that will be used as a base or root in the merge, that is, in this the quantities or elements of another License Plate will be added.
+
 
 **Ouput**: List of License Plates filtered by Item No.
 
