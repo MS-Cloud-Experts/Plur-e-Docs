@@ -1,3 +1,8 @@
+**CalculateWhseAdjustment:**
+This process Calculate adjustments in quantity based on the warehouse adjustment bin for each item in the journal. New lines are added for negative and positive quantities. Additionally, events were added that allow tracking affected LP.
+
+
+![image.png](/.attachments/image-b2614682-ed2b-42b6-9ca4-68522de2d1c1.png)
 
 **JsonRequest:**
 ```
