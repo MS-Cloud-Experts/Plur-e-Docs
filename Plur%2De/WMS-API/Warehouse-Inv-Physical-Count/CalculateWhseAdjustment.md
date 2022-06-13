@@ -1,4 +1,17 @@
 
+**JsonRequest:**
+```
+{
+  "ProcessMethod": "CalculateWhseAdjustment",
+  "Parameters": [
+    {
+      "ItemNo": "1900-S",
+      "PostingDate": "2022-04-19"
+    }
+  ]
+}
+```
+
 
 
 **Result:**
