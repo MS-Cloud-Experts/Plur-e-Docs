@@ -18,3 +18,15 @@
   ]
 }
 ```
+
+**Errors:**
+
+```
+{
+  "Error": {
+    "Code": "Not Created",
+    "Message": "No element with the given parameters were found in the process of Calculate Whse. Adjustment"
+  }
+}
+```
+
