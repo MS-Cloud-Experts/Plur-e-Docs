@@ -1,8 +1,12 @@
 **CalculateWhseAdjustment:**
 This process Calculate adjustments in quantity based on the warehouse adjustment bin for each item in the journal. New lines are added for negative and positive quantities. Additionally, events were added that allow tracking affected LP.
 
-
+In **Business Central** we find this process on the Item Journal page:
 ![image.png](/.attachments/image-b2614682-ed2b-42b6-9ca4-68522de2d1c1.png)
+
+To run it via api these are the only 2 parameters:
+**ItemNo:**
+**PostingDate:**
 
 **JsonRequest:**
 ```
