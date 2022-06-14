@@ -7,7 +7,7 @@ In **Business Central** we find this process on the Item Journal page:
 To run it via api these are the only 2 parameters:
 
 **ItemNo:** Represents the item for which you want to calculate the differences, if you leave the field blank, it will calculate the differences for the entire inventory.
-**PostingDate:**Posting date that will be reflected in the Warehouse Entries.
+**PostingDate:** Posting date that will be reflected in the Warehouse Entries.
 
 
 **JsonRequest:**
