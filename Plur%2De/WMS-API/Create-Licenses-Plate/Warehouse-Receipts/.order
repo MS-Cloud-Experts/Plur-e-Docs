@@ -3,5 +3,5 @@ GetWarehouseReceipt
 Get_Pending_To_Receive_LP
 CreateLP_FromWarehouseReceiptLine
 CreateLPPallet_FromWarehouseReceiptLine
-DeleteLPPallet_FromWarehouseReceiptLine
+DeleteLPPallet
 Post_WarehouseReceipts
