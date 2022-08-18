@@ -15,8 +15,8 @@ The output of this method returns the LP Document No Pallet Generated.
 
 **Ouput**: Method that returns the number of assigned and pending LP to be assigned to a Warehouse Receipt.
 
--	**Created**: Boolean value that indicates if the process that was executed created or assigned a new License Plate. 
--	**Message**: Used to return messages returned by Business Central, possibly when an error is generated.
+-	**Created**: Boolean value that indicates if the process that was executed created a new License Plate. 
+-	**LPPallet_DocumentNo**: Newly created LP Pallet number..
 
 
 **Important Note:** It must be validated that the number to receive of the element is not greater than the quantities of the Order in the Warehouse Receipt.
