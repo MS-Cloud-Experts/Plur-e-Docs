@@ -1,4 +1,4 @@
-**ProcessMethod**: CreateLPPallet_FromWarehouseReceiptLine
+**ProcessMethod**: DeleteLPPallet
 
 **Description**:
 This method allows you to generate License Plates within Business Central associated with a Warehouse Receipt.
