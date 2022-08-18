@@ -41,8 +41,10 @@ The output of this method returns the LP Document No Pallet Generated.
   "Possible_LPChilds": "LP-0000059|LP-0000063"
 }
 ```
+![image.png](/.attachments/image-16a6bf67-670d-458c-a671-0ae2bfbd7436.png)
 
-![image.png](/.attachments/image-df99e808-882a-4ee1-8a6b-7d46fdccb507.png)
+**Childs:**
+![image.png](/.attachments/image-b70efa85-5a5f-4412-8c1b-3919e5b71657.png)
  
 
 **Errors**:
