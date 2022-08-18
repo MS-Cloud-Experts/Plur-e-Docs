@@ -1,7 +1,7 @@
 **ProcessMethod**: DeleteLPPallet
 
 **Description**:
-This method allows you to generate License Plates within Business Central associated with a Warehouse Receipt.
+This method allows you to Delete a License Plates associated to a Warehouse Receipt.
 
 The output of this method returns the LP Document No Pallet Generated.
 
