@@ -50,6 +50,13 @@ The output of this method returns the LP Document No Pallet removed and whether 
     "Message": "The LP Pallet does not exist"
   }
 }
+
+{
+  "Error": {
+    "Code": "Configuration Error",
+    "Message": "The LP Pallet is not assigned to a Warehouse Receipt, it cannot be deleted."
+  }
+}
 ```
 
 
