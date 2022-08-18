@@ -19,10 +19,6 @@ The output of this method returns the LP Document No Pallet Generated.
 -	**LPPallet_DocumentNo**: Newly created LP Pallet number..
 
 
-**Important Note:** It must be validated that the number to receive of the element is not greater than the quantities of the Order in the Warehouse Receipt.
-
-To do this, method [Get_Pending_To_Receive_LP](/Plur%2De/WMS-API/Create-Licenses-Plate/Get_Pending_To_Receive_LP) must be executed before carrying out this process.
-
 **Example**:
 
 ![image.png](/.attachments/image-44d8d90f-abb7-43c9-b0d4-9ec569e283d2.png)
