@@ -8,15 +8,12 @@ The output of this method returns the LP Document No Pallet removed and whether 
 **Input**:
 
 **Parameters**: 
--	**No**: Represents the Warehouse Receipt number to which you want to assign a LP. 
--	**BinCode**: Bin Code assigned to the product in the Warehouse Receipt.
--	**LocationCode**: Unit of measure assigned to the product in the Warehouse Receipt.
--	**ZoneCode**: Total number to receive expressed in the base unit of measure.
+-	**No**: Represents the number of the LP Pallet to remove.
 
-**Ouput**: Method that returns the number of assigned and pending LP to be assigned to a Warehouse Receipt.
+**Ouput**: Returns 2 fields, one if it was successfully deleted, and another the number of the recently deleted LP Pallet.
 
--	**Created**: Boolean value that indicates if the process that was executed created a new License Plate. 
--	**LPPallet_DocumentNo**: Newly created LP Pallet number..
+-	**Delete**: Boolean value that indicates whether or not the executed process eliminated the LP Pallet.
+-	**LPPallet_DocumentNo**: LP pallet number just removed.
 
 
 **Request**:
