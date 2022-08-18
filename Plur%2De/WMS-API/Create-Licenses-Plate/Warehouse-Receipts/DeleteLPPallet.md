@@ -5,7 +5,7 @@ This method allows you to Delete a License Plates associated to a Warehouse Rece
 
 The output of this method returns the LP Document No Pallet removed and whether or not the removal was successful.
 
-Note:For now, LP Pallets can be removed if and only if they are still in the Warehouse Receipt.
+**Note**: For now, LP Pallets can be removed if and only if they are still in the Warehouse Receipt.
 
 **Input**:
 
