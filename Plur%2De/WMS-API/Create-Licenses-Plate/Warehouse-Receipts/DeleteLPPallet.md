@@ -20,13 +20,10 @@ The output of this method returns the LP Document No Pallet removed and whether 
 
 ```
 {
-  "ProcessMethod": "CreateLPPallet_FromWarehouseReceiptLine",
+  "ProcessMethod": "DeleteLPPallet_FromWarehouseReceiptLine",
   "Parameters": [
     {
-      "No": "WHSE REC-0000006",
-      "ZoneCode": "REC",
-      "LocationCode": "WMS",
-      "BinCode": "REC-01"
+      "No": "LP-0000061"
     }
   ]
 }
@@ -38,13 +35,11 @@ The output of this method returns the LP Document No Pallet removed and whether 
 
 ```
 {
-  "Created": true,
-  "LPPallet_DocumentNo": "LP-0000062"
+  "Deleted": true,
+  "LPPallet_DocumentNo": "LP-0000061"
 }
 ```
 
-![image.png](/.attachments/image-df99e808-882a-4ee1-8a6b-7d46fdccb507.png)
- 
 
 **Errors**:
 
@@ -52,11 +47,9 @@ The output of this method returns the LP Document No Pallet removed and whether 
 {
   "Error": {
     "Code": "Not Found",
-    "Message": "The Warehouse Receipt Headers is empty"
+    "Message": "The LP Pallet does not exist"
   }
 }
-
-
 ```
 
 
