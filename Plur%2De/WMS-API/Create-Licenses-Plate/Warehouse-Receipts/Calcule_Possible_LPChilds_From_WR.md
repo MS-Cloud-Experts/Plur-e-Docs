@@ -8,10 +8,7 @@ The output of this method returns the LP Document No Pallet Generated.
 **Input**:
 
 **Parameters**: 
--	**No**: Represents the Warehouse Receipt number to which you want to assign a LP. 
--	**BinCode**: Bin Code assigned to the product in the Warehouse Receipt.
--	**LocationCode**: Unit of measure assigned to the product in the Warehouse Receipt.
--	**ZoneCode**: Total number to receive expressed in the base unit of measure.
+-	**LP_Pallet_No**: Represents the number of the LP Pallet that you want to calculate the possible children of LP Single.
 
 **Ouput**: Method that returns the number of assigned and pending LP to be assigned to a Warehouse Receipt.
 
