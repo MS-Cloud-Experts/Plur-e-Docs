@@ -10,10 +10,7 @@ The output of this method returns the LP Document No Pallet Generated.
 **Parameters**: 
 -	**LP_Pallet_No**: Represents the number of the LP Pallet that you want to calculate the possible children of LP Single.
 
-**Ouput**: Method that returns the number of assigned and pending LP to be assigned to a Warehouse Receipt.
-
--	**Created**: Boolean value that indicates if the process that was executed created a new License Plate. 
--	**LPPallet_DocumentNo**: Newly created LP Pallet number..
+**Ouput**: List of LP Children candidates to be assigned to the LP Pallet.
 
 
 **Request**:
