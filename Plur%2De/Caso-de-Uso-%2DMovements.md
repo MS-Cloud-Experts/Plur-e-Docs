@@ -4,4 +4,4 @@
 
 MOBILE
 
-![image.png](/.attachments/image-74ac396f-be20-4dd7-bf16-7fcf0c2de957.png)
+[WMS UseCase mov.pdf](/.attachments/WMS%20UseCase%20mov-eec8e1a7-ed9f-4c9a-9a5d-c9fa9349932b.pdf)
