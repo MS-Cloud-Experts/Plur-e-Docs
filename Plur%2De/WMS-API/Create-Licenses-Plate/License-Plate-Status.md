@@ -16,3 +16,5 @@ Other uses to be defined.
 -	'**Packed**': To define.
 -	'**Released**': To define.
 -	'**Process**': To define.
+
+NOTE: in the case the user needs to **correct or remove**  a License plate before the WH receipt is posted, then this LP could be deleted  and the LP number will skip to assign the next number available. (idem for Pallets)
