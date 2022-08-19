@@ -1,7 +1,6 @@
 GetWarehouseReceipts
 GetWarehouseReceipt
 LP-Single
-Get_Pending_To_Receive_LP
 CreateLP_FromWarehouseReceiptLine
 Pallets
 Post_WarehouseReceipts
