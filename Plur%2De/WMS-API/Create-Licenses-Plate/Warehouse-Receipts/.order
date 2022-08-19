@@ -1,9 +1,9 @@
-Pallets
 GetWarehouseReceipts
 GetWarehouseReceipt
 Get_Pending_To_Receive_LP
 CreateLP_FromWarehouseReceiptLine
 CreateLPPallet_FromWarehouseReceiptLine
+Pallets
 Calcule_Possible_LPChilds_From_WR
 Assign_LPChild_to_LP_Pallet_From_WR
 DeleteLPPallet
