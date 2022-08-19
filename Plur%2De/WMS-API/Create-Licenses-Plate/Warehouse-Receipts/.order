@@ -4,6 +4,5 @@ Get_Pending_To_Receive_LP
 CreateLP_FromWarehouseReceiptLine
 CreateLPPallet_FromWarehouseReceiptLine
 Pallets
-Assign_LPChild_to_LP_Pallet_From_WR
 DeleteLPPallet
 Post_WarehouseReceipts
