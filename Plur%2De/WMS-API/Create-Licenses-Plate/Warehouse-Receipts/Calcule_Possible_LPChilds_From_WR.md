@@ -47,11 +47,9 @@ The output of this method returns the LP Document No Pallet Generated.
 {
   "Error": {
     "Code": "Not Found",
-    "Message": "The Warehouse Receipt Headers is empty"
+    "Message": "The LP Pallet Header does not exist"
   }
 }
-
-
 ```
 
 
