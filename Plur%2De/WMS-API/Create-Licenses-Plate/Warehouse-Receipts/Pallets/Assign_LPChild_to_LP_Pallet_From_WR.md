@@ -17,7 +17,6 @@ The result of this method returns 2 fields, one whether the result was successfu
 -	**Remnant_LPChilds**: Number of LP Singles that could be candidates to assign to an LP Pallet.
 
 **Request**:
-
 ```
 {
   "ProcessMethod": "Assign_LPChild_to_LP_Pallet_From_WR",
@@ -37,22 +36,35 @@ The result of this method returns 2 fields, one whether the result was successfu
 
 ```
 {
-  "Possible_LPChilds": "LP-0000059|LP-0000063"
+  "IsProcessed": true,
+  "Remnant_LPChilds": "LP-0000067"
 }
 ```
-![image.png](/.attachments/image-16a6bf67-670d-458c-a671-0ae2bfbd7436.png)
 
-**Childs:**
-![image.png](/.attachments/image-b70efa85-5a5f-4412-8c1b-3919e5b71657.png)
- 
+![image.png](/.attachments/image-6675877d-9126-40b7-be52-836af42197bc.png) 
 
-**Errors**:
+
+**Possible Errors**:
 
 ```
 {
   "Error": {
+    "Code": "Not inserted",
+    "Message": "There is already a line previously created in the LP Pallet with the same number"
+  }
+}
+
+{
+  "Error": {
     "Code": "Not Found",
-    "Message": "The LP Pallet Header does not exist"
+    "Message": "The Warehouse Receipt No. does not match the LP Pallet Document No."
+  }
+}
+
+{
+  "Error": {
+    "Code": "Not inserted",
+    "Message": "The LP Single you are trying to assign does not exist"
   }
 }
 ```
