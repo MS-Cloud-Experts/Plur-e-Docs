@@ -29,10 +29,14 @@ The output of this method returns the LP Document No Pallet Generated.
 
 **Outputs**:
 
-
 ```
 {
-  "Possible_LPChilds": "LP-0000059|LP-0000063"
+  "Possible_ItemsChilds": [
+    {
+      "LP": "1900-S",
+      "Qty": "5"
+    }
+  ]
 }
 ```
 ![image.png](/.attachments/image-16a6bf67-670d-458c-a671-0ae2bfbd7436.png)
