@@ -64,7 +64,7 @@ The result of this method returns 2 fields, one whether the result was successfu
 {
   "Error": {
     "Code": "Not inserted",
-    "Message": "The LP Single you are trying to assign does not exist"
+    "Message": "The Item No=LP-0000065 you are trying to assign does not exist"
   }
 }
 ```
