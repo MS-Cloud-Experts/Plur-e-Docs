@@ -1,17 +1,20 @@
 **ProcessMethod**: Calcule_Possible_LPChilds_From_WR
 
 **Description**:
-This method allows you to generate License Plates within Business Central associated with a Warehouse Receipt.
+This method allows you to assign an existing LP Single as a child to an LP Pallet.
 
-The output of this method returns the LP Document No Pallet Generated.
+The result of this method returns 2 fields, one whether the result was successful or not and the other the number of child lps that could be assigned to the pallet.
 
 **Input**:
 
 **Parameters**: 
--	**LP_Pallet_No**: Represents the number of the LP Pallet that you want to calculate the possible children of LP Single.
+-	**LP_Pallet_No**: Represents the number of LP Pallets you want to allocate the possible children of the LP Single.
+-	**WarehouseReceipt_No**:  Represents the Warehouse Receipt Number where the Pallet is located. This field is used as an extra validation to verify that the LP Pallet is actually included in the Warehouse Receipt.
+-	**LP_Pallet_Child_No**: Represents the child LP Pallet number to be assigned to the LP Pallet.
 
-**Ouput**: List of LP Children candidates to be assigned to the LP Pallet.
-
+**Ouput**: 
+-	**IsProcessed**: Boolean variable that indicates if the process was successful or not.
+-	**Remnant_LPChilds**: Number of LP Singles that could be candidates to assign to an LP Pallet.
 
 **Request**:
 
