@@ -1,16 +1,16 @@
 **ProcessMethod**: Calcule_Possible_ItemChilds_From_WR
 
 **Description**:
-This method allows you to generate License Plates within Business Central associated with a Warehouse Receipt.
+This method allows calculating the Possible Child Items that an LP Pallet could have in the Warehouse Receipt.
 
-The output of this method returns the LP Document No Pallet Generated.
+The output is a json array with the Item No / Available Outstanding Quantities value pair.
 
 **Input**:
 
 **Parameters**: 
--	**LP_Pallet_No**: Represents the number of the LP Pallet that you want to calculate the possible children of LP Single.
+-	**LP_Pallet_No**: Represents the number of LP Pallets that you want to calculate the possible Child Items in a Warehouse Receipt.
 
-**Ouput**: List of LP Children candidates to be assigned to the LP Pallet.
+**Ouput**: Json array with the Items and quantities available.
 
 
 **Request**:
