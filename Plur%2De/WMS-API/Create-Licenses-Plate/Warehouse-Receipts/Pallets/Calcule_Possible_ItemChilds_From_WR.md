@@ -17,10 +17,10 @@ The output of this method returns the LP Document No Pallet Generated.
 
 ```
 {
-  "ProcessMethod": "Calcule_Possible_LPChilds_From_WR",
+  "ProcessMethod": "Calcule_Possible_ItemChilds_From_WR",
   "Parameters": [
     {
-      "LP_Pallet_No": "LP-0000060"
+      "LP_Pallet_No": "LP-0000064"
     }
   ]
 }
