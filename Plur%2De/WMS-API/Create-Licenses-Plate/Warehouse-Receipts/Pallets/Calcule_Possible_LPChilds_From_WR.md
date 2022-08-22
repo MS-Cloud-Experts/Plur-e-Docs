@@ -1,9 +1,7 @@
 **ProcessMethod**: Calcule_Possible_LPChilds_From_WR
 
 **Description**:
-This method allows you to generate License Plates within Business Central associated with a Warehouse Receipt.
-
-The output of this method returns the LP Document No Pallet Generated.
+This method allows calculating the Possible Child LP Single that an LP Pallet could have in the Warehouse Receipt.
 
 **Input**:
 
