@@ -39,10 +39,10 @@ The output of this method returns the LP Document No Pallet Generated.
   ]
 }
 ```
-![image.png](/.attachments/image-16a6bf67-670d-458c-a671-0ae2bfbd7436.png)
+![image.png](/.attachments/image-dc0881dd-7cda-438c-9d09-43e5b44cbefd.png)
 
 **Childs:**
-![image.png](/.attachments/image-b70efa85-5a5f-4412-8c1b-3919e5b71657.png)
+![image.png](/.attachments/image-b72b953f-8dc8-4ae0-ab56-0294050a7b41.png)
  
 
 **Errors**:
