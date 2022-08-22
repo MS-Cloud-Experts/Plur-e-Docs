@@ -33,8 +33,10 @@ The output is a json array with the Item No / Available Outstanding Quantities v
 {
   "Possible_ItemsChilds": [
     {
-      "LP": "1900-S",
-      "Qty": "5"
+      "No": "WHSE REC-0000007",
+      "Line No": 20000,
+      "Item No": "1900-S",
+      "Qty": 5.0
     }
   ]
 }
