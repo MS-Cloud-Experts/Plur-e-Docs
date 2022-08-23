@@ -10,8 +10,8 @@ The result of this method returns 2 fields, one whether the result was successfu
 **Parameters**: 
 -	**LP_Pallet_No**: Represents the number of LP Pallets you want to allocate the possible children of the LP Single.
 -	**WarehouseReceipt_No**:  Represents the Warehouse Receipt Number where the Pallet is located. This field is used as an extra validation to verify that the LP Pallet is actually included in the Warehouse Receipt.
--	**Item_Child_No**: Represents the child LP Pallet number to be assigned to the LP Pallet.
--	**Qty**: Represents the child LP Pallet number to be assigned to the LP Pallet.
+-	**Item_Child_No**: Item number to assign.
+-	**Qty**: Quantities available to assign.
 -	**WarehouseReceipt_LineNo**: It represents the line corresponding to the Warehouse Receipt that contains the Item that you want to assign to the LP Pallet. This information is important because a Warehouse Receipt could have a Repeated Item.
 
 **Ouput**: 
