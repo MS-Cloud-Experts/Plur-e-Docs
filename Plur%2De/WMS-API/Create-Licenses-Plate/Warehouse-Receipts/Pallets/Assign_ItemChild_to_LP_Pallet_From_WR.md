@@ -1,7 +1,7 @@
 **ProcessMethod**: Assign_ItemChild_to_LP_Pallet_From_WR
 
 **Description**:
-This method allows you to assign an existing LP Single as a child to an LP Pallet.
+This method allows you to assign a Warehouse Receipt Item as a child to an LP Pallet.
 
 The result of this method returns 2 fields, one whether the result was successful or not and the other the number of child lps that could be assigned to the pallet.
 
@@ -33,11 +33,17 @@ The result of this method returns 2 fields, one whether the result was successfu
 
 **Outputs**:
 
-
 ```
 {
   "IsProcessed": true,
-  "Remnant_LPChilds": "LP-0000067"
+  "Possible_ItemsChilds": [
+    {
+      "No": "WHSE REC-0000007",
+      "Line No": 10000,
+      "Item No": "1896-S",
+      "Qty": 5.0
+    }
+  ]
 }
 ```
 
@@ -56,13 +62,6 @@ The result of this method returns 2 fields, one whether the result was successfu
 
 {
   "Error": {
-    "Code": "Not inserted",
-    "Message": "There is already a line previously created in the LP Pallet with the same number"
-  }
-}
-
-{
-  "Error": {
     "Code": "Not Found",
     "Message": "The Warehouse Receipt No. does not match the LP Pallet Document No."
   }
@@ -71,7 +70,7 @@ The result of this method returns 2 fields, one whether the result was successfu
 {
   "Error": {
     "Code": "Not inserted",
-    "Message": "The Item No= LP-0000065 you are trying to assign does not exist"
+    "Message": "The Item No= 1900A-S you are trying to assign does not exist"
   }
 }
 ```
