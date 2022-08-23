@@ -19,7 +19,7 @@ The result of this method returns 2 fields, one whether the result was successfu
 -	**Possible_ItemsChilds**: Json array with possible Items to be assigned to a License Plate Pallet.
 
 This Arrangement contains:
-\
+
   **"No"**: Warehouse Recetip number, example: "WHSE REC-0000007".
   **"Line No"**: Number of the line where the Item is in the Warehouse Recipe. Necessary to locate you at the time of being assigned. Example: 10000.
   **"Item No"**: Item number available. Example: "1896-S".
