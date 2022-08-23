@@ -49,6 +49,13 @@ The result of this method returns 2 fields, one whether the result was successfu
 ```
 {
   "Error": {
+    "Code": "Not found",
+    "Message": "Error in the parameters, or the Item you are trying to send is already assigned to the License Plate Pallet"
+  }
+}
+
+{
+  "Error": {
     "Code": "Not inserted",
     "Message": "There is already a line previously created in the LP Pallet with the same number"
   }
