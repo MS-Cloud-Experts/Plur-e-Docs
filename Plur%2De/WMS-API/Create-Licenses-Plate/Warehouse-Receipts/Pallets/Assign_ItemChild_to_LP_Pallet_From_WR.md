@@ -69,7 +69,7 @@ The result of this method returns 2 fields, one whether the result was successfu
 
 {
   "Error": {
-    "Code": "Not inserted",
+    "Code": "Not Found",
     "Message": "The Item No= 1900A-S you are trying to assign does not exist"
   }
 }
