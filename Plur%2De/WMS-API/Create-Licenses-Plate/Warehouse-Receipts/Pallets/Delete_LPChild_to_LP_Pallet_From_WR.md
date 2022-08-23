@@ -33,15 +33,12 @@ The result of this method returns 2 fields, one if the delete process was execut
 
 **Outputs**:
 
-
 ```
 {
-  "IsProcessed": true,
-  "Remnant_LPChilds": "LP-0000067"
+  "IsProcessed": false,
+  "Remnant_LPChilds": "LP-0000124|LP-0000125|LP-0000126"
 }
 ```
-
-![image.png](/.attachments/image-6675877d-9126-40b7-be52-836af42197bc.png) 
 
 
 **Possible Errors**:
@@ -49,8 +46,8 @@ The result of this method returns 2 fields, one if the delete process was execut
 ```
 {
   "Error": {
-    "Code": "Not inserted",
-    "Message": "There is already a line previously created in the LP Pallet with the same number"
+    "Code": "Not deleted",
+    "Message": "The License Plate you are trying to remove does not exist in the document."
   }
 }
 
@@ -65,6 +62,13 @@ The result of this method returns 2 fields, one if the delete process was execut
   "Error": {
     "Code": "Not inserted",
     "Message": "The LP Single you are trying to assign does not exist"
+  }
+}
+
+{
+  "Error": {
+    "Code": "Not Found",
+    "Message": "The LP Pallet does not exist"
   }
 }
 ```
