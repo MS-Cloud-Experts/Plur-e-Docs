@@ -61,7 +61,7 @@ The result of this method returns 2 fields, one if the delete process was execut
 {
   "Error": {
     "Code": "Not inserted",
-    "Message": "The LP Single you are trying to assign does not exist"
+    "Message": "The LP Single you are trying to remove does not exist"
   }
 }
 
