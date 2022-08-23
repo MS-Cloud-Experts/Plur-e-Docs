@@ -10,21 +10,31 @@ The result of this method returns 2 fields, one whether the result was successfu
 **Parameters**: 
 -	**LP_Pallet_No**: Represents the number of LP Pallets you want to allocate the possible children of the LP Single.
 -	**WarehouseReceipt_No**:  Represents the Warehouse Receipt Number where the Pallet is located. This field is used as an extra validation to verify that the LP Pallet is actually included in the Warehouse Receipt.
--	**LP_Pallet_Child_No**: Represents the child LP Pallet number to be assigned to the LP Pallet.
+-	**Item_Child_No**: Represents the child LP Pallet number to be assigned to the LP Pallet.
+-	**Qty**: Represents the child LP Pallet number to be assigned to the LP Pallet.
+-	**WarehouseReceipt_LineNo**: Represents the child LP Pallet number to be assigned to the LP Pallet.
 
 **Ouput**: 
 -	**IsProcessed**: Boolean variable that indicates if the process was successful or not.
--	**Remnant_LPChilds**: Number of LP Singles that could be candidates to assign to an LP Pallet.
+-	**Possible_ItemsChilds**: Json array with possible Items to be assigned to a License Plate Pallet.
+
+This Arrangement contains:
+  **"No"**: Warehouse Recetip number, example: "WHSE REC-0000007".
+  **"Line No"**: Number of the line where the Item is in the Warehouse Recipe. Necessary to locate you at the time of being assigned. Example: 10000.
+  **"Item No"**: Item number available. Example: "1896-S".
+  **"Qty"**: Quantities available to assign. Example: 5.0.
 
 **Request**:
 ```
 {
-  "ProcessMethod": "Assign_LPChild_to_LP_Pallet_From_WR",
+  "ProcessMethod": "Assign_ItemChild_to_LP_Pallet_From_WR",
   "Parameters": [
     {
-      "LP_Pallet_No": "LP-0000064",
+      "LP_Pallet_No": "LP-0000121",
       "WarehouseReceipt_No": "WHSE REC-0000007",
-      "LP_Pallet_Child_No": "LP-0000065"
+      "Item_Child_No": "1900a-S",
+      "Qty": "5",
+      "WarehouseReceipt_LineNo": "20000"
     }
   ]
 }
