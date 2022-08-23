@@ -12,7 +12,7 @@ The result of this method returns 2 fields, one whether the result was successfu
 -	**WarehouseReceipt_No**:  Represents the Warehouse Receipt Number where the Pallet is located. This field is used as an extra validation to verify that the LP Pallet is actually included in the Warehouse Receipt.
 -	**Item_Child_No**: Represents the child LP Pallet number to be assigned to the LP Pallet.
 -	**Qty**: Represents the child LP Pallet number to be assigned to the LP Pallet.
--	**WarehouseReceipt_LineNo**: Represents the child LP Pallet number to be assigned to the LP Pallet.
+-	**WarehouseReceipt_LineNo**: It represents the line corresponding to the Warehouse Receipt that contains the Item that you want to assign to the LP Pallet. This information is important because a Warehouse Receipt could have a Repeated Item.
 
 **Ouput**: 
 -	**IsProcessed**: Boolean variable that indicates if the process was successful or not.
