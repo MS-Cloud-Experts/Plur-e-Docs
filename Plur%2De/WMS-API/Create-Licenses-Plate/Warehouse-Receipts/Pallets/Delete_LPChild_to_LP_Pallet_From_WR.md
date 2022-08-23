@@ -71,6 +71,13 @@ The result of this method returns 2 fields, one if the delete process was execut
     "Message": "The LP Pallet does not exist"
   }
 }
+
+{
+  "Error": {
+    "Code": "Not Found",
+    "Message": "The Warehouse Receipt No. does not match the LP Pallet Document No."
+  }
+}
 ```
 
 
