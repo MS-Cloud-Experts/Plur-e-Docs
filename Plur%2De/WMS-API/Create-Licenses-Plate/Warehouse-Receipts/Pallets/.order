@@ -1,6 +1,7 @@
 CreateLPPallet_FromWarehouseReceiptLine
 Calcule_Possible_LPChilds_From_WR
 Assign_LPChild_to_LP_Pallet_From_WR
+Delete_LPChild_to_LP_Pallet_From_WR
 Calcule_Possible_ItemChilds_From_WR
 Assign_ItemChild_to_LP_Pallet_From_WR
 DeleteLPPallet
