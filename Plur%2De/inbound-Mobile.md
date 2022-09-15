@@ -1,1 +1,1 @@
-[WMS UseCase_Receipt mobileV2.pdf](/.attachments/WMS%20UseCase_Receipt%20mobileV2-c46ce720-8322-4e20-8567-67958169c719.pdf)
+[WMS UseCase_Receipt mobileV2.pdf](/.attachments/WMS%20UseCase_Receipt%20mobileV2-da8666a0-0ddc-4995-a0c4-2bf121df3253.pdf)
