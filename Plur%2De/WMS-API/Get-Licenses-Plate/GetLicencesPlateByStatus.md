@@ -32,7 +32,7 @@ Request:
   "Parameters": [
     {
       "No": "WHSE REC-0000004",
-      "IsPallet": true
+      "IsPallet": true,
       "LicensePlateStatus":1
     }
   ]
