@@ -30,8 +30,8 @@ Request:
   "ProcessMethod": "GetLicencesPlate",
   "Parameters": [
     {
-      "No": "WHSE REC-0000004
-"
+      "No": "WHSE REC-0000004".
+      "LicensePlateStatus":1
     }
   ]
 }
