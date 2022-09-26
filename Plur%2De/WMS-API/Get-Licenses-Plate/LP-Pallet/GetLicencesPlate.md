@@ -6,7 +6,6 @@ The method that returns the combination of License Plate Headers / License Plate
 **Input**:
 **Parameters**: 
 -	**No**: Number of the License Plate that you want to filter.
--	**IsPallet**: if the variable is true it indicates that it is Pallet, otherwise it is Single.
 
 **Output**: 
 -	**LicensePlates**: Contains the information of a License Plate header in **LicensePlatesHeaders** and **LicensePlatesLines** contains an array of License Plate Lines.
@@ -20,8 +19,7 @@ Request:
   "ProcessMethod": "GetLicencesPlate",
   "Parameters": [
     {
-      "No": "LP000205",
-      "IsPallet": false
+      "No": "LP000205"
     }
   ]
 }
