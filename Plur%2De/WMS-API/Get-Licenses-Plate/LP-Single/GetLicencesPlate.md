@@ -20,8 +20,7 @@ Request:
   "ProcessMethod": "GetLicencesPlate",
   "Parameters": [
     {
-      "No": "LP000205",
-      "IsPallet": false
+      "No": "LP000205"
     }
   ]
 }
