@@ -4,8 +4,19 @@
 Method that returns the combination of Registration Headers / Registration Lines according to the number of the **Warehouse Receipt** with which it is filtered.
 
 **Input**:
-**Parameters**: 
+**Parameters**: Status of the LP, the options are of the integer type as seen below
 -	**No**: Warehouse Receipt Number.
+-	**LicensePlateStatus**:  
+
+    value(0; "Pre-Labeled") 
+    value(1; "Received") 
+    value(2; "Labeled") 
+    value(3; "Stored") 
+    value(4; "Piked") 
+    value(5; "Packed") 
+    value(6; "Released") 
+    value(7; "Voided")
+    value(8; "Process") 
 
 **Ouput**: 
 -	**LicensePlates**: Contains the information of a License Plate header in **LicensePlatesHeaders** and **LicensePlatesLines** contains an array of License Plate Lines.
