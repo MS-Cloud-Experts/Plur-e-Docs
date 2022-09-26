@@ -1,4 +1,4 @@
-**ProcessMethod**: GetLicencesPlateInWR
+**ProcessMethod**: GetLicencesPlateByStatus
 
 **Description**:
 Method that returns the combination of Registration Headers / Registration Lines according to the number of the **Warehouse Receipt** with which it is filtered.
