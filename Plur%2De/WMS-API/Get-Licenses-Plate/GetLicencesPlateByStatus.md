@@ -28,7 +28,7 @@ Request:
 
 ```
 {
-  "ProcessMethod": "GetLicencesPlate",
+  "ProcessMethod": "GetLicencesPlateByStatus",
   "Parameters": [
     {
       "No": "WHSE REC-0000004",
