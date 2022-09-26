@@ -1,4 +1,4 @@
-**ProcessMethod**: GetPossiblesBinFromWR
+**ProcessMethod**: GetPossiblesBinFromPutAway
 
 **Description**:
 Bring all the Bin codes available for a License Plate still located in the Warehouse Receipt.
@@ -18,7 +18,7 @@ Bring all the Bin codes available for a License Plate still located in the Wareh
 ```
 **Request:**
 {
-  "ProcessMethod": "GetPossiblesBinFromWR",
+  "ProcessMethod": "GetPossiblesBinFromPutAway",
   "Parameters": [
     {
       "No": "LP-00060"
