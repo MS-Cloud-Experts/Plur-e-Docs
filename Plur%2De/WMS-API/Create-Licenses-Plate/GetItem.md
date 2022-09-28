@@ -16,7 +16,7 @@ Request:
   "ProcessMethod": "GetItem",
   "Parameters": [
     {
-      "ItemNo": "10s0"
+      "ItemNo": "1900-S"
     }
   ]
 }
