@@ -41,6 +41,32 @@ This Arrangement contains:
 }
 ```
 
+New:
+```
+{
+  "ProcessMethod": "Assign_LPChild_to_LP_Pallet_From_WR",
+  "Parameters": [
+    {
+      "WarehouseReceipt_No": "WHSE REC-00007",
+      "LP_Pallet_No": "LP-00028",
+      "LPChild": [
+        {
+          "Item_Child_No": "LP-00024",
+          "Qty": "5",
+           "WarehouseReceipt_LineNo": "20000"
+        },
+        {
+          "Item_Child_No": "LP-00024",
+          "Qty": "5",
+           "WarehouseReceipt_LineNo": "20000"
+        }
+      ]
+    }
+  ]
+}
+```
+
+
 
 **Outputs**:
 
