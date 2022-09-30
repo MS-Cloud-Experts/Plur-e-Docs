@@ -26,39 +26,24 @@ This Arrangement contains:
   **"Qty"**: Quantities available to assign. Example: 5.0.
 
 **Request**:
+
 ```
 {
   "ProcessMethod": "Assign_ItemChild_to_LP_Pallet_From_WR",
   "Parameters": [
     {
-      "LP_Pallet_No": "LP-0000121",
-      "WarehouseReceipt_No": "WHSE REC-0000007",
-      "Item_Child_No": "1900a-S",
-      "Qty": "5",
-      "WarehouseReceipt_LineNo": "20000"
-    }
-  ]
-}
-```
-
-New:
-```
-{
-  "ProcessMethod": "Assign_LPChild_to_LP_Pallet_From_WR",
-  "Parameters": [
-    {
-      "WarehouseReceipt_No": "WHSE REC-00007",
-      "LP_Pallet_No": "LP-00028",
-      "LPChild": [
+      "WarehouseReceipt_No": "WHSE REC-00011",
+      "LP_Pallet_No": "LP-00118",
+      "ItemChild": [
         {
-          "Item_Child_No": "LP-00024",
-          "Qty": "5",
-           "WarehouseReceipt_LineNo": "20000"
+          "Item_Child_No": "1896-S",
+          "Qty": "2",
+          "WarehouseReceipt_LineNo": "10000"
         },
         {
-          "Item_Child_No": "LP-00024",
-          "Qty": "5",
-           "WarehouseReceipt_LineNo": "20000"
+          "Item_Child_No": "1900-S",
+          "Qty": "3",
+          "WarehouseReceipt_LineNo": "20000"
         }
       ]
     }
