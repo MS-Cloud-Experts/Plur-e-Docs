@@ -1,17 +1,30 @@
 **ProcessMethod**: Prepare_WarehousePutAway
 
 **Description**:
-This method returns the elements of the table "Warehouse Activity Header" filtered so that only "Put-Away" is visible. In this case, the filtered record is brought in the "No" field. returning the "Warehouse Activity Header" and the "Warehouse Activity Line" in JSON format.
+Prepare_WarehousePutAway
 
-Note: There is a table called " Warehouse Activity Header" which contains all registered Put-Aways and Pick, changing only the Type for differences between one or the other.
+This method is used in the Put Away, in the scenario that the user wishes to update the Bin of an LP before posting the Put-Away.
+
+The purpose of this method is to fragment the lines of a Warehouse Put away into several lines that coincide with the assigned LPs, allowing the possibility of updating each LP Single separately.
+
+Note: This method must be called before editing the Bin of LPs assigned to a Warehouse Put Away.
 
 **Input**:
 **Parameters**: 
--	**No**: Allows you to bring a single Warehouse Activity Header. 
+-	**No**: Warehouse Put Away number.
 
-**Ouput**:  
+**Output**:  The output is the information of new lines of a Warehouse Put Away, and although only the Key (Activity Type, Line No, No) is needed to perform any search, it has been decided to further detail the information with the following fields.
 
--	**WarehousePutAways**: Contains a Registered `WarehousePutAwayHeader` and an array of lines expressed in the key: `WarehouseActivityLine`.
+-	**ActivityType** : Since the table is really called Warehouse Activity Line, and it works for both Put Aways and Shipments, the type that allows it to be differentiated are included, which are the following:
+**'Put-away'**, **'Pick'**, **'Movement'**, **'Invt. Put-away'**,**'Invt. Pick'**, **'Invt. Movement**
+-	**No** :
+-	**ItemNo** :
+-	**LineNo** :
+-	**ZoneCode** :
+-	**LocationCode** :
+-	**BinCode** :
+-	**Quantity** :
+-	**LP** :
 -	
  
 **Warehouse Put Away**
