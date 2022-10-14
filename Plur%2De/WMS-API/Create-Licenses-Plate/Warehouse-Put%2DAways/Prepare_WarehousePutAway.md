@@ -55,7 +55,7 @@ Outputs:
 {
   "WarehousePutAwayLines": [
     {
-      "ActivityType": "Place",
+      "ActivityType": "Put-Away",
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "20000",
@@ -66,7 +66,7 @@ Outputs:
       "LP": "LP-00140"
     },
     {
-      "ActivityType": "Place",
+      "ActivityType": "Put-Away",
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "20039",
@@ -77,7 +77,7 @@ Outputs:
       "LP": "LP-00139"
     },
     {
-      "ActivityType": "Place",
+      "ActivityType": "Put-Away",
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "20078",
@@ -88,7 +88,7 @@ Outputs:
       "LP": "LP-00138"
     },
     {
-      "ActivityType": "Place",
+      "ActivityType": "Put-Away",
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "20156",
@@ -99,7 +99,7 @@ Outputs:
       "LP": "LP-00137"
     },
     {
-      "ActivityType": "Place",
+      "ActivityType": "Put-Away",
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "20312",
@@ -110,7 +110,7 @@ Outputs:
       "LP": "LP-00136"
     },
     {
-      "ActivityType": "Place",
+      "ActivityType": "Put-Away",
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "20625",
@@ -121,7 +121,7 @@ Outputs:
       "LP": "LP-00135"
     },
     {
-      "ActivityType": "Place",
+      "ActivityType": "Put-Away",
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "21250",
@@ -132,7 +132,7 @@ Outputs:
       "LP": "LP-00134"
     },
     {
-      "ActivityType": "Place",
+      "ActivityType": "Put-Away",
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "22500",
@@ -143,7 +143,7 @@ Outputs:
       "LP": "LP-00133"
     },
     {
-      "ActivityType": "Place",
+      "ActivityType": "Put-Away",
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "25000",
@@ -154,7 +154,7 @@ Outputs:
       "LP": "LP-00132"
     },
     {
-      "ActivityType": "Place",
+      "ActivityType": "Put-Away",
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "30000",
