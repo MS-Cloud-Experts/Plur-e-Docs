@@ -17,14 +17,14 @@ Note: This method must be called before editing the Bin of LPs assigned to a War
 
 -	**ActivityType** : Since the table is really called Warehouse Activity Line, and it works for both Put Aways and Shipments, the type that allows it to be differentiated are included, which are the following:
 **'Put-away'**, **'Pick'**, **'Movement'**, **'Invt. Put-away'**,**'Invt. Pick'**, **'Invt. Movement**
--	**No** :
--	**ItemNo** :
--	**LineNo** :
--	**ZoneCode** :
--	**LocationCode** :
--	**BinCode** :
--	**Quantity** :
--	**LP** :
+-	**No** :Warehouse Put Away number.
+-	**ItemNo** : Item No related.
+-	**LineNo** : Number  Line.
+-	**ZoneCode** : Zone
+-	**LocationCode** : Location
+-	**BinCode** : Bin
+-	**Quantity** : Quantities
+-	**LP** : Licensen Plate Number
 -	
  
 **Warehouse Put Away**
