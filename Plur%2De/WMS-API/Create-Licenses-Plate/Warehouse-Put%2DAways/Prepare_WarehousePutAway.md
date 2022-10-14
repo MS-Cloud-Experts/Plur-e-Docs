@@ -16,6 +16,7 @@ Note: There is a table called " Warehouse Activity Header" which contains all re
  
 ![image.png](/.attachments/image-16903ff2-59e0-411a-a940-09cf6dd2b617.png)
 
+![image.png](/.attachments/image-cf694d91-f263-4aee-90ab-805814040a8b.png)
 
 **Request:**
 
