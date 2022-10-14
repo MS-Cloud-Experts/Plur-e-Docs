@@ -14,8 +14,10 @@ Note: There is a table called " Warehouse Activity Header" which contains all re
 -	**WarehousePutAways**: Contains a Registered `WarehousePutAwayHeader` and an array of lines expressed in the key: `WarehouseActivityLine`.
 -	
  
+**Warehouse Put Away**
 ![image.png](/.attachments/image-50a3934e-aff3-4527-9959-7bcb2b47125a.png)
 
+**Post Auto Split (Prepare_WarehousePutAway)**
 ![image.png](/.attachments/image-cf694d91-f263-4aee-90ab-805814040a8b.png)
 
 
