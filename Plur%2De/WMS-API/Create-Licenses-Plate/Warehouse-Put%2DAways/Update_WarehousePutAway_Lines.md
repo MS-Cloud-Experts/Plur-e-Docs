@@ -159,5 +159,12 @@ The values of this field will be treated as Integers, this being the following m
     "message": "The field Bin Code of table Warehouse Activity Line contains a value (STO-01) that cannot be found in the related table (Bin).  CorrelationId:  33cccd63-b862-4ad6-b49a-6477225bf6da."
   }
 }
+
+{
+  "Error": {
+    "Code": "Error Modifying",
+    "Message": "Error modifying the Warehouse Activiy No WHSE PUTAWAY-000211, Line No 20000, Item No 1896-S, LP LP-00144"
+  }
+}
 ```
 
