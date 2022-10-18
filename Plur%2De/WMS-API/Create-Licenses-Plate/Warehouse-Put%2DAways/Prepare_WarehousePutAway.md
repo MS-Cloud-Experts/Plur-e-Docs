@@ -54,7 +54,7 @@ Outputs:
 {
   "WarehousePutAwayLines": [
     {
-      "ActivityType": "Put-Away",
+      "ActivityType": 1,
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "20000",
@@ -65,7 +65,7 @@ Outputs:
       "LP": "LP-00140"
     },
     {
-      "ActivityType": "Put-Away",
+      "ActivityType": 1,
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "20039",
@@ -76,7 +76,7 @@ Outputs:
       "LP": "LP-00139"
     },
     {
-      "ActivityType": "Put-Away",
+      "ActivityType": 1,
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "20078",
@@ -87,7 +87,7 @@ Outputs:
       "LP": "LP-00138"
     },
     {
-      "ActivityType": "Put-Away",
+      "ActivityType": 1,
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "20156",
@@ -98,7 +98,7 @@ Outputs:
       "LP": "LP-00137"
     },
     {
-      "ActivityType": "Put-Away",
+      "ActivityType": 1,
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "20312",
@@ -109,7 +109,7 @@ Outputs:
       "LP": "LP-00136"
     },
     {
-      "ActivityType": "Put-Away",
+      "ActivityType": 1,
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "20625",
@@ -120,7 +120,7 @@ Outputs:
       "LP": "LP-00135"
     },
     {
-      "ActivityType": "Put-Away",
+      "ActivityType": 1,
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "21250",
@@ -131,7 +131,7 @@ Outputs:
       "LP": "LP-00134"
     },
     {
-      "ActivityType": "Put-Away",
+      "ActivityType": 1,
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "22500",
@@ -142,7 +142,7 @@ Outputs:
       "LP": "LP-00133"
     },
     {
-      "ActivityType": "Put-Away",
+      "ActivityType": 1,
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "25000",
@@ -153,7 +153,7 @@ Outputs:
       "LP": "LP-00132"
     },
     {
-      "ActivityType": "Put-Away",
+      "ActivityType": 1,
       "No": "WHSE PUTAWAY-00020",
       "ItemNo": "1896-S",
       "LineNo": "30000",
