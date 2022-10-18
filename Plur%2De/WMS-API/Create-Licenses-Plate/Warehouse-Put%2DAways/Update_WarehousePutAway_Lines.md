@@ -13,8 +13,6 @@ The idea of this method is to be able to be used before posting in case we want 
 -	**ActivityType** : Since the table is really called Warehouse Activity Line, and it works for both Put Aways and Shipments, the type that allows it to be differentiated is included, which are the following:
 **'Put-away'**, **'Pick'**, **'Movement'**, **'Invt. Put-away'**,**'Invt. Pick'**, **'Invt. Movement**.
 
-Note: 
-
 The values of this field will be treated as Integers, this being the following mapping:
 
 ```
@@ -26,7 +24,6 @@ The values of this field will be treated as Integers, this being the following m
 **"Invt. Movement"**:= 6;
 ```
  
-
 -	**No** :Warehouse Put Away number.
 -	**ItemNo** : Item No related.
 -	**LineNo** : Number  Line.
