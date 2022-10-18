@@ -25,7 +25,6 @@ Note: This method must be called before editing the Bin of LPs assigned to a War
 -	**BinCode** : Bin
 -	**Quantity** : Quantities
 -	**LP** : Licensen Plate Number
--	
  
 **Warehouse Put Away**
 ![image.png](/.attachments/image-50a3934e-aff3-4527-9959-7bcb2b47125a.png)
