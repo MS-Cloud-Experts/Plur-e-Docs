@@ -16,7 +16,19 @@ Note: This method must be called before editing the Bin of LPs assigned to a War
 **Output**:  The output is the information of new lines of a Warehouse Put Away, and although only the Key (Activity Type, Line No, No) is needed to perform any search, it has been decided to further detail the information with the following fields.
 
 -	**ActivityType** : Since the table is really called Warehouse Activity Line, and it works for both Put Aways and Shipments, the type that allows it to be differentiated are included, which are the following:
-**'Put-away'**, **'Pick'**, **'Movement'**, **'Invt. Put-away'**,**'Invt. Pick'**, **'Invt. Movement**
+**'Put-away'**, **'Pick'**, **'Movement'**, **'Invt. Put-away'**,**'Invt. Pick'**, 
+**'Invt. Movement**
+
+The values of this field will be treated as Integers, this being the following mapping:
+
+```
+**"Put-away"**:= 1;
+**"Pick"** :=   2;
+**"Movement"** :=   3; 
+**"Invt. Put-away"** := 4; 
+**"Invt. Pick"**:= 5; 
+**"Invt. Movement"**:= 6;
+
 -	**No** :Warehouse Put Away number.
 -	**ItemNo** : Item No related.
 -	**LineNo** : Number  Line.
