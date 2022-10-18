@@ -54,3 +54,15 @@
   ]
 }
 ```
+
+
+**Errors:**
+```
+{
+  "error": {
+    "code": "Internal_InvalidTableRelation",
+    "message": "The field Bin Code of table Warehouse Activity Line contains a value (STO-01) that cannot be found in the related table (Bin).  CorrelationId:  33cccd63-b862-4ad6-b49a-6477225bf6da."
+  }
+}
+```
+
