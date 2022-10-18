@@ -28,6 +28,8 @@ The values of this field will be treated as Integers, this being the following m
 **"Invt. Put-away"** := 4; 
 **"Invt. Pick"**:= 5; 
 **"Invt. Movement"**:= 6;
+```
+
 
 -	**No** :Warehouse Put Away number.
 -	**ItemNo** : Item No related.
