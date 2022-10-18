@@ -35,7 +35,7 @@ The values of this field will be treated as Integers, this being the following m
 
 **Output**:  If successful, the same fields used in the input will be returned as output, but with the updated values of Bin, zone, and location.
 
-Example:
+**Example:**
 
 ![image.png](/.attachments/image-e368e677-2e16-4f5b-9cee-2faeb349800d.png)
 
