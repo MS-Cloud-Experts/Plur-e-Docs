@@ -1,4 +1,9 @@
 
+Example:
+
+![image.png](/.attachments/image-e368e677-2e16-4f5b-9cee-2faeb349800d.png)
+
+**Request:**
 ```
 {
   "ProcessMethod": "Update_WarehousePutAway_Lines",
@@ -107,7 +112,7 @@
   ]
 }
 ```
-
+![image.png](/.attachments/image-8e47e464-7a65-4e08-a120-0bd6ec91bd13.png)
 
 
 **Errors:**
