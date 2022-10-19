@@ -9,6 +9,17 @@ Solution:
     **Update_WarehousePutAway_Lines** with the **Bin** of the **LP** you want to Update.
 
 2) **Change the destination Bin of all the Put-Away.**
+
+Before
+![imagen.png](/.attachments/imagen-1d9556d3-64fb-4e57-ac5a-12946a9c5272.png)
+
+After
+
+![imagen.png](/.attachments/imagen-e3df2d6d-b2e0-49fb-bfaa-b768a1ef3fc9.png)
+
+
+
+
 3) **Change the destination Bin of an LP Pallet with only Items as children**
 4) **Change the Destination Bin of an LP Pallet with only LP Singles as children**
 5) **Change the destination Bin of a mixed LP Pallet, LP, and Items as children.**
