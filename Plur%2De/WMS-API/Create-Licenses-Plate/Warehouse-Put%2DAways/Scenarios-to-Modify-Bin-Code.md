@@ -11,4 +11,4 @@ Solution:
 2) **Change the destination Bin of all the Put-Away.**
 3) **Change the destination Bin of an LP Pallet with only Items as children**
 4) **Change the Destination Bin of an LP Pallet with only LP Singles as children**
-5) **Change the destination Bin of a mixed LP Pallet, LP and Items as children.**
+5) **Change the destination Bin of a mixed LP Pallet, LP, and Items as children.**
