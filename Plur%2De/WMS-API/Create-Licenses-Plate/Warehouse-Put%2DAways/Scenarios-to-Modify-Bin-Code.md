@@ -17,7 +17,7 @@ After
 
 ![imagen.png](/.attachments/imagen-e3df2d6d-b2e0-49fb-bfaa-b768a1ef3fc9.png)
 
-**Solution**: Only **Update_WarehousePutAway_Lines** will be called, and the information will be obtained from the **Warehouse Put Away Lines**
+**Solution**: Only **Update_Wsheput_Lines_V2** will be called, and the information will be obtained from the **Warehouse Put Away Lines**
 
 
 3) **Change the destination Bin of an LP Pallet with only Items as children**
