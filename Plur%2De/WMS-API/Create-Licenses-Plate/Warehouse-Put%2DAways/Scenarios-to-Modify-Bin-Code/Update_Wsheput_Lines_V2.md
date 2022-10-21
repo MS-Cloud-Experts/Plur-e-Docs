@@ -1,4 +1,4 @@
-**ProcessMethod**: Update_WarehousePutAway_Lines
+**ProcessMethod**: Update_Wsheput_Lines_V2
 
 **Description**:
 Update_WarehousePutAway_Lines
@@ -31,7 +31,6 @@ The values of this field will be treated as Integers, this being the following m
 -	**LocationCode** : Location
 -	**BinCode** : Bin
 -	**Quantity** : Quantities
--	**LP** : License Plate Number
 
 **Output**:  If successful, the same fields used in the input will be returned as output, but with the updated values of Bin, zone, and location.
 
@@ -54,8 +53,7 @@ The values of this field will be treated as Integers, this being the following m
           "ZoneCode": "STO",
           "LocationCode": "WMS",
           "BinCode": "FLOOR",
-          "Quantity": 5.0,
-          "LP": "LP-00144"
+          "Quantity": 5.0
         },
         {
           "ActivityType": 1,
@@ -65,8 +63,7 @@ The values of this field will be treated as Integers, this being the following m
           "ZoneCode": "",
           "LocationCode": "WMS",
           "BinCode": "",
-          "Quantity": 5.0,
-          "LP": "LP-00143"
+          "Quantity": 5.0
         },
         {
           "ActivityType": 1,
@@ -76,8 +73,7 @@ The values of this field will be treated as Integers, this being the following m
           "ZoneCode": "",
           "LocationCode": "WMS",
           "BinCode": "",
-          "Quantity": 5.0,
-          "LP": "LP-00142"
+          "Quantity": 5.0
         },
         {
           "ActivityType": 1,
@@ -87,8 +83,7 @@ The values of this field will be treated as Integers, this being the following m
           "ZoneCode": "",
           "LocationCode": "WMS",
           "BinCode": "",
-          "Quantity": 5.0,
-          "LP": "LP-00141"
+          "Quantity": 5.0
         }
       ]
     }
@@ -109,8 +104,7 @@ The values of this field will be treated as Integers, this being the following m
       "ZoneCode": "STO",
       "LocationCode": "WMS",
       "BinCode": "STO-1",
-      "Quantity": 5.0,
-      "LP": "LP-00144"
+      "Quantity": 5.0
     },
     {
       "ActivityType": 1,
@@ -120,8 +114,7 @@ The values of this field will be treated as Integers, this being the following m
       "ZoneCode": "",
       "LocationCode": "WMS",
       "BinCode": "",
-      "Quantity": 5.0,
-      "LP": "LP-00143"
+      "Quantity": 5.0
     },
     {
       "ActivityType": 1,
@@ -131,8 +124,7 @@ The values of this field will be treated as Integers, this being the following m
       "ZoneCode": "",
       "LocationCode": "WMS",
       "BinCode": "",
-      "Quantity": 5.0,
-      "LP": "LP-00142"
+      "Quantity": 5.0
     },
     {
       "ActivityType": 1,
@@ -143,7 +135,6 @@ The values of this field will be treated as Integers, this being the following m
       "LocationCode": "WMS",
       "BinCode": "",
       "Quantity": 5.0,
-      "LP": "LP-00141"
     }
   ]
 }
