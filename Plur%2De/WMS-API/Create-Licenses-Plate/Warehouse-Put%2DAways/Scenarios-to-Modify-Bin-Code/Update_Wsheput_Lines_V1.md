@@ -1,7 +1,7 @@
 **ProcessMethod**: Update_WarehousePutAway_Lines
 
 **Description**:
-Update_WarehousePutAway_Lines
+Update_Wsheput_Lines_V1
 
 The method used to update the Warehouse Put Away Lines or also known as Warehouse Activity Lines.
 
@@ -42,7 +42,7 @@ The values of this field will be treated as Integers, this being the following m
 **Request:**
 ```
 {
-  "ProcessMethod": "Update_WarehousePutAway_Lines",
+  "ProcessMethod": "Update_Wsheput_Lines_V1",
   "Parameters": [
     {
       "WarehousePutAwayLines": [
