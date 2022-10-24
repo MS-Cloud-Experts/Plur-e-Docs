@@ -20,6 +20,6 @@ After
 **Solution**: Only **Update_Wsheput_Lines_V2** will be called, and the information will be obtained from the **Warehouse Put Away Lines**
 
 
-3) **Change the destination Bin of an LP Pallet with only Items as children**
+3) **Change the destination Bin of an LP Pallet with only the same Items as children**
 4) **Change the Destination Bin of an LP Pallet with only LP Singles as children**
 5) **Change the destination Bin of a mixed LP Pallet, LP, and Items as children.**
