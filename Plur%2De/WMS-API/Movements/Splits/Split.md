@@ -7,7 +7,7 @@ This method allows you to split an existing License Plate into a new one.
 
 1) You cannot split an LP Single that belongs to an LP Pallet.
 
-2)
+2) All Split has to do in the Storage process.
 
 **Split Types:**
 
