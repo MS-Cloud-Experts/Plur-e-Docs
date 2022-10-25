@@ -21,6 +21,7 @@ Parameters:
   "ProcessMethod": "GenerateEmptyLP",
   "Parameters": [
     {
+      "LPType": "Single",
       "ZoneCode": "STO",
       "LocationCode": "CCC",
       "BinCode": ""
