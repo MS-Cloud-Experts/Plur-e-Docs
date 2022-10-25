@@ -3,7 +3,7 @@
 **Description**:
 This method allows obtaining the amounts associated by LP to a certain Item given the Location and the Bin.
 
-The purpose of the method is to be able to use the [MoveBinToBin_LP](/Plur%2De/WMS-API/Move-and-Edit-Licenses-Plates/MoveBinToBin_LP) method properly.
+The purpose of the method is to be able to use the [MoveBinToBin_LP](/Plur%2De/WMS-API/Movements/MoveBinToBin_LP) method properly.
 
 **Input**:
 **Parameters**: 
