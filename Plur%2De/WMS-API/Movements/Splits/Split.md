@@ -3,6 +3,12 @@
 **Description**:
 This method allows you to split an existing License Plate into a new one.
 
+**Considerations:**
+
+1) You cannot split an LP Single that belongs to an LP Pallet.
+
+2)
+
 **Input**:
 Parameters: 
 -	**NewLicensePlateCode**: Represents the code of the new License Plate to which the new quantities will be assigned. To create a new License Plate you must use this method:  [GenerateEmptyLP](/Plur%2De/WMS-API/Movements/Splits/GenerateEmptyLP)
