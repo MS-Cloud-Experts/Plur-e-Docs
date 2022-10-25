@@ -5,6 +5,7 @@ This method generates an empty License Plate, with the possibility of initializi
 
 **Input**:
 Parameters: 
+-	LPType: LP type, options are **Single** or **Pallet**. Another option gives error.
 -	ZoneCode: This parameter can be blank or specify an existing Zone Code..
 -	LocationCode: This parameter can be blank or specify an existing Location Code.
 -	BinCode: This parameter can be blank or specify an existing Bin Code.
