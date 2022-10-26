@@ -5,6 +5,8 @@ This method allows you to generate License Plates within Business Central associ
 
 The output of this method returns the number of LPs that were generated at the time of executing the process, including previous ones that may have existed.
 
+**Note:** : You cannot enter more than 5 in the Over-Receipt Quantity field
+
 **Input**:
 
 **Parameters**: 
