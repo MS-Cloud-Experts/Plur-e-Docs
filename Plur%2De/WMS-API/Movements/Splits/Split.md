@@ -1,4 +1,4 @@
-**ProcessMethod**: Split
+**ProcessMethod**: SplitLPSingle
 
 **Description**:
 This method allows you to split an existing License Plate into a new one.
@@ -60,7 +60,7 @@ Once the amounts of the LP have been obtained, we could already know the maximum
 **Request:**
 ```
 {
-  "ProcessMethod": "Split",
+  "ProcessMethod": "SplitLPSingle",
   "Parameters": [
     {
       "NewLicensePlateCode": "LP000777",
@@ -74,7 +74,7 @@ Once the amounts of the LP have been obtained, we could already know the maximum
 
 **Note**: the amounts in **NewQuantity** and in **OriginalQuantityModified** can never be greater than the original amounts on the LP.
 
-**This would be the equivalent in Buesiness Central:**
+**This would be the equivalent in Business Central:**
 ![image.png](/.attachments/image-7633550e-9111-45ad-b374-fe695ce7d4fc.png)
 
 In the image we see the field marked in yellow "**New Quantity**" this would be what should be left to our original LP, and it is the parameter **OriginalQuantityModified** that we will pass to our Request.
