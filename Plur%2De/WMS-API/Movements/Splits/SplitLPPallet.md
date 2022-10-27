@@ -1,5 +1,7 @@
 **ProcessMethod**: SplitLPPallet
 
+UNDER CONSTRUCTION
+
 **Description**:
 This method allows you to split an existing License Plate into a new one.
 
