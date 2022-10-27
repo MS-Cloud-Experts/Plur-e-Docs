@@ -45,348 +45,56 @@ Outputs:
 
 ```
 {
-  "LicensePlates": {
-    "LicensePlatesHeaders": {
-      "id": 71017590,
-      "name": "PLULicensePlatesHeaders",
-      "company": "CRONUS USA, Inc.",
-      "position": "No.=CONST(LP000205)",
-      "recordId": "PLU License Plates Headers: LP000205",
-      "primaryKey": {
-        "fieldCount": 1,
-        "fields": [
-          {
-            "id": 1,
-            "name": "PLUNo",
-            "type": "Code",
-            "value": "LP000205",
-            "System": false
-          }
-        ]
-      },
-      "fieldCount": 15,
-      "fields": [
-        {
-          "id": 1,
-          "name": "PLUNo",
-          "type": "Code",
-          "value": "LP000205",
-          "System": false
-        },
-        {
-          "id": 2,
-          "name": "PLUDescription",
-          "type": "Text",
-          "value": "SYDNEY Swivel Chair, green",
-          "System": false
-        },
-        {
-          "id": 3,
-          "name": "PLULicensePlateStatus",
-          "type": "Option",
-          "value": "Labeled",
-          "System": false
-        },
-        {
-          "id": 4,
-          "name": "PLULocationCode",
-          "type": "Code",
-          "value": "BBB",
-          "System": false
-        },
-        {
-          "id": 5,
-          "name": "PLUBinCode",
-          "type": "Code",
-          "value": "STO2",
-          "System": false
-        },
-        {
-          "id": 6,
-          "name": "PLUSourceDocument",
-          "type": "Option",
-          "value": "Purchase Order",
-          "System": false
-        },
-        {
-          "id": 7,
-          "name": "PLUSourceDocumentNo",
-          "type": "Code",
-          "value": "106031",
-          "System": false
-        },
-        {
-          "id": 8,
-          "name": "PLUDocument",
-          "type": "Option",
-          "value": "Warehouse Putway",
-          "System": false
-        },
-        {
-          "id": 9,
-          "name": "PLUDocumentNo",
-          "type": "Code",
-          "value": "10090",
-          "System": false
-        },
-        {
-          "id": 10,
-          "name": "PLUUnitofMeasure",
-          "type": "Code",
-          "value": "PACK",
-          "System": false
-        },
-        {
-          "id": 2000000000,
-          "name": "$systemId",
-          "type": "GUID",
-          "value": "{53E5ED53-0C91-EC11-B85A-000D3A74F81B}",
-          "System": false
-        },
-        {
-          "id": 2000000001,
-          "name": "SystemCreatedAt",
-          "type": "DateTime",
-          "value": "2022-02-18T22:44:29.197Z",
-          "System": false
-        },
-        {
-          "id": 2000000002,
-          "name": "SystemCreatedBy",
-          "type": "GUID",
-          "value": "{C8466A18-3206-4894-8B37-3ABD69030D7D}",
-          "System": false
-        },
-        {
-          "id": 2000000003,
-          "name": "SystemModifiedAt",
-          "type": "DateTime",
-          "value": "2022-02-18T22:45:23.943Z",
-          "System": false
-        },
-        {
-          "id": 2000000004,
-          "name": "SystemModifiedBy",
-          "type": "GUID",
-          "value": "{C8466A18-3206-4894-8B37-3ABD69030D7D}",
-          "System": false
-        }
-      ]
+  "LicensePlateEntries": [
+    {
+      "EntryType": "Created",
+      "LicensePlateStatus": "Received",
+      "Document": "Warehouse Receipt",
+      "DocumentNo": "WHSE REC-0000026",
+      "LocationCode": "WMS",
+      "BinCode": "REC-01",
+      "Quantity": "0",
+      "UnitofMeasure": "",
+      "PostingDate": "2022-10-07T21:44:42.6930000Z",
+      "UserName": "INTEGRATION WITH PLUR-E APP"
     },
-    "LicensePlatesLines": [
-      {
-        "id": 71017591,
-        "name": "PLULicensePlatesLines",
-        "company": "CRONUS USA, Inc.",
-        "position": "No.=CONST(LP000205),Line No.=CONST(20000)",
-        "recordId": "PLU License Plates Lines: LP000205,20000",
-        "primaryKey": {
-          "fieldCount": 2,
-          "fields": [
-            {
-              "id": 1,
-              "name": "PLUNo",
-              "type": "Code",
-              "value": "LP000205",
-              "System": false
-            },
-            {
-              "id": 2,
-              "name": "PLULineNo",
-              "type": "Integer",
-              "value": 20000,
-              "System": false
-            }
-          ]
-        },
-        "fieldCount": 26,
-        "fields": [
-          {
-            "id": 1,
-            "name": "PLUNo",
-            "type": "Code",
-            "value": "LP000205",
-            "System": false
-          },
-          {
-            "id": 2,
-            "name": "PLULineNo",
-            "type": "Integer",
-            "value": 20000,
-            "System": false
-          },
-          {
-            "id": 3,
-            "name": "PLUType",
-            "type": "Option",
-            "value": "Item",
-            "System": false
-          },
-          {
-            "id": 4,
-            "name": "PLUItemNo",
-            "type": "Code",
-            "value": "2000-S",
-            "System": false
-          },
-          {
-            "id": 5,
-            "name": "PLUVariantCode",
-            "type": "Code",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 6,
-            "name": "PLUQuantity",
-            "type": "Decimal",
-            "value": 77.0,
-            "System": false
-          },
-          {
-            "id": 7,
-            "name": "PLUQtyperUnitofMeasure",
-            "type": "Decimal",
-            "value": 1.0,
-            "System": false
-          },
-          {
-            "id": 8,
-            "name": "PLUQuantity(Base)",
-            "type": "Decimal",
-            "value": 77.0,
-            "System": false
-          },
-          {
-            "id": 9,
-            "name": "PLUUnitofMeasureCode",
-            "type": "Code",
-            "value": "PCS",
-            "System": false
-          },
-          {
-            "id": 10,
-            "name": "PLUExpirationDate",
-            "type": "Date",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 11,
-            "name": "PLUParentLicensePlateNo",
-            "type": "Code",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 12,
-            "name": "PLUParentLicPlateLineNo",
-            "type": "Integer",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 13,
-            "name": "PLUStatus",
-            "type": "Code",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 14,
-            "name": "PLUSerialNo",
-            "type": "Code",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 15,
-            "name": "PLULotNo",
-            "type": "Code",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 16,
-            "name": "PLUDescription",
-            "type": "Code",
-            "value": "SYDNEY SWIVEL CHAIR, GREEN",
-            "System": false
-          },
-          {
-            "id": 17,
-            "name": "PLUEntryQuantity",
-            "type": "Code",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 18,
-            "name": "PLUSourceDocument",
-            "type": "Option",
-            "value": "Purchase Order",
-            "System": false
-          },
-          {
-            "id": 19,
-            "name": "PLUSourceDocumentNo",
-            "type": "Code",
-            "value": "106031",
-            "System": false
-          },
-          {
-            "id": 20,
-            "name": "PLUDocument",
-            "type": "Option",
-            "value": "Warehouse Putway",
-            "System": false
-          },
-          {
-            "id": 21,
-            "name": "PLUDocumentNo",
-            "type": "Code",
-            "value": "10090",
-            "System": false
-          },
-          {
-            "id": 2000000000,
-            "name": "$systemId",
-            "type": "GUID",
-            "value": "{54E5ED53-0C91-EC11-B85A-000D3A74F81B}",
-            "System": false
-          },
-          {
-            "id": 2000000001,
-            "name": "SystemCreatedAt",
-            "type": "DateTime",
-            "value": "2022-02-18T22:44:29.197Z",
-            "System": false
-          },
-          {
-            "id": 2000000002,
-            "name": "SystemCreatedBy",
-            "type": "GUID",
-            "value": "{C8466A18-3206-4894-8B37-3ABD69030D7D}",
-            "System": false
-          },
-          {
-            "id": 2000000003,
-            "name": "SystemModifiedAt",
-            "type": "DateTime",
-            "value": "2022-02-18T22:45:23.943Z",
-            "System": false
-          },
-          {
-            "id": 2000000004,
-            "name": "SystemModifiedBy",
-            "type": "GUID",
-            "value": "{C8466A18-3206-4894-8B37-3ABD69030D7D}",
-            "System": false
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "EntryType": "Modified",
+      "LicensePlateStatus": "Received",
+      "Document": "Warehouse Receipt",
+      "DocumentNo": "WHSE REC-0000026",
+      "LocationCode": "WMS",
+      "BinCode": "REC-01",
+      "Quantity": "1",
+      "UnitofMeasure": "PCS",
+      "PostingDate": "2022-10-07T21:44:42.7070000Z",
+      "UserName": "INTEGRATION WITH PLUR-E APP"
+    },
+    {
+      "EntryType": "Modified",
+      "LicensePlateStatus": "Received",
+      "Document": "Warehouse Receipt",
+      "DocumentNo": "WHSE REC-0000026",
+      "LocationCode": "WMS",
+      "BinCode": "REC-01",
+      "Quantity": "1",
+      "UnitofMeasure": "PCS",
+      "PostingDate": "2022-10-07T21:46:17.7800000Z",
+      "UserName": "INTEGRATION WITH PLUR-E APP"
+    },
+    {
+      "EntryType": "Modified",
+      "LicensePlateStatus": "Labeled",
+      "Document": "Warehouse Putway",
+      "DocumentNo": "WHSE PUTAWAY-0000072",
+      "LocationCode": "WMS",
+      "BinCode": "REC-01",
+      "Quantity": "1",
+      "UnitofMeasure": "PCS",
+      "PostingDate": "2022-10-07T21:46:18.3100000Z",
+      "UserName": "INTEGRATION WITH PLUR-E APP"
+    }
+  ]
 }
 ```
 **Error**:
