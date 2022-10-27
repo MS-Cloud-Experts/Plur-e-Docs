@@ -63,10 +63,9 @@ Once the amounts of the LP have been obtained, we could already know the maximum
   "ProcessMethod": "SplitLPPallet",
   "Parameters": [
     {
-      "NewLicensePlateCode": "LP000777",
-      "NewQuantity": "1",
-      "OriginalQuantityModified": "2",
-      "OriginalLicensePlateCode": "LP000535"
+      "OldLPPalletCode": "LP000777",
+      "NewLPPalletCode": "LP000535",
+      "LPChildSingleCode": "LP000535"
     }
   ]
 }
