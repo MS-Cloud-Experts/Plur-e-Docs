@@ -1,27 +1,15 @@
 **ProcessMethod**: Get_LPLedgerEntries
 
 **Description**:
-Method that returns the combination of Registration Headers / Registration Lines according to the number of the **Warehouse Receipt** with which it is filtered.
+This method returns the history of a specific License Plate..
 
 **Input**:
 **Parameters**: Status of the LP, the options are of the integer type as seen below
--	**No**: Warehouse Receipt Number.
--	**IsPallet**: if the variable is true it indicates that it is Pallet, otherwise it is Single.
--	**LicensePlateStatus**:  
-
- -value(0; "Pre-Labeled") 
- -value(1; "Received") -> Warehouse Receipt
- -value(2; "Labeled") -> Warehouse PutAway
- -value(3; "Stored") -> Warehouse Registered PutAway
- -value(4; "Piked") 
- -value(5; "Packed") 
- -value(6; "Released") 
- -value(7; "Voided")
- -value(8; "Process") 
+-	**No**: License Plate Number.
 
 **Ouput**: 
--	**LicensePlates**: Contains the information of a License Plate header in **LicensePlatesHeaders** and **LicensePlatesLines** contains an array of License Plate Lines.
--	
+-	**LicensePlateEntries**:The output is an array that contains all the history of transactions, amount changes, bins, of a LP.
+
 **Example**:
 
 Request:
@@ -38,10 +26,9 @@ Request:
 ```
 
 
-
 Outputs:
 
-![image.png](/.attachments/image-5195c8c8-5405-4be5-8581-fd9d0f152dc0.png)
+![image.png](/.attachments/image-383553e4-0404-4c82-afcf-613728dd266c.png)
 
 ```
 {
