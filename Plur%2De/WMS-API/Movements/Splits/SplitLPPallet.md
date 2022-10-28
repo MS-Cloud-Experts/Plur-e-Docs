@@ -14,14 +14,15 @@ This method allows you to split an existing License Plate into a new one.
 **Split Types:**
 
  **LP Pallet**: in this type we have 3 options:
-  1) If the LP Pallet has items between its lines, the scenario would be identical to the aforementioned LP Single.
+  1) If the LP Pallet has items between its lines, the scenario would be identical to the aforementioned LP Single ----> [This Link.](https://dev.azure.com/MSCloudExperts/Plur-e/_wiki/wikis/Plur-e.wiki/66/SplitLPSingle)
+
   2) If one of the lines is an LP Single, we could create a new LP Pallet, where we would transfer the LP Singles of the Original. Perhaps it should be considered that the original LP Pallet should not be left without lines
 
 **Input**:
 Parameters: 
--	**OldLPPalletCode**: Represents the code of the new License Plate to which the new quantities will be assigned. 
--	**NewLPPalletCode**: Represents the decimal amounts that will be transferred to the new LP.
--	**LPChildSingleCode**: It represents the decimal quantities that remained from the original LP, that is, if at the beginning there were 10 units, and in the "NewQuantity" parameter 1 unit was transferred, then this parameter should be sent 9.
+-	**OldLPPalletCode**: Represents the LP Pallet of Origin, from which the user is going to get an LP Single.
+-	**NewLPPalletCode**: Represents the Destination LP Pallet, which the user is going to insert the LP Single.
+-	**LPChildSingleCode**:  It is the LP Single child of the LP Pallet Original that is going to be moved.
 
 
 
