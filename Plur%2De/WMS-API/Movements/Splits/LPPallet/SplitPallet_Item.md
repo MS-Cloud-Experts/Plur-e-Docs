@@ -31,6 +31,24 @@ Parameters:
 **Step 1:** 
 Create Empty LP Pallet.
 
+```
+{
+  "ProcessMethod": "GenerateEmptyLP",
+  "Parameters": [
+    {
+      "LPType": "Pallet",
+      "ZoneCode": "STO",
+      "LocationCode": "CCC",
+      "BinCode": ""
+    }
+  ]
+}
+```
+
+
+**Output New LP Pallet:**
+![image.png](/.attachments/image-0f816a7e-2722-4749-bce8-c0fef82e04d6.png)
+
 **Step 2:**
 To make a split we must first consult our original LP.
 
