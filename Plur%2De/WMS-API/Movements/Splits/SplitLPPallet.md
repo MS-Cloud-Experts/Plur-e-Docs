@@ -128,6 +128,13 @@ Assuming we want to move the LP Single: **LP-00272**
     "Message": "The LPChildSingleCode LP-00275 was not found."
   }
 }
+
+{
+  "Error": {
+    "Code": "Configuration Error",
+    "Message": "The LP Single LP-00276 does not belong to the LP Pallet LP-00275."
+  }
+}
 ```
 
     
