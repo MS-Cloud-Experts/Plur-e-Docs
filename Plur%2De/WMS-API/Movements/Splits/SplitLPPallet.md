@@ -98,8 +98,14 @@ Assuming we want to move the LP Single: **LP-00272**
 }
 ```
 
+**Old Pallet:**
+![image.png](/.attachments/image-330e28ed-04ae-401d-8397-3a677ddd46b2.png)
 
-Possible Errores:
+**New Pallet:**
+![image.png](/.attachments/image-4e07238c-31d7-4d30-a5d5-e7ac87d5198a.png)
+
+
+**Possible Errors:**
 
     
 
