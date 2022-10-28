@@ -69,7 +69,7 @@ To make a split we must first consult our original LP.
 
 ![image.png](/.attachments/image-3b7d5cd8-df48-4fd7-8174-15828940b924.png)
 
-
+**Step 3:**
 
 **License Plate in Business Central:**
 ![image.png](/.attachments/image-ca56f4ad-94f5-42cc-a8a3-02a626927018.png)
