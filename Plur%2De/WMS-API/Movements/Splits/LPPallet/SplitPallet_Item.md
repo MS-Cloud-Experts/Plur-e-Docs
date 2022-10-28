@@ -43,14 +43,15 @@ To make a split we must first consult our original LP.
   ]
 }
 ```
+**Output GetLicencesPlate:**
 ![image.png](/.attachments/image-d4f965d6-6161-4790-a811-8e9c3b141ede.png)
 
 ![image.png](/.attachments/image-3b7d5cd8-df48-4fd7-8174-15828940b924.png)
 
 **Step 2:**
 
-**Output GetLicencesPlate:**
-![image.png](/.attachments/image-10381964-fbc5-48ed-8a94-81a8e68d2064.png)
+
+
 
 **License Plate in Business Central:**
 ![image.png](/.attachments/image-ca56f4ad-94f5-42cc-a8a3-02a626927018.png)
