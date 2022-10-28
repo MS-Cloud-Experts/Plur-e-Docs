@@ -36,6 +36,12 @@ Parameters:
 
 To make a split we must first consult our original LP.
 
+![image.png](/.attachments/image-d6f1dd00-47e5-4686-8cfa-267982db5422.png)
+
+
+
+![image.png](/.attachments/image-1ea92ce5-a13a-4340-a136-91eec26e456a.png)
+
 **Request**:
 
 ```
@@ -65,9 +71,9 @@ Once the amounts of the LP have been obtained, we could already know the maximum
   "ProcessMethod": "SplitLPPallet",
   "Parameters": [
     {
-      "OldLPPalletCode": "LP000777",
-      "NewLPPalletCode": "LP000535",
-      "LPChildSingleCode": "LP000535"
+      "OldLPPalletCode": "LP-00275",
+      "NewLPPalletCode": "LP-00285",
+      "LPChildSingleCode": "LP-00272"
     }
   ]
 }
