@@ -29,6 +29,9 @@ Parameters:
 **Example**:
 
 **Step 1:** 
+Create Empty LP Pallet.
+
+**Step 2:**
 To make a split we must first consult our original LP.
 
 **Request**:
@@ -47,9 +50,6 @@ To make a split we must first consult our original LP.
 ![image.png](/.attachments/image-d4f965d6-6161-4790-a811-8e9c3b141ede.png)
 
 ![image.png](/.attachments/image-3b7d5cd8-df48-4fd7-8174-15828940b924.png)
-
-**Step 2:**
-
 
 
 
