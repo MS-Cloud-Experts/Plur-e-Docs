@@ -10,7 +10,7 @@ This method allows you to split an existing License Plate into a new one.
 2) All Split has to do with the Storage process.
 
 
-**LP Single**: we can divide the quantities of an Item belonging to an LP Single into 2 groups. To do this you need to create a blank LP and from there transfer the quantities.
+**LP Pallet**: we can divide the quantities of an Item belonging to an LP Single into 2 groups. To do this you need to create a blank LP and from there transfer the quantities.
    Internal Note: Could it be transferred to a Pallet?
 
 
