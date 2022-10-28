@@ -71,7 +71,7 @@ To make a split we must first consult our original LP.
 
 ![image.png](/.attachments/image-b93d1077-3f6d-4202-b11a-fa54bfa33129.png)
 
-**Step 3: GenerateEmptyLP** 
+**Step 3: SplitLPPallet** 
 
 **Request:**
 ```
