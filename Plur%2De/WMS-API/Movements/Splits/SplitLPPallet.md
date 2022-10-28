@@ -36,11 +36,9 @@ Parameters:
 
 To make a split we must first consult our original LP.
 
+**Step 1:**
+
 ![image.png](/.attachments/image-d6f1dd00-47e5-4686-8cfa-267982db5422.png)
-
-
-
-![image.png](/.attachments/image-1ea92ce5-a13a-4340-a136-91eec26e456a.png)
 
 **Request**:
 
@@ -49,11 +47,15 @@ To make a split we must first consult our original LP.
   "ProcessMethod": "GetLicencesPlate",
   "Parameters": [
     {
-      "No": "LP000535"
+      "No": "LP000275"
     }
   ]
 }
 ```
+
+![image.png](/.attachments/image-1ea92ce5-a13a-4340-a136-91eec26e456a.png)
+
+
 
 **Output GetLicencesPlate:**
 ![image.png](/.attachments/image-10381964-fbc5-48ed-8a94-81a8e68d2064.png)
