@@ -29,7 +29,7 @@ Parameters:
 **Example**:
 
 **Step 1:** 
-Create Empty LP Pallet.
+Create an Empty LP Pallet.
 
 ```
 {
