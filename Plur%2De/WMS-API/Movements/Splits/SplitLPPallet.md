@@ -107,6 +107,30 @@ Assuming we want to move the LP Single: **LP-00272**
 
 **Possible Errors:**
 
+
+```
+{
+  "Error": {
+    "Code": "Configuration Error",
+    "Message": "The OldLPPalletCode LP-002751 was not found."
+  }
+}
+
+{
+  "Error": {
+    "Code": "Configuration Error",
+    "Message": "The NewLPPalletCode LP-00275 was not found."
+  }
+}
+
+{
+  "Error": {
+    "Code": "Configuration Error",
+    "Message": "The LPChildSingleCode LP-00275 was not found."
+  }
+}
+```
+
     
 
 
