@@ -36,7 +36,7 @@ Parameters:
 
 To make a split we must first consult our original LP.
 
-**Step 1:**
+**Step 1: GetLicencesPlate** 
 
 ![image.png](/.attachments/image-d6f1dd00-47e5-4686-8cfa-267982db5422.png)
 
