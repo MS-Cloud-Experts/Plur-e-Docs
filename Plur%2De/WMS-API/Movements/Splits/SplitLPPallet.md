@@ -7,11 +7,11 @@ This method allows you to split an existing License Plate into a new one.
 
 1) You cannot split an LP Single that belongs to an LP Pallet.
 
-2) All Split has to do in the Storage process.
+2) All Split has to do with the Storage process.
 
 **Split Types:**
 
- **LP Pallet**: in this type we have 3 options:
+ **LP Pallet**: in this type, we have 3 options:
   1) If the LP Pallet has items between its lines, the scenario would be identical to the aforementioned LP Single ----> [This Link.](https://dev.azure.com/MSCloudExperts/Plur-e/_wiki/wikis/Plur-e.wiki/66/SplitLPSingle)
 
   2) If one of the lines is an LP Single, we could create a new LP Pallet, where we would transfer the LP Singles of the Original. Perhaps it should be considered that the original LP Pallet should not be left without lines
