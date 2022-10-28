@@ -32,7 +32,7 @@ Parameters:
 
 
 
-**Example**:
+# **Example**:
 
 To make a split we must first consult our original LP.
 
