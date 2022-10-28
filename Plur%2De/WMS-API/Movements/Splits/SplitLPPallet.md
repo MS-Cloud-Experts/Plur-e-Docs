@@ -53,7 +53,21 @@ To make a split we must first consult our original LP.
 }
 ```
 
-**Step 2: GetLicencesPlate** 
+**Step 2: GenerateEmptyLP** 
+
+```
+{
+  "ProcessMethod": "GenerateEmptyLP",
+  "Parameters": [
+    {
+      "LPType": "Pallet",
+      "ZoneCode": "STO",
+      "LocationCode": "CCC",
+      "BinCode": ""
+    }
+  ]
+}
+```
 
 ![image.png](/.attachments/image-1ea92ce5-a13a-4340-a136-91eec26e456a.png)
 
