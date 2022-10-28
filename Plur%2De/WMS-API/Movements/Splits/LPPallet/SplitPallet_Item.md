@@ -9,35 +9,26 @@ This method allows you to split an existing License Plate into a new one.
 
 2) All Split has to do with the Storage process.
 
-**Split Types:**
 
- **LP Pallet**: in this type, we have 2 options:
-  1) If the LP Pallet has items between its lines, the scenario would be identical to the aforementioned LP Single ----> [This Link.](https://dev.azure.com/MSCloudExperts/Plur-e/_wiki/wikis/Plur-e.wiki/66/SplitLPSingle)
+**LP Single**: we can divide the quantities of an Item belonging to an LP Single into 2 groups. To do this you need to create a blank LP and from there transfer the quantities.
+   Internal Note: Could it be transferred to a Pallet?
 
-  2) If one of the lines is an LP Single, we could create a new LP Pallet, where we would transfer the LP Singles of the Original. Perhaps it should be considered that the original LP Pallet should not be left without lines
 
 **Input**:
 Parameters: 
--	**OldLPPalletCode**: Represents the LP Pallet of Origin, from which the user is going to get an LP Single.
--	**NewLPPalletCode**: Represents the Destination LP Pallet, which the user is going to insert the LP Single.
--	**LPChildSingleCode**:  It is the LP Single child of the LP Pallet Original that is going to be moved.
+-	**NewLicensePlateCode**: Represents the code of the new License Plate to which the new quantities will be assigned. To create a new License Plate you must use this method:  [GenerateEmptyLP](/Plur%2De/WMS-API/Movements/Splits/GenerateEmptyLP)
 
-
-
-To create a new License Plate you must use this method:  [GenerateEmptyLP](/Plur%2De/WMS-API/Movements/Splits/GenerateEmptyLP)
-
+-	**NewQuantity**: Represents the decimal amounts that will be transferred to the new LP.
+-	**OriginalQuantityModified**: It represents the decimal quantities that remained from the original LP, that is, if at the beginning there were 10 units, and in the "NewQuantity" parameter 1 unit was transferred, then this parameter should be sent 9.
+-	**OriginalLicensePlateCode**: Represents the License Plate No of the original LP.
 
 **Ouput**: List of License Plates filtered by Item No.
 
 
 
-# **Example**:
+**Example**:
 
 To make a split we must first consult our original LP.
-
-**Step 1: GetLicencesPlate** 
-
-![image.png](/.attachments/image-d6f1dd00-47e5-4686-8cfa-267982db5422.png)
 
 **Request**:
 
@@ -46,99 +37,85 @@ To make a split we must first consult our original LP.
   "ProcessMethod": "GetLicencesPlate",
   "Parameters": [
     {
-      "No": "LP000275"
+      "No": "LP000535"
     }
   ]
 }
 ```
 
-**Step 2: GenerateEmptyLP** 
+**Output GetLicencesPlate:**
+![image.png](/.attachments/image-10381964-fbc5-48ed-8a94-81a8e68d2064.png)
 
-```
-{
-  "ProcessMethod": "GenerateEmptyLP",
-  "Parameters": [
-    {
-      "LPType": "Pallet",
-      "ZoneCode": "STO",
-      "LocationCode": "CCC",
-      "BinCode": ""
-    }
-  ]
-}
-```
+**License Plate in Business Central:**
+![image.png](/.attachments/image-ca56f4ad-94f5-42cc-a8a3-02a626927018.png)
 
-![image.png](/.attachments/image-b93d1077-3f6d-4202-b11a-fa54bfa33129.png)
 
-**Step 3: SplitLPPallet** :
+Once the amounts of the LP have been obtained, we could already know the maximum amounts to divide and execute the Split process
 
-Assuming we want to move the LP Single: **LP-00272**
 
 **Request:**
 ```
 {
-  "ProcessMethod": "SplitPallet_LPSingle",
+  "ProcessMethod": "SplitPallet_Item",
   "Parameters": [
     {
-      "OldLPPalletCode": "LP-00275",
-      "NewLPPalletCode": "LP-00285",
-      "LPChildSingleCode": "LP-00272"
+      "NewLicensePlateCode": "LP000777",
+      "NewQuantity": "1",
+      "OriginalQuantityModified": "2",
+      "OriginalLicensePlateCode": "LP000535"
     }
   ]
 }
 ```
 
-**Ouput:**
+**Note**: the amounts in **NewQuantity** and in **OriginalQuantityModified** can never be greater than the original amounts on the LP.
 
+**This would be the equivalent in Business Central:**
+![image.png](/.attachments/image-7633550e-9111-45ad-b374-fe695ce7d4fc.png)
+
+In the image we see the field marked in yellow "**New Quantity**" this would be what should be left to our original LP, and it is the parameter **OriginalQuantityModified** that we will pass to our Request.
+
+The output will contain the post number of the 2 internal transactions that are executed. The input on the new LP and the output on the Original LP.
+
+**Outputs:**
 ```
 {
-  "Result": true,
-  "Message": "Ok"
+  "Result_AjustOriginal": "{\"Posted\":527}",
+  "Result_AjustNew": "{\"Posted\":528}"
 }
 ```
-
-**Old Pallet:**
-![image.png](/.attachments/image-330e28ed-04ae-401d-8397-3a677ddd46b2.png)
-
-**New Pallet:**
-![image.png](/.attachments/image-4e07238c-31d7-4d30-a5d5-e7ac87d5198a.png)
-
 
 **Possible Errors:**
 
-
 ```
 {
   "Error": {
     "Code": "Configuration Error",
-    "Message": "The OldLPPalletCode LP-002751 was not found."
+    "Message": "The NewLicensePlateCode LP000555 was not found."
   }
 }
 
 {
   "Error": {
     "Code": "Configuration Error",
-    "Message": "The NewLPPalletCode LP-00275 was not found."
+    "Message": "The OriginalLicensePlateCode LP000555 was not found."
   }
 }
 
 {
   "Error": {
     "Code": "Configuration Error",
-    "Message": "The LPChildSingleCode LP-00275 was not found."
+    "Message": "The new License Plate LP000776 that will receive the Quantities cannot have lines."
   }
 }
 
 {
   "Error": {
     "Code": "Configuration Error",
-    "Message": "The LP Single LP-00276 does not belong to the LP Pallet LP-00275."
+    "Message": "The amounts to be divided in the new License Plate= LP000779 cannot be greater than the Original License Plate=LP000555."
   }
 }
 ```
-
-    
-
 
 
 
