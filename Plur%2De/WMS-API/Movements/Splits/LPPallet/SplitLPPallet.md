@@ -1,4 +1,4 @@
-**ProcessMethod**: SplitLPPallet
+**ProcessMethod**: SplitPallet_LPSingle
 
 **Description**:
 This method allows you to split an existing License Plate into a new one.
@@ -77,7 +77,7 @@ Assuming we want to move the LP Single: **LP-00272**
 **Request:**
 ```
 {
-  "ProcessMethod": "SplitLPPallet",
+  "ProcessMethod": "SplitPallet_LPSingle",
   "Parameters": [
     {
       "OldLPPalletCode": "LP-00275",
