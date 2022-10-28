@@ -89,15 +89,20 @@ Assuming we want to move the LP Single: **LP-00272**
 }
 ```
 
+**Ouput:**
+
+```
+{
+  "Result": true,
+  "Message": "Ok"
+}
+```
+
+
 Possible Errores:
 
     
-```
-"error": {
-        "code": "Application_DialogException",
-        "message": "ProcessMethod SplitLPPallet not found!!  CorrelationId:  e01856f0-8e5b-4af7-b74d-caab5151904f."
-    }
-```
+
 
 
 
