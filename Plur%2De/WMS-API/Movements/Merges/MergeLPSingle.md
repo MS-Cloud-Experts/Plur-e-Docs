@@ -1,7 +1,7 @@
 **ProcessMethod**: Merge
 
 **Description**:
-This method allows you to split an existing License Plate into a new one.
+This method allows you to merge an existing License Plate into a new one.
 
 **Input**:
 Parameters: 
