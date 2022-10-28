@@ -47,7 +47,7 @@ To make a split we must first consult our original LP.
 
 ![image.png](/.attachments/image-3b7d5cd8-df48-4fd7-8174-15828940b924.png)
 
-**Step 2: **
+**Step 2:**
 
 **Output GetLicencesPlate:**
 ![image.png](/.attachments/image-10381964-fbc5-48ed-8a94-81a8e68d2064.png)
