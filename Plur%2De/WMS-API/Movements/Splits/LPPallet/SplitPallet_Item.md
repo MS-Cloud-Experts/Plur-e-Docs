@@ -64,7 +64,7 @@ To make a split we must first consult our original LP.
   "ProcessMethod": "GetLicencesPlate",
   "Parameters": [
     {
-      "No": "LP000293"
+      "No": "LP000316"
     }
   ]
 }
