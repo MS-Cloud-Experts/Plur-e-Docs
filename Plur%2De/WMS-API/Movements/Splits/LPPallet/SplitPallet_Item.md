@@ -96,17 +96,6 @@ To make a split we must first consult our original LP.
 Once the amounts of the LP have been obtained, we could already know the maximum amounts to divide and execute the Split process
 
 
-
-
-**Note**: the amounts in **NewQuantity** and in **OriginalQuantityModified** can never be greater than the original amounts on the LP.
-
-**This would be the equivalent in Business Central:**
-![image.png](/.attachments/image-7633550e-9111-45ad-b374-fe695ce7d4fc.png)
-
-In the image we see the field marked in yellow "**New Quantity**" this would be what should be left to our original LP, and it is the parameter **OriginalQuantityModified** that we will pass to our Request.
-
-The output will contain the post number of the 2 internal transactions that are executed. The input on the new LP and the output on the Original LP.
-
 **New LP:**
 ![image.png](/.attachments/image-c7914aaf-2ddf-4ee1-b957-9a14014df07d.png)
 
