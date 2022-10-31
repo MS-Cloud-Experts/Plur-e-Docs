@@ -110,8 +110,8 @@ The output will contain the post number of the 2 internal transactions that are 
 **Outputs:**
 ```
 {
-  "Result_AjustOriginal": "{\"Posted\":527}",
-  "Result_AjustNew": "{\"Posted\":528}"
+  "Result_AjustOriginal": "{\"Posted\":90}",
+  "Result_AjustNew": "{\"Posted\":91}"
 }
 ```
 
