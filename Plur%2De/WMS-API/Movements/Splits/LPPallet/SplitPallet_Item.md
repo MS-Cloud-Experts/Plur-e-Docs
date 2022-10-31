@@ -79,10 +79,11 @@ To make a split we must first consult our original LP.
   "ProcessMethod": "SplitPallet_Item",
   "Parameters": [
     {
-      "NewLicensePlateCode": "LP000777",
+      "NewLicensePlateCode": "LP-00320",
       "NewQuantity": "1",
-      "OriginalQuantityModified": "2",
-      "OriginalLicensePlateCode": "LP000535"
+      "OriginalQuantityModified": "4",
+      "OriginalLicensePlateCode": "LP-00316",
+      "ItemCode": "1900-S"
     }
   ]
 }
