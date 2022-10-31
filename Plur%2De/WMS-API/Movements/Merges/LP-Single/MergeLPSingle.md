@@ -1,4 +1,4 @@
-**ProcessMethod**: Merge
+**ProcessMethod**: MergeLPSingle
 
 **Description**:
 This method allows you to merge an existing License Plate into a new one.
@@ -22,7 +22,7 @@ To make a split we must first consult our original LP.
 
 ```
 {
-  "ProcessMethod": "Merge",
+  "ProcessMethod": "MergeLPSingle",
   "Parameters": [
     {
       "LicensePlatesHeadersAddedCode": "LP000820",
