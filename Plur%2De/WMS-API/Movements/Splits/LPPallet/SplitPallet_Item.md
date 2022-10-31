@@ -89,8 +89,8 @@ To make a split we must first consult our original LP.
 }
 ```
 
-**License Plate in Business Central:**
-![image.png](/.attachments/image-ca56f4ad-94f5-42cc-a8a3-02a626927018.png)
+**Request in Postman:**
+![image.png](/.attachments/image-5f5f44a3-8383-42b2-9d5f-31ed0a789f64.png)
 
 
 Once the amounts of the LP have been obtained, we could already know the maximum amounts to divide and execute the Split process
