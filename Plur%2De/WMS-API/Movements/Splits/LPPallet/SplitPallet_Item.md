@@ -52,6 +52,8 @@ Create an Empty LP Pallet.
 **Output New LP Pallet:**
 ![image.png](/.attachments/image-0f816a7e-2722-4749-bce8-c0fef82e04d6.png)
 
+![image.png](/.attachments/image-31fa6598-ebf2-46f3-92cf-c8604487cee5.png)
+
 **Step 2:**
 To make a split we must first consult our original LP.
 
@@ -68,9 +70,7 @@ To make a split we must first consult our original LP.
 }
 ```
 **Output GetLicencesPlate:**
-![image.png](/.attachments/image-d4f965d6-6161-4790-a811-8e9c3b141ede.png)
-
-![image.png](/.attachments/image-3b7d5cd8-df48-4fd7-8174-15828940b924.png)
+![image.png](/.attachments/image-4d80cb32-b508-4fef-afcf-3b789eb1515e.png)
 
 **Step 3:**
 **Request:**
@@ -106,6 +106,9 @@ Once the amounts of the LP have been obtained, we could already know the maximum
 In the image we see the field marked in yellow "**New Quantity**" this would be what should be left to our original LP, and it is the parameter **OriginalQuantityModified** that we will pass to our Request.
 
 The output will contain the post number of the 2 internal transactions that are executed. The input on the new LP and the output on the Original LP.
+
+**New LP:**
+![image.png](/.attachments/image-c7914aaf-2ddf-4ee1-b957-9a14014df07d.png)
 
 **Outputs:**
 ```
