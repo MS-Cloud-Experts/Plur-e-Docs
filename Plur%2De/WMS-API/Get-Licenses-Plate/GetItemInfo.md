@@ -8,7 +8,9 @@ Metodo que permite devolver si un Item esta o no manejado por plure
 -	**ItemNo**: Item Number.
 
 **Ouput**: 
--	**LicensePlateEntries**:The output is an array that contains all the history of transactions, amount changes, bins, of a LP.
+-	**ItemNo**:Item that was just consulted
+-	**Managed_by_PlurE**: boolean variable that says whether or not it is covered by plure
+
 
 **Example**:
 
