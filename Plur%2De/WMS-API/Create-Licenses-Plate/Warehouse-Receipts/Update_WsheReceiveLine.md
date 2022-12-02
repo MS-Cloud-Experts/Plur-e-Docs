@@ -37,7 +37,7 @@ The values of this field will be treated as Integers, this being the following m
 
 **Example:**
 
-![image.png](/.attachments/image-e368e677-2e16-4f5b-9cee-2faeb349800d.png)
+![image.png](/.attachments/image-876de546-d238-4229-9c9a-e8553849a347.png)
 
 **Request:**
 ```
@@ -102,53 +102,29 @@ The values of this field will be treated as Integers, this being the following m
 {
   "WarehousePutAwayLines": [
     {
-      "ActivityType": 1,
-      "No": "WHSE PUTAWAY-00021",
+      "No": "WHSE REC-00001",
       "ItemNo": "1896-S",
+      "LineNo": "10000",
+      "ZoneCode": "REC",
+      "LocationCode": "WMS",
+      "BinCode": "REC-1",
+      "Quantity": 10.0,
+      "QtyToReceive": 5.0
+    },
+    {
+      "No": "WHSE REC-00001",
+      "ItemNo": "1900-S",
       "LineNo": "20000",
-      "ZoneCode": "STO",
+      "ZoneCode": "REC",
       "LocationCode": "WMS",
-      "BinCode": "STO-1",
-      "Quantity": 5.0,
-      "LP": "LP-00144"
-    },
-    {
-      "ActivityType": 1,
-      "No": "WHSE PUTAWAY-00021",
-      "ItemNo": "1896-S",
-      "LineNo": "22500",
-      "ZoneCode": "",
-      "LocationCode": "WMS",
-      "BinCode": "",
-      "Quantity": 5.0,
-      "LP": "LP-00143"
-    },
-    {
-      "ActivityType": 1,
-      "No": "WHSE PUTAWAY-00021",
-      "ItemNo": "1896-S",
-      "LineNo": "25000",
-      "ZoneCode": "",
-      "LocationCode": "WMS",
-      "BinCode": "",
-      "Quantity": 5.0,
-      "LP": "LP-00142"
-    },
-    {
-      "ActivityType": 1,
-      "No": "WHSE PUTAWAY-00021",
-      "ItemNo": "1896-S",
-      "LineNo": "30000",
-      "ZoneCode": "",
-      "LocationCode": "WMS",
-      "BinCode": "",
-      "Quantity": 5.0,
-      "LP": "LP-00141"
+      "BinCode": "REC-1",
+      "Quantity": 10.0,
+      "QtyToReceive": 5.0
     }
   ]
 }
 ```
-![image.png](/.attachments/image-8e47e464-7a65-4e08-a120-0bd6ec91bd13.png)
+![image.png](/.attachments/image-46a82648-b51e-480f-b4a8-d45d1d600c0c.png)
 
 
 **Errors:**
@@ -163,7 +139,7 @@ The values of this field will be treated as Integers, this being the following m
 {
   "Error": {
     "Code": "Error Modifying",
-    "Message": "Error modifying the Warehouse Activiy No WHSE PUTAWAY-000211, Line No 20000, Item No 1896-S, LP LP-00144"
+    "Message": "Error modifying the Warehouse Receipt Line No WHSE REC-00001, Line No 20000, Item No 1896-S, QtyToReceive 5"
   }
 }
 ```
