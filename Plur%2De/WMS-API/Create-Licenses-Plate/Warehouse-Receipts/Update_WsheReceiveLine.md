@@ -1,37 +1,19 @@
 **ProcessMethod**: Update_WsheReceiveLine
 
 **Description**:
-Update_Wsheput_Lines_V1
 
-The method used to update the Warehouse Put Away Lines or also known as Warehouse Activity Lines.
-
-The idea of this method is to be able to be used before posting in case we want to update the destination of the Location/Bin of our LP.
-
-**Input**:  The output is the information of new lines of a Warehouse Put Away, and although only the Key (Activity Type, Line No, No) is needed to perform any search, it has been decided to further detail the information with the following fields.
+Method to update an Arrangement of Receipt Lines. Specially used to receive Items that are not handled by plur-e
 
 **Parameters**:
--	**ActivityType** : Since the table is really called Warehouse Activity Line, and it works for both Put Aways and Shipments, the type that allows it to be differentiated is included, which are the following:
-**'Put-away'**, **'Pick'**, **'Movement'**, **'Invt. Put-away'**,**'Invt. Pick'**, **'Invt. Movement**.
-
-The values of this field will be treated as Integers, this being the following mapping:
-
-```
-**"Put-away"**:= 1;
-**"Pick"** :=   2;
-**"Movement"** :=   3; 
-**"Invt. Put-away"** := 4; 
-**"Invt. Pick"**:= 5; 
-**"Invt. Movement"**:= 6;
-```
  
--	**No** :Warehouse Put Away number.
+-	**No** :Warehouse Receipt Number.
+-	**SourceNo** :Source No.
 -	**ItemNo** : Item No related.
 -	**LineNo** : Number  Line.
 -	**ZoneCode** : Zone
 -	**LocationCode** : Location
 -	**BinCode** : Bin
--	**Quantity** : Quantities
--	**LP** : License Plate Number
+-	**QtyToReceive** : Qty To Receive
 
 **Output**:  If successful, the same fields used in the input will be returned as output, but with the updated values of Bin, zone, and location.
 
@@ -42,53 +24,29 @@ The values of this field will be treated as Integers, this being the following m
 **Request:**
 ```
 {
-  "ProcessMethod": "Update_Wsheput_Lines_V1",
+  "ProcessMethod": "Update_WsheReceiveLine",
   "Parameters": [
     {
-      "WarehousePutAwayLines": [
+      "WarehouseReceiptLines": [
         {
-          "ActivityType": 1,
-          "No": "WHSE PUTAWAY-00021",
+          "No": "WHSE REC-00001",
+          "SourceNo": "106006",
           "ItemNo": "1896-S",
+          "LineNo": "10000",
+          "ZoneCode": "STO",
+          "LocationCode": "WMS",
+          "BinCode": "REC-1",
+          "QtyToReceive": 5.0
+        },
+        {
+          "No": "WHSE REC-00001",
+          "SourceNo": "106006",
+          "ItemNo": "1900-S",
           "LineNo": "20000",
           "ZoneCode": "STO",
           "LocationCode": "WMS",
-          "BinCode": "FLOOR",
-          "Quantity": 5.0,
-          "LP": "LP-00144"
-        },
-        {
-          "ActivityType": 1,
-          "No": "WHSE PUTAWAY-00021",
-          "ItemNo": "1896-S",
-          "LineNo": "22500",
-          "ZoneCode": "",
-          "LocationCode": "WMS",
-          "BinCode": "",
-          "Quantity": 5.0,
-          "LP": "LP-00143"
-        },
-        {
-          "ActivityType": 1,
-          "No": "WHSE PUTAWAY-00021",
-          "ItemNo": "1896-S",
-          "LineNo": "25000",
-          "ZoneCode": "",
-          "LocationCode": "WMS",
-          "BinCode": "",
-          "Quantity": 5.0,
-          "LP": "LP-00142"
-        },
-        {
-          "ActivityType": 1,
-          "No": "WHSE PUTAWAY-00021",
-          "ItemNo": "1896-S",
-          "LineNo": "30000",
-          "ZoneCode": "",
-          "LocationCode": "WMS",
-          "BinCode": "",
-          "Quantity": 5.0,
-          "LP": "LP-00141"
+          "BinCode": "REC-1",
+          "QtyToReceive": 5.0
         }
       ]
     }
