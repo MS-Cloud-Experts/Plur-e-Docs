@@ -28,68 +28,21 @@ Request:
 
 Outputs:
 
-![image.png](/.attachments/image-383553e4-0404-4c82-afcf-613728dd266c.png)
+![image.png](/.attachments/image-a8a837aa-56e6-4d9d-9f7e-616bed90832a.png)
 
 ```
 {
-  "LicensePlateEntries": [
-    {
-      "EntryType": "Created",
-      "LicensePlateStatus": "Received",
-      "Document": "Warehouse Receipt",
-      "DocumentNo": "WHSE REC-0000026",
-      "LocationCode": "WMS",
-      "BinCode": "REC-01",
-      "Quantity": "0",
-      "UnitofMeasure": "",
-      "PostingDate": "2022-10-07T21:44:42.6930000Z",
-      "UserName": "INTEGRATION WITH PLUR-E APP"
-    },
-    {
-      "EntryType": "Modified",
-      "LicensePlateStatus": "Received",
-      "Document": "Warehouse Receipt",
-      "DocumentNo": "WHSE REC-0000026",
-      "LocationCode": "WMS",
-      "BinCode": "REC-01",
-      "Quantity": "1",
-      "UnitofMeasure": "PCS",
-      "PostingDate": "2022-10-07T21:44:42.7070000Z",
-      "UserName": "INTEGRATION WITH PLUR-E APP"
-    },
-    {
-      "EntryType": "Modified",
-      "LicensePlateStatus": "Received",
-      "Document": "Warehouse Receipt",
-      "DocumentNo": "WHSE REC-0000026",
-      "LocationCode": "WMS",
-      "BinCode": "REC-01",
-      "Quantity": "1",
-      "UnitofMeasure": "PCS",
-      "PostingDate": "2022-10-07T21:46:17.7800000Z",
-      "UserName": "INTEGRATION WITH PLUR-E APP"
-    },
-    {
-      "EntryType": "Modified",
-      "LicensePlateStatus": "Labeled",
-      "Document": "Warehouse Putway",
-      "DocumentNo": "WHSE PUTAWAY-0000072",
-      "LocationCode": "WMS",
-      "BinCode": "REC-01",
-      "Quantity": "1",
-      "UnitofMeasure": "PCS",
-      "PostingDate": "2022-10-07T21:46:18.3100000Z",
-      "UserName": "INTEGRATION WITH PLUR-E APP"
-    }
-  ]
+  "ItemNo": "1900-S",
+  "Managed_by_PlurE": false
 }
 ```
+
 **Error**:
 ```
 {
   "Error": {
     "Code": "Not found",
-    "Message": "The Licences Plate List is Empty"
+    "Message": "The Item No (190A0-S) was not found"
   }
 }
 ```
