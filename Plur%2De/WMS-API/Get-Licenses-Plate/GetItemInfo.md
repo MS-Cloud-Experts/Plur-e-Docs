@@ -30,14 +30,13 @@ Request:
 
 Outputs:
 
-![image.png](/.attachments/image-a8a837aa-56e6-4d9d-9f7e-616bed90832a.png)
-
 ```
 {
   "ItemNo": "1900-S",
   "Managed_by_PlurE": false
 }
 ```
+![image.png](/.attachments/image-a8a837aa-56e6-4d9d-9f7e-616bed90832a.png)
 
 **Error**:
 ```
