@@ -1,11 +1,11 @@
 **ProcessMethod**: GetItemInfo
 
 **Description**:
-This method returns the history of a specific License Plate..
+Metodo que permite devolver si un Item esta o no manejado por plure
 
 **Input**:
-**Parameters**: Status of the LP, the options are of the integer type as seen below
--	**No**: License Plate Number.
+**Parameters**:  
+-	**ItemNo**: Item Number.
 
 **Ouput**: 
 -	**LicensePlateEntries**:The output is an array that contains all the history of transactions, amount changes, bins, of a LP.
