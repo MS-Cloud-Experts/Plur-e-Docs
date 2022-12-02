@@ -13,45 +13,14 @@ This method returns the Default Bin used to edit a Put-Away
 ```
 **Request:**
 {
-  "ProcessMethod": "GetPossiblesBinFromPutAway",
-  "Parameters": [
-    {
-      "No": "LP-00060"
-    }
-  ]
+  "ProcessMethod": "GetDefaultBin",
+  "Parameters": []
 }
 ```
 
-**Output**:
-
-**WarehouseReceipts:**
-
-![image.png](/.attachments/image-8c85a697-b947-4caa-b2f7-24d30ec20db0.png)
+![image.png](/.attachments/image-fd904dae-a032-4457-aae2-bec93f3149b9.png)
 
 **Output:**
-
 ```
-{
-  "Bins": [
-    {
-      "BinCode": "REC-1",
-      "LocationCode": "WMS"
-    },
-    {
-      "BinCode": "REC-2",
-      "LocationCode": "WMS"
-    }
-  ]
-}
-```
-
-**Error**:
-
-```
-{
-  "Error": {
-    "Code": "Not Found",
-    "Message": "The Licences Plate does not exist"
-  }
-}
+{"Default Location":"WMS","Default Bin":"FLOOR"}
 ```
