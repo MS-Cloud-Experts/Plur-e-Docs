@@ -16,10 +16,10 @@ Request:
 
 ```
 {
-  "ProcessMethod": "Get_LPLedgerEntries",
+  "ProcessMethod": "GetItemInfo",
   "Parameters": [
     {
-      "No": "LP-0000779"
+      "ItemNo": "1900-S"
     }
   ]
 }
