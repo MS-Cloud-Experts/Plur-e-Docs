@@ -42,7 +42,7 @@ The values of this field will be treated as Integers, this being the following m
 -	**Quantity** : Quantities
 -	**LP** : Licensen Plate Number
  
-**Warehouse Put Away**
+**Warehouse Put Away Line**
 ![image.png](/.attachments/image-73b97d81-a12a-4952-bb95-563bb80607a6.png)
 
 **Split (Prepare_WarehousePutAway)**
