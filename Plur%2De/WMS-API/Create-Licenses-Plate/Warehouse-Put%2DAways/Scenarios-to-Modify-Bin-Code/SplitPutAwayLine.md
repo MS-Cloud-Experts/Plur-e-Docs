@@ -40,7 +40,7 @@ The values of this field will be treated as Integers, this being the following m
 -	**LocationCode** : Location
 -	**BinCode** : Bin
 -	**Quantity** : Quantities
--	**LP** : Licensen Plate Number
+-	**Qty_to_Handle** : Quantities
  
 **Warehouse Put Away Line**
 ![image.png](/.attachments/image-73b97d81-a12a-4952-bb95-563bb80607a6.png)
@@ -55,10 +55,15 @@ The values of this field will be treated as Integers, this being the following m
 
 ```
 {
-  "ProcessMethod": "Prepare_WarehousePutAway",
+  "ProcessMethod": "SplitPutAwayLine",
   "Parameters": [
     {
-      "No": "WHSE PUTAWAY-00020"
+      "No": "WHSE PUTAWAY-00001",
+      "LocationCode": "WMS",
+      "LineNo": "40000",
+      "ItemNo": "1900-S",
+      "BinCode": "STO2",
+      "QtyToHandle": "8"
     }
   ]
 }
