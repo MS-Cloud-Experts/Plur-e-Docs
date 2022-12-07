@@ -39,6 +39,10 @@ Bring all the Bin codes available Warehouse Put Away No.
 {
   "Bins": [
     {
+      "BinCode": "FLOOR",
+      "LocationCode": "WMS"
+    },
+    {
       "BinCode": "STO-1",
       "LocationCode": "WMS"
     },
