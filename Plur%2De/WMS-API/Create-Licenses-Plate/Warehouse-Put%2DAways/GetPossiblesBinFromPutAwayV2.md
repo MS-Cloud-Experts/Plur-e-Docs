@@ -1,4 +1,4 @@
-**ProcessMethod**: GetPossiblesBinFromPutAway
+**ProcessMethod**: GetPossiblesBinFromPutAwayV2
 
 **Description**:
 Bring all the Bin codes available for a License Plate still located in the Warehouse Receipt.
