@@ -1,16 +1,16 @@
 **ProcessMethod**: GetPossiblesBinFromPutAwayV2
 
 **Description**:
-Bring all the Bin codes available for a License Plate still located in the Warehouse Receipt.
+Bring all the Bin codes available Warehouse Put Away No.
 
 **Parameters**: 
 
 **Input**:
 
 **Parameters**: 
--	**No**: License Plate Number that is created in the Warehouse Receipt 
+-	**No**: Warehouse Put Away No.
 
-**Ouput**: Returns list of Bins available to be adjusted in the License Plate
+**Ouput**: Returns list of Bins available.
 -	**Bins**: is a Json array that contains the Bin Code and Location code to which each possible assignable BIN belongs.
 
 **Example**:
@@ -21,7 +21,7 @@ Bring all the Bin codes available for a License Plate still located in the Wareh
   "ProcessMethod": "GetPossiblesBinFromPutAway",
   "Parameters": [
     {
-      "No": "LP-00060"
+      "No": "WHSE PUTAWAY-00001"
     }
   ]
 }
@@ -29,9 +29,9 @@ Bring all the Bin codes available for a License Plate still located in the Wareh
 
 **Output**:
 
-**WarehouseReceipts:**
+**WarehousePutaways:**
 
-![image.png](/.attachments/image-8c85a697-b947-4caa-b2f7-24d30ec20db0.png)
+![image.png](/.attachments/image-6dbb8df8-b8b5-4d00-960d-9e7c358e5fe9.png)
 
 **Output:**
 
@@ -39,11 +39,11 @@ Bring all the Bin codes available for a License Plate still located in the Wareh
 {
   "Bins": [
     {
-      "BinCode": "REC-1",
+      "BinCode": "STO-1",
       "LocationCode": "WMS"
     },
     {
-      "BinCode": "REC-2",
+      "BinCode": "STO-2",
       "LocationCode": "WMS"
     }
   ]
