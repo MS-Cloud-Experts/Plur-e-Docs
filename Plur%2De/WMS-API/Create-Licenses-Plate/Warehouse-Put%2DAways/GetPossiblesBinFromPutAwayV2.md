@@ -18,7 +18,7 @@ Bring all the Bin codes available Warehouse Put Away No.
 ```
 **Request:**
 {
-  "ProcessMethod": "GetPossiblesBinFromPutAway",
+  "ProcessMethod": "GetPossiblesBinFromPutAwayV2",
   "Parameters": [
     {
       "No": "WHSE PUTAWAY-00001"
