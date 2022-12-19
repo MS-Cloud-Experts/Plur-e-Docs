@@ -1,5 +1,17 @@
 **Input**
 
+```
+{
+  "ProcessMethod": "GetItemTracking",
+  "Parameters": [
+    {
+      "Code": "FREEENTRY"
+    }
+  ]
+}
+```
+
+
 **OutPut**
 
 ```
