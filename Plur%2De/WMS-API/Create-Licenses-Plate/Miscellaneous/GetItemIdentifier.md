@@ -5,7 +5,7 @@
   "ProcessMethod": "GetItemIdentifier",
   "Parameters": [
     {
-      "ItemNo": "1896-S"
+      "ItemNo": "001"
     }
   ]
 }
