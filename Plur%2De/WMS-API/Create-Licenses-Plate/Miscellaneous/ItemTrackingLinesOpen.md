@@ -4,7 +4,7 @@
 
 ```
 {
-  "ProcessMethod": "GetItemTrackingSpecificationOpen",
+  "ProcessMethod": "GetItemTrackingSpecificationClosed",
   "Parameters": [
     {
       "ItemNo": "1000",
@@ -20,7 +20,7 @@
 
 ```
 {
-  "TrackingSpecificationOpen": [
+  "TrackingSpecificationClose": [
     {
       "id": 337,
       "name": "ReservationEntry",
