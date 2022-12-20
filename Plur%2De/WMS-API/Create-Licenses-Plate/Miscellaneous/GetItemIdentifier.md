@@ -1,3 +1,7 @@
+**GetItemIdentifier**
+
+![image.png](/.attachments/image-08bf5a3a-7e89-4694-abfd-17fef9de4a10.png)
+
 **Input**
 
 ```
