@@ -28,7 +28,7 @@
 
 ```
 {
-  "TrackingSpecificationClose": [
+  "TrackingSpecificationOpen": [
     {
       "id": 336,
       "name": "TrackingSpecification",
