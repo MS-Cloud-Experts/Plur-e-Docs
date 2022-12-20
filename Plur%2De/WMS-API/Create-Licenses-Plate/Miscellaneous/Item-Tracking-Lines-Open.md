@@ -28,7 +28,7 @@
 
 ```
 {
-  "TrackingSpecification": [
+  "TrackingSpecificationOpen": [
     {
       "id": 337,
       "name": "ReservationEntry",
