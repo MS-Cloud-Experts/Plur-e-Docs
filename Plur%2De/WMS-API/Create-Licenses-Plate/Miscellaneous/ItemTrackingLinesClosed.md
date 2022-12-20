@@ -28,39 +28,32 @@
 
 ```
 {
-  "TrackingSpecificationOpen": [
+  "TrackingSpecificationClose": [
     {
-      "id": 337,
-      "name": "ReservationEntry",
+      "id": 336,
+      "name": "TrackingSpecification",
       "company": "CRONUS USA, Inc.",
-      "position": "Entry No.=CONST(4),Positive=CONST(Yes)",
-      "recordId": "Reservation Entry: 4,Yes",
+      "position": "Entry No.=CONST(663)",
+      "recordId": "Tracking Specification: 663",
       "primaryKey": {
-        "fieldCount": 2,
+        "fieldCount": 1,
         "fields": [
           {
             "id": 1,
             "name": "EntryNo",
             "type": "Integer",
-            "value": 4,
-            "System": false
-          },
-          {
-            "id": 28,
-            "name": "Positive",
-            "type": "Boolean",
-            "value": true,
+            "value": 663,
             "System": false
           }
         ]
       },
-      "fieldCount": 50,
+      "fieldCount": 51,
       "fields": [
         {
           "id": 1,
           "name": "EntryNo",
           "type": "Integer",
-          "value": 4,
+          "value": 663,
           "System": false
         },
         {
@@ -85,13 +78,6 @@
           "System": false
         },
         {
-          "id": 5,
-          "name": "ReservationStatus",
-          "type": "Option",
-          "value": "Surplus",
-          "System": false
-        },
-        {
           "id": 7,
           "name": "Description",
           "type": "Text",
@@ -103,13 +89,6 @@
           "name": "CreationDate",
           "type": "Date",
           "value": "2022-11-30",
-          "System": false
-        },
-        {
-          "id": 9,
-          "name": "TransferredfromEntryNo",
-          "type": "Integer",
-          "value": null,
           "System": false
         },
         {
@@ -158,40 +137,19 @@
           "id": 16,
           "name": "ItemLedgerEntryNo",
           "type": "Integer",
-          "value": null,
+          "value": 663,
           "System": false
         },
         {
-          "id": 22,
-          "name": "ExpectedReceiptDate",
-          "type": "Date",
-          "value": "2022-12-01",
-          "System": false
-        },
-        {
-          "id": 23,
-          "name": "ShipmentDate",
-          "type": "Date",
+          "id": 17,
+          "name": "TransferItemEntryNo",
+          "type": "Integer",
           "value": null,
           "System": false
         },
         {
           "id": 24,
           "name": "SerialNo",
-          "type": "Code",
-          "value": null,
-          "System": false
-        },
-        {
-          "id": 25,
-          "name": "CreatedBy",
-          "type": "Code",
-          "value": "IVAN.LABRADOR",
-          "System": false
-        },
-        {
-          "id": 27,
-          "name": "ChangedBy",
           "type": "Code",
           "value": null,
           "System": false
@@ -211,38 +169,10 @@
           "System": false
         },
         {
-          "id": 30,
-          "name": "Quantity",
-          "type": "Decimal",
-          "value": 10.0,
-          "System": false
-        },
-        {
           "id": 31,
-          "name": "ActionMessageAdjustment",
+          "name": "QtyRoundingPrecision(Base)",
           "type": "Decimal",
           "value": null,
-          "System": false
-        },
-        {
-          "id": 32,
-          "name": "Binding",
-          "type": "Option",
-          "value": " ",
-          "System": false
-        },
-        {
-          "id": 33,
-          "name": "SuppressedActionMsg",
-          "type": "Boolean",
-          "value": false,
-          "System": false
-        },
-        {
-          "id": 34,
-          "name": "PlanningFlexibility",
-          "type": "Option",
-          "value": "Unlimited",
           "System": false
         },
         {
@@ -263,14 +193,14 @@
           "id": 41,
           "name": "ExpirationDate",
           "type": "Date",
-          "value": null,
+          "value": "2022-12-20",
           "System": false
         },
         {
           "id": 50,
           "name": "QtytoHandle(Base)",
           "type": "Decimal",
-          "value": 10.0,
+          "value": null,
           "System": false
         },
         {
@@ -281,8 +211,78 @@
           "System": false
         },
         {
+          "id": 52,
+          "name": "QuantityHandled(Base)",
+          "type": "Decimal",
+          "value": 10.0,
+          "System": false
+        },
+        {
           "id": 53,
           "name": "QuantityInvoiced(Base)",
+          "type": "Decimal",
+          "value": null,
+          "System": false
+        },
+        {
+          "id": 60,
+          "name": "QtytoHandle",
+          "type": "Decimal",
+          "value": null,
+          "System": false
+        },
+        {
+          "id": 61,
+          "name": "QtytoInvoice",
+          "type": "Decimal",
+          "value": 10.0,
+          "System": false
+        },
+        {
+          "id": 70,
+          "name": "BufferStatus",
+          "type": "Option",
+          "value": " ",
+          "System": false
+        },
+        {
+          "id": 71,
+          "name": "BufferStatus2",
+          "type": "Option",
+          "value": "0",
+          "System": false
+        },
+        {
+          "id": 72,
+          "name": "BufferValue1",
+          "type": "Decimal",
+          "value": 10.0,
+          "System": false
+        },
+        {
+          "id": 73,
+          "name": "BufferValue2",
+          "type": "Decimal",
+          "value": null,
+          "System": false
+        },
+        {
+          "id": 74,
+          "name": "BufferValue3",
+          "type": "Decimal",
+          "value": null,
+          "System": false
+        },
+        {
+          "id": 75,
+          "name": "BufferValue4",
+          "type": "Decimal",
+          "value": null,
+          "System": false
+        },
+        {
+          "id": 76,
+          "name": "BufferValue5",
           "type": "Decimal",
           "value": null,
           "System": false
@@ -303,7 +303,7 @@
         },
         {
           "id": 900,
-          "name": "DisallowCancellation",
+          "name": "ProhibitCancellation",
           "type": "Boolean",
           "value": false,
           "System": false
@@ -318,6 +318,13 @@
         {
           "id": 5401,
           "name": "VariantCode",
+          "type": "Code",
+          "value": null,
+          "System": false
+        },
+        {
+          "id": 5402,
+          "name": "BinCode",
           "type": "Code",
           "value": null,
           "System": false
@@ -344,20 +351,6 @@
           "System": false
         },
         {
-          "id": 6510,
-          "name": "ItemTracking",
-          "type": "Option",
-          "value": "Lot No.",
-          "System": false
-        },
-        {
-          "id": 6511,
-          "name": "UntrackedSurplus",
-          "type": "Boolean",
-          "value": false,
-          "System": false
-        },
-        {
           "id": 6515,
           "name": "PackageNo",
           "type": "Code",
@@ -372,17 +365,24 @@
           "System": false
         },
         {
+          "id": 7300,
+          "name": "QuantityactualHandled(Base)",
+          "type": "Decimal",
+          "value": null,
+          "System": false
+        },
+        {
           "id": 2000000000,
           "name": "$systemId",
           "type": "GUID",
-          "value": "{1BA269CD-9780-ED11-9989-6045BDF778D8}",
+          "value": "{69C2F8C5-A780-ED11-9989-6045BDF77834}",
           "System": false
         },
         {
           "id": 2000000001,
           "name": "SystemCreatedAt",
           "type": "DateTime",
-          "value": "2022-12-20T18:55:06.6070000Z",
+          "value": "2022-12-20T20:49:22.8930000Z",
           "System": false
         },
         {
@@ -396,7 +396,7 @@
           "id": 2000000003,
           "name": "SystemModifiedAt",
           "type": "DateTime",
-          "value": "2022-12-20T18:55:06.6070000Z",
+          "value": "2022-12-20T20:49:22.8930000Z",
           "System": false
         },
         {
