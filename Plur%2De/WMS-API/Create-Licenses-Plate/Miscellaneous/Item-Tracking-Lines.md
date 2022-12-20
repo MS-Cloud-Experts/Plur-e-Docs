@@ -1,4 +1,4 @@
-**Item Tracking Lines:**
+**Item Tracking Lines Open:**
 
 ![image.png](/.attachments/image-723d75d5-d765-4c0c-8e3c-f6362c9721ff.png)
 
@@ -12,7 +12,7 @@
 
 ```
 {
-  "ProcessMethod": "GetItemTrackingSpecification",
+  "ProcessMethod": "GetItemTrackingSpecificationOpen",
   "Parameters": [
     {
       "ItemNo": "1000",
