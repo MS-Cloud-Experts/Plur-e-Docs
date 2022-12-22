@@ -12,7 +12,8 @@
       "SourceRefNo": "10000",
       "Qty": "10",
       "SerialNo": "Serial20001",
-      "LotNo": "Lot20000"
+      "LotNo": "Lot20000",
+      "ExperationDate": "2025-12-22"
     }
   ]
 }
