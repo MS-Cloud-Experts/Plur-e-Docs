@@ -20,7 +20,6 @@
 
 Ouput:
 
-
 ```
 {
   "TrackingSpecificationOpen": [
@@ -785,4 +784,8 @@ Ouput:
   ]
 }
 ```
+
+**Result in Busines Central:**
+
+![image.png](/.attachments/image-94f33d7d-ad6c-4251-8164-76e85b630125.png)
 
