@@ -1,3 +1,5 @@
+**DeleteItemTrackingSpecificationOpen**:
+Method used to eliminate a Reservation Entries or a Tracking of a product in the Warehouse Recipe that has not yet been posted.
 
 **Input:**
 
