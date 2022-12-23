@@ -3,7 +3,7 @@
 
 ```
 {
-  "ProcessMethod": "UpdateItemTrackingSpecificationOpen",
+  "ProcessMethod": "DeleteItemTrackingSpecificationOpen",
   "Parameters": [
     {
       "WarhouseReceiptNo": "WHSE REC-00009",
