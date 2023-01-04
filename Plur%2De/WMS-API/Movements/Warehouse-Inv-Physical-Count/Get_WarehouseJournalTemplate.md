@@ -32,8 +32,8 @@ Request:
   "id": 7309,
   "name": "WarehouseJournalTemplate",
   "company": "CRONUS USA, Inc.",
-  "position": "Name=CONST()",
-  "recordId": "Warehouse Journal Template: \"\"",
+  "position": "Name=CONST(PHYSICAL I)",
+  "recordId": "Warehouse Journal Template: PHYSICAL I",
   "primaryKey": {
     "fieldCount": 1,
     "fields": [
@@ -41,7 +41,7 @@ Request:
         "id": 1,
         "name": "Name",
         "type": "Code",
-        "value": null,
+        "value": "PHYSICAL I",
         "System": false
       }
     ]
@@ -52,35 +52,35 @@ Request:
       "id": 1,
       "name": "Name",
       "type": "Code",
-      "value": null,
+      "value": "PHYSICAL I",
       "System": false
     },
     {
       "id": 2,
       "name": "Description",
       "type": "Text",
-      "value": null,
+      "value": "Physical Inventory Journal",
       "System": false
     },
     {
       "id": 5,
       "name": "TestReportID",
       "type": "Integer",
-      "value": null,
+      "value": 7302,
       "System": false
     },
     {
       "id": 6,
       "name": "PageID",
       "type": "Integer",
-      "value": null,
+      "value": 7326,
       "System": false
     },
     {
       "id": 7,
       "name": "RegisteringReportID",
       "type": "Integer",
-      "value": null,
+      "value": 7303,
       "System": false
     },
     {
@@ -94,14 +94,14 @@ Request:
       "id": 9,
       "name": "Type",
       "type": "Option",
-      "value": "Item",
+      "value": "Physical Inventory",
       "System": false
     },
     {
       "id": 10,
       "name": "SourceCode",
       "type": "Code",
-      "value": null,
+      "value": "WHPHYSINVT",
       "System": false
     },
     {
@@ -115,21 +115,21 @@ Request:
       "id": 15,
       "name": "TestReportCaption",
       "type": "Text",
-      "value": null,
+      "value": "Whse. Invt.-Registering - Test",
       "System": false
     },
     {
       "id": 16,
       "name": "PageCaption",
       "type": "Text",
-      "value": null,
+      "value": "Warehouse Physical Inventory Journal",
       "System": false
     },
     {
       "id": 17,
       "name": "RegisteringReportCaption",
       "type": "Text",
-      "value": null,
+      "value": "Warehouse Register - Quantity",
       "System": false
     },
     {
@@ -157,35 +157,35 @@ Request:
       "id": 2000000000,
       "name": "$systemId",
       "type": "GUID",
-      "value": "{00000000-0000-0000-0000-000000000000}",
+      "value": "{55F8BB4B-FB85-ED11-9989-6045BD300744}",
       "System": false
     },
     {
       "id": 2000000001,
       "name": "SystemCreatedAt",
       "type": "DateTime",
-      "value": null,
+      "value": "2022-12-27T15:29:48.2230000Z",
       "System": false
     },
     {
       "id": 2000000002,
       "name": "SystemCreatedBy",
       "type": "GUID",
-      "value": "{00000000-0000-0000-0000-000000000000}",
+      "value": "{764B9B04-4C01-40F0-8393-82DE7875142A}",
       "System": false
     },
     {
       "id": 2000000003,
       "name": "SystemModifiedAt",
       "type": "DateTime",
-      "value": null,
+      "value": "2022-12-27T15:29:48.2230000Z",
       "System": false
     },
     {
       "id": 2000000004,
       "name": "SystemModifiedBy",
       "type": "GUID",
-      "value": "{00000000-0000-0000-0000-000000000000}",
+      "value": "{764B9B04-4C01-40F0-8393-82DE7875142A}",
       "System": false
     }
   ]
