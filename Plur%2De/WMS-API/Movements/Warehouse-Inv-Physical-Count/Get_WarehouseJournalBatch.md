@@ -29,167 +29,139 @@ Request:
 
 
 **Outputs**:
-![image.png](/.attachments/image-ae9a6ae2-bc00-45b5-a645-5f38a7a72b8f.png)
+![image.png](/.attachments/image-07c9c159-cac1-412d-b768-0616a7e66fca.png)
 
 ```
 {
-  "id": 7309,
-  "name": "WarehouseJournalTemplate",
+  "id": 7310,
+  "name": "WarehouseJournalBatch",
   "company": "CRONUS USA, Inc.",
-  "position": "Name=CONST(PHYSICAL I)",
-  "recordId": "Warehouse Journal Template: PHYSICAL I",
+  "position": "Journal Template Name=CONST(PHYSICAL I),Name=CONST(SEBASTIAN),Location Code=CONST(WMS)",
+  "recordId": "Warehouse Journal Batch: PHYSICAL I,SEBASTIAN,WMS",
   "primaryKey": {
-    "fieldCount": 1,
+    "fieldCount": 3,
     "fields": [
       {
         "id": 1,
-        "name": "Name",
+        "name": "JournalTemplateName",
         "type": "Code",
         "value": "PHYSICAL I",
+        "System": false
+      },
+      {
+        "id": 2,
+        "name": "Name",
+        "type": "Code",
+        "value": "SEBASTIAN",
+        "System": false
+      },
+      {
+        "id": 7,
+        "name": "LocationCode",
+        "type": "Code",
+        "value": "WMS",
         "System": false
       }
     ]
   },
-  "fieldCount": 20,
+  "fieldCount": 14,
   "fields": [
     {
       "id": 1,
-      "name": "Name",
+      "name": "JournalTemplateName",
       "type": "Code",
       "value": "PHYSICAL I",
       "System": false
     },
     {
       "id": 2,
+      "name": "Name",
+      "type": "Code",
+      "value": "SEBASTIAN",
+      "System": false
+    },
+    {
+      "id": 3,
       "name": "Description",
       "type": "Text",
-      "value": "Physical Inventory Journal",
+      "value": null,
       "System": false
     },
     {
-      "id": 5,
-      "name": "TestReportID",
-      "type": "Integer",
-      "value": 7302,
-      "System": false
-    },
-    {
-      "id": 6,
-      "name": "PageID",
-      "type": "Integer",
-      "value": 7326,
-      "System": false
-    },
-    {
-      "id": 7,
-      "name": "RegisteringReportID",
-      "type": "Integer",
-      "value": 7303,
-      "System": false
-    },
-    {
-      "id": 8,
-      "name": "ForceRegisteringReport",
-      "type": "Boolean",
-      "value": false,
-      "System": false
-    },
-    {
-      "id": 9,
-      "name": "Type",
-      "type": "Option",
-      "value": "Physical Inventory",
-      "System": false
-    },
-    {
-      "id": 10,
-      "name": "SourceCode",
-      "type": "Code",
-      "value": "WHPHYSINVT",
-      "System": false
-    },
-    {
-      "id": 11,
+      "id": 4,
       "name": "ReasonCode",
       "type": "Code",
       "value": null,
       "System": false
     },
     {
-      "id": 15,
-      "name": "TestReportCaption",
-      "type": "Text",
-      "value": "Whse. Invt.-Registering - Test",
-      "System": false
-    },
-    {
-      "id": 16,
-      "name": "PageCaption",
-      "type": "Text",
-      "value": "Warehouse Physical Inventory Journal",
-      "System": false
-    },
-    {
-      "id": 17,
-      "name": "RegisteringReportCaption",
-      "type": "Text",
-      "value": "Warehouse Register - Quantity",
-      "System": false
-    },
-    {
-      "id": 19,
+      "id": 5,
       "name": "NoSeries",
       "type": "Code",
       "value": null,
       "System": false
     },
     {
-      "id": 20,
+      "id": 6,
       "name": "RegisteringNoSeries",
       "type": "Code",
       "value": null,
       "System": false
     },
     {
-      "id": 30,
-      "name": "IncrementBatchName",
-      "type": "Boolean",
-      "value": false,
+      "id": 7,
+      "name": "LocationCode",
+      "type": "Code",
+      "value": "WMS",
+      "System": false
+    },
+    {
+      "id": 21,
+      "name": "TemplateType",
+      "type": "Option",
+      "value": "Physical Inventory",
+      "System": false
+    },
+    {
+      "id": 7700,
+      "name": "AssignedUserID",
+      "type": "Code",
+      "value": null,
       "System": false
     },
     {
       "id": 2000000000,
       "name": "$systemId",
       "type": "GUID",
-      "value": "{55F8BB4B-FB85-ED11-9989-6045BD300744}",
+      "value": "{3C1EC5D3-458C-ED11-9989-6045BD300EA8}",
       "System": false
     },
     {
       "id": 2000000001,
       "name": "SystemCreatedAt",
       "type": "DateTime",
-      "value": "2022-12-27T15:29:48.2230000Z",
+      "value": "2023-01-04T15:38:26.1900000Z",
       "System": false
     },
     {
       "id": 2000000002,
       "name": "SystemCreatedBy",
       "type": "GUID",
-      "value": "{764B9B04-4C01-40F0-8393-82DE7875142A}",
+      "value": "{D6194FDA-68F1-4DEA-9340-75AF3121F16F}",
       "System": false
     },
     {
       "id": 2000000003,
       "name": "SystemModifiedAt",
       "type": "DateTime",
-      "value": "2022-12-27T15:29:48.2230000Z",
+      "value": "2023-01-04T15:38:26.1900000Z",
       "System": false
     },
     {
       "id": 2000000004,
       "name": "SystemModifiedBy",
       "type": "GUID",
-      "value": "{764B9B04-4C01-40F0-8393-82DE7875142A}",
+      "value": "{D6194FDA-68F1-4DEA-9340-75AF3121F16F}",
       "System": false
     }
   ]
