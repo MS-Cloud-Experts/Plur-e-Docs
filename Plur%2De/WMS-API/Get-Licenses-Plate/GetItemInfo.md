@@ -38,7 +38,7 @@ Outputs:
   "Auto_Generate_LOT": false
 }
 ```
-![image.png](/.attachments/image-a8a837aa-56e6-4d9d-9f7e-616bed90832a.png)
+![image.png](/.attachments/image-eeb39c27-85f3-4b2a-b81b-9e4f54be7482.png)
 
 **Error**:
 ```
