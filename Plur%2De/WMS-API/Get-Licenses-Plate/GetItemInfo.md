@@ -38,8 +38,7 @@ Outputs:
   "Auto_Generate_LOT": false
 }
 ```
-![image.png](/.attachments/image-eeb39c27-85f3-4b2a-b81b-9e4f54be7482.png)
-
+![image.png](/.attachments/image-f11656f9-ecca-4e21-aa1c-5fd06fd36f64.png)
 **Error**:
 ```
 {
