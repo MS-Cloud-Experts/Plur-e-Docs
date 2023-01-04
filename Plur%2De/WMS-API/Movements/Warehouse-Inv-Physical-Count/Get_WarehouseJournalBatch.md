@@ -25,10 +25,10 @@ Request:
 
 ```
 {
-  "ProcessMethod": "Get_WarehouseJournalTemplate",
+  "ProcessMethod": "Get_WarehouseJournalBatch",
   "Parameters": [
     {
-      "Type": "2"
+      "JournalTemplateName": "PHYSICAL I"
     }
   ]
 }
