@@ -21,7 +21,24 @@ Once the Journal has been created, the Warehouse Journal Lines are returned with
 
 Request:
 
-`    "jsonRequest":"{\"ProcessMethod\":\"Create_WarehouseInvPhysicalCount\",\"Parameters\":[{\"ZoneCode\":\"STO\",\"BinCode\":\"\",\"LocationCode\":\"BBB\",\"RegisteringDate\":\"2022-04-19\",\"WhseDocumentNo\":\"DocumentNo\"}]}"`
+
+```
+{
+  "ProcessMethod": "Create_WarehouseInvPhysicalCount",
+  "Parameters": [
+    {
+      "ZoneCode": "STO",
+      "BinCode": "",
+      "LocationCode": "WMS",
+      "RegisteringDate": "2022-06-13",
+      "WhseDocumentNo": "DocumentNo",
+      "JournalTemplateName": "PHYSICAL I",
+      "JournalBatchName": "DARIO"
+    }
+  ]
+}
+```
+
 
 **Outputs**:
 
