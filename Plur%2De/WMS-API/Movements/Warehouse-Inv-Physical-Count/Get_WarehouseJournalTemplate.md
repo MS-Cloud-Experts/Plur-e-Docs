@@ -25,7 +25,7 @@ Request:
 
 
 **Outputs**:
-
+![image.png](/.attachments/image-ae9a6ae2-bc00-45b5-a645-5f38a7a72b8f.png)
 
 ```
 {
