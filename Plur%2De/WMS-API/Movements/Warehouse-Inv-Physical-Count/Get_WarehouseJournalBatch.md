@@ -1,20 +1,13 @@
 **ProcessMethod**: Get_WarehouseJournalBatch
 
 **Description**:
-This method returns an array of Journal Template Type.
+This method returns an array of Warehouse Journal Batches
 
 **Input**:
 **Parameters**: 
--	**Type**: Specific Journal Template Type
+-	**JournalTemplateName**: Journal Template Name.
 
     
-```
-     "Item" = 0;
-     "Physical Inventory" = 1;
-     "Reclassification" = 2;
-```
-
-
 **Ouput**: 
 -	**WarehouseJournalTemplate**: Array of Journal Template Type
 
