@@ -1,11 +1,11 @@
 **ProcessMethod**: Get_WarehouseJournalTemplate
 
 **Description**:
-This method returns an array of Warehouse Journals Lines special to the physical count given a Location.
+This method returns an array of Journal Template Type.
 
 **Input**:
 **Parameters**: 
--	**Type**: Specific Location where you want to perform the inventory count.
+-	**Type**: Specific Journal Template Type
 
     
 ```
@@ -16,8 +16,7 @@ This method returns an array of Warehouse Journals Lines special to the physical
 
 
 **Ouput**: 
--The process will be executed correctly if it returns the lines of the Warehouse Item Journal.
--	**Warehouse_Physical_Inventory_Journal**: Array of Warehouse Journals Lines.
+-	**WarehouseJournalTemplate**: Array of Journal Template Type
 
 **Example**:
 
@@ -27,7 +26,11 @@ Request:
 ```
 {
   "ProcessMethod": "Get_WarehouseJournalTemplate",
-  "Parameters": []
+  "Parameters": [
+    {
+      "Type": "2"
+    }
+  ]
 }
 ```
 
