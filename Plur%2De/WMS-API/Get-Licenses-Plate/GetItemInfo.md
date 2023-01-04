@@ -33,7 +33,9 @@ Outputs:
 ```
 {
   "ItemNo": "1900-S",
-  "Managed_by_PlurE": false
+  "Managed_by_PlurE": true,
+  "Auto_Generate_SN": false,
+  "Auto_Generate_LOT": false
 }
 ```
 ![image.png](/.attachments/image-a8a837aa-56e6-4d9d-9f7e-616bed90832a.png)
