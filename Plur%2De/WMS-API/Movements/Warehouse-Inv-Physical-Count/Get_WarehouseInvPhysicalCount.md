@@ -15,7 +15,20 @@ This method returns an array of Warehouse Journals Lines special to the physical
 
 Request:
 
-`jsonRequest":"{\"ProcessMethod\":\"Get_WarehouseInvPhysicalCount\",\"Parameters\":[{\"LocationCode\":\"CCC\"}]}`
+
+```
+{
+  "ProcessMethod": "Get_WarehouseInvPhysicalCount",
+  "Parameters": [
+    {
+      "LocationCode": "WMS",
+      "JournalTemplateName": "PHYSICAL I",
+      "JournalBatchName": "DARIO"
+    }
+  ]
+}
+```
+
 
 **Outputs**:
 
