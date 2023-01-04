@@ -12,6 +12,8 @@ Once the Journal has been created, the Warehouse Journal Lines are returned with
 -	**LocationCode**: Specific Location where you want to perform the inventory count.
 -	**RegisteringDate**: Specifies the date for registering this journal. 
 -	**WhseDocumentNo**:
+-	**JournalTemplateName**: Specific JournalTemplateName.
+-	**JournalBatchName**: Specifies JournalBatchName. 
 
 **Ouput**: 
 -The process will be executed correctly if it returns the lines of the Warehouse Item Journal.
