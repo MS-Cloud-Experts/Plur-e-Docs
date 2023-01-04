@@ -5,7 +5,15 @@ This method returns an array of Warehouse Journals Lines special to the physical
 
 **Input**:
 **Parameters**: 
--	**LocationCode**: Specific Location where you want to perform the inventory count.
+-	**Type**: Specific Location where you want to perform the inventory count.
+
+    
+```
+     "Item" = 0;
+     "Physical Inventory" = 1;
+     "Reclassification" = 2;
+```
+
 
 **Ouput**: 
 -The process will be executed correctly if it returns the lines of the Warehouse Item Journal.
