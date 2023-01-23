@@ -6,7 +6,6 @@ Generic method to obtain an array in JSON format with all the records of the ID 
 **Example**:
 
 **Request:**
-
 ```
 {
   "ProcessMethod": "GetTableId",
