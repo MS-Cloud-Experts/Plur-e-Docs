@@ -1,26 +1,26 @@
-**ProcessMethod**: GetItem
+**ProcessMethod**: GetTableId
 
 **Description**:
-This method allows to obtain all the units of measures configured in the Business Central
-
-**Ouput**: 
--	**UnitOfMeasure**: An array of Units of Measures
+Generic method to obtain an array in JSON format with all the records of the ID of the specified table.
 
 **Example**:
 
-Request:
-
+**Request:**
 
 ```
 {
-  "ProcessMethod": "GetItem",
+  "ProcessMethod": "GetTableId",
   "Parameters": [
     {
-      "ItemNo": "1900-S"
+      "tableNo": "27"
     }
   ]
 }
 ```
+
+
+**Ouput**: 
+-	**UnitOfMeasure**: An array of Units of Measures
 
 
 Outputs:
