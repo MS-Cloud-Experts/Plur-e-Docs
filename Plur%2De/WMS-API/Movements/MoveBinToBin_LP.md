@@ -35,8 +35,6 @@ Request:
 
 
 Outputs:
-
-
 ```
 {
   "Posted":212
