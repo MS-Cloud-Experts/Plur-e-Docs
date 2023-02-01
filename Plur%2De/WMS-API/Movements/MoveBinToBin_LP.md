@@ -21,8 +21,18 @@ This method allows you to move an Item with its associated LP into the inventory
 **Example**:
 
 Request:
+```
+[
+  {
+    "LPNo": "LP-00071",
+    "Zone": "STO",
+    "FromBin": "STO-6",
+    "ToBin": "STO-5",
+    "LocationCode": "WMS"
+  }
+]
+```
 
-`"jsonRequest":"{\"ProcessMethod\":\"MoveBinToBin_LP\",\"Parameters\":[{\"LPNo\":\"LP000445\",\"Zone\":\"STO\",\"FromBin\":\"STO2\",\"ToBin\":\"STO1\",\"LocationCode\":\"CCC\",\"ItemNo\":\"1900-S\",\"Qty\":\"5\",\"UnitofMeasureCode\":\"PCS\"}]}"`
 
 Outputs:
 
