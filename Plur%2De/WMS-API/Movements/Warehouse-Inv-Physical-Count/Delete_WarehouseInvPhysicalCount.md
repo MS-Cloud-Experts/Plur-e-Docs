@@ -1,4 +1,4 @@
-**ProcessMethod**: Write_WarehouseInvPhysicalCount
+**ProcessMethod**: Delete_WarehouseInvPhysicalCount
 
 **Description**:
 This method allows you to update the physical quantities counted in a Warehouse Inv Journal.
