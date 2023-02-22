@@ -8,15 +8,8 @@ This method allows you to update the physical quantities counted in a Warehouse 
 -	**JournalTemplateName**: JournalTemplateName.
 -	**JournalBatchName**: JournalBatchName.
 -	**LineNo**: LineNo.
--	**RegisteringDate**: RegisteringDate.
--	**LocationCode**: Specific Location where you want to perform the inventory count.
--	**ItemNo**: Specific ItemNo where you want to perform the inventory count.
--	**Qty(PhysInventory)**: Physical quantities to be adjusted in inventory.
--	**UserID**: UserID.
--	**VariantCode**: Possible future use..
--	**SerialNo**: Possible future use.
--	**SerialNo**: Possible future use.
--	**PLULicensePlates**: Specific Location where you want to perform the inventory count.
+-	**LocationCode**: Specific Location where you want to perform 
+-	**LPDocumentNo**: Specific LP Document No where you want to perform the inventory count.
 
 ```
 {
