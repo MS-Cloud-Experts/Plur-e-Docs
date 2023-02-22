@@ -30,39 +30,11 @@ This method allows you to update the physical quantities counted in a Warehouse 
           "value": 10000,
         },
         {
-          "name": "RegisteringDate",
-          "value": "2022-04-19",
-        },
-        {
           "name": "LocationCode",
           "value": "CCC",   
-        },
+        }, 
         {
-          "name": "ItemNo",
-          "value": "1900-S",
-        },
-        {
-          "name": "Qty(PhysInventory)",
-          "value": null,
-        },
-        {
-          "name": "UserID",
-          "value": "IVAN.LABRADOR1",    
-        },
-        {
-          "name": "VariantCode",
-          "value": null,
-        },
-        {
-          "name": "SerialNo",
-          "value": null,      
-        },
-        {
-          "name": "LotNo",
-          "value": null,     
-        },   
-        {
-          "name": "PLULicensePlates",
+          "name": "LPDocumentNo",
           "value": "LP000442",      
         }
       ]
@@ -70,53 +42,25 @@ This method allows you to update the physical quantities counted in a Warehouse 
     {
       "name": "WarehouseJournalLine",
       "fields": [
-        {
+           {
           "name": "JournalTemplateName",
-          "value": "PHYSICAL I",       
+          "value": "PHYSICAL I",
         },
         {
           "name": "JournalBatchName",
-          "value": "PLUR-E",      
+          "value": "PLUR-E",
         },
         {
           "name": "LineNo",
-          "value": 20000,
-        },
-        {
-          "name": "RegisteringDate",
-          "value": "2022-04-19",
+          "value": 10000,
         },
         {
           "name": "LocationCode",
-          "value": "CCC",
-        },
+          "value": "CCC",   
+        }, 
         {
-          "name": "ItemNo",
-          "value": "1900-S",       
-        },
-        {
-          "name": "Qty(PhysInventory)",
-          "value": null,      
-        },
-        {
-          "name": "UserID",
-          "value": "IVAN.LABRADOR1",
-        },
-        {
-          "name": "VariantCode",
-          "value": null,
-        },
-        {
-          "name": "SerialNo",
-          "value": null,
-        },
-        {
-          "name": "LotNo",
-          "value": null,
-        },
-        {
-          "name": "PLULicensePlates",
-          "value": "LP000443",    
+          "name": "LPDocumentNo",
+          "value": "LP000442",      
         }
       ]
     }
