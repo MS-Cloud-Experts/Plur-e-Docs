@@ -69,7 +69,7 @@ This method allows you to update the physical quantities counted in a Warehouse 
 ```
 
 **Output**: 
--The process will be executed correctly if it returns Yes.
+- "value": "Deleted: 40000"
 
 
 
