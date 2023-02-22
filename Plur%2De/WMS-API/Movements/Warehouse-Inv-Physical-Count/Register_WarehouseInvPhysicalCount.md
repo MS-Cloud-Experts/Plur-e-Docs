@@ -4,8 +4,10 @@
 This method allows registering a Batch of physical inventory count, generating in turn the update of the Warehouse Entry and the associated License Plates.
 
 **Input**:
+-	**JournalTemplateName**: Specific Location where you want to perform the inventory count.
+-	**JournalBatchName**: Specific Location where you want to perform the inventory count.
 -	**LocationCode**: Specific Location where you want to perform the inventory count.
-
+ 
 **Example**:
 
 Request:
