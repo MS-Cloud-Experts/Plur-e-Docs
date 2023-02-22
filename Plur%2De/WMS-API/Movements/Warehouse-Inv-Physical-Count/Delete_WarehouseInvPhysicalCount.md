@@ -13,7 +13,7 @@ This method allows you to update the physical quantities counted in a Warehouse 
 
 ```
 {
-  "Delete_Physical_Inventory_Journal": [
+  "Delete_WarehouseInvPhysicalCount": [
     {
       "name": "WarehouseJournalLine",
       "fields": [
