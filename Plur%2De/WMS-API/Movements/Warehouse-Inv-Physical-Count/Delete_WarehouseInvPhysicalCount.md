@@ -66,7 +66,6 @@ This method allows you to update the physical quantities counted in a Warehouse 
     }
   ]
 }
-}
 ```
 
 **Business Central:**
