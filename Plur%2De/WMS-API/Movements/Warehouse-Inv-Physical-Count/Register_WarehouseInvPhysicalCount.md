@@ -10,17 +10,20 @@ This method allows registering a Batch of physical inventory count, generating i
 
 Request:
 
-`
-"jsonRequest":
+ 
+```
 {
   "ProcessMethod": "Register_WarehouseInvPhysicalCount",
   "Parameters": [
     {
-      "LocationCode": "BBB"
+      "JournalTemplateName": "PHYSICAL I",
+      "JournalBatchName": "DARIO",
+      "LocationCode": "WMS"
     }
   ]
 }
-`
+```
+
 
 **Warehouse Physical Inventory Journal to Register**:
 ![image.png](/.attachments/image-dd9ad69c-3a71-4685-8f1e-fe29d2bf518d.png)
