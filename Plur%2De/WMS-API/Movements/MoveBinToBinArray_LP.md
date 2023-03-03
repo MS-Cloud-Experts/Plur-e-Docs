@@ -50,37 +50,3 @@ Outputs:
 {\"Posted\":391}|{\"Posted\":392}
 
 ```
-
-**Note**: It is mandatory to have the check "Managed by Plur-E" marked on the Item Card in order to create LP and carry out movements through Warehouse Reclass Journal and Warehouse Item Journal.
-![image.png](/.attachments/image-2938f245-9765-4198-97d8-43267217c1b2.png)
-**Errors**:
-```
-"Error": {
-    "Code": "Configuration Error",
-    "Message": "The item 1972-S is not managed by the Plur-e WMS module. If you want to configure it, you must go to the Item Card and turn on the check 'Managed by Plur-E'"
-  }
-}
-
-{
-  "Error": {
-    "Code": "Configuration Error",
-    "Message": "The License Plate is already in the specified location and bin."
-  }
-}
-
-{
-  "Error": {
-    "Code": "Not found",
-    "Message": "The Location Code (CCCa) was not found"
-  }
-}
-
-{
-  "Error": {
-    "Code": "Not found",
-    "Message": "The Item No (190a0-S) was not found"
-  }
-}
-```
-
-
