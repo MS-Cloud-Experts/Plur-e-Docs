@@ -23,13 +23,24 @@ This method allows you to move an Item with its associated LP into the inventory
 Request:
 ```
 [
-  {
-    "LPNo": "LP-00071",
-    "Zone": "STO",
-    "FromBin": "STO-6",
-    "ToBin": "STO-5",
-    "LocationCode": "WMS"
-  }
+{
+  "ArrayToMove": [
+    {
+    "LPNo":"LP-00511",
+    "Zone":"STO",
+    "FromBin":"NOCOUNT",
+    "ToBin":"STO-4",
+    "LocationCode":"PLURE"
+    },
+    {
+    "LPNo":"LP-00510",
+    "Zone":"STO",
+    "FromBin":"NOCOUNT",
+    "ToBin":"STO-4",
+    "LocationCode":"PLURE"
+    }
+  ]
+}
 ]
 ```
 
