@@ -47,9 +47,7 @@ Request:
 
 Outputs:
 ```
-{
-  "Posted":212
-}
+{\"Posted\":391}|{\"Posted\":392}
 
 ```
 
