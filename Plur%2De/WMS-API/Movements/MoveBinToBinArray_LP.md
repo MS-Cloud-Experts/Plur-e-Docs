@@ -1,4 +1,4 @@
-**ProcessMethod**: MoveBinToBin_LP
+**ProcessMethod**: MoveBinToBinArray_LP
 
 **Description**:
 This method allows you to move an Item with its associated LP into the inventory.
