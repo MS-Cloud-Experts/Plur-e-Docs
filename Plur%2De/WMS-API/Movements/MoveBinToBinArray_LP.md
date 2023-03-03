@@ -3,7 +3,7 @@
 **Description**:
 This method allows you to move an Item with its associated LP into the inventory.
 
-**Input**:
+**Input**: Array
 **Parameters**: 
 -	**LPNo**: Number of LP you want to move.
 -	**Zone**: Zoneof LP you want to move.
