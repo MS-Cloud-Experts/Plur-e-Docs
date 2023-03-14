@@ -1,7 +1,7 @@
 **ProcessMethod**: GetLPArrayByStatus
 
 **Description**:
-Method that returns the combination of Registration Headers / Registration Lines according to the number of the **Warehouse Receipt** with which it is filtered.
+Method that returns the combination of Registration Headers / Registration Lines according to the **LP Status**.
 
 **Input**:
 **Parameters**: Status of the LP, the options are of the integer type as seen below
