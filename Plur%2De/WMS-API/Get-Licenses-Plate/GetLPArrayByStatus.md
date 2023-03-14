@@ -31,7 +31,7 @@ Request:
   "Parameters": [
     {
       "IsPallet": true,
-      "LicensePlateStatus":1
+      "LicensePlateStatus":0
     }
   ]
 }
