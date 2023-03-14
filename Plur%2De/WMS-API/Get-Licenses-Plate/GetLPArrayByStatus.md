@@ -41,8 +41,6 @@ Request:
 
 Outputs:
 
-![image.png](/.attachments/image-5195c8c8-5405-4be5-8581-fd9d0f152dc0.png)
-
 ```
 {
   "LicensePlates": {
