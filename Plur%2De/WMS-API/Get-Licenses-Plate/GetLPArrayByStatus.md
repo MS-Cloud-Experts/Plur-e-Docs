@@ -5,7 +5,6 @@ Method that returns the combination of Registration Headers / Registration Lines
 
 **Input**:
 **Parameters**: Status of the LP, the options are of the integer type as seen below
--	**No**: Warehouse Receipt Number.
 -	**IsPallet**: if the variable is true it indicates that it is Pallet, otherwise it is Single.
 -	**LicensePlateStatus**:  
 
