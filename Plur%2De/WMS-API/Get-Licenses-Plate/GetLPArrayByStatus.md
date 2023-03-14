@@ -28,10 +28,9 @@ Request:
 
 ```
 {
-  "ProcessMethod": "GetLicencesPlateByStatus",
+  "ProcessMethod": "GetLPArrayByStatus",
   "Parameters": [
     {
-      "No": "WHSE REC-0000004",
       "IsPallet": true,
       "LicensePlateStatus":1
     }
