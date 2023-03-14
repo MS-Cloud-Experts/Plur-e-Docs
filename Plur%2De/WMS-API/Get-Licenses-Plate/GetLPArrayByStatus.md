@@ -9,9 +9,9 @@ Method that returns the combination of Registration Headers / Registration Lines
 -	**LicensePlateStatus**:  
 
  -value(0; "Pre-Labeled") 
- -value(1; "Received") -> Warehouse Receipt
- -value(2; "Labeled") -> Warehouse PutAway
- -value(3; "Stored") -> Warehouse Registered PutAway
+ -value(1; "Received")  
+ -value(2; "Labeled")  
+ -value(3; "Stored")  
  -value(4; "Piked") 
  -value(5; "Packed") 
  -value(6; "Released") 
