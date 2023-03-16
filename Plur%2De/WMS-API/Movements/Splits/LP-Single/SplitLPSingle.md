@@ -1,4 +1,4 @@
-**ProcessMethod**: SplitLPSingle
+**ProcessMethod**: SplitLPSingle_Item
 
 **Description**:
 This method allows you to split an existing License Plate into a new one.
@@ -56,7 +56,7 @@ Once the amounts of the LP have been obtained, we could already know the maximum
 **Request:**
 ```
 {
-  "ProcessMethod": "SplitLPSingle",
+  "ProcessMethod": "SplitLPSingle_Item",
   "Parameters": [
     {
       "NewLicensePlateCode": "LP000777",
