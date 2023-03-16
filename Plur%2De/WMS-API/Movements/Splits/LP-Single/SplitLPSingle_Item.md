@@ -62,7 +62,9 @@ Once the amounts of the LP have been obtained, we could already know the maximum
       "NewLicensePlateCode": "LP000777",
       "NewQuantity": "1",
       "OriginalQuantityModified": "2",
-      "OriginalLicensePlateCode": "LP000535"
+      "OriginalLicensePlateCode": "LP000535",
+      "ItemCode": "1013",
+      "LineNo": 10000
     }
   ]
 }
