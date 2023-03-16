@@ -83,7 +83,8 @@ To make a split we must first consult our original LP.
       "NewQuantity": "1",
       "OriginalQuantityModified": "4",
       "OriginalLicensePlateCode": "LP-00316",
-      "ItemCode": "1900-S"
+      "ItemCode": "1900-S",
+      "LineNo": 10000
     }
   ]
 }
