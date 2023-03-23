@@ -15,7 +15,7 @@
 
 ```
 {
-  "ProcessMethod": "Calcule_Possible_LPChilds_From_WR",
+  "ProcessMethod": "Calcule_Possible_LPChilds_From_WR_V2",
   "Parameters": [
     {
       "LP_Pallet_No": "LP-0000060"
