@@ -47,149 +47,313 @@ Outputs:
 
 ```
 {
-  "LicensePlates": {
-    "LicensePlatesHeaders": {
-      "id": 71017590,
-      "name": "PLULicensePlatesHeaders",
-      "company": "CRONUS USA, Inc.",
-      "position": "No.=CONST(LP000205)",
-      "recordId": "PLU License Plates Headers: LP000205",
-      "primaryKey": {
-        "fieldCount": 1,
-        "fields": [
-          {
-            "id": 1,
-            "name": "PLUNo",
-            "type": "Code",
-            "value": "LP000205",
-            "System": false
-          }
-        ]
-      },
-      "fieldCount": 15,
-      "fields": [
+  "LicensePlates": [
+    {
+      "LPDocumentNo": "LP-01168",
+      "DocumentLPType": "Pallet",
+      "ParentLPNo": "",
+      "LocationCode": "NEWWMS",
+      "WhseDocumentNo": "WHSE REC-00154",
+      "LPLines": [
         {
-          "id": 1,
-          "name": "PLUNo",
-          "type": "Code",
-          "value": "LP000205",
-          "System": false
-        },
-        {
-          "id": 2,
-          "name": "PLUDescription",
-          "type": "Text",
-          "value": "SYDNEY Swivel Chair, green",
-          "System": false
-        },
-        {
-          "id": 3,
-          "name": "PLULicensePlateStatus",
-          "type": "Option",
-          "value": "Labeled",
-          "System": false
-        },
-        {
-          "id": 4,
-          "name": "PLULocationCode",
-          "type": "Code",
-          "value": "BBB",
-          "System": false
-        },
-        {
-          "id": 5,
-          "name": "PLUBinCode",
-          "type": "Code",
-          "value": "STO2",
-          "System": false
-        },
-        {
-          "id": 6,
-          "name": "PLUSourceDocument",
-          "type": "Option",
-          "value": "Purchase Order",
-          "System": false
-        },
-        {
-          "id": 7,
-          "name": "PLUSourceDocumentNo",
-          "type": "Code",
-          "value": "106031",
-          "System": false
-        },
-        {
-          "id": 8,
-          "name": "PLUDocument",
-          "type": "Option",
-          "value": "Warehouse Putway",
-          "System": false
-        },
-        {
-          "id": 9,
-          "name": "PLUDocumentNo",
-          "type": "Code",
-          "value": "10090",
-          "System": false
-        },
-        {
-          "id": 10,
-          "name": "PLUUnitofMeasure",
-          "type": "Code",
-          "value": "PACK",
-          "System": false
-        },
-        {
-          "id": 2000000000,
-          "name": "$systemId",
-          "type": "GUID",
-          "value": "{53E5ED53-0C91-EC11-B85A-000D3A74F81B}",
-          "System": false
-        },
-        {
-          "id": 2000000001,
-          "name": "SystemCreatedAt",
-          "type": "DateTime",
-          "value": "2022-02-18T22:44:29.197Z",
-          "System": false
-        },
-        {
-          "id": 2000000002,
-          "name": "SystemCreatedBy",
-          "type": "GUID",
-          "value": "{C8466A18-3206-4894-8B37-3ABD69030D7D}",
-          "System": false
-        },
-        {
-          "id": 2000000003,
-          "name": "SystemModifiedAt",
-          "type": "DateTime",
-          "value": "2022-02-18T22:45:23.943Z",
-          "System": false
-        },
-        {
-          "id": 2000000004,
-          "name": "SystemModifiedBy",
-          "type": "GUID",
-          "value": "{C8466A18-3206-4894-8B37-3ABD69030D7D}",
-          "System": false
-        }
-      ]
-    },
-    "LicensePlatesLines": [
-      {
-        "id": 71017591,
-        "name": "PLULicensePlatesLines",
-        "company": "CRONUS USA, Inc.",
-        "position": "No.=CONST(LP000205),Line No.=CONST(20000)",
-        "recordId": "PLU License Plates Lines: LP000205,20000",
-        "primaryKey": {
-          "fieldCount": 2,
+          "id": 71017599,
+          "name": "PLULPLines",
+          "company": "CRONUS USA, Inc.",
+          "position": "LP Document No.=CONST(LP-01168),LP Document Type=CONST(Pallet),Line No.=CONST(10000)",
+          "recordId": "PLU LP Lines: LP-01168,Pallet,10000",
+          "primaryKey": {
+            "fieldCount": 3,
+            "fields": [
+              {
+                "id": 1,
+                "name": "PLULPDocumentNo",
+                "type": "Code",
+                "value": "LP-01168",
+                "System": false
+              },
+              {
+                "id": 3,
+                "name": "PLULPDocumentType",
+                "type": "Option",
+                "value": "Pallet",
+                "System": false
+              },
+              {
+                "id": 2,
+                "name": "PLULineNo",
+                "type": "Integer",
+                "value": 10000,
+                "System": false
+              }
+            ]
+          },
+          "fieldCount": 32,
           "fields": [
             {
               "id": 1,
+              "name": "PLULPDocumentNo",
+              "type": "Code",
+              "value": "LP-01168",
+              "System": false
+            },
+            {
+              "id": 2,
+              "name": "PLULineNo",
+              "type": "Integer",
+              "value": 10000,
+              "System": false
+            },
+            {
+              "id": 3,
+              "name": "PLULPDocumentType",
+              "type": "Option",
+              "value": "Pallet",
+              "System": false
+            },
+            {
+              "id": 4,
+              "name": "PLUType",
+              "type": "Option",
+              "value": "Item",
+              "System": false
+            },
+            {
+              "id": 5,
               "name": "PLUNo",
               "type": "Code",
-              "value": "LP000205",
+              "value": "1906-S",
+              "System": false
+            },
+            {
+              "id": 6,
+              "name": "PLUVariantCode",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 7,
+              "name": "PLUQuantity",
+              "type": "Decimal",
+              "value": 4.0,
+              "System": false
+            },
+            {
+              "id": 8,
+              "name": "PLUQtyperUnitofMeasure",
+              "type": "Decimal",
+              "value": 1.0,
+              "System": false
+            },
+            {
+              "id": 9,
+              "name": "PLUQuantityBase",
+              "type": "Decimal",
+              "value": 4.0,
+              "System": false
+            },
+            {
+              "id": 10,
+              "name": "PLUUnitofMeasureCode",
+              "type": "Code",
+              "value": "PCS",
+              "System": false
+            },
+            {
+              "id": 11,
+              "name": "PLUExpirationDate",
+              "type": "Date",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 12,
+              "name": "PLUParentLPNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 13,
+              "name": "PLUParentLPLineNo",
+              "type": "Integer",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 14,
+              "name": "PLUStatus",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 15,
+              "name": "PLUSerialNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 16,
+              "name": "PLULotNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 17,
+              "name": "PLUDescription",
+              "type": "Code",
+              "value": "ATHENS MOBILE PEDESTAL",
+              "System": false
+            },
+            {
+              "id": 18,
+              "name": "PLUEntryQuantity",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 19,
+              "name": "PLUSourceDocument",
+              "type": "Option",
+              "value": "Purchase Order",
+              "System": false
+            },
+            {
+              "id": 20,
+              "name": "PLUSourceDocumentNo",
+              "type": "Code",
+              "value": "106176",
+              "System": false
+            },
+            {
+              "id": 21,
+              "name": "PLUWhseDocument",
+              "type": "Option",
+              "value": "Warehouse Receipt",
+              "System": false
+            },
+            {
+              "id": 22,
+              "name": "PLUWhseDocumentNo",
+              "type": "Code",
+              "value": "WHSE REC-00154",
+              "System": false
+            },
+            {
+              "id": 23,
+              "name": "PLULicensePlateStatus",
+              "type": "Option",
+              "value": "Received",
+              "System": false
+            },
+            {
+              "id": 24,
+              "name": "PLUShipmentSrcDocument",
+              "type": "Option",
+              "value": " ",
+              "System": false
+            },
+            {
+              "id": 25,
+              "name": "PLUShipmentSrcDocumentNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 26,
+              "name": "PLUSourceLineNo",
+              "type": "Integer",
+              "value": 20000,
+              "System": false
+            },
+            {
+              "id": 27,
+              "name": "PLUWhseLineNo",
+              "type": "Integer",
+              "value": 20000,
+              "System": false
+            },
+            {
+              "id": 2000000000,
+              "name": "$systemId",
+              "type": "GUID",
+              "value": "{FF76C3FD-FCCF-ED11-A7C8-000D3A3E81B6}",
+              "System": false
+            },
+            {
+              "id": 2000000001,
+              "name": "SystemCreatedAt",
+              "type": "DateTime",
+              "value": "2023-03-31T19:48:30.0330000Z",
+              "System": false
+            },
+            {
+              "id": 2000000002,
+              "name": "SystemCreatedBy",
+              "type": "GUID",
+              "value": "{D88F4C11-86DD-4E04-BB28-D250592C231E}",
+              "System": false
+            },
+            {
+              "id": 2000000003,
+              "name": "SystemModifiedAt",
+              "type": "DateTime",
+              "value": "2023-03-31T19:48:30.2070000Z",
+              "System": false
+            },
+            {
+              "id": 2000000004,
+              "name": "SystemModifiedBy",
+              "type": "GUID",
+              "value": "{D88F4C11-86DD-4E04-BB28-D250592C231E}",
+              "System": false
+            }
+          ]
+        },
+        {
+          "id": 71017599,
+          "name": "PLULPLines",
+          "company": "CRONUS USA, Inc.",
+          "position": "LP Document No.=CONST(LP-01168),LP Document Type=CONST(Pallet),Line No.=CONST(20000)",
+          "recordId": "PLU LP Lines: LP-01168,Pallet,20000",
+          "primaryKey": {
+            "fieldCount": 3,
+            "fields": [
+              {
+                "id": 1,
+                "name": "PLULPDocumentNo",
+                "type": "Code",
+                "value": "LP-01168",
+                "System": false
+              },
+              {
+                "id": 3,
+                "name": "PLULPDocumentType",
+                "type": "Option",
+                "value": "Pallet",
+                "System": false
+              },
+              {
+                "id": 2,
+                "name": "PLULineNo",
+                "type": "Integer",
+                "value": 20000,
+                "System": false
+              }
+            ]
+          },
+          "fieldCount": 32,
+          "fields": [
+            {
+              "id": 1,
+              "name": "PLULPDocumentNo",
+              "type": "Code",
+              "value": "LP-01168",
               "System": false
             },
             {
@@ -198,197 +362,751 @@ Outputs:
               "type": "Integer",
               "value": 20000,
               "System": false
+            },
+            {
+              "id": 3,
+              "name": "PLULPDocumentType",
+              "type": "Option",
+              "value": "Pallet",
+              "System": false
+            },
+            {
+              "id": 4,
+              "name": "PLUType",
+              "type": "Option",
+              "value": "Item",
+              "System": false
+            },
+            {
+              "id": 5,
+              "name": "PLUNo",
+              "type": "Code",
+              "value": "1013",
+              "System": false
+            },
+            {
+              "id": 6,
+              "name": "PLUVariantCode",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 7,
+              "name": "PLUQuantity",
+              "type": "Decimal",
+              "value": 1.0,
+              "System": false
+            },
+            {
+              "id": 8,
+              "name": "PLUQtyperUnitofMeasure",
+              "type": "Decimal",
+              "value": 1.0,
+              "System": false
+            },
+            {
+              "id": 9,
+              "name": "PLUQuantityBase",
+              "type": "Decimal",
+              "value": 1.0,
+              "System": false
+            },
+            {
+              "id": 10,
+              "name": "PLUUnitofMeasureCode",
+              "type": "Code",
+              "value": "PCS",
+              "System": false
+            },
+            {
+              "id": 11,
+              "name": "PLUExpirationDate",
+              "type": "Date",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 12,
+              "name": "PLUParentLPNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 13,
+              "name": "PLUParentLPLineNo",
+              "type": "Integer",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 14,
+              "name": "PLUStatus",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 15,
+              "name": "PLUSerialNo",
+              "type": "Code",
+              "value": "5000",
+              "System": false
+            },
+            {
+              "id": 16,
+              "name": "PLULotNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 17,
+              "name": "PLUDescription",
+              "type": "Code",
+              "value": "1013",
+              "System": false
+            },
+            {
+              "id": 18,
+              "name": "PLUEntryQuantity",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 19,
+              "name": "PLUSourceDocument",
+              "type": "Option",
+              "value": "Purchase Order",
+              "System": false
+            },
+            {
+              "id": 20,
+              "name": "PLUSourceDocumentNo",
+              "type": "Code",
+              "value": "106176",
+              "System": false
+            },
+            {
+              "id": 21,
+              "name": "PLUWhseDocument",
+              "type": "Option",
+              "value": "Warehouse Receipt",
+              "System": false
+            },
+            {
+              "id": 22,
+              "name": "PLUWhseDocumentNo",
+              "type": "Code",
+              "value": "WHSE REC-00154",
+              "System": false
+            },
+            {
+              "id": 23,
+              "name": "PLULicensePlateStatus",
+              "type": "Option",
+              "value": "Received",
+              "System": false
+            },
+            {
+              "id": 24,
+              "name": "PLUShipmentSrcDocument",
+              "type": "Option",
+              "value": " ",
+              "System": false
+            },
+            {
+              "id": 25,
+              "name": "PLUShipmentSrcDocumentNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 26,
+              "name": "PLUSourceLineNo",
+              "type": "Integer",
+              "value": 10000,
+              "System": false
+            },
+            {
+              "id": 27,
+              "name": "PLUWhseLineNo",
+              "type": "Integer",
+              "value": 10000,
+              "System": false
+            },
+            {
+              "id": 2000000000,
+              "name": "$systemId",
+              "type": "GUID",
+              "value": "{0277C3FD-FCCF-ED11-A7C8-000D3A3E81B6}",
+              "System": false
+            },
+            {
+              "id": 2000000001,
+              "name": "SystemCreatedAt",
+              "type": "DateTime",
+              "value": "2023-03-31T19:48:31.6270000Z",
+              "System": false
+            },
+            {
+              "id": 2000000002,
+              "name": "SystemCreatedBy",
+              "type": "GUID",
+              "value": "{D88F4C11-86DD-4E04-BB28-D250592C231E}",
+              "System": false
+            },
+            {
+              "id": 2000000003,
+              "name": "SystemModifiedAt",
+              "type": "DateTime",
+              "value": "2023-03-31T19:48:31.6270000Z",
+              "System": false
+            },
+            {
+              "id": 2000000004,
+              "name": "SystemModifiedBy",
+              "type": "GUID",
+              "value": "{D88F4C11-86DD-4E04-BB28-D250592C231E}",
+              "System": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "LPDocumentNo": "LP-01169",
+      "DocumentLPType": "Pallet",
+      "ParentLPNo": "",
+      "LocationCode": "NEWWMS",
+      "WhseDocumentNo": "WHSE REC-00154",
+      "LPLines": [
+        {
+          "id": 71017599,
+          "name": "PLULPLines",
+          "company": "CRONUS USA, Inc.",
+          "position": "LP Document No.=CONST(LP-01157),LP Document Type=CONST(Single),Line No.=CONST(20000)",
+          "recordId": "PLU LP Lines: LP-01157,Single,20000",
+          "primaryKey": {
+            "fieldCount": 3,
+            "fields": [
+              {
+                "id": 1,
+                "name": "PLULPDocumentNo",
+                "type": "Code",
+                "value": "LP-01157",
+                "System": false
+              },
+              {
+                "id": 3,
+                "name": "PLULPDocumentType",
+                "type": "Option",
+                "value": "Single",
+                "System": false
+              },
+              {
+                "id": 2,
+                "name": "PLULineNo",
+                "type": "Integer",
+                "value": 20000,
+                "System": false
+              }
+            ]
+          },
+          "fieldCount": 32,
+          "fields": [
+            {
+              "id": 1,
+              "name": "PLULPDocumentNo",
+              "type": "Code",
+              "value": "LP-01157",
+              "System": false
+            },
+            {
+              "id": 2,
+              "name": "PLULineNo",
+              "type": "Integer",
+              "value": 20000,
+              "System": false
+            },
+            {
+              "id": 3,
+              "name": "PLULPDocumentType",
+              "type": "Option",
+              "value": "Single",
+              "System": false
+            },
+            {
+              "id": 4,
+              "name": "PLUType",
+              "type": "Option",
+              "value": "Item",
+              "System": false
+            },
+            {
+              "id": 5,
+              "name": "PLUNo",
+              "type": "Code",
+              "value": "1906-S",
+              "System": false
+            },
+            {
+              "id": 6,
+              "name": "PLUVariantCode",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 7,
+              "name": "PLUQuantity",
+              "type": "Decimal",
+              "value": 3.0,
+              "System": false
+            },
+            {
+              "id": 8,
+              "name": "PLUQtyperUnitofMeasure",
+              "type": "Decimal",
+              "value": 1.0,
+              "System": false
+            },
+            {
+              "id": 9,
+              "name": "PLUQuantityBase",
+              "type": "Decimal",
+              "value": 3.0,
+              "System": false
+            },
+            {
+              "id": 10,
+              "name": "PLUUnitofMeasureCode",
+              "type": "Code",
+              "value": "PCS",
+              "System": false
+            },
+            {
+              "id": 11,
+              "name": "PLUExpirationDate",
+              "type": "Date",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 12,
+              "name": "PLUParentLPNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 13,
+              "name": "PLUParentLPLineNo",
+              "type": "Integer",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 14,
+              "name": "PLUStatus",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 15,
+              "name": "PLUSerialNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 16,
+              "name": "PLULotNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 17,
+              "name": "PLUDescription",
+              "type": "Code",
+              "value": "ATHENS MOBILE PEDESTAL",
+              "System": false
+            },
+            {
+              "id": 18,
+              "name": "PLUEntryQuantity",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 19,
+              "name": "PLUSourceDocument",
+              "type": "Option",
+              "value": "Purchase Order",
+              "System": false
+            },
+            {
+              "id": 20,
+              "name": "PLUSourceDocumentNo",
+              "type": "Code",
+              "value": "106176",
+              "System": false
+            },
+            {
+              "id": 21,
+              "name": "PLUWhseDocument",
+              "type": "Option",
+              "value": "Warehouse Receipt",
+              "System": false
+            },
+            {
+              "id": 22,
+              "name": "PLUWhseDocumentNo",
+              "type": "Code",
+              "value": "WHSE REC-00154",
+              "System": false
+            },
+            {
+              "id": 23,
+              "name": "PLULicensePlateStatus",
+              "type": "Option",
+              "value": "Received",
+              "System": false
+            },
+            {
+              "id": 24,
+              "name": "PLUShipmentSrcDocument",
+              "type": "Option",
+              "value": " ",
+              "System": false
+            },
+            {
+              "id": 25,
+              "name": "PLUShipmentSrcDocumentNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 26,
+              "name": "PLUSourceLineNo",
+              "type": "Integer",
+              "value": 20000,
+              "System": false
+            },
+            {
+              "id": 27,
+              "name": "PLUWhseLineNo",
+              "type": "Integer",
+              "value": 20000,
+              "System": false
+            },
+            {
+              "id": 2000000000,
+              "name": "$systemId",
+              "type": "GUID",
+              "value": "{6288AA3D-CFCF-ED11-A7C9-000D3A9FD1D4}",
+              "System": false
+            },
+            {
+              "id": 2000000001,
+              "name": "SystemCreatedAt",
+              "type": "DateTime",
+              "value": "2023-03-31T14:20:58.2830000Z",
+              "System": false
+            },
+            {
+              "id": 2000000002,
+              "name": "SystemCreatedBy",
+              "type": "GUID",
+              "value": "{D88F4C11-86DD-4E04-BB28-D250592C231E}",
+              "System": false
+            },
+            {
+              "id": 2000000003,
+              "name": "SystemModifiedAt",
+              "type": "DateTime",
+              "value": "2023-03-31T14:20:58.2830000Z",
+              "System": false
+            },
+            {
+              "id": 2000000004,
+              "name": "SystemModifiedBy",
+              "type": "GUID",
+              "value": "{D88F4C11-86DD-4E04-BB28-D250592C231E}",
+              "System": false
             }
           ]
         },
-        "fieldCount": 26,
-        "fields": [
-          {
-            "id": 1,
-            "name": "PLUNo",
-            "type": "Code",
-            "value": "LP000205",
-            "System": false
+        {
+          "id": 71017599,
+          "name": "PLULPLines",
+          "company": "CRONUS USA, Inc.",
+          "position": "LP Document No.=CONST(LP-01158),LP Document Type=CONST(Single),Line No.=CONST(20000)",
+          "recordId": "PLU LP Lines: LP-01158,Single,20000",
+          "primaryKey": {
+            "fieldCount": 3,
+            "fields": [
+              {
+                "id": 1,
+                "name": "PLULPDocumentNo",
+                "type": "Code",
+                "value": "LP-01158",
+                "System": false
+              },
+              {
+                "id": 3,
+                "name": "PLULPDocumentType",
+                "type": "Option",
+                "value": "Single",
+                "System": false
+              },
+              {
+                "id": 2,
+                "name": "PLULineNo",
+                "type": "Integer",
+                "value": 20000,
+                "System": false
+              }
+            ]
           },
-          {
-            "id": 2,
-            "name": "PLULineNo",
-            "type": "Integer",
-            "value": 20000,
-            "System": false
-          },
-          {
-            "id": 3,
-            "name": "PLUType",
-            "type": "Option",
-            "value": "Item",
-            "System": false
-          },
-          {
-            "id": 4,
-            "name": "PLUItemNo",
-            "type": "Code",
-            "value": "2000-S",
-            "System": false
-          },
-          {
-            "id": 5,
-            "name": "PLUVariantCode",
-            "type": "Code",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 6,
-            "name": "PLUQuantity",
-            "type": "Decimal",
-            "value": 77.0,
-            "System": false
-          },
-          {
-            "id": 7,
-            "name": "PLUQtyperUnitofMeasure",
-            "type": "Decimal",
-            "value": 1.0,
-            "System": false
-          },
-          {
-            "id": 8,
-            "name": "PLUQuantity(Base)",
-            "type": "Decimal",
-            "value": 77.0,
-            "System": false
-          },
-          {
-            "id": 9,
-            "name": "PLUUnitofMeasureCode",
-            "type": "Code",
-            "value": "PCS",
-            "System": false
-          },
-          {
-            "id": 10,
-            "name": "PLUExpirationDate",
-            "type": "Date",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 11,
-            "name": "PLUParentLicensePlateNo",
-            "type": "Code",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 12,
-            "name": "PLUParentLicPlateLineNo",
-            "type": "Integer",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 13,
-            "name": "PLUStatus",
-            "type": "Code",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 14,
-            "name": "PLUSerialNo",
-            "type": "Code",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 15,
-            "name": "PLULotNo",
-            "type": "Code",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 16,
-            "name": "PLUDescription",
-            "type": "Code",
-            "value": "SYDNEY SWIVEL CHAIR, GREEN",
-            "System": false
-          },
-          {
-            "id": 17,
-            "name": "PLUEntryQuantity",
-            "type": "Code",
-            "value": null,
-            "System": false
-          },
-          {
-            "id": 18,
-            "name": "PLUSourceDocument",
-            "type": "Option",
-            "value": "Purchase Order",
-            "System": false
-          },
-          {
-            "id": 19,
-            "name": "PLUSourceDocumentNo",
-            "type": "Code",
-            "value": "106031",
-            "System": false
-          },
-          {
-            "id": 20,
-            "name": "PLUDocument",
-            "type": "Option",
-            "value": "Warehouse Putway",
-            "System": false
-          },
-          {
-            "id": 21,
-            "name": "PLUDocumentNo",
-            "type": "Code",
-            "value": "10090",
-            "System": false
-          },
-          {
-            "id": 2000000000,
-            "name": "$systemId",
-            "type": "GUID",
-            "value": "{54E5ED53-0C91-EC11-B85A-000D3A74F81B}",
-            "System": false
-          },
-          {
-            "id": 2000000001,
-            "name": "SystemCreatedAt",
-            "type": "DateTime",
-            "value": "2022-02-18T22:44:29.197Z",
-            "System": false
-          },
-          {
-            "id": 2000000002,
-            "name": "SystemCreatedBy",
-            "type": "GUID",
-            "value": "{C8466A18-3206-4894-8B37-3ABD69030D7D}",
-            "System": false
-          },
-          {
-            "id": 2000000003,
-            "name": "SystemModifiedAt",
-            "type": "DateTime",
-            "value": "2022-02-18T22:45:23.943Z",
-            "System": false
-          },
-          {
-            "id": 2000000004,
-            "name": "SystemModifiedBy",
-            "type": "GUID",
-            "value": "{C8466A18-3206-4894-8B37-3ABD69030D7D}",
-            "System": false
-          }
-        ]
-      }
-    ]
-  }
+          "fieldCount": 32,
+          "fields": [
+            {
+              "id": 1,
+              "name": "PLULPDocumentNo",
+              "type": "Code",
+              "value": "LP-01158",
+              "System": false
+            },
+            {
+              "id": 2,
+              "name": "PLULineNo",
+              "type": "Integer",
+              "value": 20000,
+              "System": false
+            },
+            {
+              "id": 3,
+              "name": "PLULPDocumentType",
+              "type": "Option",
+              "value": "Single",
+              "System": false
+            },
+            {
+              "id": 4,
+              "name": "PLUType",
+              "type": "Option",
+              "value": "Item",
+              "System": false
+            },
+            {
+              "id": 5,
+              "name": "PLUNo",
+              "type": "Code",
+              "value": "1906-S",
+              "System": false
+            },
+            {
+              "id": 6,
+              "name": "PLUVariantCode",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 7,
+              "name": "PLUQuantity",
+              "type": "Decimal",
+              "value": 3.0,
+              "System": false
+            },
+            {
+              "id": 8,
+              "name": "PLUQtyperUnitofMeasure",
+              "type": "Decimal",
+              "value": 1.0,
+              "System": false
+            },
+            {
+              "id": 9,
+              "name": "PLUQuantityBase",
+              "type": "Decimal",
+              "value": 3.0,
+              "System": false
+            },
+            {
+              "id": 10,
+              "name": "PLUUnitofMeasureCode",
+              "type": "Code",
+              "value": "PCS",
+              "System": false
+            },
+            {
+              "id": 11,
+              "name": "PLUExpirationDate",
+              "type": "Date",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 12,
+              "name": "PLUParentLPNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 13,
+              "name": "PLUParentLPLineNo",
+              "type": "Integer",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 14,
+              "name": "PLUStatus",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 15,
+              "name": "PLUSerialNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 16,
+              "name": "PLULotNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 17,
+              "name": "PLUDescription",
+              "type": "Code",
+              "value": "ATHENS MOBILE PEDESTAL",
+              "System": false
+            },
+            {
+              "id": 18,
+              "name": "PLUEntryQuantity",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 19,
+              "name": "PLUSourceDocument",
+              "type": "Option",
+              "value": "Purchase Order",
+              "System": false
+            },
+            {
+              "id": 20,
+              "name": "PLUSourceDocumentNo",
+              "type": "Code",
+              "value": "106176",
+              "System": false
+            },
+            {
+              "id": 21,
+              "name": "PLUWhseDocument",
+              "type": "Option",
+              "value": "Warehouse Receipt",
+              "System": false
+            },
+            {
+              "id": 22,
+              "name": "PLUWhseDocumentNo",
+              "type": "Code",
+              "value": "WHSE REC-00154",
+              "System": false
+            },
+            {
+              "id": 23,
+              "name": "PLULicensePlateStatus",
+              "type": "Option",
+              "value": "Received",
+              "System": false
+            },
+            {
+              "id": 24,
+              "name": "PLUShipmentSrcDocument",
+              "type": "Option",
+              "value": " ",
+              "System": false
+            },
+            {
+              "id": 25,
+              "name": "PLUShipmentSrcDocumentNo",
+              "type": "Code",
+              "value": null,
+              "System": false
+            },
+            {
+              "id": 26,
+              "name": "PLUSourceLineNo",
+              "type": "Integer",
+              "value": 20000,
+              "System": false
+            },
+            {
+              "id": 27,
+              "name": "PLUWhseLineNo",
+              "type": "Integer",
+              "value": 20000,
+              "System": false
+            },
+            {
+              "id": 2000000000,
+              "name": "$systemId",
+              "type": "GUID",
+              "value": "{6688AA3D-CFCF-ED11-A7C9-000D3A9FD1D4}",
+              "System": false
+            },
+            {
+              "id": 2000000001,
+              "name": "SystemCreatedAt",
+              "type": "DateTime",
+              "value": "2023-03-31T14:20:58.4270000Z",
+              "System": false
+            },
+            {
+              "id": 2000000002,
+              "name": "SystemCreatedBy",
+              "type": "GUID",
+              "value": "{D88F4C11-86DD-4E04-BB28-D250592C231E}",
+              "System": false
+            },
+            {
+              "id": 2000000003,
+              "name": "SystemModifiedAt",
+              "type": "DateTime",
+              "value": "2023-03-31T14:20:58.4270000Z",
+              "System": false
+            },
+            {
+              "id": 2000000004,
+              "name": "SystemModifiedBy",
+              "type": "GUID",
+              "value": "{D88F4C11-86DD-4E04-BB28-D250592C231E}",
+              "System": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
 ```
 **Error**:
