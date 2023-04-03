@@ -28,12 +28,11 @@ Request:
 
 ```
 {
-  "ProcessMethod": "GetLicencesPlateByStatus",
+  "ProcessMethod": "GetLicencesPlateByStatusGeneral",
   "Parameters": [
     {
-      "No": "WHSE REC-0000004",
-      "IsPallet": true,
-      "LicensePlateStatus":1
+      "No": "WHSE PUTAWAY-00174",
+      "LicensePlateStatus": 2
     }
   ]
 }
