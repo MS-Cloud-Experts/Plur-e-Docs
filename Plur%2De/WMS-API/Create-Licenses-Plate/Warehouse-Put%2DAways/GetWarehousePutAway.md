@@ -316,6 +316,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "",
         "PLULPPalletChildsasLP": "",
@@ -340,6 +478,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "LP-00628",
         "PLULPPalletChildsasLP": "",
@@ -364,6 +640,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "",
         "PLULPPalletChildsasLP": "",
@@ -388,6 +802,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "LP-00628",
         "PLULPPalletChildsasLP": "",
@@ -412,6 +964,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "",
         "PLULPPalletChildsasLP": "",
@@ -436,6 +1126,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "LP-00628",
         "PLULPPalletChildsasLP": "",
@@ -460,6 +1288,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "",
         "PLULPPalletChildsasLP": "",
@@ -484,6 +1450,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "LP-00628",
         "PLULPPalletChildsasLP": "",
@@ -508,6 +1612,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "",
         "PLULPPalletChildsasLP": "",
@@ -532,6 +1774,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "LP-00630",
         "PLULPPalletChildsasLP": "",
@@ -556,6 +1936,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "",
         "PLULPPalletChildsasLP": "",
@@ -580,6 +2098,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "LP-00630",
         "PLULPPalletChildsasLP": "",
@@ -604,6 +2260,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "",
         "PLULPPalletChildsasLP": "",
@@ -628,6 +2422,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "LP-00631",
         "PLULPPalletChildsasLP": "",
@@ -652,6 +2584,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "",
         "PLULPPalletChildsasLP": "",
@@ -676,6 +2746,144 @@ Outputs:
         "Auto_Generate_SN": false,
         "Auto_Generate_LOT": false,
         "ItemTrackingCode": "SNALLWH",
+        "LPArray": {
+          "LicensePlates": [
+            {
+              "LPDocumentNo": "LP-00628",
+              "LPDocumentType": "Single",
+              "LicensePlateStatus": "Labeled",
+              "Location Code": "PLURE",
+              "Bin Code": "REC-1",
+              "WhseDocumentNo": "WHSE PUTAWAY-00169",
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9016",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00628",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9017",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9018",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00629",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9019",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9020",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00630",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9021",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            },
+            {
+              "LPLines": [
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 1000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9022",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                },
+                {
+                  "LPDocumentNo": "LP-00631",
+                  "LPDocumentType": "Single",
+                  "LineNo": 2000,
+                  "Type": "Item",
+                  "VariantCode": "",
+                  "SerialNo": "SN9023",
+                  "LotNo": "",
+                  "ExpirationDate": "0001-01-01",
+                  "Quantity": 1.0,
+                  "QtyperUnitofMeasure": 1.0,
+                  "SourceDocumentNo": "106125",
+                  "SourceLineNo": 10000
+                }
+              ]
+            }
+          ]
+        },
         "PLUNoLPCreated": 0.0,
         "PLULPSingles": "LP-00631",
         "PLULPPalletChildsasLP": "",
