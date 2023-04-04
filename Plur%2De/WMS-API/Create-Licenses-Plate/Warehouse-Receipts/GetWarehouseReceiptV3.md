@@ -267,6 +267,9 @@
               "Location Code": "NEWWMS",
               "Bin Code": "REC-1",
               "WhseDocumentNo": "WHSE REC-00155",
+              "UnitofMeasure": "PCS",
+              "LPTotalQuantities": 0.0,
+              "ItemNo": "",
               "LPLines": [
                 {
                   "LPDocumentNo": "LP-01173",
@@ -305,6 +308,9 @@
               "Location Code": "NEWWMS",
               "Bin Code": "REC-1",
               "WhseDocumentNo": "WHSE REC-00155",
+              "UnitofMeasure": "PCS",
+              "LPTotalQuantities": 0.0,
+              "ItemNo": "",
               "LPLines": [
                 {
                   "LPDocumentNo": "LP-01174",
@@ -343,6 +349,9 @@
               "Location Code": "NEWWMS",
               "Bin Code": "REC-1",
               "WhseDocumentNo": "WHSE REC-00155",
+              "UnitofMeasure": "PCS",
+              "LPTotalQuantities": 0.0,
+              "ItemNo": "",
               "LPLines": [
                 {
                   "LPDocumentNo": "LP-01175",
@@ -419,6 +428,9 @@
               "Location Code": "NEWWMS",
               "Bin Code": "REC-1",
               "WhseDocumentNo": "WHSE REC-00155",
+              "UnitofMeasure": "PCS",
+              "LPTotalQuantities": 0.0,
+              "ItemNo": "",
               "LPLines": [
                 {
                   "LPDocumentNo": "LP-01170",
@@ -443,6 +455,9 @@
               "Location Code": "NEWWMS",
               "Bin Code": "REC-1",
               "WhseDocumentNo": "WHSE REC-00155",
+              "UnitofMeasure": "PCS",
+              "LPTotalQuantities": 0.0,
+              "ItemNo": "",
               "LPLines": [
                 {
                   "LPDocumentNo": "LP-01171",
@@ -467,6 +482,9 @@
               "Location Code": "NEWWMS",
               "Bin Code": "REC-1",
               "WhseDocumentNo": "WHSE REC-00155",
+              "UnitofMeasure": "PCS",
+              "LPTotalQuantities": 0.0,
+              "ItemNo": "",
               "LPLines": [
                 {
                   "LPDocumentNo": "LP-01172",
