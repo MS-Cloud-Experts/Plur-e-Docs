@@ -19,12 +19,23 @@ The result of this method returns 2 fields, one if the delete process was execut
 **Request**:
 ```
 {
-  "ProcessMethod": "Delete_LPChild_to_LP_Pallet_From_WR",
+  "ProcessMethod": "Delete_ItemChild_to_LP_Pallet_From_WR2",
   "Parameters": [
     {
       "LP_Pallet_No": "LP-0000121",
       "WarehouseReceipt_No": "WHSE REC-0000007",
-      "LP_Pallet_Child_No": "LP-0000124"
+      "WarehouseReceipt_LineNo": "20000",
+      "Item_Child": [
+        {
+          "ItemNo": "1000"
+        },
+        {
+          "ItemNo": "1001"
+        },
+        {
+          "ItemNo": "1002"
+        }
+      ]
     }
   ]
 }
