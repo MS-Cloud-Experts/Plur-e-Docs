@@ -27,7 +27,7 @@ The result of this method returns 2 fields, one if the delete process was execut
       "WarehouseReceipt_No": "WHSE REC-00165",
       "Item_Child": [
         {
-          "WarehouseReceipt_LineNo": 10000,
+          "WarehouseReceipt_LineNo": 20000,
           "ItemNo": "1906-S",
           "LineNo": 10000
         },
