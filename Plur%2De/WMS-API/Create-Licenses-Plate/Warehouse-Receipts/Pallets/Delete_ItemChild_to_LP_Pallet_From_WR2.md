@@ -1,4 +1,4 @@
-**ProcessMethod**: Delete_ItemChild_to_LP_Pallet_From_WR
+**ProcessMethod**: Delete_ItemChild_to_LP_Pallet_From_WR2
 
 **Description**:
 This method allows you to remove an existing LP Single as a child of an LP Pallet.
@@ -10,7 +10,8 @@ The result of this method returns 2 fields, one if the delete process was execut
 **Parameters**: 
 -	**LP_Pallet_No**: Represents the number of LP Pallets that you want to eliminate possible children of the LP Single.
 -	**WarehouseReceipt_No**:  Represents the Warehouse Receipt Number where the Pallet is located. This field is used as an extra validation to verify that the LP Pallet is actually included in the Warehouse Receipt.
--	**LP_Pallet_Child_No**: It represents the LP Child that will be removed from the LP Pallet.
+-	**WarehouseReceipt_LineNo**: Represents the line number of the Warehouse Receipt Line that you want to affect.
+-	**Item_Child**: Represents a vector of Items No that you want to remove.
 
 **Ouput**: 
 -	**IsProcessed**: Boolean variable that indicates if the process was successful or not.
