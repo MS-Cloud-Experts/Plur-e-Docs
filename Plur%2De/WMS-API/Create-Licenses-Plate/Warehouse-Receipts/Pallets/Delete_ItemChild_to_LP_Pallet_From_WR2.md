@@ -23,21 +23,23 @@ The result of this method returns 2 fields, one if the delete process was execut
   "ProcessMethod": "Delete_ItemChild_to_LP_Pallet_From_WR2",
   "Parameters": [
     {
-      "LP_Pallet_No": "LP-0000121",
-      "WarehouseReceipt_No": "WHSE REC-0000007",
-      "WarehouseReceipt_LineNo": "20000",
+      "LP_Pallet_No": "LP-01255",
+      "WarehouseReceipt_No": "WHSE REC-00165",
       "Item_Child": [
         {
-          "ItemNo": "1000",
-          "LineNo": "1000"
+          "WarehouseReceipt_LineNo": 10000,
+          "ItemNo": "1906-S",
+          "LineNo": 10000
         },
         {
-          "ItemNo": "1001",
-          "LineNo": "2000"
+          "WarehouseReceipt_LineNo": 10000,
+          "ItemNo": "1013",
+          "LineNo": 20000
         },
         {
-          "ItemNo": "1002",
-          "LineNo": "3000"
+          "WarehouseReceipt_LineNo": 10000,
+          "ItemNo": "1013",
+          "LineNo": 30000
         }
       ]
     }
