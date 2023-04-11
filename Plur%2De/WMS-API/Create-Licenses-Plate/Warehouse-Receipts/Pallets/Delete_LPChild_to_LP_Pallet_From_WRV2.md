@@ -10,7 +10,7 @@ The result of this method returns 2 fields, one if the delete process was execut
 **Parameters**: 
 -	**LP_Pallet_No**: Represents the number of LP Pallets that you want to eliminate possible children of the LP Single.
 -	**WarehouseReceipt_No**:  Represents the Warehouse Receipt Number where the Pallet is located. This field is used as an extra validation to verify that the LP Pallet is actually included in the Warehouse Receipt.
--	**LP_Pallet_Child_No**: It represents the LP Child that will be removed from the LP Pallet.
+-	**Vector of LP child to delete.**: It represents the LP Child that will be removed from the LP Pallet.
 
 **Ouput**: 
 -	**IsProcessed**: Boolean variable that indicates if the process was successful or not.
