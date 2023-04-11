@@ -28,13 +28,16 @@ The result of this method returns 2 fields, one if the delete process was execut
       "WarehouseReceipt_LineNo": "20000",
       "Item_Child": [
         {
-          "ItemNo": "1000"
+          "ItemNo": "1000",
+          "LineNo": "1000"
         },
         {
-          "ItemNo": "1001"
+          "ItemNo": "1001",
+          "LineNo": "2000"
         },
         {
-          "ItemNo": "1002"
+          "ItemNo": "1002",
+          "LineNo": "3000"
         }
       ]
     }
