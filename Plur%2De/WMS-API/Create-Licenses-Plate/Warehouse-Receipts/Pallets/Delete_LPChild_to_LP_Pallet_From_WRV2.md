@@ -19,7 +19,7 @@ The result of this method returns 2 fields, one if the delete process was execut
 **Request**:
 ```
 {
-  "ProcessMethod": "Delete_LPChild_to_LP_Pallet_From_WRV3",
+  "ProcessMethod": "Delete_LPChild_to_LP_Pallet_From_WRV2",
   "Parameters": [
     {
       "LP_Pallet_No": "LP-0000121",
