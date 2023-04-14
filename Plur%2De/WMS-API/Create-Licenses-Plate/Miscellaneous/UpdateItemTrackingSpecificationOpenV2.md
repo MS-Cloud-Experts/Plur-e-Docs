@@ -3,7 +3,7 @@
 
 ```
 {
-  "ProcessMethod": "Assign_ItemChild_to_LP_Pallet_From_WR_With_SNLOT",
+  "ProcessMethod": "UpdateItemTrackingSpecificationOpenV2",
   "Parameters": [
     {
       "WarhouseReceiptNo": "WHSE REC-00159",
