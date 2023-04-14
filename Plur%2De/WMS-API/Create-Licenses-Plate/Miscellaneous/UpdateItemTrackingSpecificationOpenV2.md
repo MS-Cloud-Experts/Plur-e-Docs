@@ -8,8 +8,7 @@
     {
       "WarhouseReceiptNo": "WHSE REC-00159",
       "ItemNo": "1013",
-      "TotalToReceive": 3,
-      "UnitofMeasureCode": "PCS",
+      "QtyToReceive": 3,
       "SourceNo": "106180",
       "SourceRefNo": 10000,
       "LineNo": 10000,
