@@ -7,7 +7,6 @@
   "Parameters": [
     {
       "WarhouseReceiptNo": "WHSE REC-00159",
-      "LP_Pallet_No": "LP-01198",
       "BinCode": "REC-1",
       "ItemNo": "1013",
       "TotalToReceive": 3,
