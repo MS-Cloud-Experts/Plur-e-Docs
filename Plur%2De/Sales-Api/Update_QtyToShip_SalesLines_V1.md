@@ -33,7 +33,6 @@ The values of this field will be treated as Integers, this being the following m
 
 **Example:**
 
-![image.png](/.attachments/image-e368e677-2e16-4f5b-9cee-2faeb349800d.png)
 ![image.png](/.attachments/image-b6faf901-f16e-461e-a33b-2ac9f14e37d1.png)
 
 **Request:**
