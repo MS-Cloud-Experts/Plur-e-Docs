@@ -1,13 +1,11 @@
 **ProcessMethod**: Update_QtyToShip_SalesLines_V1
 
 **Description**:
-Update_WarehousePutAway_Lines
+Update_QtyToShip_SalesLines_V1
 
-The method used to update the Warehouse Put Away Lines or also known as Warehouse Activity Lines.
+The method used to update the Sale Lines in the Sales Order.
 
-The idea of this method is to be able to be used before posting in case we want to update the destination of the Location/Bin of our LP.
-
-**Input**:  The output is the information of new lines of a Warehouse Put Away, and although only the Key (Activity Type, Line No, No) is needed to perform any search, it has been decided to further detail the information with the following fields.
+The idea of the method is to update the Qty to Ship in the Sales Order in the picking process of the items.
 
 **Parameters**:
 
@@ -29,12 +27,11 @@ The values of this field will be treated as Integers, this being the following m
 -	**LineNo** : Number  Line.
 -	**Qty to Ship** : Quantities
 
-**Output**:  If successful, the same fields used in the input will be returned as output, but with the updated values of Bin, zone, and location.
+**Output**:  If successful, the same fields used in the input will be returned as output, but with the updated value of Qty to ship
 
 **Example:**
 
 ![image.png](/.attachments/image-b6faf901-f16e-461e-a33b-2ac9f14e37d1.png)
-
 
 
 **Request:**
@@ -46,17 +43,17 @@ The values of this field will be treated as Integers, this being the following m
       "SalesLine": [
         {
           "DocumentType": "1",
-          "DocumentNo": "S-ORD101001",
-          "LineNo": "1000",
-          "No": "1996-S",
-          "QtytoShip": "6"
+          "DocumentNo": "S-ORD101002",
+          "LineNo": "10000",
+          "No": "1968-S",
+          "QtytoShip": "5"
         },
         {
           "DocumentType": "1",
-          "DocumentNo": "S-ORD101001",
-          "LineNo": "11000",
-          "No": "1900-S",
-          "QtytoShip": "5"
+          "DocumentNo": "S-ORD101002",
+          "LineNo": "20000",
+          "No": "1928-S",
+          "QtytoShip": "3"
         }
       ]
     }
@@ -68,46 +65,24 @@ The values of this field will be treated as Integers, this being the following m
 
 ```
 {
-  "WarehousePutAwayLines": [
+  "SalesLine": [
     {
-      "ActivityType": 1,
-      "No": "WHSE PUTAWAY-00021",
-      "ItemNo": "1896-S",
+      "DocumentType": "Order",
+      "DocumentNo": "S-ORD101002",
+      "LineNo": "10000",
+      "No": "1968-S",
+      "Quantity": 10.0,
+      "QtytoShip": 5.0,
+      "OutstandingQty": 10.0
+    },
+    {
+      "DocumentType": "Order",
+      "DocumentNo": "S-ORD101002",
       "LineNo": "20000",
-      "ZoneCode": "STO",
-      "LocationCode": "WMS",
-      "BinCode": "STO-1",
-      "Quantity": 5.0
-    },
-    {
-      "ActivityType": 1,
-      "No": "WHSE PUTAWAY-00021",
-      "ItemNo": "1896-S",
-      "LineNo": "22500",
-      "ZoneCode": "",
-      "LocationCode": "WMS",
-      "BinCode": "",
-      "Quantity": 5.0
-    },
-    {
-      "ActivityType": 1,
-      "No": "WHSE PUTAWAY-00021",
-      "ItemNo": "1896-S",
-      "LineNo": "25000",
-      "ZoneCode": "",
-      "LocationCode": "WMS",
-      "BinCode": "",
-      "Quantity": 5.0
-    },
-    {
-      "ActivityType": 1,
-      "No": "WHSE PUTAWAY-00021",
-      "ItemNo": "1896-S",
-      "LineNo": "30000",
-      "ZoneCode": "",
-      "LocationCode": "WMS",
-      "BinCode": "",
-      "Quantity": 5.0,
+      "No": "1928-S",
+      "Quantity": 7.0,
+      "QtytoShip": 3.0,
+      "OutstandingQty": 7.0
     }
   ]
 }
