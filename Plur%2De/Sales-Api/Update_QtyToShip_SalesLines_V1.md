@@ -112,7 +112,7 @@ The values of this field will be treated as Integers, this being the following m
   ]
 }
 ```
-![image.png](/.attachments/image-d367be45-66f2-4d74-9231-e95b99d2a1b5.png)
+![image.png](/.attachments/image-b4572646-4295-4ca0-8003-3fcdd3135a1d.png)
 
 
 **Errors:**
