@@ -35,6 +35,8 @@ The values of this field will be treated as Integers, this being the following m
 
 ![image.png](/.attachments/image-b6faf901-f16e-461e-a33b-2ac9f14e37d1.png)
 
+
+
 **Request:**
 ```
 {
@@ -110,7 +112,7 @@ The values of this field will be treated as Integers, this being the following m
   ]
 }
 ```
-![image.png](/.attachments/image-8e47e464-7a65-4e08-a120-0bd6ec91bd13.png)
+![image.png](/.attachments/image-d367be45-66f2-4d74-9231-e95b99d2a1b5.png)
 
 
 **Errors:**
