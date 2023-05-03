@@ -1,4 +1,4 @@
-**ProcessMethod**: Update_Wsheput_Lines_V2
+**ProcessMethod**: Update_QtyToShip_SalesLines_V1
 
 **Description**:
 Update_WarehousePutAway_Lines
@@ -10,80 +10,52 @@ The idea of this method is to be able to be used before posting in case we want 
 **Input**:  The output is the information of new lines of a Warehouse Put Away, and although only the Key (Activity Type, Line No, No) is needed to perform any search, it has been decided to further detail the information with the following fields.
 
 **Parameters**:
--	**ActivityType** : Since the table is really called Warehouse Activity Line, and it works for both Put Aways and Shipments, the type that allows it to be differentiated is included, which are the following:
-**'Put-away'**, **'Pick'**, **'Movement'**, **'Invt. Put-away'**,**'Invt. Pick'**, **'Invt. Movement**.
 
 The values of this field will be treated as Integers, this being the following mapping:
 
-```
-**"Put-away"**:= 1;
-**"Pick"** :=   2;
-**"Movement"** :=   3; 
-**"Invt. Put-away"** := 4; 
-**"Invt. Pick"**:= 5; 
-**"Invt. Movement"**:= 6;
-```
+
+- **Sales Document Typo Enum Values**
+
+    **Value:** 0; "Quote"
+    **Value:** 1; "Order" 
+    **Value:** 2; "Invoice"
+    **Value:** 3; "Credit Memo" 
+    **Value:** 4; "Blanket Order" 
+    **Value:** 5; "Return Order" 
+
  
 -	**No** :Warehouse Put Away number.
 -	**ItemNo** : Item No related.
 -	**LineNo** : Number  Line.
--	**ZoneCode** : Zone
--	**LocationCode** : Location
--	**BinCode** : Bin
--	**Quantity** : Quantities
+-	**Qty to Ship** : Quantities
 
 **Output**:  If successful, the same fields used in the input will be returned as output, but with the updated values of Bin, zone, and location.
 
 **Example:**
 
 ![image.png](/.attachments/image-e368e677-2e16-4f5b-9cee-2faeb349800d.png)
+![image.png](/.attachments/image-b6faf901-f16e-461e-a33b-2ac9f14e37d1.png)
 
 **Request:**
 ```
 {
-  "ProcessMethod": "Update_Wsheput_Lines_V2",
+  "ProcessMethod": "Update_QtyToShip_SalesLines_V1",
   "Parameters": [
     {
-      "WarehousePutAwayLines": [
+      "SalesLine": [
         {
-          "ActivityType": 1,
-          "No": "WHSE PUTAWAY-00021",
-          "ItemNo": "1896-S",
-          "LineNo": "20000",
-          "ZoneCode": "STO",
-          "LocationCode": "WMS",
-          "BinCode": "FLOOR",
-          "Quantity": 5.0
+          "DocumentType": "1",
+          "DocumentNo": "S-ORD101001",
+          "LineNo": "1000",
+          "No": "1996-S",
+          "QtytoShip": "6"
         },
         {
-          "ActivityType": 1,
-          "No": "WHSE PUTAWAY-00021",
-          "ItemNo": "1896-S",
-          "LineNo": "22500",
-          "ZoneCode": "",
-          "LocationCode": "WMS",
-          "BinCode": "",
-          "Quantity": 5.0
-        },
-        {
-          "ActivityType": 1,
-          "No": "WHSE PUTAWAY-00021",
-          "ItemNo": "1896-S",
-          "LineNo": "25000",
-          "ZoneCode": "",
-          "LocationCode": "WMS",
-          "BinCode": "",
-          "Quantity": 5.0
-        },
-        {
-          "ActivityType": 1,
-          "No": "WHSE PUTAWAY-00021",
-          "ItemNo": "1896-S",
-          "LineNo": "30000",
-          "ZoneCode": "",
-          "LocationCode": "WMS",
-          "BinCode": "",
-          "Quantity": 5.0
+          "DocumentType": "1",
+          "DocumentNo": "S-ORD101001",
+          "LineNo": "11000",
+          "No": "1900-S",
+          "QtytoShip": "5"
         }
       ]
     }
