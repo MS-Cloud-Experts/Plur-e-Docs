@@ -80,9 +80,19 @@ Assuming we want to move the LP Single: **LP-00272**
   "ProcessMethod": "SplitPallet_LPSingle",
   "Parameters": [
     {
-      "OldLPPalletCode": "LP-00275",
-      "NewLPPalletCode": "LP-00285",
-      "LPChildSingleCode": "LP-00272"
+      "OldLPPalletCode": "LP-01096",
+      "NewLPPalletCode": " LP-01052 ",
+      "LPChildArray": [
+        {
+          "LPChildSingleCode": "LP-01096"
+        },
+        {
+          "LPChildSingleCode": "LP-01096"
+        },
+        {
+          "LPChildSingleCode": "LP-01096"
+        }
+      ]
     }
   ]
 }
