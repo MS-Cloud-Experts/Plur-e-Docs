@@ -1,11 +1,11 @@
-**ProcessMethod**: Update_QtyToShip_SalesLines_V1
+**ProcessMethod**: Update_QtyToReturn_V1
 
 **Description**:
-Update_QtyToShip_SalesLines_V1
+Update_QtyToReturn_V1
 
-The method used to update the Sale Lines in the Sales Order.
+The method used to update the Sale Lines in the Sales Return Order.
 
-The idea of the method is to update the Qty to Ship in the Sales Order in the picking process of the items.
+The idea of the method is to update the Return Qty to Receive in the Sales Return Order in the picking process of the items.
 
 **Parameters**:
 
@@ -25,35 +25,28 @@ The values of this field will be treated as Integers, this being the following m
 -	**No** :Warehouse Put Away number.
 -	**ItemNo** : Item No related.
 -	**LineNo** : Number  Line.
--	**Qty to Ship** : Quantities
+-	**QtytoReturn** : Quantities
 
-**Output**:  If successful, the same fields used in the input will be returned as output, but with the updated value of Qty to ship
+**Output**:  If successful, the same fields used in the input will be returned as output, but with the updated value of Return Qty to Receive
 
 **Example:**
 
-![image.png](/.attachments/image-b6faf901-f16e-461e-a33b-2ac9f14e37d1.png)
+![image.png](/.attachments/image-423b21fb-8965-4856-8fe1-47502a937471.png)
 
 
 **Request:**
 ```
 {
-  "ProcessMethod": "Update_QtyToShip_SalesLines_V1",
+  "ProcessMethod": "Update_QtyToReturn_V1",
   "Parameters": [
     {
       "SalesLine": [
         {
-          "DocumentType": "1",
-          "DocumentNo": "S-ORD101002",
-          "LineNo": "10000",
-          "No": "1968-S",
-          "QtytoShip": "5"
-        },
-        {
-          "DocumentType": "1",
-          "DocumentNo": "S-ORD101002",
-          "LineNo": "20000",
-          "No": "1928-S",
-          "QtytoShip": "3"
+          "DocumentType": "5",
+          "DocumentNo": "S-RETORD1002",
+          "LineNo": "1000",
+          "No": "1015",
+          "QtytoReturn": "2"
         }
       ]
     }
@@ -67,36 +60,22 @@ The values of this field will be treated as Integers, this being the following m
 {
   "SalesLine": [
     {
-      "DocumentType": "Order",
-      "DocumentNo": "S-ORD101002",
-      "LineNo": "10000",
-      "No": "1968-S",
-      "Quantity": 10.0,
-      "QtytoShip": 5.0,
-      "OutstandingQty": 10.0
-    },
-    {
-      "DocumentType": "Order",
-      "DocumentNo": "S-ORD101002",
-      "LineNo": "20000",
-      "No": "1928-S",
-      "Quantity": 7.0,
-      "QtytoShip": 3.0,
-      "OutstandingQty": 7.0
+      "DocumentType": "Return Order",
+      "DocumentNo": "S-RETORD1002",
+      "LineNo": "1000",
+      "No": "1015",
+      "Quantity": 5.0,
+      "QtytoReturn": 2.0,
+      "OutstandingQty": 5.0
     }
   ]
 }
 ```
-![image.png](/.attachments/image-b4572646-4295-4ca0-8003-3fcdd3135a1d.png)
+![image.png](/.attachments/image-34fc9424-b360-41f5-9e2a-a5f02860f408.png)
 
 
 **Errors:**
 ```
-{
-    "error": {
-        "code": "Application_DialogException",
-        "message": "You cannot ship more than 10 units.  CorrelationId:  071b7020-d918-4d9d-aee9-8e476aadcdbd."
-    }
-}
+
 ```
 
