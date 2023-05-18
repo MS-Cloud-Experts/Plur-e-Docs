@@ -14,7 +14,7 @@ value(2; " ") { Caption = ''; }
   "ProcessMethod": "Delete_LP_FromWarehouseReceiptLineV2",
   "Parameters": [
     {
-      "LPChildArray": [
+      "LPArray": [
         {
           "LPDocumentNo": "LP-01096",
           "LPDocumentType": 1
