@@ -17,15 +17,15 @@ value(2; " ") { Caption = ''; }
       "LPChildArray": [
         {
           "LPDocumentNo": "LP-01096",
-          "LPDocumentNo": 1
+          "LPDocumentType": 1
         },
         {
           "LPDocumentNo": "LP-01097",
-          "LPDocumentNo": 1
+          "LPDocumentType": 1
         },
         {
           "LPDocumentNo": "LP-01097",
-          "LPDocumentNo": 0
+          "LPDocumentType": 0
         },
       ]
     }
