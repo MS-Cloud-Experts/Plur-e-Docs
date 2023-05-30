@@ -1,4 +1,4 @@
-Request:
+**Request:**
 ```
 {
   "ProcessMethod": "GetItemInventoryByLocation",
@@ -8,5 +8,15 @@ Request:
       "LocationCode": "NEWWMS"
     }
   ]
+}
+```
+
+**OutPut:**
+
+```
+{
+  "ItemNo": "1000",
+  "LocationCode": "NEWWMS",
+  "Inventory": 158.0
 }
 ```
