@@ -1,3 +1,6 @@
+**GetGenJournalBatchJson:** 
+The Output is an array of **General Journals Templates** because the system can have several Records associated to Payments, and this, in turn, has an array of possible Batch, previously filtered of the type Payments.
+
 **Request:**
 ```
 {
@@ -5,6 +8,8 @@
   "Parameters": []
 }
 ```
+
+**Ouput:** 
 
 **Output:**
 ```
