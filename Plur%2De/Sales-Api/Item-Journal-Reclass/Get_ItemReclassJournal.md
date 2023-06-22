@@ -30,3 +30,10 @@
   }
 ]
 ```
+
+**Business Central**
+
+![image.png](/.attachments/image-f0c95d01-37c8-4cda-83db-9c78667eb727.png)
+
+
+![image.png](/.attachments/image-9f9e11fc-f8ee-4602-b3a8-4fb253a0a248.png)
