@@ -1,7 +1,7 @@
 **Request:**
 ```
 {
-  "ProcessMethod": "GetPlureSetupV2",
+  "ProcessMethod": "GetPlureSetup",
   "Parameters": []
 }
 ```
