@@ -18,7 +18,7 @@
   "Enable_Cr_Memo_Order": true,
   "Enable_WMS": true,
   "Enable_Payments": true,
-  "Default_Location": false
+  "Auto_Posting_Reclass": false
 }
 ```
 
