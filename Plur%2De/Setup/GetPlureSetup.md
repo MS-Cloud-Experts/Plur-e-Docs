@@ -1,4 +1,10 @@
 **Request:**
+```
+{
+  "ProcessMethod": "GetPlureSetupV2",
+  "Parameters": []
+}
+```
 
 
 **Result:**
