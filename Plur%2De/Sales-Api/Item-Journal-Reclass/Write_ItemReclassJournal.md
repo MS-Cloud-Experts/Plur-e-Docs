@@ -1,4 +1,4 @@
-**Write_ItemReclassJournal**
+**Write_ItemReclassJournal:**
 This method creates the lines of the Item Reclass.
 
 If in the Plure configuration the auto reclass check is turned on, then at the time of writing it will be written and posted automatically.
