@@ -10,3 +10,7 @@
   ]
 }
 ```
+
+**Output:**
+
+ `"value": "Posted Batch Template: TRANSFER and Batch Name: DEFAULT"`
