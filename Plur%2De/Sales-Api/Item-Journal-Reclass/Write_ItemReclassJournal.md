@@ -62,3 +62,14 @@ In another scenario, only the lines will be created.
   ]
 }
 ```
+
+**Errors possible:**
+ 
+```
+"error": {
+        "code": "Application_DialogException",
+        "message": "You have insufficient quantity of Item 2000-S on inventory.  CorrelationId:  10b3fa85-1752-4f79-9836-33c6352b0995."
+    }
+```
+
+
