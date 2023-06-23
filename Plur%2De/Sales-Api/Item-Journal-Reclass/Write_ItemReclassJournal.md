@@ -11,7 +11,6 @@ In another scenario, only the lines will be created.
 
 **Request:**
 
-
 ```
 {
   "ProcessMethod": "Write_ItemReclassJournal",
