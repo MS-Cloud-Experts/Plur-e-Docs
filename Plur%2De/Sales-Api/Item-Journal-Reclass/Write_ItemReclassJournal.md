@@ -72,4 +72,12 @@ In another scenario, only the lines will be created.
     }
 ```
 
+```
+"error": {
+        "code": "Application_DialogException",
+        "message": "Item No: 1896-S is managed by Plur-E. You must first create a License Plate for the Plur-E module and then attach it to the line before posting it. If it is already created, check that the status is 'Stored'  CorrelationId:  e63f74b6-64d4-4991-80fe-ebe33c276dbe."
+    }
+```
+
+
 
