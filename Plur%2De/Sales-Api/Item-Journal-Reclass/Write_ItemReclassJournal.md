@@ -1,3 +1,14 @@
+**Write_ItemReclassJournal**
+This method creates the lines of the Item Reclass.
+
+If in the Plure configuration the auto reclass check is turned on, then at the time of writing it will be written and posted automatically.
+
+![image.png](/.attachments/image-49025a53-995d-4fe3-b84a-fa30ef4e6b08.png)
+
+In another scenario, only the lines will be created.
+
+
+
 **Request:**
 
 
