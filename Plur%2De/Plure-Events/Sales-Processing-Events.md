@@ -1,4 +1,6 @@
-[IntegrationEvent(false, false)]
+
+```
+    [IntegrationEvent(false, false)]
     internal procedure OnBeforeGetSalesPersonsList(var SalesPeople: Record "Salesperson/Purchaser"; var Output: Text; var IsHandled: Boolean)
     begin
     end;
@@ -87,3 +89,4 @@
     procedure OnBeforeGetSalesPerson(CodeSP: Code[20]; var Output: Text; var IsHandled: Boolean)
     begin
     end;
+```
