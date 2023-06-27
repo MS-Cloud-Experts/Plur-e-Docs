@@ -13,6 +13,16 @@
 }
 ```
 
+**Report ID:**
+1. Sales Quote: 1304
+2. Sales - Confirmation: 1305
+3. Sales Invoice: 1306
+4. Sales Credit Memo: 1307
+5. Sales Shipment: 1308
+6. Return Receipt: 1309
+7. Proforma Invoice: 1302
+
+
 **Sales Document Type:**
     
 ```
