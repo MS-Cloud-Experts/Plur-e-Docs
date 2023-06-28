@@ -21,6 +21,7 @@
 5. Sales Shipment: 1308
 6. Return Receipt: 1309
 7. Proforma Invoice: 1302
+7. Pick Instruction: 214
 
 
 **Sales Document Type:**
