@@ -8,6 +8,17 @@ GET
  {{apiurl}}/api/{{apiversion}}/payments/GetPaymentMethodsByUser?customerId={{customerId}}&environmentId={{environmentId}}&mobileUserId={{mobileUserId}}
 ```
 
+**Parameters:**
+| No. | Parameter | Type | Value |
+|--|--|--|--|
+|1|apiurl|string|https://api.plur-e.com/|
+|2|apiversion|string|v1.0|
+|3|customerId|string|Subscription customer Id|
+|4|environmentId|string|Environment Id |
+|5|mobileUserId|string||
+
+
+
 **Headers:**
 ```
 PlureApiKey: pk_QjJ4Wj7LRKCrdZ6CTPVDEGc63AbVwUxHrMgeJkQcM5f39T7rTkw9U3pWpjMkUVKNPqBFAATNwfYRqnVNpFy8Xm7qSZAWGDnETyL7
