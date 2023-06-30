@@ -5,7 +5,7 @@ GET
 
 **Endpoint:**
 ```
- {{uri}}/api/v1.0/payments/GetPaymentMethodsByUser?customerId={{customerId}}&environmentId={{environmentId}}&mobileUserId={{mobileUserId}}
+ {{apiurl}}/api/{{apiversion}}/payments/GetPaymentMethodsByUser?customerId={{customerId}}&environmentId={{environmentId}}&mobileUserId={{mobileUserId}}
 ```
 
 **Headers:**
