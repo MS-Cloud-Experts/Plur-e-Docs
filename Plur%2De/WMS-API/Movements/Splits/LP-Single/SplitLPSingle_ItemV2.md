@@ -56,7 +56,7 @@ Once the amounts of the LP have been obtained, we could already know the maximum
 **Request:**
 ```
 {
-  "ProcessMethod": "SplitLPSingle_Item",
+  "ProcessMethod": "SplitLPSingle_ItemV2",
   "Parameters": [
     {
       "NewLicensePlateCode": "LP-01096",
