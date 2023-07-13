@@ -1,4 +1,4 @@
-**ProcessMethod**: SplitLPSingle_Item
+**ProcessMethod**: SplitLPSingle_ItemV2
 
 **Description**:
 This method allows you to split an existing License Plate into a new one.
