@@ -59,16 +59,28 @@ Once the amounts of the LP have been obtained, we could already know the maximum
   "ProcessMethod": "SplitLPSingle_Item",
   "Parameters": [
     {
-      "NewLicensePlateCode": "LP000777",
-      "NewQuantity": "1",
-      "OriginalQuantityModified": "2",
-      "OriginalLicensePlateCode": "LP000535",
-      "ItemCode": "1013",
-      "LineNo": 10000
+      "NewLicensePlateCode": "LP-01096",
+      "OriginalLicensePlateCode": " LP-01052 ",
+      "ItemChildArray": [
+        {
+          "ItemCode": "1000",
+          "LineNo": "1000",
+          "OriginalQuantityModified": "1",
+          "NewQuantity": "1"
+        },
+        {
+          "ItemCode": "1000",
+          "LineNo": "2000",
+          "OriginalQuantityModified": "1",
+          "NewQuantity": "1"
+        }
+      ]
     }
   ]
 }
 ```
+
+
 
 **Note**: the amounts in **NewQuantity** and in **OriginalQuantityModified** can never be greater than the original amounts on the LP.
 
