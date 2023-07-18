@@ -1,17 +1,40 @@
 **Request:**
 
+**Sales Opens Reports**
 ```
+
 {
   "ProcessMethod": "GetSalesOrderReportPDF",
   "Parameters": [
     {
+      "TableId": 36
       "DocumentNo": "S-ORD101001",
       "Sales Document Type": "1",
       "Report ID": "1305"
     }
   ]
 }
+
 ```
+**Posted Sales Invoice**
+```
+{
+  "ProcessMethod": "GetSalesOrderReportPDF",
+  "Parameters": [
+    {
+      "TableId": 112
+      "DocumentNo": "PS-INV103226",
+      "Sales Document Type": "2",
+      "Report ID": "1306"
+    }
+  ]
+}
+
+```
+**Table Id:**
+1. Sales Header: 36
+2. Sales Invoice Header: 112
+
 
 **Report ID:**
 1. Sales Quote: 1304
