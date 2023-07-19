@@ -21,8 +21,24 @@ This method allows you to increase or decrease an Item with its associated LP in
 
 Request:
 
-`jsonRequest":"{\"ProcessMethod\":\"WarehouseItemJournal_LP\",\"Parameters\":[{\"LPNo\":\"LP000502\",\"Zone\":\"STO\",\"Bin\":\"STO2\",\"LocationCode\":\"BBB\",\"ItemNo\":\"1972-S\",\"Qty\":\"2\",\"UnitofMeasureCode\":\"PCS\"}]}`
+```
+{
+  "ProcessMethod": "WarehouseItemJournal_LP",
+  "Parameters": [
+    {
+      "LPNo": "LP000502",
+      "Zone": "STO",
+      "Bin": "STO2",
+      "LocationCode": "BBB",
+      "ItemNo": "1972-S",
+      "Qty": "2",
+      "UnitofMeasureCode": "PCS"
+    }
+  ]
+}
+```
 
+ 
 **Outputs**:
 
 
