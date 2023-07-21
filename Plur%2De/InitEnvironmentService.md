@@ -11,7 +11,7 @@
     \"Parameters\":
         [{\"ParameterId\":\"BaseUrl\",\"http://200.32.221.134:7748\"},
          {\"ParameterId\":\"ServiceInstance\",\"Value\":\"ROE_WS\"},
-         {\"ParameterId\":\"ServiceUser\",\"Value\":\"ROESONS\Pangea1\"},
+         {\"ParameterId\":\"ServiceUser\",\"Value\":\"ROESONS\\Pangea1\"},
          {\"ParameterId\":\"ServicePassword\",\"Value\":\"P@ssw0rd\"}],
     \"Company\":{\"CompanyId\":\"65858c60-bc24-ee11-a07d-00505683f2ee\",
 	\"CompanyName\":\"CRONUSUSA,Inc.\",
