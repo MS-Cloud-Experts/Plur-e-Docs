@@ -26,13 +26,10 @@ Request:
   "ProcessMethod": "WarehouseItemJournal_LP",
   "Parameters": [
     {
-      "LPNo": "LP000502",
-      "Zone": "STO",
-      "Bin": "STO2",
-      "LocationCode": "BBB",
+      "LPDocumentNo": "LP000502",
+      "LineNo": "1000",
       "ItemNo": "1972-S",
-      "Qty": "2",
-      "UnitofMeasureCode": "PCS"
+      "Qty": "2"
     }
   ]
 }
