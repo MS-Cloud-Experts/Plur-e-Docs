@@ -8,7 +8,7 @@ Para la lista de Warehouse Shipments
 
 **Description**:
 
-The **GetWarehouseShipment** method allows to fetch the list of Warehouse Shipments associated to a user.
+The **GetWarehouseShipments** method allows to fetch the list of Warehouse Shipments associated to a user.
 
 The **GetWarehouseShipment** method allows to fetch a specific Warehouse shipment with its lines.
 
