@@ -3,14 +3,16 @@ This is the structure of the Json draft that will be used to send from Business 
 
 **Input**: Array
 **Parameters**: 
--	**LPNo**: Number of LP you want to move.
--	**Zone**: Zoneof LP you want to move.
--	**FromBin**: Bin where the LP you want to move is currently located.
--	**ToBin**: Destination bin where you want to move the LP to..
--	**LocationCode**: LP Location.
--	**ItemNo**: Item you want to move.
--	**Qty**: QTY you want to move.
--	**UnitofMeasureCode**: Unit of Measure Code of the License Plate that you want to move.
+-	**No**: Warehouse Pick Number
+-	**LocationCode**: Location Code (All Packages).
+          **Weight**: Package Weight,
+          **Width**: Package Width,
+          **Height**":Package Height,
+          **Depth**": Package Depth,
+          **Status**: Package Status,
+          **PackingDate**: Packing Date,
+          **SystemCreatedAt**: "2023-07-27T16:34:14.9730000Z",
+          **SystemCreatedBy**: "{59AFF9E0-3CD1-483D-B5C7-D5BFC63289FC}"
 
 **Ouput**: 
 -	Post-request Output should return at least Tracking No and Agent Services also in Json format.
