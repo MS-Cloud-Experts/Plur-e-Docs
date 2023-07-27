@@ -95,11 +95,3 @@ Request:
 }
 ```
 
-
-Outputs:
-```
-{\"Posted\":391}|{\"Posted\":392}
-
-```
-**PostMan:**
-![image.png](/.attachments/image-12b7180f-f65f-4931-bc15-f389d522ef01.png)
