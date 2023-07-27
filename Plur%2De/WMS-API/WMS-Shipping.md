@@ -22,26 +22,10 @@ This method allows you to move an Item with its associated LP into the inventory
 
 Request:
 ```
-[
-{
-  "ArrayToMove": [
-    {
-    "LPNo":"LP-00511",
-    "Zone":"STO",
-    "FromBin":"NOCOUNT",
-    "ToBin":"STO-4",
-    "LocationCode":"PLURE"
-    },
-    {
-    "LPNo":"LP-00510",
-    "Zone":"STO",
-    "FromBin":"NOCOUNT",
-    "ToBin":"STO-4",
-    "LocationCode":"PLURE"
-    }
-  ]
-}
-]
+{"Package":[{"No":"WHSE PICK-00001","LocationCode":"NEWWMS","PackagesLines":[{"No":1,"ItemNo":"1896-S","Quantity":15.0,"WarehouseDocumentNo":"WHSE PICK-00001","SourceNo":"S-ORD101009","ShipToAddress":{"ShipToName":"Adatum Corporation","ShipToAddress":"192 Market Square","ShipToAddress2":"","ShipToCity":"Atlanta","ShipToCountry_RegionCode":"US","ShipToCounty":"GA"},"Weight":15.0,"Width":2.0,"Height":2.0,"Depth":3.0,"Status":false,"PackingDate":"0001-01-01T00:00:00.0000000","SystemCreatedAt":"2023-07-27T16:34:14.9730000Z","SystemCreatedBy":"{59AFF9E0-3CD1-483D-B5C7-D5BFC63289FC}"},{"No":2,"ItemNo":"1896-S","Quantity":5.0,"WarehouseDocumentNo":"WHSE PICK-00001","SourceNo":"S-ORD101009","ShipToAddress":{"ShipToName":"Adatum Corporation","ShipToAddress":"192 Market Square","ShipToAddress2":"","ShipToCity":"Atlanta","ShipToCountry_RegionCode":"US","ShipToCounty":"GA"},"Weight":1.0,"Width":3.0,"Height":3.0,"Depth":3.0,"Status":false,"PackingDate":"0001-01-01T00:00:00.0000000","SystemCreatedAt":"2023-07-27T16:34:40.0030000Z","SystemCreatedBy":"{59AFF9E0-3CD1-483D-B5C7-D5BFC63289FC}"}]}]}
+
+
+
 ```
 
 
