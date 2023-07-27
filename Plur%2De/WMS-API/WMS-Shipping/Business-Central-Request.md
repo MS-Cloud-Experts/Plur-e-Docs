@@ -5,6 +5,8 @@ This is the structure of the Json draft that will be used to send from Business 
 **Parameters**: 
 -	**No**: Warehouse Pick Number
 -	**LocationCode**: Location Code (All Packages).
+-       **PackagesLines**:
+It is a Json Array, which contains the dimensions of each packet, as well as the delivery address.
           **Weight**: Package Weight,
           **Width**: Package Width,
           **Height**":Package Height,
