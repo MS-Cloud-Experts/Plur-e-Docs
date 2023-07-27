@@ -22,7 +22,7 @@ This is the structure of the Json draft that will be used to send from Business 
             **ShipToCity**: "City",
             **ShipToCountry_RegionCode**: Country,
             **ShipToCounty**: County
-          },
+           
 
 **Ouput**: 
 -	Post-request Output should return at least Tracking No and Agent Services also in Json format.
