@@ -7,8 +7,8 @@ This is the structure of the Json draft that will be used to send from Business 
 -	**LocationCode**: Location Code (All Packages).
 -	**PackagesLines**: It is a Json Array, which contains the dimensions of each packet, as well as the delivery address.
           **No**": 1,
-          **ItemNo**: "1896-S",
-          **Quantity**: 15.0,
+          **ItemNo**": "1896-S",
+          **Quantity**": 15.0,
           **WarehouseDocumentNo**: "WHSE PICK-00001",
           **SourceNo**: "S-ORD101009",
           **Weight**: Package Weight,
@@ -45,10 +45,10 @@ Request:
       "PackagesLines": [
         {
           "No": 1,
-          "ItemNo": SKU,
-          "Quantity": Quantity per package,
-          "WarehouseDocumentNo": Warehouse Document No.,
-          "SourceNo": Sales Order No.,
+          "ItemNo": "1896-S",
+          "Quantity": 15.0,
+          "WarehouseDocumentNo": "WHSE PICK-00001",
+          "SourceNo": "S-ORD101009",
           "ShipToAddress": {
             "ShipToName": "Adatum Corporation",
             "ShipToAddress": "192 Market Square",
