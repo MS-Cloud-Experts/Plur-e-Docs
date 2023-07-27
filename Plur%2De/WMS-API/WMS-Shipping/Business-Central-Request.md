@@ -23,7 +23,7 @@ This is the structure of the Json draft that will be used to send from Business 
             Json Object Contains the packet address information, 
             **ShipToName**:  Name Customer,
             **ShipToAddress**: Address 1,
-            **ShipToAddress2**: Address 1,
+            **ShipToAddress2**: Address 2,
             **ShipToCity**: "City",
             **ShipToCountry_RegionCode**: Country,
             **ShipToCounty**: County
