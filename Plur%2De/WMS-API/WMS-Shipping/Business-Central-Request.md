@@ -46,7 +46,6 @@ Request:
         {
           "No": 1,
           "ItemNo": SKU,
-
           "Quantity": Quantity per package,
           "WarehouseDocumentNo": Warehouse Document No.,
           "SourceNo": Sales Order No.,
