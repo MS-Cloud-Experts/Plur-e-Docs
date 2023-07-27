@@ -52,6 +52,7 @@
 
 **Errors:**
 
+If you try to allocate more than what the line has available, it gives this error:
 
 ```
 {
