@@ -13,7 +13,8 @@ This is the structure of the Json draft that will be used to send from Business 
           **PackingDate**: Packing Date,
           **SystemCreatedAt**: "2023-07-27T16:34:14.9730000Z",
           **SystemCreatedBy**: "{59AFF9E0-3CD1-483D-B5C7-D5BFC63289FC}"
-           "**ShipToAddress**": Json Object Contains the packet address information, 
+           "**ShipToAddress**": 
+            Json Object Contains the packet address information, 
             **ShipToName**:  Name Customer,
             **ShipToAddress**: Address 1,
             **ShipToAddress2**: Address 1,
