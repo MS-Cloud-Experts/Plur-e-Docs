@@ -1,39 +1,66 @@
 **Request:**
 ```
-{
-  "ProcessMethod": "CreatePackageShipmentSingle",
-  "Parameters": [
+[
   {
-    "No": "WHSE PICK-00005",
-    "Weight": 2,
-    "Width": 3,
-    "Height": 4,
-    "Depth": 5,
-    "Status": true,
-    "ShippingAgentCode": "DHL",
-    "ShippingAgentServiceCode": "DHL",
-    "ShippingCost": "20000",
-    "PackingDate": "2023-07-27T18:00:00",
-    "PackageTrackingNo": "000000077787",
-    "PackageLinesArray": [
-      {
-        "WhsDocumentNo": "WHSE PICK-00005",
-        "WhsDocumentLineNo": 20000,
-        "ItemCode": "1000",
-        "VariantCode": "",
-        "QtyToHandle": 1
+    "PackageHeaders": {
+      "No": 1,
+      "WarehouseDocumentNo": "WHSE PICK-00006",
+      "SourceNo": "S-ORD101015",
+      "Weight": 2.0,
+      "Width": 3.0,
+      "Height": 2.0,
+      "Depth": 2.0,
+      "Status": false,
+      "PackingDate": "2023-07-28T20:21:20.6130000Z",
+      "Lines": [
+        {
+          "PackageNo": 1,
+          "LineNo": 1000,
+          "SourceNo": "S-ORD101015",
+          "WarehouseDocumentNo": "WHSE PICK-00006",
+          "WarehouseLineNo": 20000,
+          "ItemNo": "1896-S",
+          "VariantCode": "",
+          "QtyToHandle": 1.0
+        }
+      ],
+      "ShipToAddress": {
+        "ShipToName": "School of Fine Art",
+        "ShipToAddress": "10 High Tower Green",
+        "ShipToAddress2": "",
+        "ShipToCity": "Miami",
+        "ShipToCountry_RegionCode": "US",
+        "ShipToCounty": "FL"
       },
-      {
-        "WhsDocumentNo": "WHSE PICK-00005",
-        "WhsDocumentLineNo": 40000,
-        "ItemCode": "2000",
-        "VariantCode": "",
-        "QtyToHandle": 4
-      }
-    ]
+      "SystemCreatedAt": "2023-07-28T20:18:39.2300000Z",
+      "SystemCreatedBy": "{37E91226-6B8A-47A8-A580-E714FC6BFB7E}"
+    }
+  },
+  {
+    "PackageHeaders": {
+      "No": 2,
+      "WarehouseDocumentNo": "WHSE PICK-00006",
+      "SourceNo": "S-ORD101015",
+      "Weight": 0.0,
+      "Width": 0.0,
+      "Height": 0.0,
+      "Depth": 0.0,
+      "Status": false,
+      "PackingDate": "0001-01-01T00:00:00.0000000",
+      "Lines": [],
+      "ShipToAddress": {
+        "ShipToName": "School of Fine Art",
+        "ShipToAddress": "10 High Tower Green",
+        "ShipToAddress2": "",
+        "ShipToCity": "Miami",
+        "ShipToCountry_RegionCode": "US",
+        "ShipToCounty": "FL"
+      },
+      "SystemCreatedAt": "2023-07-28T20:21:32.7770000Z",
+      "SystemCreatedBy": "{37E91226-6B8A-47A8-A580-E714FC6BFB7E}"
+    }
   }
 ]
-}
 ```
 
 **OutPut:**
