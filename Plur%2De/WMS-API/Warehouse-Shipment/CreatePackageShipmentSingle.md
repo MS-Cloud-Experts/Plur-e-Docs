@@ -66,6 +66,9 @@
 }
 ```
 
+**Business Central:**
+![image.png](/.attachments/image-167e2f2e-8612-43f5-8bc9-38eb136aaeca.png)
+
 **Errors:**
 
 If you try to allocate more than what the line has available, it gives this error:
