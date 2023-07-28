@@ -3,22 +3,36 @@
 {
   "ProcessMethod": "CreatePackageShipmentSingle",
   "Parameters": [
-    {
-      "No": "WHSE PICK-00005",
-      "LineNo": "20000",
-      "Quantity": 1,
-      "Weight": 2,
-      "Width": 3,
-      "Height": 4,
-      "Depth": 5,
-      "Status": true,
-      "ShippingAgentCode": "DHL",
-      "ShippingAgentServiceCode": "DHL",
-      "ShippingCost": "20000",
-      "PackingDate": "2023-07-27T18:00:00",
-      "PackageTrackingNo": "000000077787"
-    }
-  ]
+  {
+    "No": "WHSE PICK-00005",
+    "Weight": 2,
+    "Width": 3,
+    "Height": 4,
+    "Depth": 5,
+    "Status": true,
+    "ShippingAgentCode": "DHL",
+    "ShippingAgentServiceCode": "DHL",
+    "ShippingCost": "20000",
+    "PackingDate": "2023-07-27T18:00:00",
+    "PackageTrackingNo": "000000077787",
+    "PackageLinesArray": [
+      {
+        "WhsDocumentNo": "WHSE PICK-00005",
+        "WhsDocumentLineNo": 20000,
+        "ItemCode": "1000",
+        "VariantCode": "",
+        "QtyToHandle": 1
+      },
+      {
+        "WhsDocumentNo": "WHSE PICK-00005",
+        "WhsDocumentLineNo": 40000,
+        "ItemCode": "2000",
+        "VariantCode": "",
+        "QtyToHandle": 4
+      }
+    ]
+  }
+]
 }
 ```
 
