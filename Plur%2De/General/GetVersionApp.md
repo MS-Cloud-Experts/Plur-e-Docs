@@ -19,3 +19,6 @@
 }
 ```
 
+**Postman:**
+
+![image.png](/.attachments/image-d95fcef1-dec3-4bd3-aca6-2a6defce82fe.png)
