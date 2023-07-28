@@ -23,7 +23,9 @@ GetWarehousePicks
 
 
 
-
+**Action Type**
+- Value: 1 ---> "Take"
+- Value: 2 ---> "Place"
 
 **Example**:
 
