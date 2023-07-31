@@ -19,7 +19,7 @@ This method allows you to split an existing License Plate into a new one.
 
 **Input**:
 Parameters: 
--	**NewLicensePlateCode**: Represents the code of the new **License Plate Pallet** to which the new quantities will be assigned. To create a new License Plate you must use this method:  [GenerateEmptyLP](/Plur%2De/Business-Central/WMS-API/Movements/Splits/GenerateEmptyLP)
+-	**NewLicensePlateCode**: Represents the code of the new **License Plate Pallet** to which the new quantities will be assigned. To create a new License Plate you must use this method:  [GenerateEmptyLP](/Plur%2De/Business-Central-API/WMS-API/Movements/Splits/GenerateEmptyLP)
 
 -	**NewQuantity**: Represents the decimal amounts that will be transferred to the new LP.
 -	**OriginalQuantityModified**: It represents the decimal quantities that remained from the original LP, that is, if at the beginning there were 10 units, and in the "NewQuantity" parameter 1 unit was transferred, then this parameter should be sent 9.
