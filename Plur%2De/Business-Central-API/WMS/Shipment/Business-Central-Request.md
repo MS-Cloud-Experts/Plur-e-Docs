@@ -38,56 +38,36 @@ This is the structure of the Json draft that will be used to send from Business 
 Request:
 ```
 {
-  "Package": [
+  "ProcessMethod": "CreatePackageShipmentSingle",
+  "Parameters": [
     {
-      "No": "WHSE PICK-00001",
-      "LocationCode": "NEWWMS",
-      "PackagesLines": [
+      "No": "WHSE PICK-00006",
+      "Weight": 2,
+      "Width": 3,
+      "Height": 4,
+      "Depth": 5,
+      "Status": true,
+      "ShippingAgentCode": "DHL",
+      "ShippingAgentServiceCode": "DHL",
+      "ShippingCost": "20000",
+      "PackingDate": "2023-07-27T18:00:00",
+      "PackageTrackingNo": "000000077787",
+      "PackageLinesArray": [
         {
-          "No": 1,
-          "ItemNo": "1896-S",
-          "Quantity": 15.0,
-          "WarehouseDocumentNo": "WHSE PICK-00001",
-          "SourceNo": "S-ORD101009",
-          "ShipToAddress": {
-            "ShipToName": "Adatum Corporation",
-            "ShipToAddress": "192 Market Square",
-            "ShipToAddress2": "",
-            "ShipToCity": "Atlanta",
-            "ShipToCountry_RegionCode": "US",
-            "ShipToCounty": "GA"
-          },
-          "Weight": 15.0,
-          "Width": 2.0,
-          "Height": 2.0,
-          "Depth": 3.0,
-          "Status": false,
-          "PackingDate": "0001-01-01T00:00:00.0000000",
-          "SystemCreatedAt": "2023-07-27T16:34:14.9730000Z",
-          "SystemCreatedBy": "{59AFF9E0-3CD1-483D-B5C7-D5BFC63289FC}"
+          "WhsDocumentNo": "WHSE PICK-00006",
+          "WhsDocumentLineNo": 20000,
+          "SourceNo": "S-ORD101015",
+          "ItemCode": "1896-S",
+          "VariantCode": "",
+          "QtyToHandle": 1
         },
         {
-          "No": 2,
-          "ItemNo": "1896-S",
-          "Quantity": 5.0,
-          "WarehouseDocumentNo": "WHSE PICK-00001",
-          "SourceNo": "S-ORD101009",
-          "ShipToAddress": {
-            "ShipToName": "Adatum Corporation",
-            "ShipToAddress": "192 Market Square",
-            "ShipToAddress2": "",
-            "ShipToCity": "Atlanta",
-            "ShipToCountry_RegionCode": "US",
-            "ShipToCounty": "GA"
-          },
-          "Weight": 1.0,
-          "Width": 3.0,
-          "Height": 3.0,
-          "Depth": 3.0,
-          "Status": false,
-          "PackingDate": "0001-01-01T00:00:00.0000000",
-          "SystemCreatedAt": "2023-07-27T16:34:40.0030000Z",
-          "SystemCreatedBy": "{59AFF9E0-3CD1-483D-B5C7-D5BFC63289FC}"
+          "WhsDocumentNo": "WHSE PICK-00006",
+          "WhsDocumentLineNo": 40000,
+          "SourceNo": "S-ORD101015",
+          "ItemCode": "1900-S",
+          "VariantCode": "",
+          "QtyToHandle": 4
         }
       ]
     }
