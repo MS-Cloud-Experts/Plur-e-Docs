@@ -4,7 +4,8 @@
   "ProcessMethod": "DeleletePackageShipmentByKey",
   "Parameters": [
     {
-      "WhsDocumentNo": "WHSE PICK-00006"
+      "WhsDocumentNo": "WHSE PICK-00006",
+      "PackageNo": 1
     }
   ]
 }
