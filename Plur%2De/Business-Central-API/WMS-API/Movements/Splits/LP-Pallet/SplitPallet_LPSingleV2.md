@@ -24,7 +24,7 @@ Parameters:
 
 
 
-To create a new License Plate you must use this method:  [GenerateEmptyLP](/Plur%2De/Business-Central/WMS-API/Movements/Splits/GenerateEmptyLP)
+To create a new License Plate you must use this method:  [GenerateEmptyLP](/Plur%2De/Business-Central-API/WMS-API/Movements/Splits/GenerateEmptyLP)
 
 
 **Ouput**: List of License Plates filtered by Item No.
