@@ -1,7 +1,7 @@
 **Request:**
 ```
 {
-  "ProcessMethod": "CreatePackageShipmentSingle",
+  "ProcessMethod": "CreatePackageShipment",
   "Parameters": [
     {
       "No": "WHSE PICK-00006",
