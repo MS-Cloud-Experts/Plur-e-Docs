@@ -27,7 +27,7 @@ The output of this method returns the number of LPs that were generated at the t
 
 **Important Note:** It must be validated that the number to receive of the element is not greater than the quantities of the Order in the Warehouse Receipt.
 
-To do this, method [Get_Pending_To_Receive_LP](/Plur%2De/Business-Central-API/WMS/Create-Licenses-Plate/Get_Pending_To_Receive_LP) must be executed before carrying out this process.
+To do this, method [Get_Pending_To_Receive_LP](/Plur%2De/Business-Central-API/WMS/Receive/Create-Licenses-Plate/Get_Pending_To_Receive_LP) must be executed before carrying out this process.
 
 **Example**:
 
