@@ -1,3 +1,4 @@
+CreateWarehousePick
 DeleletePackageShipmentByKey
 DeleleteAllPackagesShipmentByWhseDocument
 Get-Warehouse-pick-in-Warehouse-Shipments
