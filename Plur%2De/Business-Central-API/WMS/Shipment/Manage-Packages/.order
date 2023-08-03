@@ -1,5 +1,5 @@
-UpdatePackageShipment
 GetPackagesByDocument
 CreatePackageShipment
+UpdatePackageShipment
 DeleletePackageShipmentByKey
 DeleleteAllPackagesShipmentByWhseDocument
