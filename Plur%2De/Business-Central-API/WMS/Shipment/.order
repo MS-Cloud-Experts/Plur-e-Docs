@@ -3,3 +3,4 @@ DeleleteAllPackagesShipmentByWhseDocument
 Get-Warehouse-pick-in-Warehouse-Shipments
 Business-Central-Request
 Get-Warehouse-Shipments
+Get-Warehouse-Pick

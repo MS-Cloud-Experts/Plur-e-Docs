@@ -1,5 +1,4 @@
 CreatePackageShipment
-Get-Warehouse-Pick
 GetPackagesByDocument
 DeleletePackageShipmentByKey
 CreateWarehousePick
