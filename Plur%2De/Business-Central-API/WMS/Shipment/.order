@@ -4,6 +4,5 @@ DeleletePackageShipmentByKey
 DeleleteAllPackagesShipmentByWhseDocument
 Get-Warehouse-pick-in-Warehouse-Shipments
 Business-Central-Request
-CreatePackageShipmentSingle
 Get-Warehouse-Shipments
 GetPackagesByDocument
