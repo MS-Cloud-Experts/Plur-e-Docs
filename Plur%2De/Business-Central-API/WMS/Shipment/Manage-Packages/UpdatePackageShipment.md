@@ -4,6 +4,7 @@
   "ProcessMethod": "UpdatePackageShipment",
   "Parameters": [
     {
+      "PackageNo": 1,
       "No": "WHSE PICK-00006",
       "Weight": 2,
       "Width": 3,
@@ -30,7 +31,7 @@
           "SourceNo": "S-ORD101015",
           "ItemCode": "1900-S",
           "VariantCode": "",
-          "QtyToHandle": 4
+          "QtyToHandle": 6
         }
       ]
     }
