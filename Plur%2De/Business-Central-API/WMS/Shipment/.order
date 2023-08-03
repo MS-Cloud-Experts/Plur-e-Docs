@@ -3,7 +3,6 @@ CreateWarehousePick
 DeleletePackageShipmentByKey
 DeleleteAllPackagesShipmentByWhseDocument
 Get-Warehouse-pick-in-Warehouse-Shipments
-Get-Warehouse-Pick
 Business-Central-Request
 CreatePackageShipmentSingle
 Get-Warehouse-Shipments
