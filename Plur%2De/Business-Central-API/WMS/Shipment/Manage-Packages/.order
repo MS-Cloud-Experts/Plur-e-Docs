@@ -1,3 +1,4 @@
+UpdatePackageShipment
 GetPackagesByDocument
 CreatePackageShipment
 DeleletePackageShipmentByKey
