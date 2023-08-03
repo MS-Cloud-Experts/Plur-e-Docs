@@ -1,5 +1,5 @@
-CreatePackageShipment
 GetPackagesByDocument
+CreatePackageShipment
 DeleletePackageShipmentByKey
 CreateWarehousePick
 DeleleteAllPackagesShipmentByWhseDocument
