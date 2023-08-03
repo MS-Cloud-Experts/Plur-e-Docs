@@ -2,3 +2,4 @@ CreatePackageShipment
 GetPackagesByDocument
 DeleletePackageShipmentByKey
 CreateWarehousePick
+DeleleteAllPackagesShipmentByWhseDocument
