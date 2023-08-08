@@ -1,6 +1,6 @@
-DeleletePackageLineShipmentByKey
 GetPackagesByDocument
 CreatePackageShipment
 UpdatePackageShipment
 DeleletePackageShipmentByKey
+DeleletePackageLineShipmentByKey
 DeleleteAllPackagesShipmentByWhseDocument
