@@ -47,3 +47,6 @@
   }
 ]
 ```
+
+**Postman:**
+![image.png](/.attachments/image-c61cf685-85c2-472e-a83a-b02352e041ec.png)
