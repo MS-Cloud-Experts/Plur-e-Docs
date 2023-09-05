@@ -101,5 +101,27 @@ This is the model of the JSON that the API receive and send as response in order
 
 this will be an array of JSON with each order response 
 
+## Example:
 
+```
+{
+    "hasErrors": false,
+    "results": [
+        {
+            "orderId": 17086108,
+            "orderNumber": "S-ORD101011",
+            "orderKey": "ee72417e259c4450ababefec1ddfca50",
+            "success": true,
+            "errorMessage": null
+        },
+        {
+            "orderId": 17086110,
+            "orderNumber": "S-ORD101012",
+            "orderKey": "4f2a80ea1cf84d779f67e0eb9b58d63e",
+            "success": true,
+            "errorMessage": null
+        }
+    ]
+}
+```
 
