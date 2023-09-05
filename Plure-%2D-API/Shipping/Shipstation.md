@@ -97,6 +97,9 @@ This is the model of the JSON that the API receive and send as response in order
 }
 ```
 
+## Response:
+
+this will be an array of JSON with each order response 
 
 
 
