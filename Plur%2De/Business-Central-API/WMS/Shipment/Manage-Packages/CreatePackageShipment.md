@@ -16,7 +16,7 @@
       "Width": 3,
       "Height": 4,
       "Depth": 5,
-      "Status": true,
+      "Release": true,
       "ShippingAgentCode": "DHL",
       "ShippingAgentServiceCode": "DHL",
       "ShippingCost": "20000",
