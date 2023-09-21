@@ -5,28 +5,14 @@
   - value(2; Pending_fulfillmentm)
   - value(3; On_hold)
 
-    value(0; Inches)
-    {
-        Caption = 'Inches';
-    }
-    value(1; Centimeters)
-    {
-        Caption = 'Centimeters';
-    }
+**DimensionsUnit:**
+  - value(0; Inches)
+  - value(1; Centimeters)
 
 **WeightUnit:**
-    value(0; Pounds)
-    {
-        Caption = 'Pounds';
-    }
-    value(1; Ounces)
-    {
-        Caption = 'Ounces';
-    }
-    value(2; Grams)
-    {
-        Caption = 'Grams';
-    }
+   - value(0; Pounds)
+   - value(1; Ounces)
+   - value(2; Grams)
 
 **Request:**
 ```
