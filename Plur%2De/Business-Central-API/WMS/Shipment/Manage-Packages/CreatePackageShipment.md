@@ -21,6 +21,11 @@
   "Parameters": [
     {
       "No": "WHSE PICK-00006",
+      "WeightUnit" : 0,
+      "DimensionsUnit" : 0,
+      "ShipmentStatus" : 0,
+      "OrderId" : 0,
+      "OrderKey" : 0,
       "Weight": 2,
       "Width": 3,
       "Height": 4,
