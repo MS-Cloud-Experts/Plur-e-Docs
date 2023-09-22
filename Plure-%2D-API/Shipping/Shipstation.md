@@ -6,7 +6,7 @@ This is the model of the JSON that the API receive and send as response in order
 **Endpoint:** `/api/v1.0/Shipments/create`
 
 **Parameters:** 
-- **SourceNo:** A user-defined order number used to identify an order.
+- **DocumentNo:** Shipping ID.
 - **PackingDate:** The date the order was placed.
 - **CustomerUsername:** The customer's username. (SS: This property needs to be defined to generate a customer profile.)
 - **CustomerEmail:** The customer's email address.
@@ -29,10 +29,15 @@ This is the model of the JSON that the API receive and send as response in order
   - **PostalCode:** Postal Code
   - **Phone:** 	Telephone number.
 - **Lines:** An array of item objects.
+  - **PackageNo:**
+  - **LineNo:**
+  - **SourceNo:**
+  - **WarehouseDocumentNo:**
+  - **WarehouseLineNo:**
+  - **VariantCode:**
   - **ItemNo:** The SKU (stock keeping unit) identifier for the product associated with this line item.
   - **Name:** The name of the product associated with this line item. Cannot be null
-  - **QtyToHandle:** The quantity of product ordered.
-  - **ProductId:** The identifier for the Product Resource associated with this item. (pending)
+  - **QtyToHandle:** The quantity of product ordered.Resource associated with this item. (pending)
 - **Weight:** Weight of package.
 - **WeightUnit:** units of weight. Allowed units are: "pounds", "ounces", or "grams"
 - **Width:** Width of package.
