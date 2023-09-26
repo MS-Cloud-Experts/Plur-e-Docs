@@ -6,7 +6,7 @@
     {
       "OrderKey": 123456789123456,
       "ShippingAgentCode": "DHL",
-      "PackingDate": "2023-07-27T18:00:00",
+      "ShippingDate": "2023-07-27T18:00:00",
       "PackageTrackingNo": "000000077787",
     }
   ]
