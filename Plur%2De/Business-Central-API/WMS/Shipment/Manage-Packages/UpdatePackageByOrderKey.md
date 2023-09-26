@@ -1,4 +1,6 @@
 **ShippingAgentCode**
+An API must be created that returns the previous Agents created since it must be as is.
+
 ![image.png](/.attachments/image-a0ab3912-630e-4e3e-81cc-37ac1d799c0a.png)
 
 **ShipmentStatus:**
