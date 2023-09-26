@@ -4,36 +4,10 @@
   "ProcessMethod": "UpdatePackageByOrderKey",
   "Parameters": [
     {
-      "PackageNo": 1,
-      "No": "WHSE PICK-00006",
-      "Weight": 2,
-      "Width": 3,
-      "Height": 4,
-      "Depth": 5,
-      "Status": true,
+      "OrderKey": 123456789123456,
       "ShippingAgentCode": "DHL",
-      "ShippingAgentServiceCode": "DHL",
-      "ShippingCost": "20000",
       "PackingDate": "2023-07-27T18:00:00",
       "PackageTrackingNo": "000000077787",
-      "PackageLinesArray": [
-        {
-          "WhsDocumentNo": "WHSE PICK-00006",
-          "WhsDocumentLineNo": 20000,
-          "SourceNo": "S-ORD101015",
-          "ItemCode": "1896-S",
-          "VariantCode": "",
-          "QtyToHandle": 1
-        },
-        {
-          "WhsDocumentNo": "WHSE PICK-00006",
-          "WhsDocumentLineNo": 40000,
-          "SourceNo": "S-ORD101015",
-          "ItemCode": "1900-S",
-          "VariantCode": "",
-          "QtyToHandle": 6
-        }
-      ]
     }
   ]
 }
