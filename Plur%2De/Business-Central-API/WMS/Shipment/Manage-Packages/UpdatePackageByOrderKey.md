@@ -1,3 +1,10 @@
+**ShipmentStatus:**
+
+value(0; Awaiting_payment)
+value(1; Awaiting_shipment)
+value(2; Pending_fulfillmentm)
+value(3; On_hold)
+
 **Request:**
 ```
 {
@@ -5,6 +12,7 @@
   "Parameters": [
     {
       "OrderKey": 123456789123456,
+      "ShipmentStatus" : 1,
       "ShippingAgentCode": "DHL",
       "ShippingDate": "2023-07-27T18:00:00",
       "PackageTrackingNo": "000000077787",
