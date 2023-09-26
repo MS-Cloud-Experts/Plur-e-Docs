@@ -99,20 +99,4 @@ value(3; On_hold)
     }
 ```
 
-**Business Central:**
-![image.png](/.attachments/image-167e2f2e-8612-43f5-8bc9-38eb136aaeca.png)
-
-**Errors:**
-
-If you try to allocate more than what the line has available, it gives this error:
-
-```
-{
-    "error": {
-        "code": "Application_DialogException",
-        "message": "There is no quantity to handle  CorrelationId:  006e8be7-6ae9-4bbc-acaf-d636d2155278."
-    }
-}
-```
-
 
