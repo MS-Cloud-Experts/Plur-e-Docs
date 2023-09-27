@@ -2,10 +2,10 @@
 ```
 [
   {
-    "ZoneCode": "",
-    "LocationCode": "",
-    "FromBin": "",
-    "ToBin": "",
+    "ZoneCode": "STO",
+    "LocationCode": "NEWWMS",
+    "FromBin": "STO1",
+    "ToBin": "STO2",
     "ItemChildArray": [
       {
         "ItemNo": "1900-S",
