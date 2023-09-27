@@ -9,7 +9,7 @@
     "ItemChildArray": [
       {
         "ItemNo": "1900-S",
-        "VariantCode": "STO",
+        "VariantCode": "",
         "Qty": 1,
         "UnitofMeasureCode": "PCS",
         "SerialNo": "",
@@ -18,7 +18,7 @@
       },
       {
         "ItemNo": "1906-S",
-        "VariantCode": "STO",
+        "VariantCode": "",
         "Qty": 2,
         "UnitofMeasureCode": "PCS",
         "SerialNo": "",
