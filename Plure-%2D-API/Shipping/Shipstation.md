@@ -6,6 +6,8 @@ This is the model of the JSON that the API receive and send as response in order
 **Endpoint:** `/api/v1.0/Shipments/create`
 
 **Parameters:** 
+- **OrderId:** Order ID ShipStation.
+- **OrderKey:** Order Key ShipStation.
 - **DocumentNo:** Shipping ID.
 - **PackingDate:** The date the order was placed.
 - **CustomerUsername:** The customer's username. (SS: This property needs to be defined to generate a customer profile.)
