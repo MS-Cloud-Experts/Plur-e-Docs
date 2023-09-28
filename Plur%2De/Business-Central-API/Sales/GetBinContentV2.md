@@ -6,7 +6,6 @@
   "ProcessMethod": "GetBinContentV2",
   "Parameters": [
     {
-      "BinCode": "STO-3",
       "LocationCode": "NEWWMS",
       "ItemNo": "1900-S",
       "UnitofMeasureCode": "PCS"
