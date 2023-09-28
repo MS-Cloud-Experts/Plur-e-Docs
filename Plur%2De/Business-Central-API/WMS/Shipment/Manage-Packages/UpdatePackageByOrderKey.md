@@ -9,6 +9,8 @@ value(0; Awaiting_payment)
 value(1; Awaiting_shipment)
 value(2; Pending_fulfillmentm)
 value(3; On_hold)
+value(4; Cancelled)
+value(5; Shipped)
 
 **Request:**
 ```
