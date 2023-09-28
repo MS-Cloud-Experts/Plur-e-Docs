@@ -33,3 +33,5 @@
   "QtyXVariants": []
 }
 ```
+
+![image.png](/.attachments/image-6a4dedbb-8e22-4f18-a435-8ccf72e220a5.png)
