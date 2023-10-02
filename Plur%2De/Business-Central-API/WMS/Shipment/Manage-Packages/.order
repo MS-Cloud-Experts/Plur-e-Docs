@@ -1,3 +1,4 @@
+CheckPackageShipmentStatusPreRegisterPick
 UpdatePackageByOrderKey
 GetPackagesByDocument
 CreatePackageShipment
