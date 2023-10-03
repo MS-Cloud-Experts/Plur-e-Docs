@@ -1,3 +1,21 @@
+**ShipmentStatus**:
+
+value(0; Awaiting_payment)
+value(1; Awaiting_shipment)
+value(2; Pending_fulfillmentm)
+value(3; On_hold)
+
+**DimensionsUnit**:
+
+value(0; Inches)
+value(1; Centimeters)
+
+**WeightUnit**:
+
+value(0; Pounds)
+value(1; Ounces)
+value(2; Grams)
+
 **Request:**
 ```
 {
