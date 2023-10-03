@@ -27,7 +27,7 @@ api/v1.0/webhooks?appSource=erp&customerId=cus_OTWT9NtE1HGhmP&parms=WTNWelgwOVVW
 {
     "customerId": "cus_OTWT9NtE1HGhmP",
     "environmentId": "env_278136d30f374d77b1881216b995f25f",
-    "processMethod": "CreateOrUpdatePackageShipment",
+    "processMethod": "ChangeStatusPackageShipment",
     "userId": null,
     "result": "{\"HasErrors\":false,\"Results\":[{\"OrderId\":21035510,\"OrderNumber\":\"WHSE SHIP-00030-4\",\"OrderKey\":\"cb584082dc2545d28721f39bc0cd9207\",\"Success\":true,\"ErrorMessage\":null}]}",
     "error": ""
