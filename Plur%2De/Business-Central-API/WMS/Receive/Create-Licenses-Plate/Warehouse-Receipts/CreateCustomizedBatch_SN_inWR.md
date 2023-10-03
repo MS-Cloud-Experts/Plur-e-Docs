@@ -1,13 +1,13 @@
 **ProcessMethod**: CreateCustomizedBatch_SN_inWR
 
-**Description**: It allows to bring a particular Warehouse Receipt through the key field No.
+**Description**: Method to create customized Serials
 
 
 **Parameters:** 
 -	**WarhouseReceiptNo**: Warhouse Receipt number.
 -	**LineNo**: Line No
--	**No**: Allows you to bring a single Warehouse Receipt.
--	**No**: Allows you to bring a single Warehouse Receipt.
+-	**QtyToCreate**: Number of serial numbers to be created
+-	**CustomizedSN**: Example of a customized serial "SNAB0001"
 
 
 
