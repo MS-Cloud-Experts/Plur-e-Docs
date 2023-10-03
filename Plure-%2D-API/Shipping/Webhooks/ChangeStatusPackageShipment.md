@@ -11,6 +11,11 @@ api/v1.0/webhooks?appSource=erp&customerId=cus_OTWT9NtE1HGhmP&parms=WTNWelgwOVVW
 
 **Request:** 
 
+**OrderId**: `OrderId de shipStation` 
+**OrderKey**: `OrderKey de shipStation` 
+**OrderStatus**: `Estados permitidos on_hold o cancelled` 
+
+
 ```
 {
     "CustomerId": "cus_OTWT9NtE1HGhmP",
