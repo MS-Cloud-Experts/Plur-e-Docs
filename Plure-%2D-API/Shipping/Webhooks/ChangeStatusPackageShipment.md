@@ -20,8 +20,6 @@ api/v1.0/webhooks?appSource=erp&customerId=cus_OTWT9NtE1HGhmP&parms=WTNWelgwOVVW
     "JsonRequest": "[{\"OrderId\":21035510,\"OrderKey\":\"cb584082dc2545d28721f39bc0cd9207\",\"OrderStatus\":\"on_hold\"}]"
 }
 ```
-**Note:** `La documentacion de este request es lo mismo usando en la api creada para Plur-e Mobile` 
-****[Link](https://dev.azure.com/MSCloudExperts/Plur-e/_wiki/wikis/Plur-e.wiki/271/Shipstation)****
 
 **Response:** 
 
