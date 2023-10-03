@@ -9,7 +9,9 @@ Esta API permite crear una o muchas ordernes en ShipStation
 api/v1.0/webhooks?appSource=erp&customerId=cus_OTWT9NtE1HGhmP&parms=WTNWelgwOVVWMVE1VG5SRk1VaEhhRzFRc2tfTkRNMlpHVXpObVV0TTJSaVpTMDBOekJtTFRsbE5UUXRNemsxTVdZMk16WXdZV1Zp&secretKey=sk_NDM2ZGUzNmUtM2RiZS00NzBmLTllNTQtMzk1MWY2MzYwYWVi
 ``` 
 
-**Request:** 
+**Request:** `La documentacion de este request es lo mismo usando en la api creada para Plur-e Mobile`
+
+[Link]()
 
 ```
 {
@@ -20,6 +22,7 @@ api/v1.0/webhooks?appSource=erp&customerId=cus_OTWT9NtE1HGhmP&parms=WTNWelgwOVVW
     "JsonRequest": "[{\"OrderId\":21035510,\"OrderKey\"cb584082dc2545d28721f39bc0cd9207:\"\",\"SourceNo\":\"WHSE SHIP-00030\",\"PackageNo\":4,\"PackingDate\":\"2023-09-26T21:54:20.3970000Z\",\"CustomerUsername\":\"Trey Research\",\"CustomerEmail\":\"helen.ray@contoso.com\",\"BillTo\":{\"Name\":\"Trey Research\",\"Company\":\"Adventure\",\"Address1\":\"153 Thomas Drive\",\"Address2\":\"\",\"City\":\"Chicago\",\"State\":\"IL\",\"Country\":\"US\",\"PostalCode\":\"61236\",\"Phone\":\"\"},\"ShipTo\":{\"Name\":\"Trey Research\",\"Company\":\"Adventure\",\"Address1\":\"153 Thomas Drive\",\"Address2\":\"\",\"City\":\"Chicago\",\"State\":\"IL\",\"Country\":\"US\",\"PostalCode\":\"61236\",\"Phone\":\"\"},\"Lines\":[{\"PackageNo\":1,\"ItemNo\":\"1900-S\",\"Name\":\"1900-S\",\"QtyToHandle\":2,\"LineNo\":1000,\"SourceNo\":\"S-ORD101046\",\"WarehouseDocumentNo\":\"WHSE PICK-00023\",\"WarehouseLineNo\":40000,\"VariantCode\":\"\"}],\"Weight\":8,\"WeightUnit\":2,\"Width\":8,\"Height\":8,\"Depth\":8,\"DimensionsUnit\":1,\"Status\":\"awaiting_shipment\"}]"
 }
 ```
+
 
 **Response:** 
 
