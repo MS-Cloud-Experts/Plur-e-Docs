@@ -23,6 +23,14 @@
 }
 ```
 
+**SourceNo**
+- Sales Documents: 
+SourceNo:= Sales Order No.
+- Purch Documents: 
+SourceNo:= Purch Order No.
+- Warehouse Receipts
+SourceNo: Warehouse Receipt Lines.SourceNo
+
 **SourceType:** 
 - Sales Documents: 
 SourceType := 37
