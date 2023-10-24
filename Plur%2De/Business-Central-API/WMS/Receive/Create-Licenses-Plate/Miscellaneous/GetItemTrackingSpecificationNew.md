@@ -31,6 +31,14 @@ SourceNo:= Purch Order No.
 - Warehouse Receipts
 SourceNo: Warehouse Receipt Lines.SourceNo
 
+**SourceRefNo**
+- Sales Documents: 
+SourceRefNo:= Sales Order Line No.
+- Purch Documents: 
+SourceRefNo:= Purch Order Line No.
+- Warehouse Receipts
+SourceRefNo: Warehouse Receipt Lines.SourceLineNo
+
 **SourceType:** 
 - Sales Documents: 
 SourceType := 37
