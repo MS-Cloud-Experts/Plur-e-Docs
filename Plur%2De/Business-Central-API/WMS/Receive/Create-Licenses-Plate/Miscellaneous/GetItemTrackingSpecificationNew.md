@@ -23,6 +23,15 @@
 }
 ```
 
+**SourceType:** 
+- Sales Documents: 
+SourceType := 37
+- Purch Documents: 
+SourceType := 39
+- Warehouse Receipts
+SourceType : Warehouse Receipt Lines.SourceType
+
+**SourceSubtype:** 
 
 **OutPut**
 
