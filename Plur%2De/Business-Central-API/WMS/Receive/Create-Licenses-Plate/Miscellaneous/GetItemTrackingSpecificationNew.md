@@ -11,13 +11,13 @@
 **Input**
 
 ```
-{
-  "ProcessMethod": "GetItemTrackingSpecificationV2",
+  "ProcessMethod": "GetItemTrackingSpecificationNew",
   "Parameters": [
     {
-      "ItemNo": "1000",
-      "SourceNo": "106014",
-      "SourceRefNo": "20000"
+      "SourceType": 39,
+      "SourceSubtype": 1,
+      "SourceNo": "PO-109960",
+      "SourceRefNo": 10000
     }
   ]
 }
