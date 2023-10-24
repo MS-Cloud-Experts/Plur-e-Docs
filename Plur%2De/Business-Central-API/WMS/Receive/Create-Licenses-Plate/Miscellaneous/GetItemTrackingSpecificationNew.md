@@ -32,6 +32,12 @@ SourceType := 39
 SourceType : Warehouse Receipt Lines.SourceType
 
 **SourceSubtype:** 
+- Sales Documents: 
+SourceSubtype:= 0
+- Purch Documents: 
+SourceSubtype:= 0
+- Warehouse Receipts
+SourceSubtype: Warehouse Receipt Lines.SourceSubtype
 
 **OutPut**
 
