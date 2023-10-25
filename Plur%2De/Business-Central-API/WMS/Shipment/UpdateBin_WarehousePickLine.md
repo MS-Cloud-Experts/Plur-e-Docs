@@ -5,7 +5,10 @@
   "ProcessMethod": "UpdateBin_WarehousePickLine",
   "Parameters": [
     {
-      "WhseDocumentNo": "WHSE SHIP-00005"
+      "WhseDocumentNo": "WHSE PICK-00050",
+      "LineNo": 10000,
+      "BinCode": "STO2",
+      "WarehouseEmployee": "MSCLOUDUSER1"
     }
   ]
 }
