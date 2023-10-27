@@ -7,7 +7,7 @@
       "WhsDocumentNo": "WHSE PICK-00006",
       "PickLinesArray": [
         {
-          "LineNo": 20000,
+          "LineNo": 10000,
           "BincCode": "STO1",
           "VariantCode": "XLS",
           "SerialNo": "000001",
@@ -15,7 +15,7 @@
           "QtyToHandle": 1
         },
         {
-          "LineNo": 40000,
+          "LineNo": 30000,
           "BincCode": "STO1",
           "VariantCode": "XLS",
           "SerialNo": "000001",
