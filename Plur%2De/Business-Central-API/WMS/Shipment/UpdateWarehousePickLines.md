@@ -1,7 +1,7 @@
 **Request:**
 ```
 {
-  "ProcessMethod": "CreatePackageShipment",
+  "ProcessMethod": "UpdateWarehousePickLines",
   "Parameters": [
     {
       "WhsDocumentNo": "WHSE PICK-00006",
