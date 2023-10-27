@@ -8,7 +8,7 @@
       "PickLinesArray": [
         {
           "LineNo": 10000,
-          "BincCode": "STO1",
+          "BinCode": "STO1",
           "VariantCode": "XLS",
           "SerialNo": "000001",
           "LotNo": "LOT10",
@@ -16,7 +16,7 @@
         },
         {
           "LineNo": 30000,
-          "BincCode": "STO1",
+          "BinCode": "STO1",
           "VariantCode": "XLS",
           "SerialNo": "000001",
           "LotNo": "LOT10",
