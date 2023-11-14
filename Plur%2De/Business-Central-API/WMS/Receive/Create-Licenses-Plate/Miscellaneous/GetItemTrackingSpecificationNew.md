@@ -49,7 +49,7 @@ SourceType : Warehouse Receipt Lines.SourceType
 
 **SourceSubtype:** 
 - Sales Documents: 
-SourceSubtype:= 0
+SourceSubtype:= 1
 - Purch Documents: 
 SourceSubtype:= 0
 - Warehouse Receipts
