@@ -1,4 +1,4 @@
-
+**Request:**
 ```
 {
   "ProcessMethod": "GetPaymentReceipt",
@@ -10,7 +10,7 @@
 }
 ```
 
-
+**Output:**
 ```
 {
   "InvoiceNumber": "PS-INV103192",
@@ -44,3 +44,5 @@
   "PostedSalesInvoice": "PS-INV103192"
 }
 ```
+**Document in Business Central:**
+![image.png](/.attachments/image-135ccb9f-dbe4-4ffb-abf1-cd29b1950239.png)
