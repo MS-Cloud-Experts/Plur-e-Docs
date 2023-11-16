@@ -46,3 +46,6 @@
 ```
 **Document in Business Central:**
 ![image.png](/.attachments/image-135ccb9f-dbe4-4ffb-abf1-cd29b1950239.png)
+
+**Payment Receipt**
+![image.png](/.attachments/image-2cca1580-3db4-4679-92d0-46b2dc6e86f8.png)
