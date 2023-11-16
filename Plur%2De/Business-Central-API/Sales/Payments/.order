@@ -1,3 +1,4 @@
+GetPaymentDocuments
 GetPaymentReceipt
 PaymentOrder
 GetGenJournalBatchJson
