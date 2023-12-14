@@ -2,7 +2,11 @@
 ```
 {
   "ProcessMethod": "GetZones",
-  "Parameters": []
+  "Parameters": [
+    {
+      "LocationCode": "Asia"
+    }
+  ]
 }
 ```
 
