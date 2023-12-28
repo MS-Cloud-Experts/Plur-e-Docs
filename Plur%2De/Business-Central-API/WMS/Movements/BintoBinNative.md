@@ -8,6 +8,7 @@
     "FromBin": "STO1",
     "ToBin": "STO2",
     "ItemNo": "1900-S",
+    "VariantCode": "CLXLMX",
     "Qty": 1,
     "UnitofMeasureCode": "PCS"
   }
