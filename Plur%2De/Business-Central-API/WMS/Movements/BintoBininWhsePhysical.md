@@ -11,13 +11,13 @@
     "ToBin": "NOCOUNT",
     "ItemChildArray": [
       {
-        "lineNo": "10000",
+        "LineNo": "10000",
         "ItemNo": "1900-S",
         "Qty": 1,
         "UnitofMeasureCode": "PCS"
       },
       {
-        "lineNo": "20000",
+        "LineNo": "20000",
         "ItemNo": "1900-S",
         "Qty": 1,
         "UnitofMeasureCode": "PCS"
