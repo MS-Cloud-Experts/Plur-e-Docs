@@ -11,11 +11,17 @@
     "ItemChildArray": [
       {
         "ItemNo": "1900-S",
+        "VariantCode": "XDSCFSD",
+        "LotNo": "LOTT0001",
+        "SerialNo": "S000000001",
         "Qty": 1,
         "UnitofMeasureCode": "PCS"
       },
       {
         "ItemNo": "1900-S",
+        "VariantCode": "XDSCFSD",
+        "LotNo": "LOTT0001",
+        "SerialNo": "S000000001",
         "Qty": 1,
         "UnitofMeasureCode": "PCS"
       }
