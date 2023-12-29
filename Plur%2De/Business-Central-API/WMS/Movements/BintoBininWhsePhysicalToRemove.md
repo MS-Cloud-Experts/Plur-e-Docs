@@ -4,34 +4,30 @@
 
 **Request:**
 ```
-[
-  {
-    "JournalBatchName": "DARIO",
-    "JournalTemplateName": "GENERAL",
-    "ZoneCode": "STO",
-    "LocationCode": "NEWWMS",
-    "FromBin": "STO1",
-    "ToBin": "NOCOUNT",
-    "ItemChildArray": [
-      {
-        "LineNo": "10000",
-        "ItemNo": "1900-S",
-        "Qty": 1,
-        "UnitofMeasureCode": "PCS",
-        "LotNo": "LOTT0001",
-        "SerialNo": "S000000001",
-      },
-      {
-        "LineNo": "20000",
-        "ItemNo": "1900-S",
-        "Qty": 1,
-        "UnitofMeasureCode": "PCS",
-        "LotNo": "LOTT0001",
-        "SerialNo": "S000000001",
-      }
-    ]
-  }
-]
+{
+  "ProcessMethod": "BintoBininWhsePhysicalToRemove",
+  "Parameters": [
+    {
+      "JournalBatchName": "IVAN",
+      "JournalTemplateName": "TEMPLATE",
+      "ZoneCode": "STO",
+      "LocationCode": "MAIN",
+      "FromBin": "STO1",
+      "ToBin": "NOCOUNT",
+      "ItemChildArray": [
+        {
+          "LineNo": "10000",
+          "ItemNo": "D0WHAREH",
+          "VariantCode" :"BLA00S",
+          "Qty": 3,
+          "UnitofMeasureCode": "PCS",
+          "LotNo": "",
+          "SerialNo": ""
+        }
+      ]
+    }
+  ]
+}
 ```
 
 2. Crear un boton o proceso llamado preregister que lo que no se encontro lo mueva automaticamente al **NoCount**
