@@ -1,3 +1,7 @@
+**Method:** BintoBininWhsePhysicalToRemove
+
+1. Preguntar al usuario si el producto que no encontro lo desea mover a **nocount**.
+
 **Request:**
 
 ```
