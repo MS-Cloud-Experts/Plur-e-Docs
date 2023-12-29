@@ -20,7 +20,7 @@
           "ItemNo": "D0WHAREH",
           "VariantCode" :"BLA00S",
           "Qty": 3,
-          "UnitofMeasureCode": "PCS",
+          "UnitofMeasureCode": "EA",
           "LotNo": "",
           "SerialNo": ""
         }
