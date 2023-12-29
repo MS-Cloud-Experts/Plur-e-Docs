@@ -3,7 +3,6 @@
 1. Preguntar al usuario si el producto que no encontro lo desea mover a **Nocount**.
 
 **Request:**
-
 ```
 [
   {
