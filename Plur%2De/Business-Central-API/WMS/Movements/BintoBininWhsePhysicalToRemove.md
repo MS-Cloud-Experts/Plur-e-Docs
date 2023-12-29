@@ -36,6 +36,8 @@
 
 2. Crear un boton o proceso llamado preregister que lo que no se encontro lo mueva automaticamente al **NoCount**
 
+-Se debe construir una API en BC.
+
 - Enviar el listado de lo faltante al usuario. (o Estadisticas).
 
 - Preguntar si todo el faltante lo quiere enviar a **NoCount**.
