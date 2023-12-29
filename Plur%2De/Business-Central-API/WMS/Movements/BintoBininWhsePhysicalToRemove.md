@@ -36,7 +36,7 @@
 
 2. Crear un boton o proceso llamado preregister que lo que no se encontro lo mueva automaticamente al **NoCount**
 
-- Enviar el listado de lo faltante al usuario.
+- Enviar el listado de lo faltante al usuario. (o Estadisticas).
 
 - Preguntar si todo el faltante lo quiere enviar a **NoCount**.
  
