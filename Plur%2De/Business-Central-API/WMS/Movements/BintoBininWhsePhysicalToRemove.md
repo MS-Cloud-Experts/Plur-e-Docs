@@ -18,13 +18,17 @@
         "LineNo": "10000",
         "ItemNo": "1900-S",
         "Qty": 1,
-        "UnitofMeasureCode": "PCS"
+        "UnitofMeasureCode": "PCS",
+        "LotNo": "LOTT0001",
+        "SerialNo": "S000000001",
       },
       {
         "LineNo": "20000",
         "ItemNo": "1900-S",
         "Qty": 1,
-        "UnitofMeasureCode": "PCS"
+        "UnitofMeasureCode": "PCS",
+        "LotNo": "LOTT0001",
+        "SerialNo": "S000000001",
       }
     ]
   }
