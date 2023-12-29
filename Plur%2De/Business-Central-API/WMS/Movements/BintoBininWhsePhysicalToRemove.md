@@ -8,7 +8,7 @@
   "ProcessMethod": "BintoBininWhsePhysicalToRemove",
   "Parameters": [
     {
-      "JournalBatchName": "IVAN",
+      "JournalBatchName": "IVANL",
       "JournalTemplateName": "TEMPLATE",
       "ZoneCode": "STO",
       "LocationCode": "MAIN",
