@@ -30,4 +30,6 @@
   }
 ]
 ```
+
+2. Crear un boton o proceso llamado preregister que lo que no se encontro lo mueva automaticamente al **NoCount**
  
