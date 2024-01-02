@@ -3,7 +3,9 @@
 **FromBin:** Depende de si el Item tiene Serial o No. En caso de que no tenga, se debe disenar el proceso de obtencion de datos.
 
 ```
-[
+{
+  "ProcessMethod": "BintoBininWhsePhysicalToRemove",
+  "Parameters": [
   {
     "JournalBatchName": "DARIO",
     "JournalTemplateName": "GENERAL",
@@ -31,6 +33,7 @@
     ]
   }
 ]
+}
 ```
 
 
