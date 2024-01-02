@@ -28,4 +28,6 @@
 }
 ```
 
+**Nota:** en caso de que el producto este en un inventario abierto NC deberia eliminarse de ahi tambien.
+
 
