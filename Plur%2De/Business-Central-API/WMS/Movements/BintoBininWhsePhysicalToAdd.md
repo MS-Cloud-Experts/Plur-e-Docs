@@ -4,7 +4,7 @@
 
 ```
 {
-  "ProcessMethod": "BintoBininWhsePhysicalToRemove",
+  "ProcessMethod": "BintoBininWhsePhysicalToAdd",
   "Parameters": [
   {
     "JournalBatchName": "IVANL",
