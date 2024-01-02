@@ -13,6 +13,7 @@
     "LocationCode": "MAIN",
     "ToBin": "STO1",
     "FromBin": "NOCOUNT",
+    "WarehouseEmployee": "IVAN.LABRADOR",
     "ItemChildArray": [
       {
         "ItemNo": "D0WHAREH",
