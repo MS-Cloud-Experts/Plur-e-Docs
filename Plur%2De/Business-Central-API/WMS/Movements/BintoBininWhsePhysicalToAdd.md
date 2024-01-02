@@ -7,28 +7,20 @@
   "ProcessMethod": "BintoBininWhsePhysicalToRemove",
   "Parameters": [
   {
-    "JournalBatchName": "DARIO",
-    "JournalTemplateName": "GENERAL",
+    "JournalBatchName": "IVANL",
+    "JournalTemplateName": "TEMPLATE",
     "ZoneCode": "STO",
-    "LocationCode": "NEWWMS",
+    "LocationCode": "MAIN",
     "ToBin": "STO1",
-    "FromBin": "STO2",
+    "FromBin": "NOCOUNT",
     "ItemChildArray": [
       {
-        "ItemNo": "1900-S",
-        "VariantCode": "XDSCFSD",
-        "LotNo": "LOTT0001",
-        "SerialNo": "S000000001",
-        "Qty": 1,
-        "UnitofMeasureCode": "PCS"
-      },
-      {
-        "ItemNo": "1900-S",
-        "VariantCode": "XDSCFSD",
-        "LotNo": "LOTT0001",
-        "SerialNo": "S000000001",
-        "Qty": 1,
-        "UnitofMeasureCode": "PCS"
+        "ItemNo": "D0WHAREH",
+        "VariantCode": "BLA00S",
+        "LotNo": "",
+        "SerialNo": "",
+        "Qty": 10,
+        "UnitofMeasureCode": "EA"
       }
     ]
   }
