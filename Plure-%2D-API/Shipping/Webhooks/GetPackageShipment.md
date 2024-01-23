@@ -9,7 +9,7 @@ Esta API permite obtener los Shipments transactions que se han realizado atraves
 api/v1.0/webhooks?appSource=erp&customerId=cus_OvXEmIZPtOMjoo&parms=WTNWelgwOTJXRVZ0U1ZwUWRFOU5hbTl2c2tfTnpnNVltRTJZbVV0T0RnME9TMDBZbVE1TFRsaU9UVXRNREprTURjMk9UUTFPREF6&secretKey=sk_Nzg5YmE2YmUtODg0OS00YmQ5LTliOTUtMDJkMDc2OTQ1ODAz
 ``` 
 
-Esta api permite realizar dos tipos de consultas.
+Esta api permite realizar dos tipos de consultas:
 
 1. Consultar varios shipment transactions segun un rango de fecha, el request se debe enviar de la siguiente forma:
 
