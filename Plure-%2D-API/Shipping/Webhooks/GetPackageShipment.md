@@ -1,19 +1,23 @@
 ### Description
-Esta API permite obtener los Carriers configurados en ShipStation
+Esta API permite obtener los Shipments transactions que se han realizado atraves de plur-e
 
 **HTTP Method:** `Post`
 
 **Endpoint:** `api/v1.0/webhooks?appSource=erp&customerId={customerId}&parms={parms}&secretKey={secretKey}`
 #### Example:
 ```
-api/v1.0/webhooks?appSource=erp&customerId=cus_OTWT9NtE1HGhmP&parms=WTNWelgwOVVWMVE1VG5SRk1VaEhhRzFRc2tfTkRNMlpHVXpObVV0TTJSaVpTMDBOekJtTFRsbE5UUXRNemsxTVdZMk16WXdZV1Zp&secretKey=sk_NDM2ZGUzNmUtM2RiZS00NzBmLTllNTQtMzk1MWY2MzYwYWVi
+api/v1.0/webhooks?appSource=erp&customerId=cus_OvXEmIZPtOMjoo&parms=WTNWelgwOTJXRVZ0U1ZwUWRFOU5hbTl2c2tfTnpnNVltRTJZbVV0T0RnME9TMDBZbVE1TFRsaU9UVXRNREprTURjMk9UUTFPREF6&secretKey=sk_Nzg5YmE2YmUtODg0OS00YmQ5LTliOTUtMDJkMDc2OTQ1ODAz
 ``` 
 
 **Request:** 
 
 ```
 {
-    "ProcessMethod": "GetCarriers"
+    "CustomerId": "cus_OvXEmIZPtOMjoo",
+    "EnvironmentId": "env_6b23fc1a48c046d4b6f4504d876ffeab",
+    "CompanyId": "BEBA99E4-2A78-EE11-817A-002248A527C3",
+    "ProcessMethod": "GetPackageShipment",
+    "JsonRequest": "{\"OrderId\":0,\"ForceUpdate\":true,\"FromDate\":\"2024-01-15\",\"ToDate\":\"2024-01-15\"}"    
 }
 ```
 
