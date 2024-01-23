@@ -22,7 +22,7 @@ Este criterio es muy importante y dependiendo de los criterios enviados, asi mis
 
 - OrderId: Si se desea obtener informacion de una orden se debe enviar el campo con el Id de la orden de shipstation, si se desea obtener informacion de varias ordenes, se debe enviar en cero.
 
-- ForceUpdate: Si se envia el valor true, el proceso se comunicara con shipstation actualizando la informacion del plure y BC, si se envia el valor en false la informacion sale solo de plure
+- ForceUpdate: Si se envia el valor true, el proceso se comunicara con shipstation actualizando la informacion del plur-e y BC, si se envia el valor en false la informacion se obtiene de plur-e
 
 - FromDate: Cuando se desea obtener un rango de ordenes por fecha, se debe enviar el FromDate
 
