@@ -8,6 +8,32 @@ Esta API permite obtener los Shipments transactions que se han realizado atraves
 ```
 api/v1.0/webhooks?appSource=erp&customerId=cus_OvXEmIZPtOMjoo&parms=WTNWelgwOTJXRVZ0U1ZwUWRFOU5hbTl2c2tfTnpnNVltRTJZbVV0T0RnME9TMDBZbVE1TFRsaU9UVXRNREprTURjMk9UUTFPREF6&secretKey=sk_Nzg5YmE2YmUtODg0OS00YmQ5LTliOTUtMDJkMDc2OTQ1ODAz
 ``` 
+****Criterios****
+#### CustomerId: 
+Id del cliente asignado al momento de crear la subscripcion
+#### EnvironmentId: 
+Id del environment asignado al ambiente instalado
+#### CompanyId: 
+Id de la compañia 
+#### ProcessMethod: 
+Se debe enviar *****GetPackageShipment*****
+#### JsonRequest: 
+Este criterio es muy importante y dependiendo de los criterios enviados, asi mismo se filtra la informacion, acontinuacion la explicacion de la estructura que se debe enviar:
+
+- OrderId: Si se desea obtener informacion de una orden se debe enviar el campo con el Id de la orden de shipstation, si se desea obtener informacion de varias ordenes, se debe enviar en cero.
+
+- ForceUpdate: Si se envia el valor true, el proceso se comunicara con shipstation actualizando la informacion del plure y BC, si se envia el valor en false la informacion sale solo de plure
+
+- FromDate: Cuando se desea obtener un rango de ordenes por fecha, se debe enviar el FromDate
+
+- ToDate: Cuando se desea obtener un rango de ordenes por fecha, se debe enviar el ToDate
+
+```
+{\"OrderId\":0,\"ForceUpdate\":true,\"FromDate\":\"2024-01-15\",\"ToDate\":\"2024-01-15\"}
+```
+
+
+###----------------------------------------------------------------------------------------------------------------------------------------
 
 Esta api permite realizar dos tipos de consultas:
 
