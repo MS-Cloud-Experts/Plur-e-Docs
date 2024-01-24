@@ -1,7 +1,7 @@
 **Request:**
 ```
 {
-  "ProcessMethod": "Move_Item_BinToBin_Movement",
+  "ProcessMethod": "Move_Item_BinToBin_MovementV2",
   "Parameters": [
     {
       "ZoneCode": "STO",
