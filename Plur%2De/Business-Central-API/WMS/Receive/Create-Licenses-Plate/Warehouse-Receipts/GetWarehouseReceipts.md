@@ -17,7 +17,19 @@ Allows you to bring a list of open Warehouse Receipts to be posted in a Warehous
 **Example**:
 
 **Request:**
-`"jsonRequest":"{"ProcessMethod":"GetWarehouseReceipts","Parameters":[{"assigned_user_id":""}]}"`
+
+```
+{
+  "ProcessMethod": "GetWarehouseReceipts",
+  "Parameters": [
+    {
+      "assigned_user_id": "WILSON",
+      "WarehouseEmployee": "WILSON"
+    }
+  ]
+}
+```
+
 
 **Error**:
 
