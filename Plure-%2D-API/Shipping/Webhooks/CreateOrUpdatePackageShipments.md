@@ -13,13 +13,15 @@ api/v1.0/webhooks?appSource=erp&customerId=cus_OTWT9NtE1HGhmP&parms=WTNWelgwOVVW
 
 ```
 {
-    "CustomerId": "cus_OTWT9NtE1HGhmP",
-    "EnvironmentId": "env_278136d30f374d77b1881216b995f25f",
-    "ProcessMethod": "CreateOrUpdatePackageShipment",
-    "CompanyId": "d3a2f34b-de27-ee11-bdf5-6045bd828f66",
-    "JsonRequest": "[{\"OrderId\":21035510,\"OrderKey\"cb584082dc2545d28721f39bc0cd9207:\"\",\"SourceNo\":\"WHSE SHIP-00030\",\"PackageNo\":4,\"PackingDate\":\"2023-09-26T21:54:20.3970000Z\",\"CustomerUsername\":\"Trey Research\",\"CustomerEmail\":\"helen.ray@contoso.com\",\"BillTo\":{\"Name\":\"Trey Research\",\"Company\":\"Adventure\",\"Address1\":\"153 Thomas Drive\",\"Address2\":\"\",\"City\":\"Chicago\",\"State\":\"IL\",\"Country\":\"US\",\"PostalCode\":\"61236\",\"Phone\":\"\"},\"ShipTo\":{\"Name\":\"Trey Research\",\"Company\":\"Adventure\",\"Address1\":\"153 Thomas Drive\",\"Address2\":\"\",\"City\":\"Chicago\",\"State\":\"IL\",\"Country\":\"US\",\"PostalCode\":\"61236\",\"Phone\":\"\"},\"Lines\":[{\"PackageNo\":1,\"ItemNo\":\"1900-S\",\"Name\":\"1900-S\",\"QtyToHandle\":2,\"LineNo\":1000,\"SourceNo\":\"S-ORD101046\",\"WarehouseDocumentNo\":\"WHSE PICK-00023\",\"WarehouseLineNo\":40000,\"VariantCode\":\"\"}],\"Weight\":8,\"WeightUnit\":2,\"Width\":8,\"Height\":8,\"Depth\":8,\"DimensionsUnit\":1,\"Status\":\"awaiting_shipment\"}]"
+    "customerId": "cus_OvXEmIZPtOMjoo",
+    "environmentId": "env_6b23fc1a48c046d4b6f4504d876ffeab",
+    "processMethod": "CreateOrUpdatePackageShipment",
+    "companyId": "beba99e4-2a78-ee11-817a-002248a527c3",
+    "jsonRequest": "[{\"PackageNo\":1,\"SourceNo\":\"WHSEPICK-00192\",\"WarehouseDocumentNo\":\"WHSEPICK-00092\",\"WarehouseShipmentNo\":\"WHSESHIP-00087\",\"CustomerUsername\":\"3rdAVEKITEREPAIR\",\"CustomerEmail\":\"diego.rozo@mscloudexperts.com\",\"WeightUnit\":\"Pounds\",\"DimensionsUnit\":\"Inches\",\"Status\":\"awaiting_shipment\",\"OrderId\":0,\"OrderKey\":\"\",\"Weight\":0.0,\"Width\":0.0,\"Height\":0.0,\"Depth\":0.0,\"TotalQty\":10.0,\"Release\":true,\"RegisteredPick\":\"\",\"PackageTrackingNo\":\"\",\"ShippingAgentCode\":\"ups_walleted\",\"ShippingAgentService\":\"ups_ground_saver\",\"PackingDate\":\"2024-01-15T16:26:09.8370000Z\",\"ShippingDate\":\"0001-01-01\",\"Lines\":[{\"PackageNo\":1,\"LineNo\":1000,\"SourceNo\":\"SOB2B-300820\",\"SourceLineNo\":10000,\"WarehouseDocumentNo\":\"WHSEPICK-00092\",\"WarehouseLineNo\":10000,\"ItemNo\":\"D0AVESVTBLU00S\",\"VariantCode\":\"\",\"SerialNo\":\"\",\"LotNo\":\"\",\"QtyToHandle\":10}],\"ShipTo\":{\"Name\":\"3rdAVEKITEREPAIR\",\"Company\":\"AdventureSportsUSA-PLUR-EV2\",\"Address1\":\"370BODEGAST\",\"Address2\":\"\",\"City\":\"FosterCity\",\"State\":\"California\",\"Country\":\"US\",\"PostalCode\":\"94404\",\"Phone\":\"16505207654\"},\"BillTo\":{\"Name\":\"3rdAVEKITEREPAIR\",\"Company\":\"AdventureSportsUSA-PLUR-EV2\",\"Address1\":\"370BODEGAST\",\"Address2\":\"\",\"City\":\"FosterCity\",\"State\":\"California\",\"Country\":\"US\",\"PostalCode\":\"94404\",\"Phone\":\"16505207654\"}}]"
 }
 ```
+
+
 **Note:** `La documentacion de este request es lo mismo usando en la api creada para Plur-e Mobile` 
 ****[Link](https://dev.azure.com/MSCloudExperts/Plur-e/_wiki/wikis/Plur-e.wiki/271/Shipstation)****
 
