@@ -41,175 +41,51 @@ Allows you to bring a list of open Warehouse Receipts to be posted in a Warehous
 {
   "WarehouseReceipts": [
     {
-      "id": 7316,
-      "name": "WarehouseReceiptHeader",
-      "company": "CRONUS USA, Inc.",
-      "position": "No.=CONST(107292)",
-      "recordId": "Warehouse Receipt Header: 107292",
-      "primaryKey": {
-        "fieldCount": 1,
-        "fields": [
-          {
-            "id": 1,
-            "name": "No",
-            "type": "Code",
-            "value": "107292",
-            "System": false
-          }
-        ]
-      },
-      "fieldCount": 24,
-      "fields": [
-        {
-          "id": 1,
-          "name": "No",
-          "type": "Code",
-          "value": "107292",
-          "System": false
-        },
-        {
-          "id": 2,
-          "name": "LocationCode",
-          "type": "Code",
-          "value": "ADVANCED1",
-          "System": false
-        },
-        {
-          "id": 3,
-          "name": "AssignedUserID",
-          "type": "Code",
-          "value": null,
-          "System": false
-        },
-        {
-          "id": 4,
-          "name": "AssignmentDate",
-          "type": "Date",
-          "value": null,
-          "System": false
-        },
-        {
-          "id": 5,
-          "name": "AssignmentTime",
-          "type": "Time",
-          "value": null,
-          "System": false
-        },
-        {
-          "id": 6,
-          "name": "SortingMethod",
-          "type": "Option",
-          "value": " ",
-          "System": false
-        },
-        {
-          "id": 7,
-          "name": "NoSeries",
-          "type": "Code",
-          "value": "P-RCPT",
-          "System": false
-        },
-        {
-          "id": 8,
-          "name": "ZoneCode",
-          "type": "Code",
-          "value": null,
-          "System": false
-        },
-        {
-          "id": 9,
-          "name": "BinCode",
-          "type": "Code",
-          "value": "REC",
-          "System": false
-        },
-        {
-          "id": 10,
-          "name": "DocumentStatus",
-          "type": "Option",
-          "value": " ",
-          "System": false
-        },
-        {
-          "id": 11,
-          "name": "Comment",
-          "type": "Boolean",
-          "value": false,
-          "System": false
-        },
-        {
-          "id": 12,
-          "name": "PostingDate",
-          "type": "Date",
-          "value": "2022-02-04",
-          "System": false
-        },
-        {
-          "id": 13,
-          "name": "VendorShipmentNo",
-          "type": "Code",
-          "value": null,
-          "System": false
-        },
-        {
-          "id": 16,
-          "name": "CrossDockZoneCode",
-          "type": "Code",
-          "value": null,
-          "System": false
-        },
-        {
-          "id": 17,
-          "name": "CrossDockBinCode",
-          "type": "Code",
-          "value": null,
-          "System": false
-        },
-        {
-          "id": 50,
-          "name": "CreatePostedHeader",
-          "type": "Boolean",
-          "value": false,
-          "System": false
-        },
-        {
-          "id": 51,
-          "name": "ReceivingNo",
-          "type": "Code",
-          "value": null,
-          "System": false
-        },
-        {
-          "id": 62,
-          "name": "LastReceivingNo",
-          "type": "Code",
-          "value": null,
-          "System": false
-        },
-        {
-          "id": 63,
-          "name": "ReceivingNoSeries",
-          "type": "Code",
-          "value": "PWHSRCPT",
-          "System": false
-        },
-        {
-          "id": 2000000000,
-          "name": "$systemId",
-          "type": "GUID",
-          "value": "{217508CD-EB93-EC11-B85A-000D3A722756}",
-          "System": false
-        },
-        {
-          "id": 2000000001,
-          "name": "SystemCreatedAt",
-          "type": "DateTime",
-          "value": "2022-02-22T14:29:11.827Z",
-          "System": false
-        },
-        
-      ]
+      "AssignmentDate": "2024-01-11",
+      "No": "WHSE REC-00006",
+      "LocationCode": "MAIN"
     }
+  ],
+  "WarehouseReceiptLines": [
+    [
+      {
+        "No": "WHSE REC-00006",
+        "LineNo": 10000,
+        "SourceType": 39,
+        "SourceSubtype": 1,
+        "SourceDocument": "Purchase Order",
+        "SourceNo": "PO-109906",
+        "SourceLineNo": 10000,
+        "LocationCode": "MAIN",
+        "BinCode": "MAIN",
+        "ZoneCode": "REC",
+        "ItemNo": "K4KOAETHE",
+        "Quantity": 100.0,
+        "QtyBase": 100.0,
+        "QtyOutstanding": 100.0,
+        "QtyOutstandingBase": 100.0,
+        "QtytoReceive": 0.0,
+        "QtytoReceiveBase": 0.0,
+        "QtyReceived": 0.0,
+        "QtyReceivedBase": 0.0,
+        "UnitofMeasureCode": "EA",
+        "QtyperUnitofMeasure": 1.0,
+        "VariantCode": "005003",
+        "OverReceiptQuantity": 0.0,
+        "OverReceiptCode": "",
+        "Managed_by_PlurE": false,
+        "Auto_Generate_SN": false,
+        "Auto_Generate_LOT": false,
+        "ItemTrackingCode": "SERIAL",
+        "LPArray": {
+          "LicensePlates": []
+        },
+        "PLUNoLPCreated": 0.0,
+        "PLULPSingles": "",
+        "PLULPPalletChildsasLP": "",
+        "PLUNewQtyOutstanding": 0.0
+      }
+    ]
   ]
 }
 ```
