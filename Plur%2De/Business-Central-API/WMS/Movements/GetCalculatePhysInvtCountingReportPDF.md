@@ -21,4 +21,7 @@ Ouput:
   "Duration": "1 second 428 milliseconds"
 }
 ```
+**Preview**
+https://www.ipvoid.com/base64-to-pdf/
+![image.png](/.attachments/image-045e27a0-e08c-4960-bb3c-7d301dba6337.png)
 
