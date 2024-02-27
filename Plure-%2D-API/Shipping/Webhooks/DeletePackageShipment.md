@@ -38,7 +38,7 @@ Esta api permite eliminar una o muchas ordenes de shipstation:
     "CustomerId": "cus_OvXEmIZPtOMjoo",
     "EnvironmentId": "env_6b23fc1a48c046d4b6f4504d876ffeab",
     "CompanyId": "BEBA99E4-2A78-EE11-817A-002248A527C3",
-    "ProcessMethod": "GetPackageShipment",
+    "ProcessMethod": "DeletePackageShipment",
     "JsonRequest": "[{\"OrderId\":0}]"    
 }
 ```
@@ -55,7 +55,7 @@ Esta api permite eliminar una o muchas ordenes de shipstation:
     "error": ""
 }
 ```
-**Exeptions:**
+**Error handling:**
 
 En caso de ocurra algun error en shipstation o el OrderId no sea encontrado, recibira la razon del error en la propiedad result, acontinuacion un ejemplo de como se ve un error:
 
