@@ -1,4 +1,4 @@
-DeleteS
+DeletePackageShipment
 ChangeStatusPackageShipment
 GetCarriers
 CreateOrUpdatePackageShipments
