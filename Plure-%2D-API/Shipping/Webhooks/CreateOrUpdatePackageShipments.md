@@ -21,9 +21,8 @@ api/v1.0/webhooks?appSource=erp&customerId=cus_OTWT9NtE1HGhmP&parms=WTNWelgwOVVW
 }
 ```
 
-
 **Note:** `La documentacion de este request es lo mismo usando en la api creada para Plur-e Mobile` 
-****[Link](https://dev.azure.com/MSCloudExperts/Plur-e/_wiki/wikis/Plur-e.wiki/271/Shipstation)****
+[Link](https://dev.azure.com/MSCloudExperts/Plur-e/_wiki/wikis/Plur-e.wiki/271/Shipstation)
 
 **Response:** 
 
