@@ -6,9 +6,7 @@
   "ProcessMethod": "IsItemOrSerial",
   "Parameters": [
     {
-      "LocationCode": "NEWWMS",
-      "ItemNo": "1900-S",
-      "UnitofMeasureCode": "PCS"
+      "No": "D0AVESVTBLU00S"
     }
   ]
 }
