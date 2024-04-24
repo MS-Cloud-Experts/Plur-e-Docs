@@ -8,5 +8,6 @@ GetItemInventoryByLocation
 Get-Item-Inventory-By-Location-V2
 Get-Customer-by-Sales-Persons
 Get-Posted-Sales-Invoice-by-Sales-Person
+Get-Posted-Sales-Invoices
 Update_QtyToReturn_V1
 Update_QtyToShip_SalesLines_V1
