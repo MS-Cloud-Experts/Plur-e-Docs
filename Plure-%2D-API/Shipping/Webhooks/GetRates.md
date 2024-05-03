@@ -33,3 +33,16 @@ api/v1.0/webhooks?appSource=erp&customerId=cus_OTWT9NtE1HGhmP&parms=WTNWelgwOVVW
     "error": ""
 }
 ```
+
+**Curl**
+```
+curl --location 'https://localhost:5001/api/v1.0/webhooks?appSource=erp&customerId=cus_Ohex6sITWij0ja&parms=WTNWelgwOW9aWGcyYzBsVVYybHFNR3Boc2tfT0dNeU1HUXlZelF0WWpaaVppMDBaalZoTFdGbE1XRXRNR1JpTVdOaU1XWTVaR0k1&secretKey=sk_OGMyMGQyYzQtYjZiZi00ZjVhLWFlMWEtMGRiMWNiMWY5ZGI5' \
+--header 'Content-Type: application/json' \
+--data '{
+    "CustomerId": "cus_Ohex6sITWij0ja",
+    "EnvironmentId": "env_48098549e77f418b974a80455600944a",
+    "CompanyId": "{FBFFF439-569B-ED11-BFF5-000D3A71DACD}",
+    "ProcessMethod": "GetRates",
+    "JsonRequest": "{\"carrierCode\":\"fedex\",\"serviceCode\":null,\"packageCode\":null,\"fromPostalCode\":\"78703\",\"toState\":\"DC\",\"toCountry\":\"US\",\"toPostalCode\":\"20500\",\"toCity\":\"Washington\",\"weight\":{\"value\":3,\"units\":\"ounces\"},\"dimensions\":{\"units\":\"inches\",\"length\":7,\"width\":5,\"height\":6},\"confirmation\":\"delivery\",\"residential\":false}"
+}'
+```
