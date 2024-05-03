@@ -1,5 +1,5 @@
 ### Description
-Esta API permite obtener los Carriers configurados en ShipStation
+Esta API permite obtener los Rates de ShipStation
 
 **HTTP Method:** `Post`
 
@@ -13,7 +13,11 @@ api/v1.0/webhooks?appSource=erp&customerId=cus_OTWT9NtE1HGhmP&parms=WTNWelgwOVVW
 
 ```
 {
-    "ProcessMethod": "GetCarriers"
+    "CustomerId": "cus_Ohex6sITWij0ja",
+    "EnvironmentId": "env_48098549e77f418b974a80455600944a",
+    "CompanyId": "FBFFF439-569B-ED11-BFF5-000D3A71DACD",
+    "ProcessMethod": "GetRates",
+    "JsonRequest": "{\"carrierCode\":\"fedex\",\"serviceCode\":null,\"packageCode\":null,\"fromPostalCode\":\"78703\",\"toState\":\"DC\",\"toCountry\":\"US\",\"toPostalCode\":\"20500\",\"toCity\":\"Washington\",\"weight\":{\"value\":3,\"units\":\"ounces\"},\"dimensions\":{\"units\":\"inches\",\"length\":7,\"width\":5,\"height\":6},\"confirmation\":\"delivery\",\"residential\":false}"
 }
 ```
 
@@ -21,11 +25,11 @@ api/v1.0/webhooks?appSource=erp&customerId=cus_OTWT9NtE1HGhmP&parms=WTNWelgwOVVW
 
 ```
 {
-    "customerId": "cus_OTWT9NtE1HGhmP",
-    "environmentId": null,
-    "processMethod": "GetCarriers",
+    "customerId": "cus_Ohex6sITWij0ja",
+    "environmentId": "env_48098549e77f418b974a80455600944a",
+    "processMethod": "GetRates",
     "userId": null,
-    "result":"[{\"Name\":\"Stamps.com\",\"Code\":\"stamps_com\",\"AccountNumber\":null,\"RequiresFundedAccount\":true,\"Balance\":0.0,\"Nickname\":\"Free\",\"ShippingProviderId\":262752,\"Primary\":true,\"Services\":[{\"Code\":\"usps_priority_mail\",\"Name\":\"USPS Priority Mail\",\"Domestic\":true,\"International\":false},{\"Code\":\"usps_priority_mail_express\",\"Name\":\"USPS Priority Mail Express\",\"Domestic\":true,\"International\":false},{\"Code\":\"usps_parcel_select\",\"Name\":\"USPS Parcel Select Ground\",\"Domestic\":true,\"International\":false},{\"Code\":\"usps_first_class_mail\",\"Name\":\"USPS First Class Mail\",\"Domestic\":true,\"International\":false},{\"Code\":\"usps_media_mail\",\"Name\":\"USPS Media Mail\",\"Domestic\":true,\"International\":false},{\"Code\":\"usps_ground_advantage\",\"Name\":\"USPS Ground Advantage\",\"Domestic\":true,\"International\":false},{\"Code\":\"usps_priority_mail_international\",\"Name\":\"USPS Priority Mail Intl\",\"Domestic\":false,\"International\":true},{\"Code\":\"usps_priority_mail_express_international\",\"Name\":\"USPS Priority Mail Express Intl\",\"Domestic\":false,\"International\":true},{\"Code\":\"usps_first_class_mail_international\",\"Name\":\"USPS First Class Mail Intl\",\"Domestic\":false,\"International\":true},{\"Code\":\"globalpost_parcel_select_smart_saver\",\"Name\":\"GlobalPost Parcel Select SmartSaver\",\"Domestic\":true,\"International\":false}]},{\"Name\":\"UPS by ShipStation\",\"Code\":\"ups_walleted\",\"AccountNumber\":null,\"RequiresFundedAccount\":true,\"Balance\":0.0,\"Nickname\":null,\"ShippingProviderId\":262753,\"Primary\":true,\"Services\":[{\"Code\":\"ups_ground_saver\",\"Name\":\"UPS\® Ground Saver\",\"Domestic\":true,\"International\":false},{\"Code\":\"ups_ground\",\"Name\":\"UPS\® Ground\",\"Domestic\":true,\"International\":false},{\"Code\":\"ups_ground_international\",\"Name\":\"UPS Ground\® (International)\",\"Domestic\":false,\"International\":true},{\"Code\":\"ups_standard_international\",\"Name\":\"UPS Standard\®\",\"Domestic\":false,\"International\":true},{\"Code\":\"ups_3_day_select\",\"Name\":\"UPS 3 Day Select\®\",\"Domestic\":true,\"International\":false},{\"Code\":\"ups_worldwide_saver\",\"Name\":\"UPS Worldwide Saver\®\",\"Domestic\":false,\"International\":true},{\"Code\":\"ups_worldwide_express\",\"Name\":\"UPS Worldwide Express\®\",\"Domestic\":false,\"International\":true},{\"Code\":\"ups_2nd_day_air\",\"Name\":\"UPS 2nd Day Air\®\",\"Domestic\":true,\"International\":false},{\"Code\":\"ups_worldwide_expedited\",\"Name\":\"UPS Worldwide Expedited\®\",\"Domestic\":false,\"International\":true},{\"Code\":\"ups_worldwide_express_plus\",\"Name\":\"UPS Worldwide Express Plus\®\",\"Domestic\":false,\"International\":true},{\"Code\":\"ups_2nd_day_air_am\",\"Name\":\"UPS 2nd Day Air AM\®\",\"Domestic\":true,\"International\":false},{\"Code\":\"ups_next_day_air_saver\",\"Name\":\"UPS Next Day Air Saver\®\",\"Domestic\":true,\"International\":false},{\"Code\":\"ups_next_day_air\",\"Name\":\"UPS Next Day Air\®\",\"Domestic\":true,\"International\":false},{\"Code\":\"ups_next_day_air_early_am\",\"Name\":\"UPS Next Day Air\® Early\",\"Domestic\":true,\"International\":false}]}]",
+    "result":"[{\"ServiceName\":\"FedEx First Overnight\®\",\"ServiceCode\":\"fedex_first_overnight\",\"ShipmentCost\":124.18,\"OtherCost\":20.80},{\"ServiceName\":\"FedEx Priority Overnight\®\",\"ServiceCode\":\"fedex_priority_overnight\",\"ShipmentCost\":40.07,\"OtherCost\":6.71},{\"ServiceName\":\"FedEx Standard Overnight\®\",\"ServiceCode\":\"fedex_standard_overnight\",\"ShipmentCost\":39.27,\"OtherCost\":6.58},{\"ServiceName\":\"FedEx 2Day\® A.M.\",\"ServiceCode\":\"fedex_2day_am\",\"ShipmentCost\":24.29,\"OtherCost\":4.07},{\"ServiceName\":\"FedEx 2Day\®\",\"ServiceCode\":\"fedex_2day\",\"ShipmentCost\":18.38,\"OtherCost\":3.08},{\"ServiceName\":\"FedEx Express Saver\®\",\"ServiceCode\":\"fedex_express_saver\",\"ShipmentCost\":17.17,\"OtherCost\":2.88},{\"ServiceName\":\"FedEx Ground\®\",\"ServiceCode\":\"fedex_ground\",\"ShipmentCost\":10.2,\"OtherCost\":1.58},{\"ServiceName\":\"FedEx Home Delivery\®\",\"ServiceCode\":\"fedex_home_delivery\",\"ShipmentCost\":10.2,\"OtherCost\":4.78}]",
     "error": ""
 }
 ```
