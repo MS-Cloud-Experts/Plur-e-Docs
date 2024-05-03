@@ -36,13 +36,14 @@ api/v1.0/webhooks?appSource=erp&customerId=cus_OTWT9NtE1HGhmP&parms=WTNWelgwOVVW
 
 **Curl**
 ```
-curl --location 'https://localhost:5001/api/v1.0/webhooks?appSource=erp&customerId=cus_Ohex6sITWij0ja&parms=WTNWelgwOW9aWGcyYzBsVVYybHFNR3Boc2tfT0dNeU1HUXlZelF0WWpaaVppMDBaalZoTFdGbE1XRXRNR1JpTVdOaU1XWTVaR0k1&secretKey=sk_OGMyMGQyYzQtYjZiZi00ZjVhLWFlMWEtMGRiMWNiMWY5ZGI5' \
+curl --location 'https://pluredevapi.azurewebsites.net:443/api/v1.0/webhooks?appSource=erp&customerId=cus_OvXEmIZPtOMjoo&parms=WTNWelgwOTJXRVZ0U1ZwUWRFOU5hbTl2c2tfTnpnNVltRTJZbVV0T0RnME9TMDBZbVE1TFRsaU9UVXRNREprTURjMk9UUTFPREF6&secretKey=sk_Nzg5YmE2YmUtODg0OS00YmQ5LTliOTUtMDJkMDc2OTQ1ODAz' \
 --header 'Content-Type: application/json' \
+--header 'Cookie: ARRAffinity=9711c419a659049fd2590cda84358b6b7fe4a165cdb6acbb6ef91d696e076af4; ARRAffinitySameSite=9711c419a659049fd2590cda84358b6b7fe4a165cdb6acbb6ef91d696e076af4' \
 --data '{
-    "CustomerId": "cus_Ohex6sITWij0ja",
-    "EnvironmentId": "env_48098549e77f418b974a80455600944a",
-    "CompanyId": "{FBFFF439-569B-ED11-BFF5-000D3A71DACD}",
+    "CustomerId": "cus_OvXEmIZPtOMjoo",
+    "EnvironmentId": "env_6b23fc1a48c046d4b6f4504d876ffeab",
+    "CompanyId": "beba99e4-2a78-ee11-817a-002248a527c3",
     "ProcessMethod": "GetRates",
-    "JsonRequest": "{\"carrierCode\":\"fedex\",\"serviceCode\":null,\"packageCode\":null,\"fromPostalCode\":\"78703\",\"toState\":\"DC\",\"toCountry\":\"US\",\"toPostalCode\":\"20500\",\"toCity\":\"Washington\",\"weight\":{\"value\":3,\"units\":\"ounces\"},\"dimensions\":{\"units\":\"inches\",\"length\":7,\"width\":5,\"height\":6},\"confirmation\":\"delivery\",\"residential\":false}"
+    "JsonRequest": "{\"carrierCode\":\"ups_walleted\",\"serviceCode\":null,\"packageCode\":null,\"fromPostalCode\":\"78703\",\"toState\":\"DC\",\"toCountry\":\"US\",\"toPostalCode\":\"20500\",\"toCity\":\"Washington\",\"weight\":{\"value\":3,\"units\":\"ounces\"},\"dimensions\":{\"units\":\"inches\",\"length\":7,\"width\":5,\"height\":6},\"confirmation\":\"delivery\",\"residential\":false}"
 }'
 ```
