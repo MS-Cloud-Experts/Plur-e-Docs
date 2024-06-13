@@ -6,19 +6,20 @@
     {
       "JournalTemplateName": "PHYS. INV.",
       "JournalBatchName": "DEFAULT",
-      "PostingDate": "2024-05-01",
+      "PostingDate": "2024-06-13",
       "EntryType": "Positive Adjmt.",
       "DocumentNo": "T00203",
-      "ItemNo": "D3HGWCYC",
-      "VariantCode": "BLK005",
-      "Description": "BLACK 5",
-      "LocationCode": "MAIN",
+      "ItemNo": "D1KHAVIH",
+      "VariantCode": "BLA00L",
+      "Description": "L BLACK",
+      "LocationCode": "ASIA",
       "SalespersPurchCode": "",
-      "QtyCalculated": 7,
-      "QtyPhysInventory": 7,
+      "QtyCalculated": 58,
+      "QtyPhysInventory": 58,
       "Quantity": 0,
       "UserID": "",
-      "TimeStampMovil": "2024-05-01T00:00:00"
+      "TimeStampMovil": "2024-06-13T00:00:00",
+      "LineNo": 10000
     },
     {
       "JournalTemplateName": "PHYS. INV.",
@@ -26,34 +27,37 @@
       "PostingDate": "2024-06-13",
       "EntryType": "Positive Adjmt.",
       "DocumentNo": "T00203",
-      "ItemNo": "D1AFOCCSW",
-      "VariantCode": "CORE CONTOURS SYSTEM 3 S",
-      "Description": "",
+      "ItemNo": "D1KHAVIH",
+      "VariantCode": "BLA00M",
+      "Description": "M BLACK",
       "LocationCode": "ASIA",
       "SalespersPurchCode": "",
-      "QtyCalculated": 212,
-      "QtyPhysInventory": 213,
-      "Quantity": 1,
+      "QtyCalculated": 26,
+      "QtyPhysInventory": 26,
+      "Quantity": 0,
       "UserID": "",
-      "TimeStampMovil": "2024-06-13T00:00:00"
+      "TimeStampMovil": "2024-06-13T00:00:00",
+      "LineNo": 20000
     },
     {
       "JournalTemplateName": "PHYS. INV.",
       "JournalBatchName": "DEFAULT",
       "PostingDate": "2024-06-13",
-      "EntryType": "Negative Adjmt.",
+      "EntryType": "Positive Adjmt.",
       "DocumentNo": "T00203",
-      "ItemNo": "D1AFOCHH",
-      "VariantCode": "BLASTD",
-      "Description": "BLACK",
+      "ItemNo": "D1KHAVIH",
+      "VariantCode": "BLA00S",
+      "Description": "S BLACK",
       "LocationCode": "ASIA",
       "SalespersPurchCode": "",
-      "QtyCalculated": 219,
-      "QtyPhysInventory": 218,
-      "Quantity": -1,
+      "QtyCalculated": 62,
+      "QtyPhysInventory": 62,
+      "Quantity": 0,
       "UserID": "",
-      "TimeStampMovil": "2024-06-13T00:00:00"
+      "TimeStampMovil": "2024-06-13T00:00:00",
+      "LineNo": 30000
     }
   ]
 }
+
 ```
