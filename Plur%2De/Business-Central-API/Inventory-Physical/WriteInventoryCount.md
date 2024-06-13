@@ -4,7 +4,7 @@
   "ProcessMethod": "WriteInventoryCount",
   "Parameters": [
     {
-      "JournalTemplateName": "INVENTORY",
+      "JournalTemplateName": "PHYS. INV.",
       "JournalBatchName": "DEFAULT",
       "PostingDate": "2024-05-01",
       "EntryType": "Positive Adjmt.",
@@ -21,7 +21,7 @@
       "TimeStampMovil": "2024-05-01T00:00:00"
     },
     {
-      "JournalTemplateName": "INVENTORY",
+      "JournalTemplateName": "PHYS. INV.",
       "JournalBatchName": "DEFAULT",
       "PostingDate": "2024-06-13",
       "EntryType": "Positive Adjmt.",
@@ -38,7 +38,7 @@
       "TimeStampMovil": "2024-06-13T00:00:00"
     },
     {
-      "JournalTemplateName": "INVENTORY",
+      "JournalTemplateName": "PHYS. INV.",
       "JournalBatchName": "DEFAULT",
       "PostingDate": "2024-06-13",
       "EntryType": "Negative Adjmt.",
