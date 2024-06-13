@@ -1,11 +1,13 @@
-Request:
+**Request:**
 
+```
 {
   "ProcessMethod": "Get_InvPhysicalCount",
   "Parameters": [
     {
-      "JournalTemplateName": "PHYSICAL I",
+      "JournalTemplateName": "PHYS. INV.",
       "JournalBatchName": "DEFAULT"
     }
   ]
 }
+```
