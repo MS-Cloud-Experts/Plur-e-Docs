@@ -4,7 +4,7 @@
   "ProcessMethod": "GetDayEndPayments",
   "Parameters": [
     {
-      "SalesPerson": "BC",
+      "SalesPerson": "JO",
       "Date": "2024-06-12",
     }
   ]
