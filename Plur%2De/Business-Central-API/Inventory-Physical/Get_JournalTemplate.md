@@ -21,7 +21,7 @@ This method returns an array of Journal Template Type.
 
 
 **Ouput**: 
--	**WarehouseJournalTemplate**: Array of Journal Template Type
+-	**ItemJournalTemplate**: Array of Journal Template Type
 
 **Example**:
 
