@@ -9,9 +9,14 @@ This method returns an array of Journal Template Type.
 
     
 ```
-     "Item" = 0;
-     "Physical Inventory" = 1;
-     "Reclassification" = 2;
+    value(0; "Item") { Caption = 'Item'; }
+    value(1; "Transfer") { Caption = 'Transfer'; }
+    value(2; "Phys. Inventory") { Caption = 'Phys. Inventory'; }
+    value(3; "Revaluation") { Caption = 'Revaluation'; }
+    value(4; "Consumption") { Caption = 'Consumption'; }
+    value(5; "Output") { Caption = 'Output'; }
+    value(6; "Capacity") { Caption = 'Capacity'; }
+    value(7; "Prod. Order") { Caption = 'Prod. Order'; }
 ```
 
 
