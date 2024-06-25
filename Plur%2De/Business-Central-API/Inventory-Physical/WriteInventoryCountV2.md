@@ -1,7 +1,7 @@
 **Request**
 ```
 {
-  "ProcessMethod": "WriteInventoryCount",
+  "ProcessMethod": "WriteInventoryCountV2",
   "Parameters": [
     {
       "JournalTemplateName": "PHYS. INVE",
@@ -19,7 +19,7 @@
       "Quantity": 0,
       "UserID": "",
       "TimeStampMovil": "2024-06-13T00:00:00",
-      "LineNo": 10000
+      "LineNo": 260000
     },
     {
       "JournalTemplateName": "PHYS. INVE",
@@ -37,7 +37,7 @@
       "Quantity": 0,
       "UserID": "",
       "TimeStampMovil": "2024-06-13T00:00:00",
-      "LineNo": 10000
+      "LineNo": 210000
     }
   ]
 }
