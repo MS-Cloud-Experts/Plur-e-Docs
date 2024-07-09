@@ -18,67 +18,165 @@
 {
   "PhysicalInventoryCount": [
     {
-      "JournalTemplateName": "PHYS. INV.",
-      "JournalBatchName": "DEFAULT",
-      "BinCode": "STORAGE",
-      "LineNo": 10000,
-      "LocationCode": "ASIA",
-      "ItemNo": "D1KHAVIH",
-      "UnitofMeasureCode": "EA",
-      "QtyCalculated": 58.0,
-      "QtyPhysInventory": 38.0,
-      "VariantCode": "BLA00L",
-      "SerialNo": "",
-      "LotNo": "",
-      "ExpirationDate": "0001-01-01"
-    },
-    {
-      "JournalTemplateName": "PHYS. INV.",
-      "JournalBatchName": "DEFAULT",
-      "BinCode": "STORAGE",
+      "JournalTemplateName": "PHYS. INVE",
+      "JournalBatchName": "IVAN",
+      "PostingDate": "2024-06-20",
+      "EntryType": "Negative Adjmt.",
+      "DocumentNo": "SERIAL",
+      "ItemNo": "SERIAL",
+      "VariantCode": "",
+      "Description": "serial",
+      "LocationCode": "FTLDL-RET",
+      "SalespersPurchCode": "",
+      "QtyCalculated": 12.0,
+      "QtyPhysInventory": 11.0,
+      "Quantity": 1.0,
+      "UserID": "{92012D15-CA99-4CEF-81FE-5D89B117139C}",
       "LineNo": 20000,
-      "LocationCode": "ASIA",
-      "ItemNo": "D1KHAVIH",
+      "BinCode": "",
       "UnitofMeasureCode": "EA",
-      "QtyCalculated": 26.0,
-      "QtyPhysInventory": 26.0,
-      "VariantCode": "BLA00M",
       "SerialNo": "",
       "LotNo": "",
-      "ExpirationDate": "0001-01-01"
-    },
-    {
-      "JournalTemplateName": "PHYS. INV.",
-      "JournalBatchName": "DEFAULT",
-      "BinCode": "STORAGE",
-      "LineNo": 30000,
-      "LocationCode": "ASIA",
-      "ItemNo": "D1KHAVIH",
-      "UnitofMeasureCode": "EA",
-      "QtyCalculated": 62.0,
-      "QtyPhysInventory": 62.0,
-      "VariantCode": "BLA00S",
-      "SerialNo": "",
-      "LotNo": "",
-      "ExpirationDate": "0001-01-01"
-    },
-    {
-      "JournalTemplateName": "PHYS. INV.",
-      "JournalBatchName": "DEFAULT",
-      "BinCode": "STORAGE",
-      "LineNo": 40000,
-      "LocationCode": "ASIA",
-      "ItemNo": "D1KHAVIH",
-      "UnitofMeasureCode": "EA",
-      "QtyCalculated": 9.0,
-      "QtyPhysInventory": 9.0,
-      "VariantCode": "BLA0XS",
-      "SerialNo": "",
-      "LotNo": "",
-      "ExpirationDate": "0001-01-01"
+      "ExpirationDate": "0001-01-01",
+      "SerialJA": [
+        [
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X10",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X11",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X12",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X13",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X2",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X3",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X4",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X5",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X6",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X7",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X8",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X9",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 0.0
+          }
+        ]
+      ]
     }
   ],
-  "Duration": "54 milliseconds"
+  "Duration": "96 milliseconds"
 }
 ```
 
