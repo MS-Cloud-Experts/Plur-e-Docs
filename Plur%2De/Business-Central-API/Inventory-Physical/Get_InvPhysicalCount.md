@@ -21,7 +21,7 @@
       "JournalTemplateName": "PHYS. INVE",
       "JournalBatchName": "IVAN",
       "PostingDate": "2024-06-20",
-      "EntryType": "Negative Adjmt.",
+      "EntryType": "Positive Adjmt.",
       "DocumentNo": "SERIAL",
       "ItemNo": "SERIAL",
       "VariantCode": "",
@@ -29,8 +29,8 @@
       "LocationCode": "FTLDL-RET",
       "SalespersPurchCode": "",
       "QtyCalculated": 12.0,
-      "QtyPhysInventory": 11.0,
-      "Quantity": 1.0,
+      "QtyPhysInventory": 14.0,
+      "Quantity": 2.0,
       "UserID": "{92012D15-CA99-4CEF-81FE-5D89B117139C}",
       "LineNo": 20000,
       "BinCode": "",
@@ -40,6 +40,28 @@
       "ExpirationDate": "0001-01-01",
       "SerialJA": [
         [
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "1",
+            "TotalQuantity": 0.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 0.0
+          },
+          {
+            "LineNo": 20000,
+            "BinCode": "",
+            "ItemNo": "SERIAL",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "2",
+            "TotalQuantity": 0.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 0.0
+          },
           {
             "LineNo": 20000,
             "BinCode": "",
@@ -170,13 +192,73 @@
             "SerialNo": "X9",
             "TotalQuantity": 1.0,
             "CurrentPendingQuantity": 0.0,
-            "TotalAvailableQuantity": 0.0
+            "TotalAvailableQuantity": 1.0
+          }
+        ]
+      ]
+    },
+    {
+      "JournalTemplateName": "PHYS. INVE",
+      "JournalBatchName": "IVAN",
+      "PostingDate": "2024-06-20",
+      "EntryType": "Positive Adjmt.",
+      "DocumentNo": "SERIAL",
+      "ItemNo": "SERIAL2",
+      "VariantCode": "",
+      "Description": "serial2",
+      "LocationCode": "FTLDL-RET",
+      "SalespersPurchCode": "",
+      "QtyCalculated": 3.0,
+      "QtyPhysInventory": 3.0,
+      "Quantity": 0.0,
+      "UserID": "{92012D15-CA99-4CEF-81FE-5D89B117139C}",
+      "LineNo": 30000,
+      "BinCode": "",
+      "UnitofMeasureCode": "EA",
+      "SerialNo": "",
+      "LotNo": "",
+      "ExpirationDate": "0001-01-01",
+      "SerialJA": [
+        [
+          {
+            "LineNo": 30000,
+            "BinCode": "",
+            "ItemNo": "SERIAL2",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X14",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 30000,
+            "BinCode": "",
+            "ItemNo": "SERIAL2",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X15",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
+          },
+          {
+            "LineNo": 30000,
+            "BinCode": "",
+            "ItemNo": "SERIAL2",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X16",
+            "TotalQuantity": 1.0,
+            "CurrentPendingQuantity": 0.0,
+            "TotalAvailableQuantity": 1.0
           }
         ]
       ]
     }
   ],
-  "Duration": "96 milliseconds"
+  "Duration": "40 milliseconds"
+}illiseconds"
 }
 ```
 
