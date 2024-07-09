@@ -19,7 +19,17 @@
       "Quantity": 0,
       "UserID": "",
       "TimeStampMovil": "2024-06-13T00:00:00",
-      "LineNo": 260000
+      "LineNo": 260000,
+      "SerialJA": [
+        [
+          {
+            "ItemNo": "SERIAL2",
+            "VariantCode": "",
+            "LotNo": "",
+            "SerialNo": "X14"
+          }
+        ]
+      ]
     },
     {
       "JournalTemplateName": "PHYS. INVE",
