@@ -7,47 +7,27 @@
       "JournalTemplateName": "PHYS. INVE",
       "JournalBatchName": "IVAN",
       "PostingDate": "2024-06-13",
-      "EntryType": "Positive Adjmt.",
-      "DocumentNo": "T00203",
-      "ItemNo": "10110",
-      "VariantCode": "VN40-9",
-      "Description": "L BLACK",
-      "LocationCode": "ASIA",
+      "EntryType": "Negative Adjmt.",
+      "DocumentNo": "SSDS",
+      "ItemNo": "SERIAL2",
+      "VariantCode": "",
+      "Description": "",
+      "LocationCode": "FTLDL-RET",
       "SalespersPurchCode": "",
-      "QtyCalculated": 2,
-      "QtyPhysInventory": 1,
-      "Quantity": 0,
-      "UserID": "",
-      "TimeStampMovil": "2024-06-13T00:00:00",
-      "LineNo": 260000,
-      "SerialJA": [
-        [
-          {
-            "ItemNo": "SERIAL2",
-            "VariantCode": "",
-            "LotNo": "",
-            "SerialNo": "X14"
-          }
-        ]
-      ]
-    },
-    {
-      "JournalTemplateName": "PHYS. INVE",
-      "JournalBatchName": "IVAN",
-      "PostingDate": "2024-06-13",
-      "EntryType": "Positive Adjmt.",
-      "DocumentNo": "T00203",
-      "ItemNo": "10110",
-      "VariantCode": "4827.9",
-      "Description": "L BLACK",
-      "LocationCode": "ASIA",
-      "SalespersPurchCode": "",
-      "QtyCalculated": 2,
+      "QtyCalculated": 3,
       "QtyPhysInventory": 2,
-      "Quantity": 0,
+      "Quantity": 1,
       "UserID": "",
       "TimeStampMovil": "2024-06-13T00:00:00",
-      "LineNo": 210000
+      "LineNo": 20000,
+      "SerialJA": [
+        {
+          "ItemNo": "SERIAL2",
+          "VariantCode": "VN40-9",
+          "LotNo": "",
+          "SerialNo": "X14"
+        }
+      ]
     }
   ]
 }
