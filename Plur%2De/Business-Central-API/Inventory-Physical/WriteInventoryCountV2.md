@@ -22,10 +22,18 @@
       "LineNo": 20000,
       "SerialJA": [
         {
+          "LineNo": 20000,
           "ItemNo": "SERIAL2",
-          "VariantCode": "VN40-9",
+          "VariantCode": "",
           "LotNo": "",
           "SerialNo": "X14"
+        },
+        {
+          "LineNo": 20000,
+          "ItemNo": "SERIAL2",
+          "VariantCode": "",
+          "LotNo": "",
+          "SerialNo": "X15"
         }
       ]
     }
