@@ -1,0 +1,74 @@
+### API Documentation: GetPendingToReceiveLP
+
+#### Overview
+The `GetPendingToReceiveLP` API method retrieves information about the pending License Plates (LP) to be received for a specific Warehouse Receipt Line. This method is essential for tracking the progress of LPs during the warehouse receipt process, providing details on LPs created and those still pending.
+
+#### Request Structure
+```json
+{
+  "ProcessMethod": "GetPendingToReceiveLP",
+  "Parameters": [
+    {
+      "No": "WHSE-REC-001",
+      "ItemNo": "ITEM001",
+      "BinCode": "BIN-A1",
+      "UnitofMeasureCode": "PCS"
+    }
+  ]
+}
+```
+
+#### Parameters
+- **No**: The warehouse receipt number (e.g., `"WHSE-REC-001"`).
+- **ItemNo**: The item number related to the receipt line (e.g., `"ITEM001"`).
+- **BinCode**: The bin code where the item is stored (e.g., `"BIN-A1"`).
+- **UnitofMeasureCode**: The unit of measure code for the item (e.g., `"PCS"`).
+
+#### Example Requests and Responses
+
+##### Example Request
+```json
+{
+  "ProcessMethod": "GetPendingToReceiveLP",
+  "Parameters": [
+    {
+      "No": "WHSE-REC-001",
+      "ItemNo": "ITEM001",
+      "BinCode": "BIN-A1",
+      "UnitofMeasureCode": "PCS"
+    }
+  ]
+}
+```
+
+##### Example Response
+```json
+{
+  "Message": "The LPs were created successfully.",
+  "TrackingSpecificationOpen": [
+    {
+      "SerialNo": "SN001",
+      "LotNo": "LOT001",
+      "ExpirationDate": "2025-12-31",
+      "Quantity": 10
+    },
+    {
+      "SerialNo": "SN002",
+      "LotNo": "LOT002",
+      "ExpirationDate": "2025-12-31",
+      "Quantity": 5
+    }
+  ],
+  "LP_Pending_To_Receive": 15,
+  "LP_Received": "LP001|LP002"
+}
+```
+
+#### Explanation
+- **Message**: A confirmation message indicating the successful creation of LPs.
+- **TrackingSpecificationOpen**: A list of tracking specifications still open, including serial numbers, lot numbers, expiration dates, and quantities.
+- **LP_Pending_To_Receive**: The quantity of LPs still pending to be received, calculated as the outstanding quantity minus the total received.
+- **LP_Received**: A list of LPs that have already been received, separated by pipes (`|`).
+
+#### Summary
+The `GetPendingToReceiveLP` method facilitates the tracking of License Plates during the warehouse receipt process. By providing details on both pending and received LPs, as well as open tracking specifications, this API helps ensure accurate inventory management and effective warehouse operations.
