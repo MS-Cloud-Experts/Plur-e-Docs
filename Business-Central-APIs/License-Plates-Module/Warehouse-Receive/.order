@@ -1,6 +1,6 @@
 CreateLPFromWarehouseReceiptLine
-GetLicencesPlatesByItemNo
 GetLicencesPlate
+GetLicencesPlatesByItemNo
 GetAllLicencesPlateByStatus
 GetLPMovements
 GetPendingToReceiveLP
