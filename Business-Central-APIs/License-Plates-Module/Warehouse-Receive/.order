@@ -1,3 +1,4 @@
+GetLPMovements
 GetPendingToReceiveLP
 DeleteLPChildFromWarehouseReceipt
 DeleteItemChildFromWarehouseReceipt
