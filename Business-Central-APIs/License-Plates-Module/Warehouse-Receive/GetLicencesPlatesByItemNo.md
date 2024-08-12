@@ -36,7 +36,7 @@ The `GetLicencesPlatesByItemNo` API method retrieves detailed information about 
   "LicensePlatesHeaders": [
     {
       "LPDocumentNo": "LP-0001",
-      "PLULicensePlateStatus": "Received",
+      "LicensePlateStatus": "Received",
       "ParentLPNo": "",
       "ZoneCode": "ZONE-01",
       "LocationCode": "LOC01",
@@ -91,7 +91,7 @@ The `GetLicencesPlatesByItemNo` API method retrieves detailed information about 
 #### Explanation
 - **LicensePlatesHeaders**: An array containing the details of the License Plates that include the specified item number.
   - **LPDocumentNo**: The unique identifier for the License Plate (e.g., `"LP-0001"`).
-  - **PLULicensePlateStatus**: The current status of the License Plate (e.g., `"Received"`).
+  - **LicensePlateStatus**: The current status of the License Plate (e.g., `"Received"`).
   - **ParentLPNo**: The document number of the parent LP if this LP is a child, otherwise empty.
   - **ZoneCode**: The code for the zone where the License Plate is stored (e.g., `"ZONE-01"`).
   - **LocationCode**: The code for the location where the License Plate is stored (e.g., `"LOC01"`).
