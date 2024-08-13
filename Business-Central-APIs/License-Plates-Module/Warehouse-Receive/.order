@@ -1,5 +1,4 @@
 PostWarehouseReceipt
-ChangeAllBinToDefault
 AssignItemToLPWithTracking
 CreateLPFromWarehouseReceiptLine
 GetLicencesPlatesByItemNo
