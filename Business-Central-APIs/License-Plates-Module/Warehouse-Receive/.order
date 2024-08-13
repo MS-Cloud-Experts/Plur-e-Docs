@@ -3,7 +3,6 @@ ChangeAllBinToDefault
 AssignItemToLPWithTracking
 CreateLPFromWarehouseReceiptLine
 GetLicencesPlatesByItemNo
-GetAllLicencesPlateByStatus
 GetLPMovements
 GetPendingToReceiveLP
 DeleteLPChildFromWarehouseReceipt
