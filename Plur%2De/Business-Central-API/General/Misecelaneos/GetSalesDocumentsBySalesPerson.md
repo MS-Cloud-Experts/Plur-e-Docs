@@ -28,11 +28,12 @@ The `GetSalesDocumentsBySalesPerson` API method retrieves detailed sales documen
   "ProcessMethod": "GetSalesDocumentsBySalesPerson",
   "Parameters": [
     {
-      "SalesPersonCode": "SP001",
+      "SalesPersonCode": "DAN004",
       "StartDate": "2024-01-01",
-      "EndDate": "2024-01-31"
+      "EndDate": "2024-12-31"
     }
   ]
+}
 }
 ```
 
