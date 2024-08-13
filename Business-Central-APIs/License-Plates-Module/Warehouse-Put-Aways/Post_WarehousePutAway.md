@@ -9,7 +9,8 @@ The `Post_WarehousePutAway` API method is used to process and post Warehouse Put
   "ProcessMethod": "Post_WarehousePutAway",
   "Parameters": [
     {
-      "WsheDocumentNo": "PA-0001"
+      "WsheDocumentNo": "PA-0001",
+      "WarehouseEmployee": "EMP001"
     }
   ]
 }
