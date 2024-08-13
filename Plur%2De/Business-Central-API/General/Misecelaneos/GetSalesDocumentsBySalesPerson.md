@@ -1,7 +1,7 @@
 ### API Documentation: GetSalesDocumentsBySalesPerson
 
 #### Overview
-The `GetSalesDocumentsBySalesPerson` API method retrieves detailed sales document information based on the specified Sales Person, Start Date, and End Date. The method returns data from multiple sales document types, including Sales Orders, Sales Invoices, Sales Credit Memos, Sales Return Orders, Posted Sales Invoices, and Posted Sales Credit Memos. The API provides a structured JSON response that organizes documents by type, offering comprehensive insights into sales activities for the given Sales Person.
+The `GetSalesDocumentsBySalesPerson` API method retrieves detailed sales document information based on the specified Sales Person, Start Date, and End Date. 
 
 #### Request Structure
 ```json
