@@ -1,5 +1,6 @@
 GetLicencesPlate
 Warehouse-Receive
 GetAllLicencesPlateByStatus
+GetLPMovements
 Warehouse-Put-Aways
 Registered-Put-Aways
