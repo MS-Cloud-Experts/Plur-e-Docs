@@ -1,7 +1,6 @@
 PostWarehouseReceipt
 AssignItemToLPWithTracking
 CreateLPFromWarehouseReceiptLine
-GetLicencesPlatesByItemNo
 GetPendingToReceiveLP
 DeleteLPChildFromWarehouseReceipt
 DeleteItemChildFromWarehouseReceipt

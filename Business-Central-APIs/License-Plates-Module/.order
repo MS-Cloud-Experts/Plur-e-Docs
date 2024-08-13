@@ -1,4 +1,5 @@
 GetLicencesPlate
+GetLicencesPlatesByItemNo
 Warehouse-Receive
 GetAllLicencesPlateByStatus
 GetLPMovements
