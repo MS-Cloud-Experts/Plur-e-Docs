@@ -10,7 +10,7 @@ The `PostWarehouseReceipt` API method processes the posting of a Warehouse Recei
   "ProcessMethod": "PostWarehouseReceipt",
   "Parameters": [
     {
-      "No": "WR-0001",
+      "WsheDocumentNo": "WR-0001",
       "WarehouseEmployee": "EMP001"
     }
   ]
