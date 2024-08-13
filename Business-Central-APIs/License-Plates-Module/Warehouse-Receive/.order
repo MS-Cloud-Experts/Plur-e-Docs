@@ -2,7 +2,6 @@ PostWarehouseReceipt
 ChangeAllBinToDefault
 AssignItemToLPWithTracking
 CreateLPFromWarehouseReceiptLine
-GetLicencesPlate
 GetLicencesPlatesByItemNo
 GetAllLicencesPlateByStatus
 GetLPMovements
