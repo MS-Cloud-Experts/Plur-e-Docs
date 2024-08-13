@@ -43,58 +43,162 @@ The `GetSalesDocumentsBySalesPerson` API method retrieves detailed sales documen
     {
       "Sales Order": [
         {
-          "Document Type": "Sales Order",
-          "Amount": 1500.0,
-          "Posting Date": "2024-01-05"
+          "DocumentNo": "SOB2B-302997",
+          "Amount": 2055.06,
+          "Posting Date": "2024-07-24"
         }
       ]
     },
     {
-      "Sales Invoice": [
-        {
-          "Document Type": "Sales Invoice",
-          "Amount": 2000.0,
-          "Posting Date": "2024-01-10"
-        }
-      ]
+      "Sales Invoice": []
     },
     {
-      "Sales Credit Memo": [
-        {
-          "Document Type": "Sales Credit Memo",
-          "Amount": -500.0,
-          "Posting Date": "2024-01-15"
-        }
-      ]
+      "Sales Credit Memo": []
     },
     {
       "Sales Return Order": [
         {
-          "Document Type": "Sales Return Order",
-          "Amount": 1000.0,
-          "Posting Date": "2024-01-12"
+          "DocumentNo": "SRR-119471",
+          "Amount": 0.0,
+          "Posting Date": "2024-06-11"
         }
       ]
     },
     {
       "Posted Sales Invoice": [
         {
-          "Document Type": "Posted Sales Invoice",
-          "Amount": 2500.0,
-          "Posting Date": "2024-01-20"
+          "DocumentNo": "SINP-129091",
+          "Amount": 538.0,
+          "Posting Date": "2024-03-06"
+        },
+        {
+          "DocumentNo": "SINP-130527",
+          "Amount": 4053.15,
+          "Posting Date": "2024-04-30"
+        },
+        {
+          "DocumentNo": "SINP-130592",
+          "Amount": 2146.88,
+          "Posting Date": "2024-05-01"
+        },
+        {
+          "DocumentNo": "SINP-130785",
+          "Amount": 120.05,
+          "Posting Date": "2024-05-13"
+        },
+        {
+          "DocumentNo": "SINP-130787",
+          "Amount": 1304.04,
+          "Posting Date": "2024-05-13"
+        },
+        {
+          "DocumentNo": "SINP-130858",
+          "Amount": 375.0,
+          "Posting Date": "2024-05-15"
+        },
+        {
+          "DocumentNo": "SINP-131036",
+          "Amount": 1059.0,
+          "Posting Date": "2024-05-24"
+        },
+        {
+          "DocumentNo": "SINP-131208",
+          "Amount": 31.6,
+          "Posting Date": "2024-06-03"
+        },
+        {
+          "DocumentNo": "SINP-131265",
+          "Amount": 1419.0,
+          "Posting Date": "2024-06-05"
+        },
+        {
+          "DocumentNo": "SINP-131357",
+          "Amount": 83.92,
+          "Posting Date": "2024-06-10"
+        },
+        {
+          "DocumentNo": "SINP-131391",
+          "Amount": 529.5,
+          "Posting Date": "2024-06-12"
+        },
+        {
+          "DocumentNo": "SINP-131452",
+          "Amount": 982.14,
+          "Posting Date": "2024-06-14"
+        },
+        {
+          "DocumentNo": "SINP-131516",
+          "Amount": 51.12,
+          "Posting Date": "2024-06-18"
+        },
+        {
+          "DocumentNo": "SINP-131702",
+          "Amount": 993.5,
+          "Posting Date": "2024-06-27"
+        },
+        {
+          "DocumentNo": "SINP-131824",
+          "Amount": 499.5,
+          "Posting Date": "2024-07-09"
+        },
+        {
+          "DocumentNo": "SINP-131905",
+          "Amount": 2651.25,
+          "Posting Date": "2024-07-12"
+        },
+        {
+          "DocumentNo": "SINP-132008",
+          "Amount": 389.0,
+          "Posting Date": "2024-07-16"
+        },
+        {
+          "DocumentNo": "SINP-132024",
+          "Amount": 739.5,
+          "Posting Date": "2024-07-22"
+        },
+        {
+          "DocumentNo": "SINP-132085",
+          "Amount": 2258.9,
+          "Posting Date": "2024-07-22"
         }
       ]
     },
     {
       "Posted Sales Credit Memo": [
         {
-          "Document Type": "Posted Sales Credit Memo",
-          "Amount": -300.0,
-          "Posting Date": "2024-01-25"
+          "DocumentNo": "SINP-132085",
+          "Amount": 1208.0,
+          "Posting Date": "2024-05-13"
+        },
+        {
+          "DocumentNo": "SINP-132085",
+          "Amount": 29.4,
+          "Posting Date": "2024-06-10"
+        },
+        {
+          "DocumentNo": "SINP-132085",
+          "Amount": 499.5,
+          "Posting Date": "2024-06-14"
+        },
+        {
+          "DocumentNo": "SINP-132085",
+          "Amount": 549.45,
+          "Posting Date": "2024-07-08"
+        },
+        {
+          "DocumentNo": "SINP-132085",
+          "Amount": 1710.1,
+          "Posting Date": "2024-07-11"
+        },
+        {
+          "DocumentNo": "SINP-132085",
+          "Amount": 454.0,
+          "Posting Date": "2024-07-15"
         }
       ]
     }
-  ]
+  ],
+  "Duration": "132 milliseconds"
 }
 ```
 
