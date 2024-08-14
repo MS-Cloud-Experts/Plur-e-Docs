@@ -38,56 +38,47 @@ The `GetWarehouseReceipt` API method retrieves detailed information about a spec
 {
   "WarehouseReceiptHeader": [
     {
-      "No": "WR-000001",
-      "LocationCode": "LOC01",
-      "NoSeries": "WSH-001",
-      "PostingDate": "2024-08-15",
-      "AssignedUserID": "EMP001",
+      "No": "WHSE REC-00171",
+      "LocationCode": "MAIN",
+      "NoSeries": "WHSE REC",
+      "PostingDate": "2024-08-13",
+      "AssignedUserID": "",
       "WarehouseReceiptLines": [
         {
-          "No": "WR-000001",
+          "No": "WHSE REC-00171",
           "LineNo": 10000,
-          "ItemNo": "ITEM001",
-          "VariantCode": "VAR001",
-          "Quantity": 10,
-          "QtyBase": 10,
-          "QtyToReceive": 5,
-          "QtyReceived": 5,
-          "QtyOutstanding": 5,
-          "UnitofMeasureCode": "PCS",
-          "QtyperUnitofMeasure": 1,
-          "NewQtyOutstanding": 5
+          "ItemNo": "D0BDBD",
+          "BinCode": "MAIN",
+          "VariantCode": "B60W225",
+          "Quantity": 200.0,
+          "QtyBase": 200.0,
+          "QtyToReceive": 0.0,
+          "QtyReceived": 2.0,
+          "QtyOutstanding": 198.0,
+          "UnitofMeasureCode": "EA",
+          "QtyperUnitofMeasure": 1.0,
+          "NewQtyOutstanding": 198.0
+        },
+        {
+          "No": "WHSE REC-00171",
+          "LineNo": 20000,
+          "ItemNo": "D0BDBD",
+          "BinCode": "MAIN",
+          "VariantCode": "B80W245",
+          "Quantity": 250.0,
+          "QtyBase": 250.0,
+          "QtyToReceive": 0.0,
+          "QtyReceived": 0.0,
+          "QtyOutstanding": 250.0,
+          "UnitofMeasureCode": "EA",
+          "QtyperUnitofMeasure": 1.0,
+          "NewQtyOutstanding": 250.0
         }
       ],
-      "LicensePlates": [
-        {
-          "LPDocumentNo": "LP-000001",
-          "LicensePlateStatus": "Received",
-          "ParentLPNo": "",
-          "ZoneCode": "ZONE01",
-          "LocationCode": "LOC01",
-          "BinCode": "BIN001",
-          "WhseDocumentNo": "WR-000001",
-          "SystemCreatedAt": "2024-08-15T12:34:56Z",
-          "SystemCreatedBy": "EMP001",
-          "LPTotalQuantities": 10,
-          "LPLines": [
-            {
-              "LineNo": 10000,
-              "ItemNo": "ITEM001",
-              "VariantCode": "VAR001",
-              "SerialNo": "SN001",
-              "LotNo": "LOT001",
-              "Description": "Item Description",
-              "Quantity": 10,
-              "UnitofMeasure": "PCS"
-            }
-          ],
-          "ChildLPs": []
-        }
-      ]
+      "LicensePlates": []
     }
-  ]
+  ],
+  "Duration": "430 milliseconds"
 }
 ```
 
