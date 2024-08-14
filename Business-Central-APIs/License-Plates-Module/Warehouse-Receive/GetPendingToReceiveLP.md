@@ -11,8 +11,7 @@ The `GetPendingToReceiveLP` API method retrieves information about the pending L
     {
       "No": "WHSE-REC-001",
       "ItemNo": "ITEM001",
-      "BinCode": "BIN-A1",
-      "UnitofMeasureCode": "PCS"
+      "LineNo": "1000"
     }
   ]
 }
