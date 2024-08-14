@@ -40,7 +40,7 @@ The `GetPendingToReceiveLP` API method retrieves information about the pending L
 }
 ```
 
-##### Example Response
+##### Example Response 1
 ```json
 {
   "Message": "The LPs were created successfully.",
@@ -62,7 +62,20 @@ The `GetPendingToReceiveLP` API method retrieves information about the pending L
   "LP_Received": "LP001|LP002"
 }
 ```
-
+##### Example Response 2
+```json
+{
+  "WarehouseReceiptNo": "WHSE REC-00171",
+  "ItemNo": "D0BDBD",
+  "LineNo": 10000,
+  "VariantCode": "B60W225",
+  "TrackingSpecificationOpen": [],
+  "LP_Pending_To_Receive": 194.0,
+  "LP_Received": "LP-00009",
+  "Message": "",
+  "Duration": "130 milliseconds"
+}
+```
 #### Explanation
 - **Message**: A confirmation message indicating the successful creation of LPs.
 - **TrackingSpecificationOpen**: A list of tracking specifications still open, including serial numbers, lot numbers, expiration dates, and quantities.
