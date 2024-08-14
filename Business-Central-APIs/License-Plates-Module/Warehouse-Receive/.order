@@ -1,3 +1,4 @@
+CreateEmptyLPFromWarehouseReceipt
 GetWarehouseReceipt
 CreateLPFromWarehouseReceiptLine
 GetPendingToReceiveLP
