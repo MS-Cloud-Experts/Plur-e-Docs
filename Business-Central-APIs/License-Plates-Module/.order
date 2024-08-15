@@ -1,8 +1,8 @@
 GetItemInfo
 GetLicencesPlate
 GetLicencesPlatesByItemNo
-Warehouse-Receive
 GetAllLicencesPlateByStatus
+Warehouse-Receive
 GetLPMovements
 Warehouse-Put-Aways
 Registered-Put-Aways
