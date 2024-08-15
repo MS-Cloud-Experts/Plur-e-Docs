@@ -42,7 +42,7 @@ The `GetWarehouseReceipt` API method retrieves detailed information about a spec
       "LocationCode": "MAIN",
       "NoSeries": "WHSE REC",
       "PostingDate": "2024-08-13",
-      "AssignedUserID": "EMP001",
+      "AssignedUserID": "IVAN.LABRADOR",
       "WarehouseReceiptLines": [
         {
           "No": "WHSE REC-00171",
@@ -52,15 +52,15 @@ The `GetWarehouseReceipt` API method retrieves detailed information about a spec
           "VariantCode": "B60W225",
           "Quantity": 200.0,
           "QtyBase": 200.0,
-          "QtyToReceive": 12.0,
-          "QtyReceived": 29.0,
-          "QtyOutstanding": 171.0,
+          "QtyToReceive": 5.0,
+          "QtyReceived": 35.0,
+          "QtyOutstanding": 165.0,
           "UnitofMeasureCode": "EA",
           "QtyperUnitofMeasure": 1.0,
-          "NewQtyOutstanding": 159.0,
+          "NewQtyOutstanding": 160.0,
           "TrackingSpecificationOpen": [],
-          "LP_Pending_To_Receive": 159.0,
-          "LP_Received": "LP-00019-10000|LP-00019-10000|LP-00019-10000|LP-00019-10000"
+          "LP_Pending_To_Receive": 160.0,
+          "LP_Received": "LP-00026-10000"
         },
         {
           "No": "WHSE REC-00171",
@@ -81,7 +81,63 @@ The `GetWarehouseReceipt` API method retrieves detailed information about a spec
           "LP_Received": ""
         }
       ],
-      "LicensePlates": []
+      "LicensePlates": [
+        [
+          {
+            "LPDocumentNo": "LP-00022",
+            "LicensePlateStatus": "Received",
+            "ParentLPNo": "",
+            "ZoneCode": "REC",
+            "LocationCode": "MAIN",
+            "BinCode": "MAIN",
+            "WhseDocumentNo": "WHSE REC-00171",
+            "SystemCreatedAt": "2024-08-15T15:24:32.5730000Z",
+            "SystemCreatedBy": "{DCE8B274-67E9-442B-AD90-55335365E308}",
+            "LPTotalQuantities": 0.0,
+            "LPLines": [],
+            "ChildLPs": []
+          },
+          {
+            "LPDocumentNo": "LP-00023",
+            "LicensePlateStatus": "Received",
+            "ParentLPNo": "",
+            "ZoneCode": "REC",
+            "LocationCode": "MAIN",
+            "BinCode": "MAIN",
+            "WhseDocumentNo": "WHSE REC-00171",
+            "SystemCreatedAt": "2024-08-15T15:44:34.4470000Z",
+            "SystemCreatedBy": "{DCE8B274-67E9-442B-AD90-55335365E308}",
+            "LPTotalQuantities": 0.0,
+            "LPLines": [],
+            "ChildLPs": []
+          },
+          {
+            "LPDocumentNo": "LP-00026",
+            "LicensePlateStatus": "Received",
+            "ParentLPNo": "",
+            "ZoneCode": "REC",
+            "LocationCode": "MAIN",
+            "BinCode": "MAIN",
+            "WhseDocumentNo": "WHSE REC-00171",
+            "SystemCreatedAt": "2024-08-15T16:07:01.5630000Z",
+            "SystemCreatedBy": "{DCE8B274-67E9-442B-AD90-55335365E308}",
+            "LPTotalQuantities": 5.0,
+            "LPLines": [
+              {
+                "LineNo": 10000,
+                "ItemNo": "D0BDBD",
+                "VariantCode": "B60W225",
+                "SerialNo": "",
+                "LotNo": "",
+                "Description": "",
+                "Quantity": 5.0,
+                "UnitofMeasure": "EA"
+              }
+            ],
+            "ChildLPs": []
+          }
+        ]
+      ]
     }
   ]
 }
