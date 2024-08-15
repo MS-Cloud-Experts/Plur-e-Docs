@@ -42,7 +42,7 @@ The `GetWarehouseReceipt` API method retrieves detailed information about a spec
       "LocationCode": "MAIN",
       "NoSeries": "WHSE REC",
       "PostingDate": "2024-08-13",
-      "AssignedUserID": "",
+      "AssignedUserID": "EMP001",
       "WarehouseReceiptLines": [
         {
           "No": "WHSE REC-00171",
@@ -52,12 +52,15 @@ The `GetWarehouseReceipt` API method retrieves detailed information about a spec
           "VariantCode": "B60W225",
           "Quantity": 200.0,
           "QtyBase": 200.0,
-          "QtyToReceive": 0.0,
-          "QtyReceived": 2.0,
-          "QtyOutstanding": 198.0,
+          "QtyToReceive": 12.0,
+          "QtyReceived": 29.0,
+          "QtyOutstanding": 171.0,
           "UnitofMeasureCode": "EA",
           "QtyperUnitofMeasure": 1.0,
-          "NewQtyOutstanding": 198.0
+          "NewQtyOutstanding": 159.0,
+          "TrackingSpecificationOpen": [],
+          "LP_Pending_To_Receive": 159.0,
+          "LP_Received": "LP-00019-10000|LP-00019-10000|LP-00019-10000|LP-00019-10000"
         },
         {
           "No": "WHSE REC-00171",
@@ -68,17 +71,19 @@ The `GetWarehouseReceipt` API method retrieves detailed information about a spec
           "Quantity": 250.0,
           "QtyBase": 250.0,
           "QtyToReceive": 0.0,
-          "QtyReceived": 0.0,
-          "QtyOutstanding": 250.0,
+          "QtyReceived": 1.0,
+          "QtyOutstanding": 249.0,
           "UnitofMeasureCode": "EA",
           "QtyperUnitofMeasure": 1.0,
-          "NewQtyOutstanding": 250.0
+          "NewQtyOutstanding": 249.0,
+          "TrackingSpecificationOpen": [],
+          "LP_Pending_To_Receive": 249.0,
+          "LP_Received": ""
         }
       ],
       "LicensePlates": []
     }
-  ],
-  "Duration": "430 milliseconds"
+  ]
 }
 ```
 
