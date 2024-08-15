@@ -38,52 +38,96 @@ The `GetRegisteredPutAway` API method retrieves detailed information about a spe
 {
   "RegisteredPutAwayHeader": [
     {
-      "No": "RP-000001",
-      "LocationCode": "LOC02",
-      "NoSeries": "RPA-001",
-      "RegisteringDate": "2024-08-16",
-      "AssignedUserID": "EMP002",
+      "No": "REG PUTAWAY-00146",
+      "LocationCode": "MAIN",
+      "NoSeries": "REG PUTAWAY",
+      "RegisteringDate": "2024-08-15",
+      "AssignedUserID": "IVAN.LABRADOR",
       "RegisteredPutAwayLines": [
         {
-          "No": "RP-000001",
+          "No": "REG PUTAWAY-00146",
+          "LineNo": 10000,
+          "ItemNo": "D0BDBD",
+          "VariantCode": "B60W225",
+          "Quantity": 6.0,
+          "QtyBase": 6.0,
+          "UnitofMeasureCode": "EA",
+          "QtyperUnitofMeasure": 1.0
+        },
+        {
+          "No": "REG PUTAWAY-00146",
           "LineNo": 20000,
-          "ItemNo": "ITEM002",
-          "VariantCode": "VAR002",
-          "Quantity": 20,
-          "QtyBase": 20,
-          "QtyPutAway": 10,
-          "QtyPutAwayBase": 10,
-          "QtyOutstanding": 10,
-          "UnitofMeasureCode": "PCS",
-          "QtyperUnitofMeasure": 1
+          "ItemNo": "D0BDBD",
+          "VariantCode": "B60W225",
+          "Quantity": 6.0,
+          "QtyBase": 6.0,
+          "UnitofMeasureCode": "EA",
+          "QtyperUnitofMeasure": 1.0
         }
       ],
       "LicensePlates": [
-        {
-          "LPDocumentNo": "LP-000002",
-          "LicensePlateStatus": "Stored",
-          "ParentLPNo": "",
-          "ZoneCode": "ZONE02",
-          "LocationCode": "LOC02",
-          "BinCode": "BIN002",
-          "WhseDocumentNo": "RP-000001",
-          "SystemCreatedAt": "2024-08-16T14:22:33Z",
-          "SystemCreatedBy": "EMP002",
-          "LPTotalQuantities": 20,
-          "LPLines": [
-            {
-              "LineNo": 20000,
-              "ItemNo": "ITEM002",
-              "VariantCode": "VAR002",
-              "SerialNo": "SN002",
-              "LotNo": "LOT002",
-              "Description": "Item Description",
-              "Quantity": 20,
-              "UnitofMeasure": "PCS"
-            }
-          ],
-          "ChildLPs": []
-        }
+        [
+          {
+            "LPDocumentNo": "LP-00020",
+            "LicensePlateStatus": "Stored",
+            "ParentLPNo": "",
+            "ZoneCode": "STORAGE",
+            "LocationCode": "MAIN",
+            "BinCode": "BACK",
+            "WhseDocumentNo": "WHSE REC-00171",
+            "SystemCreatedAt": "2024-08-15T13:47:05.7170000Z",
+            "SystemCreatedBy": "{92012D15-CA99-4CEF-81FE-5D89B117139C}",
+            "LPTotalQuantities": 3.0,
+            "LPLines": [
+              {
+                "LineNo": 10000,
+                "ItemNo": "D0BDBD",
+                "VariantCode": "B60W225",
+                "SerialNo": "",
+                "LotNo": "",
+                "Description": "",
+                "Quantity": 3.0,
+                "UnitofMeasure": "EA"
+              }
+            ],
+            "ChildLPs": []
+          },
+          {
+            "LPDocumentNo": "LP-00021",
+            "LicensePlateStatus": "Stored",
+            "ParentLPNo": "",
+            "ZoneCode": "STORAGE",
+            "LocationCode": "MAIN",
+            "BinCode": "BACK",
+            "WhseDocumentNo": "WHSE REC-00171",
+            "SystemCreatedAt": "2024-08-15T13:48:44.1670000Z",
+            "SystemCreatedBy": "{92012D15-CA99-4CEF-81FE-5D89B117139C}",
+            "LPTotalQuantities": 8.0,
+            "LPLines": [
+              {
+                "LineNo": 10000,
+                "ItemNo": "D0BDBD",
+                "VariantCode": "B60W225",
+                "SerialNo": "",
+                "LotNo": "",
+                "Description": "",
+                "Quantity": 3.0,
+                "UnitofMeasure": "EA"
+              },
+              {
+                "LineNo": 20000,
+                "ItemNo": "D0BDBD",
+                "VariantCode": "B60W225",
+                "SerialNo": "",
+                "LotNo": "",
+                "Description": "225X60CM",
+                "Quantity": 5.0,
+                "UnitofMeasure": "EA"
+              }
+            ],
+            "ChildLPs": []
+          }
+        ]
       ]
     }
   ]
