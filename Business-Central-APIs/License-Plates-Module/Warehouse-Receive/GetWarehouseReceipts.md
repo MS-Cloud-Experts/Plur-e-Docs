@@ -172,7 +172,6 @@ The `GetWarehouseReceipts` API method retrieves a list of Warehouse Receipts fil
   - **PostingDate**: The date when the Warehouse Receipt was posted (e.g., `"2024-08-14"`).
   - **AssignedUserID**: The ID of the user assigned to this Warehouse Receipt (e.g., `"EMP001"`).
   - **WarehouseReceiptLines**: An array of lines associated with the Warehouse Receipt, each including details such as Line Number, Item Number, Quantity, and Unit of Measure.
-  - **LicensePlates**: An array of License Plates associated with the Warehouse Receipt, each including details such as LP Document Number, Location Code, Bin Code, and Status.
 
 #### Summary
 The `GetWarehouseReceipts` method is designed to retrieve a filtered list of Warehouse Receipts based on the assigned user ID. This API is crucial for warehouse management as it allows for the tracking and auditing of Warehouse Receipts assigned to specific employees. The method returns detailed information, including Warehouse Receipt lines and associated License Plates, making it easier to manage inventory and warehouse operations effectively.
