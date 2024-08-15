@@ -1,7 +1,11 @@
+Aquí tienes la documentación para el método `CreateLPFromWarehouseReceiptLine` en un formato adecuado para Azure DevOps:
+
+---
+
 ### API Documentation: CreateLPFromWarehouseReceiptLine
 
 #### Overview
-The `CreateLPFromWarehouseReceiptLine` API method facilitates the creation of License Plates (LPs) directly from a warehouse receipt line. This method ensures that the quantities and units of measure are accurately tracked and that the corresponding LPs are generated and linked to the warehouse receipt.
+The `CreateLPFromWarehouseReceiptLine` API method generates License Plates (LPs) based on a specified warehouse receipt line. This method validates the input data, checks for existing LPs, and creates new LPs if the input conditions are met.
 
 #### Request Structure
 ```json
@@ -9,12 +13,12 @@ The `CreateLPFromWarehouseReceiptLine` API method facilitates the creation of Li
   "ProcessMethod": "CreateLPFromWarehouseReceiptLine",
   "Parameters": [
     {
-      "No": "WR-001",
+      "No": "WHSE REC-0001",
       "ItemNo": "ITEM-001",
-      "BinCode": "BIN01",
+      "BinCode": "BIN-01",
       "LineNo": 10000,
       "UnitofMeasureCode": "PCS",
-      "TotalToReceive": 50,
+      "TotalToReceive": 100,
       "NoofPackLP": 10,
       "PackUnitUoM": "BOX"
     }
@@ -23,14 +27,14 @@ The `CreateLPFromWarehouseReceiptLine` API method facilitates the creation of Li
 ```
 
 #### Parameters
-- **No**: The warehouse receipt document number (e.g., `"WR-001"`).
+- **No**: The warehouse receipt number for which LPs should be created (e.g., `"WHSE REC-0001"`).
 - **ItemNo**: The item number associated with the warehouse receipt line (e.g., `"ITEM-001"`).
-- **BinCode**: The bin code where the items are stored (e.g., `"BIN01"`).
-- **LineNo**: The specific line number in the warehouse receipt (e.g., `10000`).
+- **BinCode**: The bin code where the items are stored (e.g., `"BIN-01"`).
+- **LineNo**: The line number of the warehouse receipt (e.g., `10000`).
 - **UnitofMeasureCode**: The unit of measure code for the items (e.g., `"PCS"`).
-- **TotalToReceive**: The total quantity to receive and assign to the LPs (e.g., `50`).
-- **NoofPackLP**: The number of License Plates to create (e.g., `10`).
-- **PackUnitUoM**: The unit of measure for each pack or License Plate (e.g., `"BOX"`).
+- **TotalToReceive**: The total quantity of items to receive (e.g., `100`).
+- **NoofPackLP**: The number of LPs to create (e.g., `10`).
+- **PackUnitUoM**: The packing unit of measure (e.g., `"BOX"`).
 
 #### Example Request
 ```json
@@ -38,12 +42,12 @@ The `CreateLPFromWarehouseReceiptLine` API method facilitates the creation of Li
   "ProcessMethod": "CreateLPFromWarehouseReceiptLine",
   "Parameters": [
     {
-      "No": "WR-001",
+      "No": "WHSE REC-0001",
       "ItemNo": "ITEM-001",
-      "BinCode": "BIN01",
+      "BinCode": "BIN-01",
       "LineNo": 10000,
       "UnitofMeasureCode": "PCS",
-      "TotalToReceive": 50,
+      "TotalToReceive": 100,
       "NoofPackLP": 10,
       "PackUnitUoM": "BOX"
     }
@@ -54,18 +58,26 @@ The `CreateLPFromWarehouseReceiptLine` API method facilitates the creation of Li
 #### Example Response
 ```json
 {
-  "Message": "The LPs were created successfully.",
+  "WarehouseReceiptNo": "WHSE REC-00171",
+  "ItemNo": "D0BDBD",
+  "LineNo": 20000,
+  "VariantCode": "B80W245",
   "TrackingSpecificationOpen": [],
-  "LP_Pending_To_Receive": 0,
-  "LP_Received": "LP-0001|LP-0002|LP-0003|LP-0004|LP-0005|LP-0006|LP-0007|LP-0008|LP-0009|LP-0010"
+  "LP_Pending_To_Receive": 212.0,
+  "LP_Received": "LP-00048-10000|LP-00048-20000|LP-00050-10000|LP-00051-10000",
+  "Message": "The LPs were created successfully."
 }
 ```
 
 #### Explanation
-- **Message**: A confirmation message indicating the successful creation of the LPs (e.g., `"The LPs were created successfully."`).
-- **TrackingSpecificationOpen**: An array of any open tracking specifications (if applicable).
-- **LP_Pending_To_Receive**: The remaining quantity that is pending to be received after the LP creation (e.g., `0`).
-- **LP_Received**: A list of the License Plates that were created (e.g., `"LP-0001|LP-0002|LP-0003|LP-0004|LP-0005|LP-0006|LP-0007|LP-0008|LP-0009|LP-0010"`).
+- **WarehouseReceiptNo**: The warehouse receipt number from the request.
+- **ItemNo**: The item number from the request.
+- **LineNo**: The line number from the warehouse receipt.
+- **VariantCode**: The variant code of the item.
+- **TrackingSpecificationOpen**: An array of tracking specifications that are still open.
+- **LP_Pending_To_Receive**: The quantity of items still pending to be received after the LPs have been created.
+- **LP_Received**: A list of LPs that were created and associated with the warehouse receipt line.
+- **Message**: A message indicating the outcome of the operation.
 
 #### Summary
-The `CreateLPFromWarehouseReceiptLine` method is essential for efficiently managing and tracking items as they are received into the warehouse. By generating LPs directly from the warehouse receipt line, this API method ensures accurate inventory tracking and streamlines the warehouse management process. The method validates all necessary parameters, calculates pending quantities, and returns a detailed response confirming the creation of the LPs along with any relevant tracking information.
+The `CreateLPFromWarehouseReceiptLine` method is designed to automate the creation of License Plates (LPs) from a warehouse receipt line. By validating the input data and ensuring that conditions are met, this API ensures that LPs are created efficiently and accurately. The method returns detailed information about the LPs created and any quantities still pending receipt, which is essential for warehouse operations and inventory management.
