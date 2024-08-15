@@ -1,5 +1,4 @@
 GetLicencesPlateByWsheDocument
-DeleteLPFromWarehouseReceiptLine
 GetItemInfo
 GetLicencesPlate
 GetLicencesPlatesByItemNo

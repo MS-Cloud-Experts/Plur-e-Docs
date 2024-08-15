@@ -3,6 +3,7 @@ GetWarehouseReceipts
 GetWarehouseReceipt
 CreateEmptyLPFromWarehouseReceipt
 CreateLPFromWarehouseReceiptLine
+DeleteLPFromWarehouseReceiptLine
 GetPendingToReceiveLP
 AssignItemToLPFromWarehouseReceipt
 AssignItemToLPWithTracking
