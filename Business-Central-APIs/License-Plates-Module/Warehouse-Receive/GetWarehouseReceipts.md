@@ -24,7 +24,7 @@ The `GetWarehouseReceipts` API method retrieves a list of Warehouse Receipts fil
   "ProcessMethod": "GetWarehouseReceipts",
   "Parameters": [
     {
-      "WarehouseEmployee": "EMP001"
+       "WarehouseEmployee": "IVAN.LABRADOR"
     }
   ]
 }
