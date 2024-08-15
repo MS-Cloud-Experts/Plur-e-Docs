@@ -6,6 +6,5 @@ CreateLPFromWarehouseReceiptLine
 GetPendingToReceiveLP
 AssignItemToLPFromWarehouseReceipt
 AssignItemToLPWithTracking
-DeleteLPChildFromWarehouseReceipt
 DeleteItemChildFromWarehouseReceipt
 PostWarehouseReceipt
