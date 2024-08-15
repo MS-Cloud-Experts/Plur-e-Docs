@@ -3,7 +3,7 @@ GetItemInfo
 GetLicencesPlate
 GetLicencesPlatesByItemNo
 GetAllLicencesPlateByStatus
-Warehouse-Receive
 GetLPMovements
+Warehouse-Receive
 Warehouse-Put-Aways
 Registered-Put-Aways
