@@ -16,7 +16,7 @@ The `GetWarehouseReceipts` API method retrieves a list of Warehouse Receipts fil
 ```
 
 #### Parameters
-- **assigned_user_id**: The ID of the user assigned to the Warehouse Receipts that need to be retrieved (e.g., `"EMP001"`).
+- **WarehouseEmployee**: The ID of the user assigned to the Warehouse Receipts that need to be retrieved (e.g., `"EMP001"`).
 
 #### Example Request
 ```json
