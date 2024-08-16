@@ -7,5 +7,5 @@
 3.1.7-DeleteItemChildFromWarehouseReceipt
 3.1.8-CreateLPFromWarehouseReceiptLine
 LP-Childs
-DeleteLPFromWarehouseReceiptLine
 PostWarehouseReceipt
+DeleteLPFromWarehouseReceiptLine
