@@ -4,5 +4,4 @@ GetLicencesPlate
 GetLicencesPlatesByItemNo
 GetAllLicencesPlateByStatus
 GetLPMovements
-Warehouse-Put-Aways
 Registered-Put-Aways
