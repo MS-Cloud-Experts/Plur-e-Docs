@@ -1,6 +1,6 @@
 GetWarehouseReceipts
-LP-Childs
 GetWarehouseReceipt
+LP-Childs
 CreateEmptyLPFromWarehouseReceipt
 CreateLPFromWarehouseReceiptLine
 DeleteLPFromWarehouseReceiptLine
