@@ -4,7 +4,7 @@
 3.1.4-AssignItemToLPFromWarehouseReceipt
 3.1.5-GetPendingToReceiveLP
 3.1.6-AssignItemToLPWithTracking
-DeleteItemChildFromWarehouseReceipt
+3.1.7-DeleteItemChildFromWarehouseReceipt
 CreateLPFromWarehouseReceiptLine
 LP-Childs
 DeleteLPFromWarehouseReceiptLine
