@@ -7,5 +7,5 @@ AssignItemToLPWithTracking
 DeleteItemChildFromWarehouseReceipt
 CreateLPFromWarehouseReceiptLine
 LP-Childs
-DeleteLPFromWarehouseReceiptLine
 PostWarehouseReceipt
+DeleteLPFromWarehouseReceiptLine
