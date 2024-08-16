@@ -1,6 +1,6 @@
 3.1.1-GetWarehouseReceipts
 3.1.2-GetWarehouseReceipt
-CreateEmptyLPFromWarehouseReceipt
+3.1.3-CreateEmptyLPFromWarehouseReceipt
 LP-Childs
 CreateLPFromWarehouseReceiptLine
 DeleteLPFromWarehouseReceiptLine
