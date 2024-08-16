@@ -6,6 +6,6 @@
 3.1.6-AssignItemToLPWithTracking
 3.1.7-DeleteItemChildFromWarehouseReceipt
 3.1.8-CreateLPFromWarehouseReceiptLine
-LP-Childs
 PostWarehouseReceipt
+LP-Childs
 DeleteLPFromWarehouseReceiptLine
