@@ -1,6 +1,5 @@
 GetLicencesPlateByWsheDocument
 GetItemInfo
-GetLicencesPlate
 GetLicencesPlatesByItemNo
 GetAllLicencesPlateByStatus
 GetLPMovements
