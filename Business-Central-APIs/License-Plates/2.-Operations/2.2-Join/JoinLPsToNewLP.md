@@ -1,0 +1,84 @@
+### API Documentation: JoinLPsToNewLP
+
+**Description:**
+The `JoinLPsToNewLP` API allows for the consolidation of multiple License Plates (LPs) into a newly created LP. This operation is crucial for organizing inventory, optimizing storage space, and maintaining accurate inventory records. The process also ensures that any child LPs are transferred to the new LP, and the original LPs are marked as "Joined" and deleted.
+
+**Request Body:**
+```json
+{
+  "LPsToJoin": [
+    {"LPDocumentNo": "LP001"},
+    {"LPDocumentNo": "LP002"},
+    {"LPDocumentNo": "LP003"}
+  ]
+}
+```
+
+**Parameters:**
+
+- `LPsToJoin` (Array of Objects): A list of LPs to be joined into a newly created LP.
+  - `LPDocumentNo` (Text): The document number of each LP that needs to be joined.
+
+**Response Body:**
+```json
+{
+  "NewLPDocumentNo": "LP004",
+  "Message": "Join de LPs completado con éxito. Nuevo LP: LP004"
+}
+```
+
+**Response Fields:**
+
+- `NewLPDocumentNo` (Text): The document number of the newly created LP where the other LPs were successfully consolidated.
+- `Message` (Text): A confirmation message indicating that the operation was successfully completed.
+
+**Example Usage:**
+
+- **Request:**
+    ```json
+    {
+      "LPsToJoin": [
+        {"LPDocumentNo": "LP001"},
+        {"LPDocumentNo": "LP002"},
+        {"LPDocumentNo": "LP003"}
+      ]
+    }
+    ```
+
+- **Response:**
+    ```json
+    {
+      "NewLPDocumentNo": "LP004",
+      "Message": "Join de LPs completado con éxito. Nuevo LP: LP004"
+    }
+    ```
+
+**Process Flow:**
+
+1. **Retrieve LPs to Join:** The API fetches the list of LPs that need to be joined from the `LPsToJoin` array.
+2. **Create New LP:** 
+   - The system creates a new LP (`NewLPDocumentNo`) using the first LP from the list as a reference.
+3. **Join LPs:** 
+   - The system processes the join operation by merging the lines from the LPs in `LPsToJoin` into the newly created LP.
+   - It also transfers any child LPs associated with the original LPs to the new LP.
+4. **Register Movements:** The system registers the inventory movements resulting from this join operation for traceability and data integrity.
+5. **Mark and Delete Original LPs:** Finally, the original LPs are marked as "Joined" and are removed from the system.
+
+**Error Handling:**
+
+- **Missing `LPsToJoin`:** If the `LPsToJoin` array is not found in the input JSON, the API will throw an error stating, "LPsToJoin field not found in the JSON object."
+- **Invalid LP Document Number:** If any LP document number is invalid or not found, the API will throw an error specifying the missing LP.
+
+**Dependencies:**
+This API depends on the following internal procedures:
+- `HelperJoin.JoinLPs`: Handles the merging of the selected LPs into the newly created LP.
+- `HelperJoin.RegisterJoinMovements`: Registers the movements of the LPs to ensure traceability.
+- `HelperJoin.MarkAndDeleteOriginalLPs`: Marks the original LPs as "Joined" and deletes them.
+
+**Considerations:**
+
+- **Data Integrity:** The API ensures that the inventory movements are properly registered and that the data remains consistent after the operation.
+- **Child LP Handling:** Child LPs associated with the original LPs are automatically transferred to the new LP during the join operation.
+
+### Summary:
+The `JoinLPsToNewLP` API provides a robust method for consolidating multiple LPs into a newly created LP, streamlining inventory management, and ensuring data integrity through comprehensive tracking of all related movements.
