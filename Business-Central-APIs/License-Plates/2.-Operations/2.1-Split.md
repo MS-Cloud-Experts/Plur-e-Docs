@@ -1,0 +1,141 @@
+#### Escenario 1: Split de un LP con una sola línea de ítems
+
+**Caso 1.1:**
+
+- **Descripción:**
+  - El LP original (LP001) contiene una única línea con 100 unidades de un ítem. El usuario desea dividir este LP en dos nuevos LPs con cantidades diferentes.
+- **Acción:**
+  - El sistema permite crear dos nuevos LPs, LP002 y LP003, con las cantidades especificadas por el usuario. En este proceso, el LP original (LP001) se destruye.
+- **Regla:**
+  - El LP original siempre se destruye en el proceso de Split, y sus ítems se redistribuyen en los nuevos LPs creados.
+- **Ejemplo:**
+  - **Estado Inicial:**
+    - LP001 tiene 100 unidades en la línea 1000.
+  - **Solicitud de Split:**
+    - Crear LP002 con 60 unidades.
+    - Crear LP003 con 40 unidades.
+  - **Resultado:**
+    - LP001 se destruye.
+    - LP002 contiene 60 unidades.
+    - LP003 contiene 40 unidades.
+
+---
+
+#### Escenario 2: Split de un LP con múltiples líneas de ítems
+
+**Caso 2.1:**
+
+- **Descripción:**
+  - El LP original (LP001) tiene dos líneas de ítems, cada una con 50 unidades. El usuario desea mover una de las líneas completas a un nuevo LP (LP002) y dejar la otra línea en el LP original (LP001).
+- **Acción:**
+  - Se permite crear un nuevo LP (LP002) que contiene una de las líneas del LP original, mientras que la otra línea permanece en LP001.
+- **Regla:**
+  - El LP original puede mantenerse con las líneas restantes o, si se prefiere, el sistema puede destruirlo y crear dos LPs nuevos, uno para cada línea.
+- **Ejemplo:**
+  - **Estado Inicial:**
+    - LP001 tiene dos líneas:
+      - Línea 1000: 50 unidades.
+      - Línea 2000: 50 unidades.
+  - **Solicitud de Split:**
+    - Mover la línea 1000 completa a LP002.
+  - **Resultado:**
+    - LP001 ahora solo contiene la línea 2000 con 50 unidades.
+    - LP002 contiene la línea 1000 con 50 unidades.
+
+**Caso 2.2:**
+
+- **Descripción:**
+  - El LP original (LP001) tiene dos líneas de ítems, cada una con 50 unidades. El usuario desea dividir cada línea en dos nuevos LPs (LP002 y LP003) con cantidades específicas para cada línea.
+- **Acción:**
+  - Se crean dos nuevos LPs, cada uno con las cantidades especificadas para cada línea. El LP original (LP001) se destruye.
+- **Regla:**
+  - Cada línea de ítems puede dividirse en uno o más LPs nuevos, resultando en la destrucción del LP original.
+- **Ejemplo:**
+  - **Estado Inicial:**
+    - LP001 tiene dos líneas:
+      - Línea 1000: 50 unidades.
+      - Línea 2000: 50 unidades.
+  - **Solicitud de Split:**
+    - Crear LP002 con 30 unidades de la línea 1000.
+    - Crear LP003 con 20 unidades de la línea 1000.
+    - Crear LP004 con 25 unidades de la línea 2000.
+    - Crear LP005 con 25 unidades de la línea 2000.
+  - **Resultado:**
+    - LP001 se destruye.
+    - LP002 contiene 30 unidades de la línea 1000.
+    - LP003 contiene 20 unidades de la línea 1000.
+    - LP004 contiene 25 unidades de la línea 2000.
+    - LP005 contiene 25 unidades de la línea 2000.
+
+---
+
+#### Reglas Generales y Restricciones:
+
+1. **Movimiento Completo de Líneas:**
+   - Si se especifica una cantidad igual a la cantidad total de una línea en el proceso de Split, esa línea se moverá completamente al nuevo LP.
+   
+2. **No se Permiten LPs Sin Líneas:**
+   - Un LP no puede quedar sin líneas de ítems después del proceso de Split. Si todas las líneas se mueven a nuevos LPs, el LP original se destruye.
+
+3. **Validación de Cantidades:**
+   - El sistema valida que las cantidades ingresadas para el Split no excedan las cantidades disponibles en las líneas del LP original.
+
+4. **Manejo de Relaciones entre LPs:**
+   - Si un LP tiene LPs hijos, se deben considerar estas relaciones durante el Split, asegurando que los LPs hijos sean movidos o reasignados correctamente.
+
+---
+
+#### Escenario 3: Split de un LP con LPs hijos
+
+**Caso 3.1:**
+
+- **Descripción:**
+  - El LP original (LP03) tiene dos LPs hijos (LP01 y LP02). El usuario quiere que LP02 sea ahora hijo de un nuevo LP (LP04).
+- **Acción:**
+  - Se crea un nuevo LP (LP04) que hereda a LP02 como hijo. LP01 se queda como hijo de LP03.
+- **Regla:**
+  - Se puede transferir un LP hijo a un nuevo LP padre, pero el nuevo LP debe cumplir con las condiciones necesarias (por ejemplo, no exceder la capacidad o las restricciones del bin).
+
+**Caso 3.2:**
+
+- **Descripción:**
+  - El LP original (LP03) tiene un LP hijo (LP01) y desea crear dos nuevos LPs (LP04 y LP05), distribuyendo los hijos y las líneas de ítems entre ellos.
+- **Acción:**
+  - Se crean dos nuevos LPs (LP04 y LP05). LP01 se transfiere como hijo a LP04, y las líneas de ítems se redistribuyen entre LP04 y LP05.
+- **Regla:**
+  - Cuando se crean dos nuevos LPs a partir de un LP original con hijos, los LPs hijos y las líneas de ítems deben redistribuirse de manera que se mantenga la integridad del inventario.
+
+---
+
+#### Consideraciones Adicionales para las Reglas
+
+1. **Integridad del Inventario:**
+   - Las cantidades totales después del split deben igualar la cantidad original del LP. Cualquier inconsistencia debe ser manejada automáticamente con validaciones y correcciones.
+   
+2. **Restricciones de Capacidad:**
+   - Los nuevos LPs deben cumplir con las restricciones del bin en cuanto a capacidad y tipo de ítems.
+
+3. **Estado de los LPs:**
+   - Solo se pueden realizar splits en LPs que están en estado "Stored" o "Received". Los LPs en estado "Blocked" o "Reserved" no pueden ser divididos.
+
+4. **LPs Hijos:**
+   - Un LP hijo puede ser transferido a otro LP padre, pero no puede quedarse sin padre si originalmente tenía uno.
+
+5. **Destrucción del LP Original:**
+   - En todos los escenarios, el LP original se destruye una vez que el split se ha completado, asegurando que no haya duplicados en el sistema.
+
+6. **Validación de Movimientos:**
+   - Los movimientos de los LPs y sus ítems deben registrarse en la tabla "PLU LP Movements" para mantener la trazabilidad del inventario.
+
+---
+
+#### Decisiones para Limitar el Proyecto
+
+- **Split Solo Genera Nuevos LPs:**
+  - El proceso de Split siempre generará dos nuevos LPs, destruyendo el LP original. No se mantendrá el LP original en ningún caso.
+  
+- **No Reasignar Hijos a LPs Existentes:**
+  - Los LPs hijos solo pueden ser reasignados a nuevos LPs generados por el Split, no a LPs existentes.
+
+- **Cantidad Mínima y Máxima:**
+  - Las cantidades mínimas y máximas para los nuevos LPs deben respetar las capacidades del bin y las reglas de almacenamiento.
