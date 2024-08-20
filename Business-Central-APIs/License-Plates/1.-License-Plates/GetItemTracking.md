@@ -8,11 +8,11 @@ The `GetItemTracking` API method retrieves detailed tracking information about a
 {
   "ProcessMethod": "GetItemTracking",
   "Parameters": [
-    {
-      "SourceType": 1,
-      "SourceSubtype": 0,
-      "SourceNo": "ITEM123",
-      "SourceRefNo": 100
+  {
+      "SourceType": 39,
+      "SourceSubtype": 1,
+      "SourceNo": "PO-109960",
+      "SourceRefNo": 10000
     }
   ]
 }
