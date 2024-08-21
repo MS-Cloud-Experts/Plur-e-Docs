@@ -30,7 +30,7 @@ El propósito de esta prueba es verificar el correcto funcionamiento del proceso
 4. **Verificación de Put Away**
    - **Propósito**: Asegurar que los LPs están listos para ser almacenados correctamente.
    - **Acción**: Abre el Put Away asociado al Warehouse Receipt.
-   - **Verificación**: Confirma que los LPs ahora están listos para ser movidos a su ubicación de almacenamiento, y que el estado y bin de los LPs en "PLU LP New Headers" se ha actualizado correctamente a "Labeled".
+   - **Verificación**: Confirma que los LPs ahora están listos para ser movidos a su ubicación de almacenamiento".
 
 5. **Validación de Put Away Lines**
    - **Propósito**: Verificar la congruencia de los datos en las líneas de Put Away.
