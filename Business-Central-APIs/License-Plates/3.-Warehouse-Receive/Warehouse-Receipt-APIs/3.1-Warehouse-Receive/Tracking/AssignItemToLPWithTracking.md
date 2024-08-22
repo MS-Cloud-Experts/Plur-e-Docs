@@ -108,66 +108,6 @@ The `AssignItemToLPWithTracking` API method allows for the assignment of items t
       "ItemNo": "K3CSODQL",
       "VariantCode": "NMEDXXX",
       "Description": "",
-      "SerialNo": "SN001",
-      "LotNo": "",
-      "SourceID": "PO-120037",
-      "LocationCode": "MAIN",
-      "SourceRefNo": 50000,
-      "Qty": 1.0,
-      "UnitofMeasureCode": 1.0,
-      "QtytoHandleBase": 1.0,
-      "QtytoInvoiceBase": 1.0,
-      "ExpirationDate": "0001-01-01"
-    },
-    {
-      "ItemNo": "K3CSODQL",
-      "VariantCode": "NMEDXXX",
-      "Description": "",
-      "SerialNo": "SN002",
-      "LotNo": "",
-      "SourceID": "PO-120037",
-      "LocationCode": "MAIN",
-      "SourceRefNo": 50000,
-      "Qty": 1.0,
-      "UnitofMeasureCode": 1.0,
-      "QtytoHandleBase": 1.0,
-      "QtytoInvoiceBase": 1.0,
-      "ExpirationDate": "0001-01-01"
-    },
-    {
-      "ItemNo": "K3CSODQL",
-      "VariantCode": "NMEDXXX",
-      "Description": "",
-      "SerialNo": "SN003",
-      "LotNo": "",
-      "SourceID": "PO-120037",
-      "LocationCode": "MAIN",
-      "SourceRefNo": 50000,
-      "Qty": 1.0,
-      "UnitofMeasureCode": 1.0,
-      "QtytoHandleBase": 1.0,
-      "QtytoInvoiceBase": 1.0,
-      "ExpirationDate": "0001-01-01"
-    },
-    {
-      "ItemNo": "K3CSODQL",
-      "VariantCode": "NMEDXXX",
-      "Description": "",
-      "SerialNo": "SNA001",
-      "LotNo": "",
-      "SourceID": "PO-120037",
-      "LocationCode": "MAIN",
-      "SourceRefNo": 50000,
-      "Qty": 1.0,
-      "UnitofMeasureCode": 1.0,
-      "QtytoHandleBase": 1.0,
-      "QtytoInvoiceBase": 1.0,
-      "ExpirationDate": "0001-01-01"
-    },
-    {
-      "ItemNo": "K3CSODQL",
-      "VariantCode": "NMEDXXX",
-      "Description": "",
       "SerialNo": "SNA001",
       "LotNo": "",
       "SourceID": "PO-120037",
@@ -195,10 +135,10 @@ The `AssignItemToLPWithTracking` API method allows for the assignment of items t
       "ExpirationDate": "0001-01-01"
     }
   ],
-  "LP_Pending_To_Receive": 995.0,
-  "LP_Received": "LP-00073-10000|LP-00073-20000|LP-00073-30000|LP-00074-10000|LP-00075-10000",
+  "LP_Pending_To_Receive": 998.0,
+  "LP_Received": "LP-00077-10000|LP-00077-20000",
   "Message": "The LPs were created successfully.",
-  "Duration": "4 seconds 867 milliseconds"
+  "Duration": "2 seconds 192 milliseconds"
 }
 ```
 
