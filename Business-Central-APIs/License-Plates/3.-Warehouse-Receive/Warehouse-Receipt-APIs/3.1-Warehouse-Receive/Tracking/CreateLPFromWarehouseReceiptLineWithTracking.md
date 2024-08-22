@@ -1,7 +1,6 @@
-### API Documentation: CreateLPFromWarehouseReceiptLineWithTracking
+Aquí tienes un ejemplo didáctico con tres unidades a recibir:
 
-#### Overview
-The `CreateLPFromWarehouseReceiptLineWithTracking` API method generates License Plates (LPs) based on a specified warehouse receipt line, including detailed tracking information such as serial numbers, lot numbers, and expiration dates. This method validates the input data, checks for existing LPs, processes the tracking information, and creates new LPs if the input conditions are met.
+### API Documentation: CreateLPFromWarehouseReceiptLineWithTracking
 
 #### Request Structure
 ```json
@@ -14,38 +13,32 @@ The `CreateLPFromWarehouseReceiptLineWithTracking` API method generates License 
       "BinCode": "BIN-01",
       "LineNo": 10000,
       "UnitofMeasureCode": "PCS",
-      "TotalToReceive": 10,
-      "NoofPackLP": 5,
+      "TotalToReceive": 3,
       "PackUnitUoM": "BOX",
       "TrackingInfo": [
         {
           "SerialNo": "SN001",
           "LotNo": "LOT001",
           "ExpirationDate": "2024-12-31",
-          "Qty": 5
+          "Qty": 1
         },
         {
           "SerialNo": "SN002",
           "LotNo": "LOT002",
           "ExpirationDate": "2024-12-31",
-          "Qty": 5
+          "Qty": 1
+        },
+        {
+          "SerialNo": "SN003",
+          "LotNo": "LOT003",
+          "ExpirationDate": "2024-12-31",
+          "Qty": 1
         }
       ]
     }
   ]
 }
 ```
-
-#### Parameters
-- **No**: The warehouse receipt number for which LPs should be created (e.g., `"WHSE REC-0001"`).
-- **ItemNo**: The item number associated with the warehouse receipt line (e.g., `"ITEM-001"`).
-- **BinCode**: The bin code where the items are stored (e.g., `"BIN-01"`).
-- **LineNo**: The line number of the warehouse receipt (e.g., `10000`).
-- **UnitofMeasureCode**: The unit of measure code for the items (e.g., `"PCS"`).
-- **TotalToReceive**: The total quantity of items to receive (e.g., `10`).
-- **NoofPackLP**: The number of LPs to create (e.g., `5`).
-- **PackUnitUoM**: The packing unit of measure (e.g., `"BOX"`).
-- **TrackingInfo**: An array containing tracking information for the items, including serial numbers, lot numbers, expiration dates, and quantities.
 
 #### Example Request
 ```json
@@ -58,21 +51,26 @@ The `CreateLPFromWarehouseReceiptLineWithTracking` API method generates License 
       "BinCode": "BIN-01",
       "LineNo": 10000,
       "UnitofMeasureCode": "PCS",
-      "TotalToReceive": 10,
-      "NoofPackLP": 5,
+      "TotalToReceive": 3,
       "PackUnitUoM": "BOX",
       "TrackingInfo": [
         {
           "SerialNo": "SN001",
           "LotNo": "LOT001",
           "ExpirationDate": "2024-12-31",
-          "Qty": 5
+          "Qty": 1
         },
         {
           "SerialNo": "SN002",
           "LotNo": "LOT002",
           "ExpirationDate": "2024-12-31",
-          "Qty": 5
+          "Qty": 1
+        },
+        {
+          "SerialNo": "SN003",
+          "LotNo": "LOT003",
+          "ExpirationDate": "2024-12-31",
+          "Qty": 1
         }
       ]
     }
@@ -80,29 +78,15 @@ The `CreateLPFromWarehouseReceiptLineWithTracking` API method generates License 
 }
 ```
 
-#### Example Response
-```json
-{
-  "WarehouseReceiptNo": "WHSE REC-00171",
-  "ItemNo": "ITEM-001",
-  "LineNo": 10000,
-  "VariantCode": "B80W245",
-  "TrackingSpecificationOpen": [],
-  "LP_Pending_To_Receive": 0.0,
-  "LP_Received": "LP-00048-10000|LP-00048-20000|LP-00050-10000|LP-00051-10000|LP-00052-10000",
-  "Message": "The LPs with tracking were created successfully."
-}
-```
-
 #### Explanation
-- **WarehouseReceiptNo**: The warehouse receipt number from the request.
-- **ItemNo**: The item number from the request.
-- **LineNo**: The line number from the warehouse receipt.
-- **VariantCode**: The variant code of the item.
-- **TrackingSpecificationOpen**: An array of tracking specifications that are still open.
-- **LP_Pending_To_Receive**: The quantity of items still pending to be received after the LPs have been created. In this case, it's `0.0` since all items have been received.
-- **LP_Received**: A list of LPs that were created and associated with the warehouse receipt line, each LP containing the corresponding tracking information.
-- **Message**: A message indicating the outcome of the operation.
+- **WarehouseReceiptNo**: `"WHSE REC-0001"` - The warehouse receipt number for which the LPs are being created.
+- **ItemNo**: `"ITEM-001"` - The item number associated with the warehouse receipt line.
+- **BinCode**: `"BIN-01"` - The bin code where the items are stored.
+- **LineNo**: `10000` - The line number of the warehouse receipt.
+- **UnitofMeasureCode**: `"PCS"` - The unit of measure code for the items.
+- **TotalToReceive**: `3` - The total quantity of items to receive.
+- **PackUnitUoM**: `"BOX"` - The packing unit of measure.
+- **TrackingInfo**: An array containing tracking information for the items, where each item is represented with a unique `SerialNo`, `LotNo`, and `ExpirationDate`. Each entry also includes the `Qty` for that specific item.
 
 #### Summary
-The `CreateLPFromWarehouseReceiptLineWithTracking` method is designed to automate the creation of License Plates (LPs) from a warehouse receipt line, including handling of detailed tracking information such as serial numbers and lot numbers. By validating the input data, processing tracking information, and ensuring that conditions are met, this API ensures that LPs are created efficiently and accurately. The method returns detailed information about the LPs created, the tracking details, and any quantities still pending receipt, which is essential for warehouse operations and inventory management.
+In this simplified example, the API handles a case where three units of an item are being received. Each unit has a unique serial number and lot number, ensuring proper tracking and identification within the warehouse. The `TrackingInfo` array contains individual entries for each unit, each specifying a quantity of 1, making the process straightforward and easy to understand. This approach is ideal for managing serialized inventory where each item needs to be tracked individually.
