@@ -8,9 +8,9 @@ Aquí tienes un ejemplo didáctico con tres unidades a recibir:
   "ProcessMethod": "CreateLPFromWarehouseReceiptLineWithTracking",
   "Parameters": [
     {
-      "No": "WHSE REC-0001",
-      "ItemNo": "ITEM-001",
-      "BinCode": "BIN-01",
+      "No": "WHSE REC-00186",
+      "ItemNo": "K3CSODQL",
+      "BinCode": "MAIN",
       "LineNo": 10000,
       "UnitofMeasureCode": "PCS",
       "TotalToReceive": 3,
