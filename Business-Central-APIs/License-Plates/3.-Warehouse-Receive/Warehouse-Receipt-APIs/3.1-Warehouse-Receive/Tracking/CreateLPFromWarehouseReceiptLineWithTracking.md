@@ -105,51 +105,6 @@ Output:
       "ItemNo": "K3CSODQL",
       "VariantCode": "NMEDXXX",
       "Description": "",
-      "SerialNo": "SN001",
-      "LotNo": "",
-      "SourceID": "PO-120037",
-      "LocationCode": "MAIN",
-      "SourceRefNo": 50000,
-      "Qty": 1.0,
-      "UnitofMeasureCode": 1.0,
-      "QtytoHandleBase": 1.0,
-      "QtytoInvoiceBase": 1.0,
-      "ExpirationDate": "0001-01-01"
-    },
-    {
-      "ItemNo": "K3CSODQL",
-      "VariantCode": "NMEDXXX",
-      "Description": "",
-      "SerialNo": "SN002",
-      "LotNo": "",
-      "SourceID": "PO-120037",
-      "LocationCode": "MAIN",
-      "SourceRefNo": 50000,
-      "Qty": 1.0,
-      "UnitofMeasureCode": 1.0,
-      "QtytoHandleBase": 1.0,
-      "QtytoInvoiceBase": 1.0,
-      "ExpirationDate": "0001-01-01"
-    },
-    {
-      "ItemNo": "K3CSODQL",
-      "VariantCode": "NMEDXXX",
-      "Description": "",
-      "SerialNo": "SN001",
-      "LotNo": "",
-      "SourceID": "PO-120037",
-      "LocationCode": "MAIN",
-      "SourceRefNo": 50000,
-      "Qty": 1.0,
-      "UnitofMeasureCode": 1.0,
-      "QtytoHandleBase": 1.0,
-      "QtytoInvoiceBase": 1.0,
-      "ExpirationDate": "0001-01-01"
-    },
-    {
-      "ItemNo": "K3CSODQL",
-      "VariantCode": "NMEDXXX",
-      "Description": "",
       "SerialNo": "SN002",
       "LotNo": "",
       "SourceID": "PO-120037",
@@ -177,10 +132,10 @@ Output:
       "ExpirationDate": "0001-01-01"
     }
   ],
-  "LP_Pending_To_Receive": 0.0,
-  "LP_Received": "LP-00063-10000|LP-00063-20000|LP-00063-30000|LP-00063-40000|LP-00063-50000|LP-00063-60000|LP-00063-70000|LP-00063-80000|LP-00063-90000|LP-00063-100000|LP-00063-110000",
+  "LP_Pending_To_Receive": 997.0,
+  "LP_Received": "LP-00073-10000|LP-00074-10000|LP-00075-10000",
   "Message": "The LPs were created successfully with tracking.",
-  "Duration": "334 milliseconds"
+  "Duration": "16 seconds 951 milliseconds"
 }
 ```
 
