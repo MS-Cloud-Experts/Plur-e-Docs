@@ -64,23 +64,29 @@ The `AssignItemToLPWithTracking` API method allows for the assignment of items t
   "ProcessMethod": "AssignItemToLPWithTracking",
   "Parameters": [
     {
-      "WarehouseReceiptNo": "WR-0001",
-      "LPDocumentNo": "LP-0001",
-      "BinCode": "BIN001",
+      "WarehouseReceiptNo": "WHSE REC-00186",
+      "LPDocumentNo": "LP-00073",
+      "BinCode": "MAIN",
       "Item_Child": [
         {
           "LineNo": 10000,
-          "ItemNo": "ITEM001",
-          "TotalToReceive": 50,
+          "ItemNo": "K3CSODQL",
+          "TotalToReceive": 2,
           "UnitofMeasureCode": "PCS",
-          "SourceNo": "PO-0001",
-          "SourceRefNo": 1,
+          "SourceNo": "PO-120037",
+          "SourceRefNo": 50000,
           "TrackingInfo": [
             {
-              "SerialNo": "SN001",
+              "SerialNo": "SNA001",
               "LotNo": "LOT001",
               "ExpirationDate": "2024-12-31",
-              "Qty": 50
+              "Qty": 1
+            },
+            {
+              "SerialNo": "SNA002",
+              "LotNo": "LOT002",
+              "ExpirationDate": "2024-12-31",
+              "Qty": 1
             }
           ]
         }
