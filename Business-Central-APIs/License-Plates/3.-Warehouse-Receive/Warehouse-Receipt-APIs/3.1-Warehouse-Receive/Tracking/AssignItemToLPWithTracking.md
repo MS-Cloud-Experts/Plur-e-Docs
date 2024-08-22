@@ -93,17 +93,106 @@ The `AssignItemToLPWithTracking` API method allows for the assignment of items t
 #### Example Response
 ```json
 {
-  "Message": "The LPs were created successfully.",
+  "WarehouseReceiptNo": "WHSE REC-00186",
+  "ItemNo": "K3CSODQL",
+  "LineNo": 10000,
+  "VariantCode": "NMEDXXX",
   "TrackingSpecificationOpen": [
     {
+      "ItemNo": "K3CSODQL",
+      "VariantCode": "NMEDXXX",
+      "Description": "",
       "SerialNo": "SN001",
-      "LotNo": "LOT001",
-      "ExpirationDate": "2024-12-31",
-      "Qty": 50
+      "LotNo": "",
+      "SourceID": "PO-120037",
+      "LocationCode": "MAIN",
+      "SourceRefNo": 50000,
+      "Qty": 1.0,
+      "UnitofMeasureCode": 1.0,
+      "QtytoHandleBase": 1.0,
+      "QtytoInvoiceBase": 1.0,
+      "ExpirationDate": "0001-01-01"
+    },
+    {
+      "ItemNo": "K3CSODQL",
+      "VariantCode": "NMEDXXX",
+      "Description": "",
+      "SerialNo": "SN002",
+      "LotNo": "",
+      "SourceID": "PO-120037",
+      "LocationCode": "MAIN",
+      "SourceRefNo": 50000,
+      "Qty": 1.0,
+      "UnitofMeasureCode": 1.0,
+      "QtytoHandleBase": 1.0,
+      "QtytoInvoiceBase": 1.0,
+      "ExpirationDate": "0001-01-01"
+    },
+    {
+      "ItemNo": "K3CSODQL",
+      "VariantCode": "NMEDXXX",
+      "Description": "",
+      "SerialNo": "SN003",
+      "LotNo": "",
+      "SourceID": "PO-120037",
+      "LocationCode": "MAIN",
+      "SourceRefNo": 50000,
+      "Qty": 1.0,
+      "UnitofMeasureCode": 1.0,
+      "QtytoHandleBase": 1.0,
+      "QtytoInvoiceBase": 1.0,
+      "ExpirationDate": "0001-01-01"
+    },
+    {
+      "ItemNo": "K3CSODQL",
+      "VariantCode": "NMEDXXX",
+      "Description": "",
+      "SerialNo": "SNA001",
+      "LotNo": "",
+      "SourceID": "PO-120037",
+      "LocationCode": "MAIN",
+      "SourceRefNo": 50000,
+      "Qty": 1.0,
+      "UnitofMeasureCode": 1.0,
+      "QtytoHandleBase": 1.0,
+      "QtytoInvoiceBase": 1.0,
+      "ExpirationDate": "0001-01-01"
+    },
+    {
+      "ItemNo": "K3CSODQL",
+      "VariantCode": "NMEDXXX",
+      "Description": "",
+      "SerialNo": "SNA001",
+      "LotNo": "",
+      "SourceID": "PO-120037",
+      "LocationCode": "MAIN",
+      "SourceRefNo": 50000,
+      "Qty": 1.0,
+      "UnitofMeasureCode": 1.0,
+      "QtytoHandleBase": 1.0,
+      "QtytoInvoiceBase": 1.0,
+      "ExpirationDate": "0001-01-01"
+    },
+    {
+      "ItemNo": "K3CSODQL",
+      "VariantCode": "NMEDXXX",
+      "Description": "",
+      "SerialNo": "SNA002",
+      "LotNo": "",
+      "SourceID": "PO-120037",
+      "LocationCode": "MAIN",
+      "SourceRefNo": 50000,
+      "Qty": 1.0,
+      "UnitofMeasureCode": 1.0,
+      "QtytoHandleBase": 1.0,
+      "QtytoInvoiceBase": 1.0,
+      "ExpirationDate": "0001-01-01"
     }
   ],
-  "LP_Pending_To_Receive": 0,
-  "LP_Received": "LP-0001"
+  "LP_Pending_To_Receive": 995.0,
+  "LP_Received": "LP-00073-10000|LP-00073-20000|LP-00073-30000|LP-00074-10000|LP-00075-10000",
+  "Message": "The LPs were created successfully.",
+  "Duration": "4 seconds 867 milliseconds"
 }
 ```
 
