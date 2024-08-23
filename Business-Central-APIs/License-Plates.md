@@ -95,3 +95,8 @@ Solo se pueden unir LPs que estén en estados que permitan la consolidación, co
 ### 7.3 Ventas
 
 Para los procesos de ventas, se requiere un proceso de **Assemblies** para construir **Kits** que automáticamente busquen sustitutos si al momento de vender no hay disponibilidad de uno de sus productos.
+
+### Indice
+
+
+[[_TOSP_]]
