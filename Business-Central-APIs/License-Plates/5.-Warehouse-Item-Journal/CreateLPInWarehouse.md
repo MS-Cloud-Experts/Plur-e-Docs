@@ -1,12 +1,12 @@
-### API Documentation: CreateLPInWarehouse
+### API Documentation: `CreateLPInWarehouseJournal`
 
 #### Overview
-The `CreateLPInWarehouse` API method facilitates the creation of a new License Plate (LP) in a "Storage" state through a Warehouse Item Journal. This API is designed to initiate inventory tracking for multiple items, serialized or non-serialized, by associating them with a new LP in the specified warehouse location and bin. The method ensures that the LP is correctly recorded, and all relevant warehouse records are updated.
+The `CreateLPInWarehouseJournal` API method is designed to facilitate the creation of new License Plates (LPs) in a "Storage" state through a Warehouse Item Journal. This API exclusively supports the creation and registration of LPs within specified warehouse locations and bins, ensuring that all necessary inventory records are accurately updated.
 
 #### Request Structure
 ```json
 {
-  "ProcessMethod": "CreateLPInWarehouse",
+  "ProcessMethod": "CreateLPInWarehouseJournal",
   "Parameters": [
     {
       "ItemNo": "D0BDBD",
@@ -44,24 +44,20 @@ The `CreateLPInWarehouse` API method facilitates the creation of a new License P
 ```
 
 #### Parameters
-- **ProcessMethod**: Indicates the method to be invoked, in this case, `"CreateLPInWarehouse"`.
-- **Parameters**: A JSON array containing the details needed to create the new LP.
+- **ProcessMethod**: Indicates the method to be invoked, in this case, `"CreateLPInWarehouseJournal"`.
+- **Parameters**: A JSON array containing the details needed to create the new LPs.
   - **ItemNo**: The item number to be associated with the new LP (e.g., `"D0BDBD"`).
   - **VariantCode**: The variant code of the item, if applicable (e.g., `""`).
   - **LocationCode**: The warehouse location where the LP will be created (e.g., `"MAIN"`).
   - **BinCode**: The bin within the warehouse where the LP will be stored (e.g., `"BACK"`).
   - **Qty**: The quantity of the item to be associated with the new LP (e.g., `2`).
   - **UnitOfMeasureCode**: The unit of measure code for the item (e.g., `"EA"`).
-  - **TrackingInfo**: An array containing tracking details (serial numbers, lot numbers, expiration dates) for items that require them. If the item is not serialized, this array should be empty.
-    - **SerialNo**: The serial number of the item, if applicable (e.g., `"SN001"`).
-    - **LotNo**: The lot number of the item, if applicable (e.g., `"LOT001"`).
-    - **ExpirationDate**: The expiration date of the item, if applicable (e.g., `"2025-12-31"`).
-    - **Qty**: The quantity associated with the serial number (e.g., `1`).
+  - **TrackingInfo**: An array containing tracking details for serialized or lot-tracked items. If the item is not serialized or lot-tracked, this array should be empty.
 
 #### Example Request
 ```json
 {
-  "ProcessMethod": "CreateLPInWarehouse",
+  "ProcessMethod": "CreateLPInWarehouseJournal",
   "Parameters": [
     {
       "ItemNo": "D0BDBD",
@@ -103,42 +99,32 @@ The `CreateLPInWarehouse` API method facilitates the creation of a new License P
 {
   "LicensePlates": [
     {
-      "LPDocumentNo": "LP-00097",
+      "LPDocumentNo": "LP-00094",
       "LicensePlateStatus": "Pre-Labeled",
       "ParentLPNo": "",
       "ZoneCode": "STORAGE",
       "LocationCode": "MAIN",
       "BinCode": "BACK",
       "WhseDocumentNo": "",
-      "SystemCreatedAt": "2024-08-23T16:35:18.6510000Z",
-      "SystemCreatedBy": "{92012D15-CA99-4CEF-81FE-5D89B117139C}",
-      "LPTotalQuantities": 4.0,
+      "SystemCreatedAt": "2024-08-23T16:21:04.1120000Z",
+      "SystemCreatedBy": "IVAN.LABRADOR",
+      "LPTotalQuantities": 2.0,
       "LPLines": [
         {
           "LineNo": 10000,
-          "ItemNo": "D0BDBD",
-          "VariantCode": "",
-          "SerialNo": "",
-          "LotNo": "",
-          "Description": "",
-          "Quantity": 2.0,
-          "UnitofMeasure": "EA"
-        },
-        {
-          "LineNo": 20000,
           "ItemNo": "SERIALTEST",
           "VariantCode": "",
-          "SerialNo": "SN001111",
+          "SerialNo": "SN001",
           "LotNo": "LOT001",
           "Description": "",
           "Quantity": 1.0,
           "UnitofMeasure": "EA"
         },
         {
-          "LineNo": 30000,
+          "LineNo": 20000,
           "ItemNo": "SERIALTEST",
           "VariantCode": "",
-          "SerialNo": "SN002111",
+          "SerialNo": "SN002",
           "LotNo": "LOT001",
           "Description": "",
           "Quantity": 1.0,
@@ -147,46 +133,14 @@ The `CreateLPInWarehouse` API method facilitates the creation of a new License P
       ],
       "ChildLPs": []
     }
-  ],
-  "Duration": "306 milliseconds"
+  ]
 }
 ```
 
-#### Example Journal Line Creation
-Here is an example of how the journal line might be configured internally using the details provided:
-
-| Field Name                      | Example Value         |
-|---------------------------------|-----------------------|
-| Journal Template Name           | ITEM                  |
-| Journal Batch Name              | DEFAULT               |
-| Line No.                        | 10000                 |
-| Registering Date                | 8/24/2024             |
-| Location Code                   | MAIN                  |
-| From Zone Code                  | STORAGE               |
-| From Bin Code                   | AJUST                 |
-| Description                     | D0 DAYLIGHT WALL BAG  |
-| Item No.                        | D0BDBD                |
-| Quantity                        | 2                     |
-| Qty. (Base)                     | 2                     |
-| Zone Code                       | STORAGE               |
-| Bin Code                        | BACK                  |
-| Source Type                     | 0                     |
-| To Zone Code                    | STORAGE               |
-| To Bin Code                     | BACK                  |
-| Entry Type                      | Positive Adjmt.       |
-| Unit of Measure Code            | EA                    |
-| Serial No.                      | SN001                 |
-| Lot No.                         | LOT001                |
-| Expiration Date                 | 2025-12-31            |
-| Whse. Document No.              | Whse. Journal         |
-| Whse. Document Type             | Whse. Journal         |
-| User ID                         | IVAN.LABRADOR         |
-
-This journal line ensures that the LP is created correctly in the warehouse system, reflecting all relevant item, bin, and tracking information.
-
 #### Explanation
-- **LicensePlates**: The response includes the document number of the newly created LP, confirming successful creation and registration in the warehouse system.
-- **Journal Line Configuration**: The internal journal line configuration reflects all necessary details for creating the LP, ensuring that all warehouse operations are accurately recorded.
+- **LicensePlates**: An array of objects representing the newly created LPs, including details such as the LP document number, status, location, bin, and item details.
+- **LPTotalQuantities**: The total quantity of items associated with the LP.
+- **LPLines**: An array containing individual item lines within the LP, detailing the item number, serial number, lot number, quantity, and other relevant information.
 
 #### Summary
-The `CreateLPInWarehouse` method streamlines the process of creating a new License Plate (LP) within a warehouse by handling all necessary configurations and validations through a single API call. This method plays a critical role in maintaining precise inventory records by ensuring that the LP is accurately created and associated with the correct item, location, and bin. The method returns the document number of the newly created LP, which can be used for further reference and tracking within the warehouse management system.
+The `CreateLPInWarehouseJournal` method is specifically tailored for creating new License Plates (LPs) within a warehouse setting, recording them through the Warehouse Item Journal. This method does not support operations for decreasing or destroying LPs, focusing solely on the creation and proper registration of LPs associated with specified items, locations, and bins. The response includes detailed information about the created LPs, allowing for accurate tracking and further processing within the warehouse management system.
