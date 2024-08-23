@@ -132,3 +132,5 @@ El objetivo de esta prueba es verificar el proceso de creación de License Plate
 
 ### **Conclusión**
 Este plan de pruebas asegura una cobertura detallada del proceso de creación de LPs vacíos, su asignación y el posterior almacenamiento en el Warehouse Receipt. Implementar estas pruebas ayudará a identificar problemas antes de que el sistema sea desplegado en un entorno de producción, garantizando la fiabilidad y exactitud del sistema en la gestión de inventarios.
+
+[[_TOSP_]]
