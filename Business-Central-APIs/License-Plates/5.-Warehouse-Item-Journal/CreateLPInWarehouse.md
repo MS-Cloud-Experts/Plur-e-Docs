@@ -103,32 +103,52 @@ The `CreateLPInWarehouse` API method facilitates the creation of a new License P
 {
   "LicensePlates": [
     {
-      "LPDocumentNo": "LP0001",
-      "Items": [
+      "LPDocumentNo": "LP-00097",
+      "LicensePlateStatus": "Pre-Labeled",
+      "ParentLPNo": "",
+      "ZoneCode": "STORAGE",
+      "LocationCode": "MAIN",
+      "BinCode": "BACK",
+      "WhseDocumentNo": "",
+      "SystemCreatedAt": "2024-08-23T16:35:18.6510000Z",
+      "SystemCreatedBy": "{92012D15-CA99-4CEF-81FE-5D89B117139C}",
+      "LPTotalQuantities": 4.0,
+      "LPLines": [
         {
+          "LineNo": 10000,
           "ItemNo": "D0BDBD",
-          "Qty": 2,
-          "UnitOfMeasureCode": "EA"
+          "VariantCode": "",
+          "SerialNo": "",
+          "LotNo": "",
+          "Description": "",
+          "Quantity": 2.0,
+          "UnitofMeasure": "EA"
         },
         {
+          "LineNo": 20000,
           "ItemNo": "SERIALTEST",
-          "Qty": 1,
-          "UnitOfMeasureCode": "EA",
-          "SerialNo": "SN001",
+          "VariantCode": "",
+          "SerialNo": "SN001111",
           "LotNo": "LOT001",
-          "ExpirationDate": "2025-12-31"
+          "Description": "",
+          "Quantity": 1.0,
+          "UnitofMeasure": "EA"
         },
         {
+          "LineNo": 30000,
           "ItemNo": "SERIALTEST",
-          "Qty": 1,
-          "UnitOfMeasureCode": "EA",
-          "SerialNo": "SN002",
+          "VariantCode": "",
+          "SerialNo": "SN002111",
           "LotNo": "LOT001",
-          "ExpirationDate": "2025-12-31"
+          "Description": "",
+          "Quantity": 1.0,
+          "UnitofMeasure": "EA"
         }
-      ]
+      ],
+      "ChildLPs": []
     }
-  ]
+  ],
+  "Duration": "306 milliseconds"
 }
 ```
 
