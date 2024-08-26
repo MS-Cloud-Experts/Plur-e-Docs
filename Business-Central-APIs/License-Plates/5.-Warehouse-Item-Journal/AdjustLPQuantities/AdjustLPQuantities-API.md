@@ -55,26 +55,28 @@ El método `AdjustLPQuantities` permite ajustar las cantidades en las líneas de
   "ProcessMethod": "AdjustLPQuantities",
   "Parameters": [
     {
-      "LPDocumentNo": "LP001",
-      "ItemNo": "ITEM001",
+      "LPDocumentNo": "LP-00113",
+      "ItemNo": "K3PDBHNDL000XXX",
       "VariantCode": "",
-      "AdjustQty": -10,
+      "AdjustQty": 3,
+      "LineNo": 10000,
+      "TrackingInfo": []
+    },
+    {
+      "LPDocumentNo": "LP-00113",
+      "ItemNo": "K3CSODQL",
+      "VariantCode": "NMEDXXX",
+      "AdjustQty": -1,
+      "LineNo": 0,
       "TrackingInfo": [
         {
           "LineNo": 10000,
-          "SerialNo": "SN001",
-          "LotNo": "LOT001",
-          "ExpirationDate": "2024-12-31",
-          "Qty": 5
+          "SerialNo": "1SN0011111",
+          "LotNo": "",
+          "ExpirationDate": "",
+          "Qty": 1
         }
       ]
-    },
-    {
-      "LPDocumentNo": "LP002",
-      "ItemNo": "ITEM002",
-      "VariantCode": "",
-      "AdjustQty": 15,
-      "TrackingInfo": []
     }
   ]
 }
