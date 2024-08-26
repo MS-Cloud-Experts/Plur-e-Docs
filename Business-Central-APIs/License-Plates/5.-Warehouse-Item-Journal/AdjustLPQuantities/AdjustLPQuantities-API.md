@@ -1,7 +1,7 @@
 ### API Documentation: AdjustLPQuantities
 
 #### **Overview**
-El método `AdjustLPQuantities` permite ajustar las cantidades en las líneas de un License Plate (LP) existente en un almacén. Este ajuste puede ser positivo (incremento) o negativo (decremento). Si el ajuste reduce la cantidad de una línea a cero, la línea se elimina. Si todas las líneas de un LP se eliminan, el LP se marca como "Voided". Adicionalmente, se genera un Warehouse Item Journal para reflejar estos cambios en el inventario de Business Central, y se registran los movimientos en la tabla de LP Movements.
+El método `AdjustLPQuantities` permite ajustar las cantidades en las líneas de un License Plate (LP) existente en un almacén. Este ajuste puede ser positivo (incremento) o negativo (decremento). Si el ajuste reduce la cantidad de una línea a cero, la línea se elimina. Si todas las líneas de un LP se eliminan, el LP se marca como "Voided". Además, se genera un Warehouse Item Journal para reflejar estos cambios en el inventario de Business Central, y se registran los movimientos en la tabla de LP Movements para mantener la trazabilidad.
 
 #### **Request Structure**
 ```json
@@ -12,12 +12,10 @@ El método `AdjustLPQuantities` permite ajustar las cantidades en las líneas de
       "LPDocumentNo": "LP001",
       "ItemNo": "ITEM001",
       "VariantCode": "",
-      "LocationCode": "MAIN",
-      "BinCode": "BIN-01",
       "AdjustQty": -10,
-      "UnitOfMeasureCode": "EA",
       "TrackingInfo": [
         {
+          "LineNo": 10000,
           "SerialNo": "SN001",
           "LotNo": "LOT001",
           "ExpirationDate": "2024-12-31",
@@ -29,10 +27,7 @@ El método `AdjustLPQuantities` permite ajustar las cantidades en las líneas de
       "LPDocumentNo": "LP002",
       "ItemNo": "ITEM002",
       "VariantCode": "",
-      "LocationCode": "MAIN",
-      "BinCode": "BIN-02",
       "AdjustQty": 15,
-      "UnitOfMeasureCode": "EA",
       "TrackingInfo": []
     }
   ]
@@ -45,15 +40,13 @@ El método `AdjustLPQuantities` permite ajustar las cantidades en las líneas de
   - **LPDocumentNo**: El número de documento del LP a ajustar (e.g., `"LP001"`).
   - **ItemNo**: El número del artículo asociado al LP (e.g., `"ITEM001"`).
   - **VariantCode**: El código de variante del artículo, si aplica (e.g., `""`).
-  - **LocationCode**: El código de la ubicación del almacén (e.g., `"MAIN"`).
-  - **BinCode**: El código del bin donde se encuentra el LP (e.g., `"BIN-01"`).
   - **AdjustQty**: La cantidad a ajustar (positiva para incrementar, negativa para decrementar) (e.g., `-10`).
-  - **UnitOfMeasureCode**: El código de la unidad de medida (e.g., `"EA"`).
-  - **TrackingInfo**: Información de rastreo, si aplica.
+  - **TrackingInfo**: Información de rastreo, si aplica, que incluye las líneas específicas del LP a ajustar.
+    - **LineNo**: El número de la línea en el LP que se va a ajustar (e.g., `10000`).
     - **SerialNo**: El número de serie del artículo, si aplica (e.g., `"SN001"`).
     - **LotNo**: El número de lote del artículo, si aplica (e.g., `"LOT001"`).
     - **ExpirationDate**: La fecha de expiración del artículo, si aplica (e.g., `"2024-12-31"`).
-    - **Qty**: La cantidad específica relacionada al número de serie o lote (e.g., `5`).
+    - **Qty**: La cantidad específica relacionada al número de serie o lote que se va a ajustar (e.g., `5`).
 
 #### **Example Request**
 ```json
@@ -64,12 +57,10 @@ El método `AdjustLPQuantities` permite ajustar las cantidades en las líneas de
       "LPDocumentNo": "LP001",
       "ItemNo": "ITEM001",
       "VariantCode": "",
-      "LocationCode": "MAIN",
-      "BinCode": "BIN-01",
       "AdjustQty": -10,
-      "UnitOfMeasureCode": "EA",
       "TrackingInfo": [
         {
+          "LineNo": 10000,
           "SerialNo": "SN001",
           "LotNo": "LOT001",
           "ExpirationDate": "2024-12-31",
@@ -81,10 +72,7 @@ El método `AdjustLPQuantities` permite ajustar las cantidades en las líneas de
       "LPDocumentNo": "LP002",
       "ItemNo": "ITEM002",
       "VariantCode": "",
-      "LocationCode": "MAIN",
-      "BinCode": "BIN-02",
       "AdjustQty": 15,
-      "UnitOfMeasureCode": "EA",
       "TrackingInfo": []
     }
   ]
@@ -136,7 +124,7 @@ El método `AdjustLPQuantities` permite ajustar las cantidades en las líneas de
 - **VoidedLPs**: Un array que muestra los LPs que fueron marcados como "Voided" debido a que todas sus líneas fueron eliminadas tras los ajustes.
 
 #### **Summary**
-El método `AdjustLPQuantities` permite ajustar cantidades en las líneas de License Plates existentes, tanto en incrementos como en decrementos. El API se asegura de que los ajustes se reflejen correctamente en el inventario mediante la creación de un Warehouse Item Journal y la actualización de los registros de movimientos de LP. Si un LP queda sin líneas, se marca automáticamente como "Voided".
+El método `AdjustLPQuantities` permite ajustar cantidades en las líneas de License Plates existentes, tanto en incrementos como en decrementos. El API asegura que los ajustes se reflejen correctamente en el inventario mediante la creación de un Warehouse Item Journal y la actualización de los registros de movimientos de LP. Si un LP queda sin líneas, se marca automáticamente como "Voided".
 
 ### Lógica de Implementación
 1. **Validaciones Iniciales**: 
@@ -151,3 +139,7 @@ El método `AdjustLPQuantities` permite ajustar cantidades en las líneas de Lic
 3. **Posteo del Warehouse Journal**:
    - Crear y postear un Warehouse Item Journal para reflejar los ajustes realizados.
    - Registrar los movimientos en la tabla de LP Movements para mantener la trazabilidad.
+
+### **Consideraciones Adicionales**
+- **Uso de `TrackingInfo`**: El array `TrackingInfo` solo se utiliza cuando se necesitan introducir o ajustar seriales o lotes específicos. Si se va a ajustar una línea ya existente sin seriales o lotes, no es necesario incluir este array, lo que simplifica la operación.
+- **Estado del LP**: Después de realizar todos los ajustes, el estado del LP se actualiza a "Processing". Una vez que el Warehouse Journal se postea exitosamente, el estado cambia a "Storage", asegurando la integridad y el seguimiento de los LPs dentro del sistema.
