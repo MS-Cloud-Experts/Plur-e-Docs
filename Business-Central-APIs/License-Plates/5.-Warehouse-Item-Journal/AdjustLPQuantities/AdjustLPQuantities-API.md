@@ -13,7 +13,8 @@ El método `AdjustLPQuantities` permite ajustar las cantidades en las líneas de
       "ItemNo": "K3PDBHNDL000XXX",
       "VariantCode": "",
       "AdjustQty": 3,
-      "TrackingInfo": []
+      "TrackingInfo": [],
+      "LineNo": 10000,
     },
     {
       "LPDocumentNo": "LP-00113",
