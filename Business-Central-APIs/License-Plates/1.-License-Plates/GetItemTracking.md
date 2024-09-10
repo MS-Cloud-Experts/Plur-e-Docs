@@ -1,28 +1,22 @@
 ### API Documentation: `GetItemTracking`
 
 #### Overview
-The `GetItemTracking` API method retrieves detailed tracking information about a specific item based on provided parameters. It processes the source details and returns a JSON object containing the item tracking information, which includes various tracking configurations such as serial number tracking, lot tracking, and package tracking.
+The `GetItemTracking` API retrieves detailed tracking information about a specific item based on the provided tracking code. The method processes the tracking code and returns a JSON object containing various tracking configurations such as serial number tracking, lot tracking, and package tracking.
 
 #### Request Structure
 ```json
 {
   "ProcessMethod": "GetItemTracking",
   "Parameters": [
-  {
-      "SourceType": 39,
-      "SourceSubtype": 1,
-      "SourceNo": "PO-109960",
-      "SourceRefNo": 10000
+    {
+      "TrackingCode": "TRACK001"
     }
   ]
 }
 ```
 
 #### Parameters
-- **SourceType**: The type of the source for which the item tracking information is requested. It is an integer representing different source types (e.g., `1` for sales order, `2` for purchase order).
-- **SourceSubtype**: The subtype of the source, which can be used to further categorize the source type. It is an integer value.
-- **SourceNo**: The unique identifier of the source (e.g., the item number). This is a string with a maximum length of 20 characters.
-- **SourceRefNo**: A reference number associated with the source, usually representing the line number of the source document. This is an integer.
+- **TrackingCode**: A required parameter representing the tracking code of the item for which tracking details are requested. It is a string with a maximum length of 20 characters.
 
 #### Example Request
 ```json
@@ -30,10 +24,7 @@ The `GetItemTracking` API method retrieves detailed tracking information about a
   "ProcessMethod": "GetItemTracking",
   "Parameters": [
     {
-      "SourceType": 1,
-      "SourceSubtype": 0,
-      "SourceNo": "ITEM123",
-      "SourceRefNo": 100
+      "TrackingCode": "SNTRACK001"
     }
   ]
 }
@@ -42,68 +33,66 @@ The `GetItemTracking` API method retrieves detailed tracking information about a
 #### Example Response
 ```json
 {
-  "ItemTrackingJO": {
-    "Code": "TRACK001",
-    "Description": "Tracking for Item 123",
-    "WarrantyDateFormula": "1Y",
-    "ManWarrantyDateEntryReqd": true,
-    "ManExpirDateEntryReqd": false,
-    "StrictExpirationPosting": true,
-    "UseExpirationDates": true,
-    "SNSpecificTracking": false,
-    "SNInfoInboundMustExist": false,
-    "SNInfoOutboundMustExist": true,
-    "SNWarehouseTracking": false,
-    "SNPurchaseInboundTracking": true,
-    "SNPurchaseOutboundTracking": false,
-    "SNSalesInboundTracking": false,
-    "SNSalesOutboundTracking": true,
-    "SNPosAdjmtInbTracking": false,
-    "SNPosAdjmtOutbTracking": false,
-    "SNNegAdjmtInbTracking": true,
-    "SNNegAdjmtOutbTracking": false,
-    "SNTransferTracking": true,
-    "SNManufInboundTracking": false,
-    "SNManufOutboundTracking": true,
-    "SNAssemblyInboundTracking": false,
-    "SNAssemblyOutboundTracking": false,
-    "CreateSNInfoOnPosting": true,
-    "LotSpecificTracking": false,
-    "LotInfoInboundMustExist": true,
-    "LotInfoOutboundMustExist": false,
-    "LotWarehouseTracking": true,
-    "LotPurchaseInboundTracking": false,
-    "LotPurchaseOutboundTracking": true,
-    "LotSalesInboundTracking": false,
-    "LotSalesOutboundTracking": false,
-    "LotPosAdjmtInbTracking": true,
-    "LotPosAdjmtOutbTracking": false,
-    "LotNegAdjmtInbTracking": false,
-    "LotNegAdjmtOutbTracking": true,
-    "LotTransferTracking": true,
-    "LotManufInboundTracking": false,
-    "LotManufOutboundTracking": false,
-    "LotAssemblyInboundTracking": true,
-    "LotAssemblyOutboundTracking": false,
-    "CreateLotNoInfoOnPosting": true,
-    "PackageSpecificTracking": false,
-    "PackageWarehouseTracking": true,
-    "PackageInfoInbMustExist": true,
-    "PackageInfoOutbMustExist": false,
-    "PackagePurchaseInbTracking": false,
-    "PackagePurchOutbTracking": true,
-    "PackageSalesInboundTracking": false,
-    "PackageSalesOutbTracking": true,
-    "PackagePosInbTracking": true,
-    "PackagePosOutbTracking": false,
-    "PackageNegInbTracking": true,
-    "PackageNegOutbTracking": false,
-    "PackageTransferTracking": true,
-    "PackageManufInbTracking": false,
-    "PackageManufOutbTracking": true,
-    "PackageAssemblyInbTracking": false,
-    "PackageAssemblyOutTracking": true
-  }
+  "Code": "TRACK001",
+  "Description": "Tracking for Item 123",
+  "WarrantyDateFormula": "1Y",
+  "ManWarrantyDateEntryReqd": true,
+  "ManExpirDateEntryReqd": false,
+  "StrictExpirationPosting": true,
+  "UseExpirationDates": true,
+  "SNSpecificTracking": false,
+  "SNInfoInboundMustExist": false,
+  "SNInfoOutboundMustExist": true,
+  "SNWarehouseTracking": false,
+  "SNPurchaseInboundTracking": true,
+  "SNPurchaseOutboundTracking": false,
+  "SNSalesInboundTracking": false,
+  "SNSalesOutboundTracking": true,
+  "SNPosAdjmtInbTracking": false,
+  "SNPosAdjmtOutbTracking": false,
+  "SNNegAdjmtInbTracking": true,
+  "SNNegAdjmtOutbTracking": false,
+  "SNTransferTracking": true,
+  "SNManufInboundTracking": false,
+  "SNManufOutboundTracking": true,
+  "SNAssemblyInboundTracking": false,
+  "SNAssemblyOutboundTracking": false,
+  "CreateSNInfoOnPosting": true,
+  "LotSpecificTracking": false,
+  "LotInfoInboundMustExist": true,
+  "LotInfoOutboundMustExist": false,
+  "LotWarehouseTracking": true,
+  "LotPurchaseInboundTracking": false,
+  "LotPurchaseOutboundTracking": true,
+  "LotSalesInboundTracking": false,
+  "LotSalesOutboundTracking": false,
+  "LotPosAdjmtInbTracking": true,
+  "LotPosAdjmtOutbTracking": false,
+  "LotNegAdjmtInbTracking": false,
+  "LotNegAdjmtOutbTracking": true,
+  "LotTransferTracking": true,
+  "LotManufInboundTracking": false,
+  "LotManufOutboundTracking": false,
+  "LotAssemblyInboundTracking": true,
+  "LotAssemblyOutboundTracking": false,
+  "CreateLotNoInfoOnPosting": true,
+  "PackageSpecificTracking": false,
+  "PackageWarehouseTracking": true,
+  "PackageInfoInbMustExist": true,
+  "PackageInfoOutbMustExist": false,
+  "PackagePurchaseInbTracking": false,
+  "PackagePurchOutbTracking": true,
+  "PackageSalesInboundTracking": false,
+  "PackageSalesOutboundTracking": true,
+  "PackagePosInbTracking": true,
+  "PackagePosOutbTracking": false,
+  "PackageNegInbTracking": true,
+  "PackageNegOutbTracking": false,
+  "PackageTransferTracking": true,
+  "PackageManufInbTracking": false,
+  "PackageManufOutbTracking": true,
+  "PackageAssemblyInbTracking": false,
+  "PackageAssemblyOutTracking": true
 }
 ```
 
@@ -111,8 +100,8 @@ The `GetItemTracking` API method retrieves detailed tracking information about a
 - **Code**: The code representing the item tracking configuration.
 - **Description**: A text description of the item tracking.
 - **WarrantyDateFormula**: The formula used to calculate the warranty date for the item.
-- **ManWarrantyDateEntryReqd**: Indicates if the manual warranty date entry is required.
-- **ManExpirDateEntryReqd**: Indicates if the manual expiration date entry is required.
+- **ManWarrantyDateEntryReqd**: Indicates if manual warranty date entry is required.
+- **ManExpirDateEntryReqd**: Indicates if manual expiration date entry is required.
 - **StrictExpirationPosting**: Indicates if strict expiration posting is enforced.
 - **UseExpirationDates**: Indicates if expiration dates are used for tracking.
 - **SNSpecificTracking**: Indicates if serial number-specific tracking is enabled.
@@ -164,4 +153,16 @@ The `GetItemTracking` API method retrieves detailed tracking information about a
 - **PackageNegInbTracking**: Indicates if package tracking for negative adjustment inbound is enabled.
 - **PackageNegOutbTracking**: Indicates if package tracking for negative adjustment outbound is enabled.
 - **PackageTransferTracking**: Indicates if package tracking for transfers is enabled.
-- **PackageManufInbTracking**: Indicates if
+- **PackageManufInbTracking**: Indicates if package tracking for manufacturing inbound is enabled.
+- **PackageManufOutbTracking**: Indicates if package tracking for manufacturing outbound is enabled.
+- **PackageAssemblyInbTracking**: Indicates if package tracking for assembly inbound is enabled.
+- **PackageAssemblyOutTracking**: Indicates if package tracking for assembly outbound is enabled.
+
+#### Process Flow
+1. **Validate Tracking Code**: The system checks if the `TrackingCode` parameter is provided. If not, it throws an error.
+2. **Retrieve Tracking Information**: The system retrieves tracking details from the `Item Tracking Code` table based on the given `TrackingCode`.
+3. **Return Response**: The system formats the item tracking data into a JSON object and returns the response.
+
+#### Considerations
+- **Data Accuracy**: Ensure that the tracking code provided exists in the system.
+- **Error Handling**: If the `TrackingCode` is missing or invalid, the
