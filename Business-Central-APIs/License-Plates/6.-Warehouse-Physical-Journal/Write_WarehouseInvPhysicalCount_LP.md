@@ -24,7 +24,6 @@ El método `Write_WarehouseInvPhysicalCount_LP` permite escribir o actualizar da
       "VariantCode": "",
       "SerialNo": "",
       "LotNo": "",
-      "IsInitial": false,
       "LPDocumentNo": "LP-00033"
     },
     {
@@ -41,7 +40,6 @@ El método `Write_WarehouseInvPhysicalCount_LP` permite escribir o actualizar da
       "VariantCode": "B60W225",
       "SerialNo": "",
       "LotNo": "",
-      "IsInitial": false,
       "LPDocumentNo": "LP-00034"
     }
     // ... more lines ...
