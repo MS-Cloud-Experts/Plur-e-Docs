@@ -1,7 +1,9 @@
 ### API Documentation: Write_WarehouseInvPhysicalCount_LP
 
 #### **Overview**
-El método `Write_WarehouseInvPhysicalCount_LP` permite escribir datos relacionados con el conteo físico de inventario de License Plates (LPs) en un Warehouse Journal en Business Central. La API procesa los parámetros de entrada en formato JSON, inserta y valida las líneas en el Warehouse Journal, y actualiza el inventario de acuerdo con los datos proporcionados.
+El método `Write_WarehouseInvPhysicalCount_LP` permite escribir o actualizar datos relacionados con el conteo físico de inventario de License Plates (LPs) en un Warehouse Journal de Business Central. La API procesa los parámetros de entrada en formato JSON, inserta o actualiza las líneas en el Warehouse Journal, y ajusta el inventario en base a la cantidad física contada.
+
+**Nota importante:** Si se está contando un ítem que no tiene una línea existente en el Warehouse Journal, se debe pasar el valor de `LineNo` como `0` y la cantidad de `QtyPhysInventory` debe ser mayor que 0. Esto provocará la creación automática de una nueva línea en el Warehouse Journal.
 
 #### **Request Structure**
 ```json
@@ -11,24 +13,24 @@ El método `Write_WarehouseInvPhysicalCount_LP` permite escribir datos relaciona
     {
       "JournalTemplateName": "PHYSICAL I",
       "JournalBatchName": "DEFAULT",
-      "LineNo": 10000,
+      "LineNo": 0,  // Indicar 0 si no existe la línea y se desea crear una nueva
       "RegisteringDate": "2024-09-12",
       "LocationCode": "MAIN",
       "ItemNo": "D0AVESVTBLU00S",
-      "QtyPhysInventory": 2.0,
+      "QtyPhysInventory": 2.0,  // Debe ser mayor a 0
       "ZoneCode": "STORAGE",
       "BinCode": "1001",
       "UserID": "IVAN.LABRADOR",
       "VariantCode": "",
       "SerialNo": "",
       "LotNo": "",
-      "LPDocumentNo": "LP-00033",
-      "LPLine": "10000",
+      "IsInitial": false,
+      "LPDocumentNo": "LP-00033"
     },
     {
       "JournalTemplateName": "PHYSICAL I",
       "JournalBatchName": "DEFAULT",
-      "LineNo": 20000,
+      "LineNo": 20000,  // Línea existente para ser actualizada
       "RegisteringDate": "2024-09-12",
       "LocationCode": "MAIN",
       "ItemNo": "D0BDBD",
@@ -40,8 +42,7 @@ El método `Write_WarehouseInvPhysicalCount_LP` permite escribir datos relaciona
       "SerialNo": "",
       "LotNo": "",
       "IsInitial": false,
-      "LPDocumentNo": "LP-00034",
-      "LPLine": "10000",
+      "LPDocumentNo": "LP-00034"
     }
     // ... more lines ...
   ]
@@ -53,11 +54,11 @@ El método `Write_WarehouseInvPhysicalCount_LP` permite escribir datos relaciona
 - **Parameters**: Un array de objetos que contiene la información de las líneas del Warehouse Journal para ser escritas o actualizadas.
   - **JournalTemplateName**: El nombre de la plantilla del Warehouse Journal (e.g., `"PHYSICAL I"`).
   - **JournalBatchName**: El nombre del batch del Warehouse Journal (e.g., `"DEFAULT"`).
-  - **LineNo**: El número de línea dentro del Warehouse Journal (e.g., `10000`).
+  - **LineNo**: El número de línea dentro del Warehouse Journal. **Si la línea no existe, debe ser `0` para crear una nueva línea**.
   - **RegisteringDate**: La fecha en que se está registrando el conteo físico (e.g., `"2024-09-12"`).
   - **LocationCode**: El código de la ubicación del almacén donde se realiza el conteo (e.g., `"MAIN"`).
   - **ItemNo**: El número de ítem para el cual se está haciendo el conteo (e.g., `"D0AVESVTBLU00S"`).
-  - **QtyPhysInventory**: La cantidad física del inventario contada (e.g., `2.0`).
+  - **QtyPhysInventory**: La cantidad física del inventario contada (e.g., `2.0`). **Debe ser mayor que 0**.
   - **ZoneCode**: El código de la zona donde se encuentra el ítem (e.g., `"STORAGE"`).
   - **BinCode**: El código del bin donde está almacenado el ítem (e.g., `"1001"`).
   - **UserID**: El ID del usuario que está realizando la operación (e.g., `"IVAN.LABRADOR"`).
@@ -75,11 +76,11 @@ El método `Write_WarehouseInvPhysicalCount_LP` permite escribir datos relaciona
     {
       "JournalTemplateName": "PHYSICAL I",
       "JournalBatchName": "DEFAULT",
-      "LineNo": 10000,
+      "LineNo": 0,  // Línea nueva
       "RegisteringDate": "2024-09-12",
       "LocationCode": "MAIN",
       "ItemNo": "D0AVESVTBLU00S",
-      "QtyPhysInventory": 2.0,
+      "QtyPhysInventory": 2.0,  // Cantidad mayor a 0
       "ZoneCode": "STORAGE",
       "BinCode": "1001",
       "UserID": "IVAN.LABRADOR",
@@ -164,20 +165,4 @@ El método `Write_WarehouseInvPhysicalCount_LP` permite escribir datos relaciona
   - **LPHierarchy**: La jerarquía del License Plate relacionado, incluyendo ítems y LPs hijos.
 
 #### **Summary**
-El método `Write_WarehouseInvPhysicalCount_LP` permite escribir datos relacionados con el conteo físico de License Plates (LPs) en el Warehouse Journal, insertando o actualizando líneas según los parámetros proporcionados. La API asegura la correcta inserción de los datos y genera una respuesta detallada que incluye los License Plates y su jerarquía relacionada.
-
-### Lógica de Implementación
-1. **Validación de Parámetros**: 
-   - Se verifica que todos los campos requeridos, como el número de ítem y cantidad física, estén presentes y correctamente formateados.
-
-2. **Inserción/Actualización de Líneas**:
-   - Si se proporcionan líneas nuevas, se insertan en el Warehouse Journal.
-   - Si las líneas ya existen, se actualizan
-
- con las nuevas cantidades físicas.
-
-3. **Generación del JSON de Respuesta**:
-   - La API genera un objeto JSON con la información actualizada del Warehouse Journal y los License Plates asociados.
-
-4. **Retorno de Respuesta**:
-   - El JSON final es devuelto al cliente, incluyendo la jerarquía completa de los License Plates, permitiendo una trazabilidad total.
+El método `Write_WarehouseInvPhysicalCount_LP` permite escribir o actualizar datos relacionados con el conteo
