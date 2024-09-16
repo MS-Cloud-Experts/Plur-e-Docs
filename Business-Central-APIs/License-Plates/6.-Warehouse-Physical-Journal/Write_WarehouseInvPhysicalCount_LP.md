@@ -22,8 +22,8 @@ El método `Write_WarehouseInvPhysicalCount_LP` permite escribir datos relaciona
       "VariantCode": "",
       "SerialNo": "",
       "LotNo": "",
-      "IsInitial": false,
-      "LPDocumentNo": "LP-00033"
+      "LPDocumentNo": "LP-00033",
+      "LPLine": "10000",
     },
     {
       "JournalTemplateName": "PHYSICAL I",
@@ -40,7 +40,8 @@ El método `Write_WarehouseInvPhysicalCount_LP` permite escribir datos relaciona
       "SerialNo": "",
       "LotNo": "",
       "IsInitial": false,
-      "LPDocumentNo": "LP-00034"
+      "LPDocumentNo": "LP-00034",
+      "LPLine": "10000",
     }
     // ... more lines ...
   ]
