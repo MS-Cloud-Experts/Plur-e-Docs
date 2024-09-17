@@ -100,3 +100,5 @@ La API `Get_WarehouseInvPhysicalCount_LP` está diseñada para obtener el conteo
 ### **8. Resumen**
 
 La gestión de License Plates (LPs) en Business Central mejora significativamente la eficiencia operativa de los almacenes al permitir la agrupación, división y manipulación de ítems bajo un identificador único. A través de la API `Get_WarehouseInvPhysicalCount_LP` y las operaciones sobre LPs como el split y el join, se garantiza una trazabilidad completa, flexibilidad en los movimientos y un control riguroso del inventario. Esto optimiza la gestión de grandes volúmenes de productos, asegurando la integridad y el control total del inventario en todo momento.
+
+[[_TOSP_]]
