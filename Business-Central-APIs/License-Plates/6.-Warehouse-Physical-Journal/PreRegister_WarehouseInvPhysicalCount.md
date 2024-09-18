@@ -10,9 +10,9 @@ El método `PreRegister_WarehouseInvPhysicalCount` procesa las líneas del diari
   "Parameters": [
     {
       "JournalTemplateName": "PHYSICAL I",
-      "JournalBatchName": "IVAN",
-      "LocationCode": "NEWWMS",
-      "WsheJournalBatchDobleCheckName": "IVAN-REVIEW"
+      "JournalBatchName": "DEFAULT",
+      "LocationCode": "MAIN",
+      "WsheJournalBatchDobleCheckName": "IVAN-RVIEW"
     }
   ]
 }
@@ -33,9 +33,9 @@ El método `PreRegister_WarehouseInvPhysicalCount` procesa las líneas del diari
   "Parameters": [
     {
       "JournalTemplateName": "PHYSICAL I",
-      "JournalBatchName": "IVAN",
-      "LocationCode": "NEWWMS",
-      "WsheJournalBatchDobleCheckName": "IVAN-REVIEW"
+      "JournalBatchName": "DEFAULT",
+      "LocationCode": "MAIN",
+      "WsheJournalBatchDobleCheckName": "IVAN-RVIEW"
     }
   ]
 }
