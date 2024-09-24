@@ -346,8 +346,8 @@ The `GetSalesDocumentsBySystemCreatedBy` API method retrieves detailed sales doc
 - **Documents**: The main array containing groups of sales documents organized by type.
   - **Sales Order, Sales Invoice, Sales Credit Memo, Sales Return Order, Posted Sales Invoice, Posted Sales Credit Memo**: Each type of document is represented as an array of objects within the `Documents` array.
     - **Document Type**: The type of the sales document (e.g., `"Sales Order"`, `"Sales Invoice"`, etc.).
-    - **Amount**: The amount associated with the document (e.g., `1500.0`).
     - **Posting Date**: The date when the document was posted (e.g., `"2024-01-05"`).
+    - **Total**: The amount associated with the document (e.g., `1500.0`).
 
 #### Summary
 The `GetSalesDocumentsBySystemCreatedBy` method organizes sales documents by type, providing a clear and detailed JSON response for the specified Creator User and date range. This structure enables efficient analysis and integration into sales reporting systems, supporting enhanced decision-making processes within Business Central.
