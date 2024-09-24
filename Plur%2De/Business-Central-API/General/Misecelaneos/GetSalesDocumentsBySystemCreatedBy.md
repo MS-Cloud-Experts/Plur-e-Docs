@@ -1,7 +1,7 @@
 ### API Documentation: GetSalesDocumentsBySystemCreatedBy
 
 #### Overview
-The `GetSalesDocumentsBySystemCreatedBy` API method retrieves detailed sales document information based on the specified Creator User, Start Date, and End Date. 
+The `GetSalesDocumentsBySystemCreatedBy` API method retrieves detailed sales document information based on the specified user creator of the document, Start Date, and End Date. 
 
 #### Request Structure
 ```json
@@ -20,7 +20,7 @@ The `GetSalesDocumentsBySystemCreatedBy` API method retrieves detailed sales doc
 
 #### Parameters
 - **CreateBy**: The code identifying the user who created the document (e.g., `"PANGEA"`).
-- **SalesPersonCode**: The code identifying the Sales Person (e.g., `"SP001"`).
+- **SalesPersonCode**: This field is optional, it is the code identifying the Sales Person (e.g., `"SP001"`).
 - **StartDate**: The start date of the period for which to retrieve sales documents (e.g., `"2024-01-01"`).
 - **EndDate**: The end date of the period for which to retrieve sales documents (e.g., `"2024-01-31"`).
 
@@ -350,4 +350,4 @@ The `GetSalesDocumentsBySystemCreatedBy` API method retrieves detailed sales doc
     - **Total**: The amount associated with the document (e.g., `1500.0`).
 
 #### Summary
-The `GetSalesDocumentsBySystemCreatedBy` method organizes sales documents by type, providing a clear and detailed JSON response for the specified Creator User and date range. This structure enables efficient analysis and integration into sales reporting systems, supporting enhanced decision-making processes within Business Central.
+The `GetSalesDocumentsBySystemCreatedBy` method organizes sales documents by type, providing a clear and detailed JSON response for the specified user creator of the document and date range. This structure enables efficient analysis and integration into sales reporting systems, supporting enhanced decision-making processes within Business Central.
