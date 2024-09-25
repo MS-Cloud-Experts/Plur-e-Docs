@@ -30,7 +30,7 @@ The `GetSalesDocumentsBySystemCreatedBy` API method retrieves detailed sales doc
   "ProcessMethod": "GetSalesDocumentsBySystemCreatedBy",
   "Parameters": [
     {
-      "CreateBy": "PANGEA",
+      "CreateBy": "ROESONS\\PANGEA3",
       "SalesPersonCode": "",
       "StartDate": "2024-01-01",
       "EndDate": "2024-12-31"
