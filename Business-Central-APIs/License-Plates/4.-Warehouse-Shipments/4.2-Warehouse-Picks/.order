@@ -1,5 +1,4 @@
 4.2.1-GetWHSPickInShipments
 4.2.2-GetPagedWarehousePick
-GetWarehouseShipment
 GetBestOptimalLP
 GetAllOptimalLPSelections
