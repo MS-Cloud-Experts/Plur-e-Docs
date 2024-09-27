@@ -1,5 +1,5 @@
-GetPagedWarehousePick
 GetWHSPickInShipments
+GetPagedWarehousePick
 GetWarehouseShipment
 GetBestOptimalLP
 GetAllOptimalLPSelections
