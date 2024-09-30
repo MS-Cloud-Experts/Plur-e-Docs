@@ -1,9 +1,9 @@
-### API Documentation: WriteInventoryCount_Insert
+### Documentación de la API: WriteInventoryCount_Insert
 
-#### **Overview**
-The `WriteInventoryCount_Insert` API allows the insertion of inventory count entries into the item journal. It processes multiple item journal lines, including serial numbers if applicable, and records these counts into the physical inventory journal. Additionally, it calculates any discrepancies between physical counts and system-calculated quantities, ensuring the appropriate updates are made to Business Central's inventory.
+#### **Descripción General**
+El método `WriteInventoryCount_Insert` permite insertar entradas de conteo físico de inventario en el diario de artículos. Procesa múltiples líneas del diario de artículos, incluyendo números de serie si aplican, y registra estos conteos en el diario de inventario físico. Además, asegura que se refleje cualquier discrepancia entre el conteo físico y las cantidades calculadas por el sistema, actualizando correctamente el inventario en Business Central.
 
-#### **Request Structure**
+#### **Estructura de la Solicitud**
 ```json
 {
   "ProcessMethod": "WriteInventoryCount_Insert",
@@ -25,14 +25,14 @@ The `WriteInventoryCount_Insert` API allows the insertion of inventory count ent
         {
           "LineNo": 10000,
           "ItemNo": "SERIAL2",
-          "VariantCode": "",
+          "VariantCode": "T0MLXXX",
           "LotNo": "",
           "SerialNo": "X14q"
         },
         {
           "LineNo": 10000,
           "ItemNo": "SERIAL2",
-          "VariantCode": "",
+          "VariantCode": "T0MLXXX",
           "LotNo": "",
           "SerialNo": "X15q"
         }
@@ -55,14 +55,14 @@ The `WriteInventoryCount_Insert` API allows the insertion of inventory count ent
         {
           "LineNo": 20000,
           "ItemNo": "SERIAL2",
-          "VariantCode": "",
+          "VariantCode": "T0SMXXX",
           "LotNo": "",
           "SerialNo": "X14"
         },
         {
           "LineNo": 20000,
           "ItemNo": "SERIAL2",
-          "VariantCode": "",
+          "VariantCode": "T0SMXXX",
           "LotNo": "",
           "SerialNo": "X15"
         }
@@ -72,24 +72,59 @@ The `WriteInventoryCount_Insert` API allows the insertion of inventory count ent
 }
 ```
 
-#### **Parameters**
-- **ProcessMethod**: Indicates the method to invoke, in this case `"WriteInventoryCount_Insert"`.
-- **Parameters**: An array of objects describing the inventory journal lines.
-  - **JournalTemplateName**: The name of the journal template being used (e.g., `"PHYS. INV."`).
-  - **JournalBatchName**: The name of the journal batch (e.g., `"DEFAULT"`).
-  - **PostingDate**: The posting date of the journal entry (e.g., `"2024-06-13"`).
-  - **DocumentNo**: The document number for this entry (e.g., `"SSDS"`).
-  - **ItemNo**: The item number being processed (e.g., `"SERIAL2"`).
-  - **VariantCode**: The variant code of the item, if applicable (e.g., `"T0MLXXX"`).
-  - **Description**: A description of the item.
-  - **LocationCode**: The location code where the item is stored (e.g., `"ASIA TEMP"`).
-  - **SalespersPurchCode**: The salesperson or purchaser code, if applicable.
-  - **QtyPhysInventory**: The physical inventory quantity counted (e.g., `1322`).
-  - **UserID**: The user ID that processed this entry.
-  - **TimeStampMovil**: A timestamp for mobile processing (e.g., `"2024-06-13T00:00:00"`).
-  - **SerialJA**: An array of serial numbers if the item is serialized.
+#### **Parámetros**
+- **ProcessMethod**: Indica el método a invocar, en este caso `"WriteInventoryCount_Insert"`.
+- **Parameters**: Un array de objetos que describen las líneas del diario de inventario.
+  - **JournalTemplateName**: El nombre de la plantilla de diario utilizada (e.g., `"PHYS. INV."`).
+  - **JournalBatchName**: El nombre del lote de diario (e.g., `"DEFAULT"`).
+  - **PostingDate**: La fecha de registro de la entrada en el diario (e.g., `"2024-06-13"`).
+  - **DocumentNo**: El número de documento para esta entrada (e.g., `"SSDS"`).
+  - **ItemNo**: El número de artículo que se está procesando (e.g., `"SERIAL2"`).
+  - **VariantCode**: El código de variante del artículo, si aplica (e.g., `"T0MLXXX"`).
+  - **Description**: Una descripción del artículo.
+  - **LocationCode**: El código de la ubicación donde está almacenado el artículo (e.g., `"ASIA TEMP"`).
+  - **SalespersPurchCode**: El código del vendedor o comprador, si aplica.
+  - **QtyPhysInventory**: La cantidad física de inventario contada (e.g., `1322`).
+  - **UserID**: El ID del usuario que procesó esta entrada.
+  - **TimeStampMovil**: Un timestamp para el procesamiento móvil (e.g., `"2024-06-13T00:00:00"`).
+  - **SerialJA**: Un array de números de serie si el artículo tiene seguimiento por número de serie.
 
-#### **Example Response**
+#### **Consideraciones Importantes**
+1. **La variante del `SerialJA` debe coincidir con la variante del artículo**:
+   - Para evitar errores o la creación incorrecta de la línea del diario, el código de variante especificado en cada número de serie dentro del array `SerialJA` **debe coincidir** con el código de variante del artículo en la línea principal. Si la variante del número de serie no coincide con la variante del artículo, el sistema puede generar un error o crear la línea incorrectamente.
+   
+   Por ejemplo:
+   ```json
+   {
+     "ItemNo": "SERIAL2",
+     "VariantCode": "T0MLXXX",
+     "SerialJA": [
+       {
+         "LineNo": 10000,
+         "VariantCode": "T0MLXXX",  // Debe coincidir con la línea principal
+         "SerialNo": "X14q"
+       }
+     ]
+   }
+   ```
+
+2. **La cantidad de `QtyPhysInventory` debe coincidir con la cantidad de elementos en el array `SerialJA`**:
+   - Si el artículo tiene números de serie, el valor de `QtyPhysInventory` debe ser igual al número total de elementos en el array `SerialJA`. Si no coinciden, se generará una inconsistencia entre la cantidad física y el número de series asociadas al artículo.
+   
+   Por ejemplo, si `QtyPhysInventory` es 2, debe haber exactamente 2 elementos en `SerialJA`:
+   ```json
+   "QtyPhysInventory": 2,
+   "SerialJA": [
+     {
+       "SerialNo": "X14q"
+     },
+     {
+       "SerialNo": "X15q"
+     }
+   ]
+   ```
+
+#### **Ejemplo de Respuesta**
 ```json
 {
   "WriteInventoryCount_Insert": [
@@ -129,49 +164,20 @@ The `WriteInventoryCount_Insert` API allows the insertion of inventory count ent
 }
 ```
 
-#### **Explanation**
-- **WriteInventoryCount_Insert**: A list of journal lines that have been processed.
-  - **JournalTemplateName**: The journal template used.
-  - **JournalBatchName**: The batch name of the journal.
-  - **PostingDate**: The posting date of the journal entry.
-  - **EntryType**: The type of entry, such as "Positive Adjmt." (Positive Adjustment).
-  - **DocumentNo**: The document number for the journal entry.
-  - **ItemNo**: The item number for the entry.
-  - **VariantCode**: The variant code of the item, if applicable.
-  - **Description**: The description of the item.
-  - **LocationCode**: The location where the item is stored.
-  - **QtyCalculated**: The quantity calculated by the system.
-  - **QtyPhysInventory**: The physical inventory quantity that was counted.
-  - **Quantity**: The final quantity for the item in the journal.
-  - **UserID**: The ID of the user that processed the entry.
-  - **LineNo**: The line number of the journal entry.
-  - **BinCode**: The bin code associated with the entry.
-  - **UnitofMeasureCode**: The unit of measure code for the item.
-  - **SerialNo**: The serial number, if applicable.
-  - **LotNo**: The lot number, if applicable.
-  - **ExpirationDate**: The expiration date of the item, if applicable.
-  - **UncountedSerialsJA**: Serial numbers not counted during the physical inventory.
-  - **CountedSerialsJA**: Serial numbers that were counted.
-
-#### **Summary**
-The `WriteInventoryCount_Insert` API processes physical inventory counts into the item journal, handling both regular items and serialized items. The API records these counts into Business Central, ensuring accurate inventory tracking and adjustments.
-
-### **Implementation Logic**
-1. **Initial Validations**: 
-   - Validate the existence of items and that quantities are valid.
-   - Ensure that serial numbers are tracked correctly.
-
-2. **Inserting Journal Lines**:
-   - For each item, insert a new line into the item journal.
-   - If serialized, track each serial number provided in the request.
-
-3. **Handling Serial Numbers**:
-   - If the item has serial numbers, validate and insert each serial number into the journal entry.
-
-4. **Inventory Discrepancy Handling**:
-   - Calculate any discrepancies between the system's calculated quantity and the physical count, adjusting the item journal accordingly.
-
-### **Additional Considerations**
-- **Serial Number Tracking**: The `SerialJA` array must be populated with accurate serial numbers for serialized items, ensuring that each serial number is tracked correctly.
-- **Inventory Discrepancies**: Any differences between the calculated and physical inventory quantities are recorded and adjusted automatically in the item journal.
-
+#### **Explicación**
+- **WriteInventoryCount_Insert**: Una lista de líneas del diario de artículos que han sido procesadas.
+  - **JournalTemplateName**: El nombre de la plantilla de diario utilizada.
+  - **JournalBatchName**: El nombre del lote de diario.
+  - **PostingDate**: La fecha de registro de la entrada en el diario.
+  - **EntryType**: El tipo de entrada, como "Positive Adjmt." (Ajuste Positivo).
+  - **DocumentNo**: El número de documento para la entrada en el diario.
+  - **ItemNo**: El número de artículo para la entrada.
+  - **VariantCode**: El código de variante del artículo, si aplica.
+  - **Description**: La descripción del artículo.
+  - **LocationCode**: El código de la ubicación donde está almacenado el artículo.
+  - **QtyCalculated**: La cantidad calculada por el sistema.
+  - **QtyPhysInventory**: La cantidad física de inventario que fue contada.
+  - **Quantity**: La cantidad final del artículo en el diario.
+  - **UserID**: El ID del usuario que procesó la entrada.
+  - **LineNo**: El número de línea de la entrada en el diario.
+  -
