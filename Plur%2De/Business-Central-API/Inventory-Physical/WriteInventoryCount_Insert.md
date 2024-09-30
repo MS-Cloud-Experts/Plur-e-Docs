@@ -7,7 +7,6 @@
       "JournalTemplateName": "PHYS. INVE",
       "JournalBatchName": "DEFAULT",
       "PostingDate": "2024-06-13",
-      "EntryType": "Negative Adjmt.",
       "DocumentNo": "SSDS",
       "ItemNo": "SERIAL2",
       "VariantCode": "",
