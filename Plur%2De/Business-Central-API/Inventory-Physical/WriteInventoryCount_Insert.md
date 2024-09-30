@@ -4,7 +4,7 @@
   "ProcessMethod": "WriteInventoryCount_Insert",
   "Parameters": [
     {
-      "JournalTemplateName": "PHYS. INVE",
+      "JournalTemplateName": "PHYS. INV.",
       "JournalBatchName": "DEFAULT",
       "PostingDate": "2024-06-13",
       "DocumentNo": "SSDS",
