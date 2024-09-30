@@ -13,7 +13,37 @@
       "Description": "",
       "LocationCode": "ASIA TEMP",
       "SalespersPurchCode": "",
-      "QtyPhysInventory": 2,
+      "QtyPhysInventory": 1322,
+      "UserID": "",
+      "TimeStampMovil": "2024-06-13T00:00:00",
+      "SerialJA": [
+        {
+          "LineNo": 20000,
+          "ItemNo": "SERIAL2",
+          "VariantCode": "",
+          "LotNo": "",
+          "SerialNo": "X14q"
+        },
+        {
+          "LineNo": 20000,
+          "ItemNo": "SERIAL2",
+          "VariantCode": "",
+          "LotNo": "",
+          "SerialNo": "X15q"
+        }
+      ]
+    },
+    {
+      "JournalTemplateName": "PHYS. INV.",
+      "JournalBatchName": "DEFAULT",
+      "PostingDate": "2024-06-13",
+      "DocumentNo": "SSDS",
+      "ItemNo": "SERIAL2",
+      "VariantCode": "T0SMXXX",
+      "Description": "",
+      "LocationCode": "ASIA TEMP",
+      "SalespersPurchCode": "",
+      "QtyPhysInventory": 30,
       "UserID": "",
       "TimeStampMovil": "2024-06-13T00:00:00",
       "SerialJA": [
