@@ -14,7 +14,6 @@
       "LocationCode": "ASIA",
       "SalespersPurchCode": "",
       "QtyPhysInventory": 2,
-      "Quantity": 1,
       "UserID": "",
       "TimeStampMovil": "2024-06-13T00:00:00",
       "SerialJA": [
