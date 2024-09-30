@@ -1,3 +1,4 @@
+WriteInventoryCount_Insert
 WriteInventoryCountV2
 GetQtyPhysInventoryByItemNo
 Get_JournalTemplate
