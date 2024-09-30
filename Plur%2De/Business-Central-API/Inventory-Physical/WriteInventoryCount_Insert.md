@@ -23,14 +23,14 @@ The `WriteInventoryCount_Insert` API allows the insertion of inventory count ent
       "TimeStampMovil": "2024-06-13T00:00:00",
       "SerialJA": [
         {
-          "LineNo": 20000,
+          "LineNo": 10000,
           "ItemNo": "SERIAL2",
           "VariantCode": "",
           "LotNo": "",
           "SerialNo": "X14q"
         },
         {
-          "LineNo": 20000,
+          "LineNo": 10000,
           "ItemNo": "SERIAL2",
           "VariantCode": "",
           "LotNo": "",
