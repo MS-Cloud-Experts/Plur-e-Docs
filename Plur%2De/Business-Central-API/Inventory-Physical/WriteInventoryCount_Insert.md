@@ -9,62 +9,62 @@ El método `WriteInventoryCount_Insert` permite insertar entradas de conteo fís
   "ProcessMethod": "WriteInventoryCount_Insert",
   "Parameters": [
     {
-      "JournalTemplateName": "PHYS. INV.",
-      "JournalBatchName": "DEFAULT",
+      "JournalTemplateName": "PHYS. INVE",
+      "JournalBatchName": "IVAN",
       "PostingDate": "2024-06-13",
       "DocumentNo": "SSDS",
-      "ItemNo": "SERIAL2",
-      "VariantCode": "T0MLXXX",
+      "ItemNo": "70001",
+      "VariantCode": "",
       "Description": "",
       "LocationCode": "ASIA TEMP",
       "SalespersPurchCode": "",
-      "QtyPhysInventory": 1322,
+      "QtyPhysInventory": 2,
       "UserID": "",
       "TimeStampMovil": "2024-06-13T00:00:00",
       "SerialJA": [
         {
-          "LineNo": 10000,
           "ItemNo": "SERIAL2",
-          "VariantCode": "T0MLXXX",
-          "LotNo": "",
-          "SerialNo": "X14q"
+          "VariantCode": "",
+          "LotNo": "ELLOTE",
+          "SerialNo": "X14q",
+          "ExpirationDate" : "2024-10-01"
         },
         {
-          "LineNo": 10000,
           "ItemNo": "SERIAL2",
-          "VariantCode": "T0MLXXX",
-          "LotNo": "",
-          "SerialNo": "X15q"
+          "VariantCode": "",
+          "LotNo": "ELLOTE",
+          "SerialNo": "X15q",
+          "ExpirationDate" : "2024-10-01"
         }
       ]
     },
     {
-      "JournalTemplateName": "PHYS. INV.",
-      "JournalBatchName": "DEFAULT",
+      "JournalTemplateName": "PHYS. INVE",
+      "JournalBatchName": "IVAN",
       "PostingDate": "2024-06-13",
       "DocumentNo": "SSDS",
-      "ItemNo": "SERIAL2",
-      "VariantCode": "T0SMXXX",
+      "ItemNo": "70001",
+      "VariantCode": "",
       "Description": "",
       "LocationCode": "ASIA TEMP",
       "SalespersPurchCode": "",
-      "QtyPhysInventory": 30,
+      "QtyPhysInventory": 2,
       "UserID": "",
       "TimeStampMovil": "2024-06-13T00:00:00",
       "SerialJA": [
         {
-          "LineNo": 20000,
           "ItemNo": "SERIAL2",
-          "VariantCode": "T0SMXXX",
-          "LotNo": "",
-          "SerialNo": "X14"
+          "VariantCode": "",
+          "LotNo": "ELLOTE",
+          "SerialNo": "X14",
+          "ExpirationDate" : "2024-10-01"
         },
         {
-          "LineNo": 20000,
           "ItemNo": "SERIAL2",
-          "VariantCode": "T0SMXXX",
-          "LotNo": "",
-          "SerialNo": "X15"
+          "VariantCode": "",
+          "LotNo": "ELLOTE",
+          "SerialNo": "X15",
+          "ExpirationDate" : "2024-10-01"
         }
       ]
     }
