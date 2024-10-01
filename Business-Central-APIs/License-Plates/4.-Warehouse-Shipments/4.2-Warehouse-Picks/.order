@@ -1,7 +1,6 @@
 Optimal-LPs
 4.2.1-GetWHSPickInShipments
 4.2.2-GetPagedWarehousePick
-4.2.3-GetBestOptimalLP
 4.2.4-GetAllOptimalLPSelections
 4.2.5-AssignLPsToWarehousePick
 4.2.6-RemoveLPFromWarehousePick
