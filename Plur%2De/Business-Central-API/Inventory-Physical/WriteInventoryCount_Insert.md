@@ -3,6 +3,8 @@
 #### **Descripción General**
 El método `WriteInventoryCount_Insert` permite insertar entradas de conteo físico de inventario en el diario de artículos. Procesa múltiples líneas del diario de artículos, incluyendo números de serie si aplican, y registra estos conteos en el diario de inventario físico. Además, asegura que se refleje cualquier discrepancia entre el conteo físico y las cantidades calculadas por el sistema, actualizando correctamente el inventario en Business Central.
 
+Este metodo se utiliza cuando no existen lineas en el Batch y cada vez que se ejecute borra las lineas y las vuelve a crear.
+
 #### **Estructura de la Solicitud**
 ```json
 {
