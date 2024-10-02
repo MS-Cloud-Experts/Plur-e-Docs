@@ -4,4 +4,4 @@ GetQtyPhysInventoryByItemNo
 Get_JournalTemplate
 GetInventoyByItemNo
 Get_InvPhysicalCount
-WriteInventoryCount
+WriteInventoryCount-(Consolidar-no-usar-aun)
