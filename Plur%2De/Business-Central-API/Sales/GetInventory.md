@@ -32,11 +32,11 @@ The `GetInventory` API method retrieves detailed information about inventory ite
   "ProcessMethod": "GetInventory",
   "Parameters": [
     {
-      "ItemNo": "ITEM001",
-      "VariantCode": "VAR001",
-      "SerialNo": "SN001",
+      "ItemNo": "SERIAL",
+      "VariantCode": "",
+      "SerialNo": "",
       "UnitofMeasureCode": "PCS",
-      "LocationCode": "LOC01"
+      "LocationCode": "FTLDL-RET"
     }
   ]
 }
