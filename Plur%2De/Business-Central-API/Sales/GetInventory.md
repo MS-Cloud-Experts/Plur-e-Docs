@@ -47,33 +47,45 @@ The `GetInventory` API method retrieves detailed information about inventory ite
 {
   "Inventory": [
     {
-      "ItemNo": "ITEM001",
-      "VariantCode": "VAR001",
-      "LocationCode": "LOC01",
+      "ItemNo": "SERIAL",
+      "VariantCode": "",
+      "LocationCode": "FTLDL-RET",
       "ItemQty": [
         {
-          "UnitofMeasureCode": "PCS",
-          "Quantity": 100
-        },
-        {
-          "UnitofMeasureCode": "BOX",
-          "Quantity": 10
+          "ItemNo": "SERIAL",
+          "VariantCode": "",
+          "UnitofMeasureCode": "EA",
+          "Quantity": 3.0,
+          "SerialArray": [
+            {
+              "ItemNo": "SERIAL",
+              "VariantCode": "",
+              "LocationCode": "FTLDL-RET",
+              "SerialNo": "X1",
+              "Quantity": 1.0
+            },
+            {
+              "ItemNo": "SERIAL",
+              "VariantCode": "",
+              "LocationCode": "FTLDL-RET",
+              "SerialNo": "X2",
+              "Quantity": 1.0
+            },
+            {
+              "ItemNo": "SERIAL",
+              "VariantCode": "",
+              "LocationCode": "FTLDL-RET",
+              "SerialNo": "X3",
+              "Quantity": 1.0
+            }
+          ],
+          "LotArray": []
         }
       ],
-      "QtyXVariants": [
-        {
-          "VariantCode": "VAR001",
-          "UnitofMeasureCode": "PCS",
-          "Quantity": 100
-        },
-        {
-          "VariantCode": "VAR002",
-          "UnitofMeasureCode": "PCS",
-          "Quantity": 50
-        }
-      ]
+      "QtyXVariants": []
     }
-  ]
+  ],
+  "Duration": "4 seconds 639 milliseconds"
 }
 ```
 
