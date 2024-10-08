@@ -2,7 +2,7 @@
 
 ## **1. Introducción**
 
-El proceso de creación y gestión de License Plates (LPs) en Business Central es fundamental para optimizar la operación y gestión de inventarios en almacenes de gran envergadura. Un LP, o **License Plate**, permite agrupar ítems o incluso otros LPs bajo un mismo identificador único, facilitando la administración de los flujos logísticos como la recepción, almacenamiento, movimientos y envíos. Este enfoque no solo mejora la eficiencia, sino que también asegura la trazabilidad y el control sobre el inventario.
+El proceso de creación y gestión de License Plates (LPs) en Business Central es crucial para optimizar la operación y gestión de inventarios en almacenes de gran envergadura. Un LP, o **License Plate**, permite agrupar ítems o incluso otros LPs bajo un mismo identificador único, facilitando la administración de los flujos logísticos como la recepción, almacenamiento, movimientos y envíos. Este enfoque no solo mejora la eficiencia, sino que también asegura la trazabilidad y el control sobre el inventario.
 
 ## **2. Principios Fundamentales y Estructura del Sistema**
 
@@ -13,25 +13,31 @@ Un **License Plate (LP)** es un identificador único que agrupa ítems o incluso
 Los LPs pueden organizarse en una **estructura jerárquica multinivel**, lo que significa que un LP padre puede contener uno o varios LPs hijos. Esta estructura es útil en escenarios donde se manipulan grandes contenedores, palets o cajas que incluyen diversos ítems o subgrupos de productos. Esta jerarquía permite visualizar y gestionar tanto el LP principal como todos sus elementos subordinados de manera eficiente.
 
 ### **2.3 Tabla LP Movements**
-La tabla **LP Movements** es una pieza clave en la gestión de LPs. Registra todos los movimientos realizados sobre los LPs, incluyendo las entradas y salidas de inventario, transferencias entre ubicaciones (bins), y cambios de estado. Esta tabla asegura la **trazabilidad completa** de cada LP, permitiendo auditorías y revisiones detalladas de los movimientos en el almacén.
+La tabla **LP Movements** es fundamental en la gestión de LPs. Registra todos los movimientos realizados sobre los LPs, incluyendo las entradas y salidas de inventario, transferencias entre ubicaciones (bins), y cambios de estado. Esta tabla asegura la **trazabilidad completa** de cada LP, permitiendo auditorías y revisiones detalladas de los movimientos en el almacén.
 
 ## **3. Estados de License Plates (LP)**
 
-Los LPs pasan por una serie de estados que reflejan las diferentes fases de su ciclo de vida dentro del almacén. Estos estados permiten gestionar adecuadamente los procesos operativos y garantizan un control sobre el inventario.
+Los LPs pasan por una serie de estados que reflejan las diferentes fases de su ciclo de vida dentro del almacén. Estos estados permiten gestionar adecuadamente los procesos operativos y garantizan un control sobre el inventario. Los principales estados de un LP son:
 
-1. **Pre-Labeled**: Estado inicial en el que el LP ha sido creado pero aún no asignado a ningún proceso.
+1. **Pre-Labeled**: El LP ha sido creado, pero no ha sido asignado a un proceso logístico.
 2. **Received**: El LP ha sido registrado durante la recepción de mercancía.
 3. **Labeled**: El LP ha sido etiquetado y está listo para ser almacenado.
 4. **Stored**: El LP ha sido ubicado en su espacio de almacenamiento en el almacén.
 5. **Picked**: El LP ha sido seleccionado para un pedido o envío.
 6. **Packed**: El LP ha sido empaquetado y está listo para su envío.
 7. **Voided**: El LP ha sido anulado, lo que significa que no puede volver a ser utilizado.
-8. **Blocked/Reserved**: El LP está bloqueado o reservado, por lo que no se puede manipular hasta que se libere.
+8. **Blocked/Reserved**: El LP está bloqueado o reservado, y no puede manipularse hasta que sea liberado.
+9. **Processing**: El LP está en proceso de ser manipulado o preparado para un uso específico.
+10. **Released**: El LP ha sido liberado de cualquier restricción y está listo para ser manipulado.
+11. **Inspecting**: El LP está en proceso de inspección.
+12. **Hold**: El LP está en estado de retención, posiblemente por una anomalía.
+13. **Damaged**: El LP contiene ítems dañados y necesita tratamiento especial.
+14. **Pending**: El LP está pendiente de una acción adicional, como un movimiento o ajuste.
 
 ## **4. Reglas de Integridad y Movimientos**
 
 ### **4.1 Integridad del Inventario**
-Las cantidades totales de los ítems agrupados en los LPs deben coincidir con las cantidades físicas reales en el almacén. El sistema valida esta integridad continuamente, y cualquier discrepancia debe corregirse para garantizar un control riguroso del inventario.
+Las cantidades totales de los ítems agrupados en los LPs deben coincidir con las cantidades físicas reales en el almacén. El sistema valida esta integridad continuamente, y cualquier discrepancia debe corregirse de inmediato para garantizar un control riguroso del inventario.
 
 ### **4.2 Restricciones de Capacidad**
 Cada LP debe cumplir con las restricciones de capacidad de los bins en los que se almacenan. Esto incluye consideraciones de peso, volumen y tipo de ítems. Estas restricciones garantizan que el almacén mantenga una estructura organizada y que los bins no se sobrecarguen.
@@ -40,7 +46,7 @@ Cada LP debe cumplir con las restricciones de capacidad de los bins en los que s
 Los LPs pueden moverse entre diferentes ubicaciones (bins) dentro del almacén para optimizar el espacio disponible o preparar los productos para su siguiente etapa en el proceso logístico. Cada movimiento se registra en la tabla **LP Movements**, asegurando que todas las operaciones estén correctamente documentadas.
 
 ### **4.4 Compatibilidad de Estados**
-Solo los LPs en ciertos estados, como "Stored" o "Received", pueden ser unidos o movidos. Los LPs en estado "Blocked" o "Reserved" no pueden ser manipulados hasta que su estado se libere, asegurando que no se interfiera con operaciones críticas.
+Solo los LPs en ciertos estados, como "Stored" o "Received", pueden ser unidos o movidos. Los LPs en estado "Blocked", "Hold" o "Damaged" no pueden ser manipulados hasta que se resuelva su situación, asegurando que no se interfiera con operaciones críticas.
 
 ## **5. Operaciones sobre License Plates (LP)**
 
@@ -80,4 +86,4 @@ El sistema incorpora reglas de validación estrictas para asegurar que todas las
 
 ## **8. Resumen**
 
-El uso de **License Plates (LPs)** en Business Central optimiza la gestión de inventarios al agrupar ítems y facilitar su manejo como unidades lógicas. A través de operaciones como split, join y movimientos entre bins, el sistema garantiza una administración eficiente del inventario y asegura la trazabilidad completa de todos los productos. Además, en el contexto de las ventas, el uso de **Assemblies** para crear Kits permite una gestión flexible de los productos y automatiza el proceso de sustitución, asegurando una operación fluida y sin interrupciones.
+El uso de **License Plates (LPs)** en Business Central optimiza la gestión de inventarios al agrupar ítems y facilitar su manejo como unidades lógicas. A través de operaciones como **split**, **join** y **movimientos entre bins**, el sistema garantiza una administración eficiente del inventario y asegura la trazabilidad completa de todos los productos. Además, en el contexto de las ventas, el uso de **Assemblies** para crear **Kits** permite una gestión flexible de los productos y automatiza el proceso de sustitución, asegurando una operación fluida y sin interrupciones.
