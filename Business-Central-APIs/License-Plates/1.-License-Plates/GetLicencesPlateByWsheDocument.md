@@ -1,7 +1,7 @@
 ### API Documentation: GetLicencesPlateByWsheDocument
 
 #### Overview
-The `GetLicencesPlateByWsheDocument` API method retrieves all License Plates (LPs) associated with a specific warehouse document. This method provides detailed information about each LP found, including any child LPs that are related to the specified warehouse document.
+The `GetLicencesPlateByWsheDocument` API method retrieves all License Plates (LPs) associated with a specific warehouse document. This method also allows filtering the results based on the status of the License Plates using the `LicensePlateStatus` parameter, providing detailed information about each LP found, including any child LPs related to the specified warehouse document.
 
 #### Request Structure
 ```json
@@ -9,7 +9,8 @@ The `GetLicencesPlateByWsheDocument` API method retrieves all License Plates (LP
   "ProcessMethod": "GetLicencesPlateByWsheDocument",
   "Parameters": [
     {
-      "WsheDocumentNo": "WHSE DOC-0001"
+      "WsheDocumentNo": "WHSE DOC-0001",
+      "LicensePlateStatus": 1
     }
   ]
 }
@@ -17,6 +18,13 @@ The `GetLicencesPlateByWsheDocument` API method retrieves all License Plates (LP
 
 #### Parameters
 - **WsheDocumentNo**: The warehouse document number for which the associated License Plates should be retrieved (e.g., `"WHSE DOC-0001"`).
+- **LicensePlateStatus**: The status of the License Plates to be filtered. It is an optional parameter with possible values as follows:
+  - `1`: Received
+  - `2`: Labeled
+  - `3`: Stored
+  - `4`: Picking
+  - `5`: Picked
+  - `6`: Shipped
 
 #### Example Request
 ```json
@@ -24,7 +32,8 @@ The `GetLicencesPlateByWsheDocument` API method retrieves all License Plates (LP
   "ProcessMethod": "GetLicencesPlateByWsheDocument",
   "Parameters": [
     {
-       "WsheDocumentNo": "WHSE DOC-0001"
+      "WsheDocumentNo": "WHSE DOC-0001",
+      "LicensePlateStatus": 1
     }
   ]
 }
@@ -137,5 +146,4 @@ The `GetLicencesPlateByWsheDocument` API method retrieves all License Plates (LP
   - **ChildLPs**: Recursively lists child LPs associated with this LP, following the same structure.
 
 #### Summary
-The `GetLicencesPlateByWsheDocument` method is designed to retrieve all License Plates associated with a specific warehouse document. This API is essential for tracking and managing License Plates within a warehouse environment, providing detailed information on each LP, including any hierarchical relationships between parent and child LPs.
-
+The `GetLicencesPlateByWsheDocument` method retrieves all License Plates associated with a specific warehouse document and allows filtering by License Plate status. This API is essential for tracking and managing License Plates within a warehouse environment, providing detailed information on each LP, including any hierarchical relationships between parent and child LPs.
