@@ -1,3 +1,59 @@
+### API Documentation: CreatePackageShipment
+
+#### Overview
+The `CreatePackageShipment` API method initiates a shipment for a specified warehouse pick document. This method includes the option to define packaging details, shipping options, and associated line items to be included in the shipment. The generated output provides comprehensive information about the package, including tracking details, customer information, and international shipping options, ensuring clear documentation for inventory and logistics management.
+
+#### Request Structure
+```json
+{
+  "ProcessMethod": "CreatePackageShipment",
+  "Parameters": [
+    {
+      "No": "WHSE PICK-02944",
+      "Weight": 0,
+      "Width": 0,
+      "Height": 0,
+      "Depth": 0,
+      "Release": true,
+      "OrderId": 0,
+      "OrderKey": "",
+      "ShipmentStatus": 1,
+      "DimensionsUnit": 0,
+      "WeightUnit": 0,
+      "ShippingAgentCode": "PICK AT WAREHOUSE",
+      "ShippingAgentServiceCode": "Pick up",
+      "ShippingCost": 0,
+      "PackingDate": "2024-08-01T12:14:03.460Z",
+      "PackageTrackingNo": "",
+      "PackageLinesArray": [
+        {
+          "WarehouseDocumentNo": "WHSE PICK-02944",
+          "WarehouseLineNo": 10000,
+          "SourceNo": "SOB2B-101995",
+          "ItemNo": "K3FKWPX2V",
+          "VariantCode": "093180",
+          "QtyToHandle": 1,
+          "SourceLineNo": 10000,
+          "SerialNo": "K3FKWPX2V093180027",
+          "LotNo": ""
+        },
+        {
+          "WarehouseDocumentNo": "WHSE PICK-02944",
+          "WarehouseLineNo": 30000,
+          "SourceNo": "SOB2B-101995",
+          "ItemNo": "K4FWVSWNG200XXX",
+          "VariantCode": "",
+          "QtyToHandle": 1,
+          "SourceLineNo": 20000,
+          "SerialNo": "K4FWVSWNG200011",
+          "LotNo": ""
+        }
+      ],
+      "WarehouseEmployee": "MARCELLUS.SMITH"
+    }
+  ]
+}
+```
 
 **ShipmentStatus:** 
   - value(0; Awaiting_payment)
@@ -14,93 +70,193 @@
    - value(1; Ounces)
    - value(2; Grams)
 
-**Request:**
-```
+
+#### Parameters
+- **No**: The document number for the warehouse pick associated with the shipment (e.g., `"WHSE PICK-02944"`).
+- **Weight**: Total weight of the package.
+- **Width**, **Height**, **Depth**: Dimensions of the package.
+- **Release**: Boolean indicating if the package is released for shipment.
+- **OrderId** and **OrderKey**: Optional fields for tracking associated orders.
+- **ShipmentStatus**: Status indicator for the shipment.
+- **DimensionsUnit** and **WeightUnit**: Units used for dimensions and weight (e.g., inches and pounds).
+- **ShippingAgentCode**: Code for the selected shipping agent (e.g., `"PICK AT WAREHOUSE"`).
+- **ShippingAgentServiceCode**: Code for the specific service provided by the shipping agent.
+- **ShippingCost**: Cost of shipping.
+- **PackingDate**: Date and time the package was packed.
+- **PackageTrackingNo**: Tracking number for the package.
+- **PackageLinesArray**: Array of line items included in the shipment. Each line contains:
+  - **WarehouseDocumentNo**: Document number associated with the line item.
+  - **WarehouseLineNo**: Line number within the warehouse document.
+  - **SourceNo**: Source document number (e.g., sales order).
+  - **ItemNo**: Item number in the shipment.
+  - **VariantCode**: Optional code for variant of the item.
+  - **QtyToHandle**: Quantity to be handled for this line.
+  - **SerialNo** and **LotNo**: Serial and lot numbers for the item, if applicable.
+
+#### Example Request
+```json
 {
   "ProcessMethod": "CreatePackageShipment",
   "Parameters": [
     {
-      "No": "WHSE PICK-00006",
-      "WeightUnit" : 0,
-      "DimensionsUnit" : 0,
-      "ShipmentStatus" : 0,
-      "OrderId" : "17086108",
-      "OrderKey" : "ee72417e259c4450ababefec1ddfca50",
-      "Weight": 2,
-      "Width": 3,
-      "Height": 4,
-      "Depth": 5,
+      "No": "WHSE PICK-02944",
+      "Weight": 0,
+      "Width": 0,
+      "Height": 0,
+      "Depth": 0,
       "Release": true,
-      "ShippingAgentCode": "DHL",
-      "ShippingAgentServiceCode": "DHL",
-      "ShippingCost": "20000",
-      "PackingDate": "2023-07-27T18:00:00",
-      "PackageTrackingNo": "000000077787",
+      "OrderId": 0,
+      "OrderKey": "",
+      "ShipmentStatus": 1,
+      "DimensionsUnit": 0,
+      "WeightUnit": 0,
+      "ShippingAgentCode": "PICK AT WAREHOUSE",
+      "ShippingAgentServiceCode": "Pick up",
+      "ShippingCost": 0,
+      "PackingDate": "2024-08-01T12:14:03.460Z",
+      "PackageTrackingNo": "",
       "PackageLinesArray": [
         {
-          "WhsDocumentNo": "WHSE PICK-00006",
-          "WhsDocumentLineNo": 20000,
-          "SourceNo": "S-ORD101015",
-          "ItemCode": "1896-S",
-          "VariantCode": "",
-          "QtyToHandle": 1
+          "WarehouseDocumentNo": "WHSE PICK-02944",
+          "WarehouseLineNo": 10000,
+          "SourceNo": "SOB2B-101995",
+          "ItemNo": "K3FKWPX2V",
+          "VariantCode": "093180",
+          "QtyToHandle": 1,
+          "SourceLineNo": 10000,
+          "SerialNo": "K3FKWPX2V093180027",
+          "LotNo": ""
         },
         {
-          "WhsDocumentNo": "WHSE PICK-00006",
-          "WhsDocumentLineNo": 40000,
-          "SourceNo": "S-ORD101015",
-          "ItemCode": "1900-S",
+          "WarehouseDocumentNo": "WHSE PICK-02944",
+          "WarehouseLineNo": 30000,
+          "SourceNo": "SOB2B-101995",
+          "ItemNo": "K4FWVSWNG200XXX",
           "VariantCode": "",
-          "QtyToHandle": 4
+          "QtyToHandle": 1,
+          "SourceLineNo": 20000,
+          "SerialNo": "K4FWVSWNG200011",
+          "LotNo": ""
         }
-      ]
+      ],
+      "WarehouseEmployee": "MARCELLUS.SMITH"
     }
   ]
 }
 ```
 
-**OutPut:**
-
-```
+#### Example Response
+```json
 {
-  "No": 10,
-  "ItemNo": "1896-S",
-  "Quantity": 1.0,
-  "WarehouseDocumentNo": "WHSE PICK-00005",
-  "SourceNo": "S-ORD101011",
-  "ShipToAddress": {
-    "ShipToName": "Adatum Corporation",
-    "ShipToAddress": "192 Market Square",
-    "ShipToAddress2": "",
-    "ShipToCity": "Atlanta",
-    "ShipToCountry_RegionCode": "US",
-    "ShipToCounty": "GA"
-  },
-  "Weight": 2.0,
-  "Width": 3.0,
-  "Height": 4.0,
-  "Depth": 5.0,
-  "Status": true,
-  "PackingDate": "2023-07-27T18:00:00.0000000Z",
-  "SystemCreatedAt": "2023-07-27T22:21:20.9000000Z",
-  "SystemCreatedBy": "{37E91226-6B8A-47A8-A580-E714FC6BFB7E}"
-}
-```
-
-**Business Central:**
-![image.png](/.attachments/image-167e2f2e-8612-43f5-8bc9-38eb136aaeca.png)
-
-**Errors:**
-
-If you try to allocate more than what the line has available, it gives this error:
-
-```
-{
-    "error": {
-        "code": "Application_DialogException",
-        "message": "There is no quantity to handle  CorrelationId:  006e8be7-6ae9-4bbc-acaf-d636d2155278."
+  "PackageNo": 1,
+  "SourceNo": "WHSE SHIP-04484",
+  "WarehouseDocumentNo": "WHSE PICK-04065",
+  "WarehouseShipmentNo": "WHSE SHIP-04484",
+  "CustomerUsername": "Francisco Javier Diéguez Álvarez",
+  "CustomerEmail": "",
+  "WeightUnit": "Pounds",
+  "DimensionsUnit": "Inches",
+  "Status": "shipped",
+  "OrderId": 0,
+  "OrderKey": "",
+  "Weight": 0.0,
+  "Width": 0.0,
+  "Height": 0.0,
+  "Depth": 0.0,
+  "TotalQty": 2.0,
+  "Release": true,
+  "RegisteredPick": "",
+  "PackageTrackingNo": "",
+  "ShippingAgentCode": "pick at warehouse",
+  "ShippingAgentService": "",
+  "PackingDate": "2024-08-01T12:14:03.4600000Z",
+  "ShippingDate": "0001-01-01",
+  "Lines": [
+    {
+      "PackageNo": 1,
+      "LineNo": 1000,
+      "SourceNo": "SOB2B-101995",
+      "SourceLineNo": 10000,
+      "WarehouseDocumentNo": "WHSE PICK-04065",
+      "WarehouseLineNo": 10000,
+      "ItemNo": "K3FKWPX2V",
+      "VariantCode": "093180",
+      "SerialNo": "K3FKWPX2V093180027",
+      "LotNo": "",
+      "ItemPrice": 483.0,
+      "QtyToHandle": 1
+    },
+    {
+      "PackageNo": 1,
+      "LineNo": 2000,
+      "SourceNo": "SOB2B-101995",
+      "SourceLineNo": 20000,
+      "WarehouseDocumentNo": "WHSE PICK-04065",
+      "WarehouseLineNo": 30000,
+      "ItemNo": "K4FWVSWNG200XXX",
+      "VariantCode": "",
+      "SerialNo": "K4FWVSWNG200011",
+      "LotNo": "",
+      "ItemPrice": 107.0,
+      "QtyToHandle": 1
     }
+  ],
+  "GenerateInternationalOptions": {
+    "Contents": "merchandise",
+    "customsItems": [
+      {
+        "CustomsItemId": "SOB2B-101995/10000",
+        "Description": "FOIL KIT WING PACK MKII FUSE MED",
+        "Quantity": 1,
+        "Value": 483.0,
+        "HarmonizedTariffCode": "",
+        "CountryOfOrigin": "CN"
+      },
+      {
+        "CustomsItemId": "SOB2B-101995/20000",
+        "Description": "V-SERIES STAB 200",
+        "Quantity": 1,
+        "Value": 107.0,
+        "HarmonizedTariffCode": "",
+        "CountryOfOrigin": "CN"
+      }
+    ],
+    "nonDelivery": "return_to_sender"
+  },
+  "ShipTo": {
+    "Name": "PICK UP DAVE/TODD FUERTEVENTURA",
+    "Company": "Adventure Sports USA",
+    "Country": "ES"
+  },
+  "BillTo": {
+    "Name": "Francisco Javier Diéguez Álvarez",
+    "Company": "Adventure Sports USA",
+    "Address1": "78792423N",
+    "Address2": "LUGAR MINARZO182, 15292
+
+",
+    "City": "LIRA CARNOTA A CORUNA",
+    "Country": "ES"
+  },
+  "OtherOptions": {},
+  "Duration": "2 seconds 619 milliseconds"
 }
 ```
 
+#### Explanation
+- **PackageNo**: Unique number for the package.
+- **SourceNo**, **WarehouseDocumentNo**, **WarehouseShipmentNo**: Identifiers for the source document, warehouse pick, and shipment document.
+- **CustomerUsername** and **CustomerEmail**: Customer details.
+- **WeightUnit** and **DimensionsUnit**: Units used (e.g., "Pounds" and "Inches").
+- **Lines**: Detailed items in the package, each with:
+  - **PackageNo**: Package identifier.
+  - **LineNo**: Line number.
+  - **ItemNo**, **VariantCode**, **SerialNo**, **LotNo**: Product details.
+  - **ItemPrice**: Price per item.
+  - **QtyToHandle**: Quantity handled per line.
+- **GenerateInternationalOptions**: Customs information.
+- **ShipTo** and **BillTo**: Shipping and billing details.
+  
+#### Summary
+The `CreatePackageShipment` method streamlines creating and tracking packages with specific line items, providing full documentation for each shipped item, customs compliance, and customer details for complete visibility in order fulfillment.
 
