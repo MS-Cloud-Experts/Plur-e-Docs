@@ -99,7 +99,7 @@ The `CreatePackageShipment` API method initiates a shipment for a specified ware
   "ProcessMethod": "CreatePackageShipment",
   "Parameters": [
     {
-      "No": "WHSE PICK-02944",
+      "No": "WHSE PICK-04065",
       "Weight": 0,
       "Width": 0,
       "Height": 0,
@@ -117,7 +117,7 @@ The `CreatePackageShipment` API method initiates a shipment for a specified ware
       "PackageTrackingNo": "",
       "PackageLinesArray": [
         {
-          "WarehouseDocumentNo": "WHSE PICK-02944",
+          "WarehouseDocumentNo": "WHSE PICK-04065",
           "WarehouseLineNo": 10000,
           "SourceNo": "SOB2B-101995",
           "ItemNo": "K3FKWPX2V",
@@ -128,13 +128,13 @@ The `CreatePackageShipment` API method initiates a shipment for a specified ware
           "LotNo": ""
         },
         {
-          "WarehouseDocumentNo": "WHSE PICK-02944",
+          "WarehouseDocumentNo": "WHSE PICK-04065",
           "WarehouseLineNo": 30000,
           "SourceNo": "SOB2B-101995",
           "ItemNo": "K4FWVSWNG200XXX",
           "VariantCode": "",
           "QtyToHandle": 1,
-          "SourceLineNo": 20000,
+          "SourceLineNo": 30000,
           "SerialNo": "K4FWVSWNG200011",
           "LotNo": ""
         }
@@ -143,6 +143,7 @@ The `CreatePackageShipment` API method initiates a shipment for a specified ware
     }
   ]
 }
+
 ```
 
 #### Example Response
