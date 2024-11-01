@@ -6,7 +6,7 @@ The `ChatBot` API method provides an interface to interact with the Plur-e WMS A
 #### Request Structure
 ```json
 {
-  "ProcessMethod": "ChatBot",
+  "ProcessMethod": "ChatRequest",
   "Parameters": [
     {
       "prompt": "How do I process a return order in the WMS?"
@@ -21,7 +21,7 @@ The `ChatBot` API method provides an interface to interact with the Plur-e WMS A
 #### Example Request
 ```json
 {
-  "ProcessMethod": "ChatBot",
+  "ProcessMethod": "ChatRequest",
   "Parameters": [
     {
       "prompt": "How do I process a return order in the WMS?"
