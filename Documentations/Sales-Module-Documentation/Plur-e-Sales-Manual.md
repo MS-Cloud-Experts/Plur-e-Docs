@@ -97,6 +97,7 @@ Picking Confirmation:
 
 ###**Creating Sales Order with Complete Shipment**
 
+
 **Starting the Order**
 
 - Open Plur-e Mobile
@@ -107,7 +108,8 @@ Picking Confirmation:
 Manual Entry:
 
 - Search for the product by name or code and select from the catalog
-- Scanning Function:
+
+Scanning Function:
 - Use the scanner to read barcodes, this scanner on a phone is the phone's camera, if it's a Zebra device it will come equipped with a barcode reader.
 - Verify that the scanned product is correct
 
