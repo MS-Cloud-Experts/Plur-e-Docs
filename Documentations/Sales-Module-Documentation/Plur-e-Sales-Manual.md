@@ -279,8 +279,11 @@ Additional Item Details:
 
 **5. Business Central Validation**
 
+- Check that all quantities are correct
+- Verify customer details
+- Validate the order in Business Central
 
-Would you like me to provide more detail about any specific aspect of the invoice process?
+------------
 
 ## 5. SALES CREDIT MEMOS
 1. Create new credit memo
