@@ -1,4 +1,4 @@
-# Plur e Sales Manual V2
+# Plur e Sales Manual
 
 ## 1. INTRODUCTION
 - Plur-E is a sales application integrated with Business Central
