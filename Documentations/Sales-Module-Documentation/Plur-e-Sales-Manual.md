@@ -286,14 +286,6 @@ Additional Item Details:
 ------------
 
 ## 5. SALES CREDIT MEMOS
-1. Create new credit memo
-2. Select customer
-3. Add items
-4. For each item:
-   - Select location
-   - Choose unit of measure
-   - Set quantity
-5. Verify in Business Central
 
 **Create New credit memo**
 
