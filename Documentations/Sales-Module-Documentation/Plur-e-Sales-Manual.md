@@ -34,12 +34,9 @@ Manual Entry Method:
 
 Click on "Add Item" or similar button
 
-- Search for products using:
-
-Product code
-Product name
-Product category
-
+Search for products using:
+- Product code
+- Product name
 - Select the desired item from the search results
 - Verify product details before adding
 
