@@ -122,25 +122,20 @@ For each product you must specify:
 - Enter the total quantity to be shipped
 - Make sure the quantities match the available stock
 
-Picking Process
+**Picking Process**
+
 Unlike partial shipment:
 
 - Assign the full quantity for each item
 - Verify that picking quantities match ordered quantities
 - Don't split quantities as everything will be shipped together
 
-Final Validation
+**Final Validation**
 
 - Check that all quantities are correct
 - Confirm that the shipping location is appropriate
 - Verify customer details
 - Validate the order in Business Central
-
-Shipment Confirmation
-
-- Generate the shipping document
-- Ensure all quantities are at 100%
-- Confirm complete shipment
 
 ###**Key Differences with Partial Shipment and Recommendations**
 
