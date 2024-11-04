@@ -200,33 +200,24 @@ For each item:
 ------------
 
 ## 4. SALES INVOICES
-1. Create new sales invoice
-2. Select customer
-3. Add items
-4. For each item:
-   - Select location
-   - Choose unit of measure
-   - Set quantity
-5. Verify in Business Central
 
+**Creating New Sales Invoice**
 
-###**SALES INVOICES - Detailed Guide**
-
-**1. Creating New Sales Invoice**
-1. Initial Access:
+Initial Access:
    - Open Plur-e Mobile application
    - Navigate to "Sales Invoices" section
    - Click "Create New Invoice" button
    - System opens new configuration tab
 
-2. Initial Documentation:
+Initial Documentation:
    - Prepare customer order details
    - Gather pricing information
    - Check special discounts/promotions
    - Have tax information ready
 
-**2. Customer Selection Process**
-1. Customer Identification:
+**Customer Selection Process**
+
+Customer Identification:
    - Search customer by:
      * Customer name
      * Customer ID
@@ -234,14 +225,14 @@ For each item:
    - Verify customer account status
    - Confirm billing information
 
-2. Account Verification:
-   - Check credit status
+Account Verification:
    - Verify payment terms
    - Confirm billing address
    - Review special pricing agreements
 
-**3. Adding Items to Invoice**
-1. Manual Entry Method:
+**Adding Items to Invoice**
+
+Manual Entry Method:
    - Click "Add Item" button
    - Search by:
      * Product code
@@ -250,7 +241,7 @@ For each item:
    - Select items from inventory
    - Verify pricing and availability
 
-2. Scanning Function Method:
+Scanning Function Method:
    - Access scanner function
      * Mobile device: Use camera
      * Zebra device: Use built-in scanner
