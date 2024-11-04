@@ -1,4 +1,4 @@
-#CREATE + EXECUTE WH SHIPMENTS
+#CREATE AND EXECUTE WAREHOUSE SHIPMENTS
 
 ##1. Receiving Items
    - Open the Warehouse Receipt section in the PLUR-E app.
