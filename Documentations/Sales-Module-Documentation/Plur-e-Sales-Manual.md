@@ -285,7 +285,7 @@ Additional Item Details:
 
 ------------
 
-## 5. SALES CREDIT MEMOS
+## **5. SALES CREDIT MEMOS**
 
 **Create New credit memo**
 
