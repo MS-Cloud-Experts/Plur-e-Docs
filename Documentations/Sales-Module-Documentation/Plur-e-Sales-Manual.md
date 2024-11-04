@@ -199,7 +199,7 @@ For each item:
 
 ------------
 
-## 4. SALES INVOICES
+## **4. SALES INVOICES**
 
 **Creating New Sales Invoice**
 
@@ -281,7 +281,7 @@ Additional Item Details:
 
 - Check that all quantities are correct
 - Verify customer details
-- Validate the order in Business Central
+- Validate the invoice in Business Central
 
 ------------
 
@@ -295,16 +295,44 @@ Additional Item Details:
    - Set quantity
 5. Verify in Business Central
 
-## 6. POST-CREATION OPERATIONS
+**Create New credit memo**
 
-6.1 Posting Documents
-- Can post:
-  - Sales orders
-  - Return orders
-  - Invoices
-  - Credit memos
+- Open Plur-e Mobile
+- Navigate to "Sales credit memo" section
+- Click "Create credit memo"
+- Have original sales Invoice reference ready
 
-6.2 Posted Invoices
-- View posted invoices
-- Print posted invoices
+**Customer Selection**
+
+- Search by:
+  * Customer name/ID
+  * Original order number
+- Verify account status and eligibility
+- Confirm shipping address
+
+**Adding Items**
+
+Manual Entry:
+- Click "Add Return Item"
+- Search by product code/name
+- Select from original order
+
+Scanning:
+- Use device camera or Zebra scanner
+- Scan product barcode
+- Verify against original order
+
+**Item Configuration**
+
+For each item:
+- Select return warehouse location
+- Choose unit of measure (match original)
+- Enter return quantity
+
+**5. Business Central Validation**
+
+- Check that all quantities are correct
+- Verify customer details
+- Validate the invoice in Business Central
+
 
