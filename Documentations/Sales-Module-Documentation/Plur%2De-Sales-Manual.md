@@ -206,7 +206,7 @@ For each item:
 Initial Access:
    - Open Plur-e Mobile application
    - Navigate to "Sales Invoices" section
-   - Click "Create New Invoice" button
+   - Click "Create New Invoice" button, the system will open a new tab where you can configure the new sales invoice.
    - System opens new configuration tab
 
 Initial Documentation:
