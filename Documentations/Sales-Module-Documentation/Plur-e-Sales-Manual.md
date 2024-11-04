@@ -11,17 +11,6 @@ Plur-E is a sales application integrated with Business Central
 
 ###**Creating Sales Order with Partial Shipment**
 
-1. Create SO from Plur-e Mobile
-2. Add items by:
-   - Manual entry
-   - Scanning function
-3. Select for each item:
-   - Location
-   - Unit of measure
-   - Quantity (can increase/decrease)
-4. Use picking function
-   - Assign different quantities for partial shipment
-5. Validate creation in Business Central
 
 **Create Sales Order in Plur-e Mobile**
 
@@ -104,68 +93,61 @@ Final Validation:
 - Confirm complete shipment details
 - Approve order in Business Central
 
-###**Creación de Orden de Venta con Envío Completo**
+###Creating Sales Order with Complete Shipment
 
-**Inicio de la Orden**
+Starting the Order
 
-- Abre Plur-e Mobile
-- Dirigirte a la sección de "Sales Orders"
-- Selecciona "Crear Nueva Orden de Venta", el sistema abrirá una pestaña nueva donde podrás configurar la orden de venta nueva.
+- Open Plur-e Mobile
+- Go to the "Sales Orders" section
+- Select "Create New Sales Order", the system will open a new tab where you can configure the new sales order.
+- Adding Products
 
-**Agregar Productos**
+Manual Entry:
 
-Entrada Manual:
+- Search for the product by name or code and select from the catalog
+- Scanning Function:
+- Use the scanner to read barcodes, this scanner on a phone is the phone's camera, if it's a Zebra device it will come equipped with a barcode reader.
+- Verify that the scanned product is correct
 
-- Busca el producto por nombre o código y selecciona del catálogo
+**Item Configuration**
 
-Función de Escaneo:
+For each product you must specify:
 
-- Usa el escáner para leer códigos de barras, este escáner en un celular es la camara del mismo, si es un dispositivo Zebra este vendrá equipado con un lector de codigo de barras.
-- Verifica que el producto escaneado sea correcto
+- Select the warehouse location
+- Choose the correct unit of measure
+- Enter the total quantity to be shipped
+- Make sure the quantities match the available stock
 
-**Configuración de Items**
+Picking Process
+Unlike partial shipment:
 
-Para cada producto debes especificar:
+- Assign the full quantity for each item
+- Verify that picking quantities match ordered quantities
+- Don't split quantities as everything will be shipped together
 
-- Selecciona la ubicación del almacén
-- Elige la unidad de medida correcta
-- Ingresa la cantidad total que se enviará
-- Asegúrate de que las cantidades coincidan con el stock disponible
+Final Validation
 
+- Check that all quantities are correct
+- Confirm that the shipping location is appropriate
+- Verify customer details
+- Validate the order in Business Central
 
-**Proceso de Picking**
+Shipment Confirmation
 
-A diferencia del envío parcial:
+- Generate the shipping document
+- Ensure all quantities are at 100%
+- Confirm complete shipment
 
-- Asigna la cantidad completa para cada ítem
-- Verifica que las cantidades de picking coincidan con las cantidades ordenadas
-- No dividas las cantidades ya que se enviará todo junto
+###Key Differences with Partial Shipment and Recommendations
 
-
-**Validación Final**
-
-- Revisa que todas las cantidades estén correctas
-- Confirma que la ubicación de envío sea la adecuada
-- Verifica los detalles del cliente
-- Valida la orden en Business Central
-
-
-**Confirmación del Envío**
-
-- Genera el documento de envío
-- Asegúrate de que todas las cantidades estén al 100%
-- Confirma el envío completo
-
-###**Diferencias clave con el envío parcial y Recomendaciones**
-
-- No necesitas dividir cantidades
-- Todas las cantidades deben coincidir con la orden original
-- El picking se realiza en una sola operación
-- La validación es más directa ya que no hay que controlar múltiples envíos
-- Verifica el stock disponible antes de crear la orden
-- Asegúrate de que todos los productos estén en la ubicación indicada
-- Confirma que tienes capacidad de envío para todo el pedido
-- Documenta cualquier incidencia durante el proceso
+- No need to split quantities
+- All quantities must match the original order
+- Picking is done in a single operation
+- Validation is more straightforward as there's no need to control multiple shipments
+- Verify available stock before creating the order
+- Make sure all products are in the indicated location
+- Confirm that you have shipping capacity for the entire order
+- Document any incidents during the process
 
 ------------
 
