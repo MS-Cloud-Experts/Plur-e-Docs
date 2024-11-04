@@ -49,37 +49,34 @@ Product category
 
 Scanning Function Method
 
-Click on the scan button or barcode icon
-Position the camera to read the product barcode
-Verify that the scanned product is correct
-Confirm the addition to the order
+- Click on the scan button or barcode icon
+- Position the camera to read the product barcode
+- Verify that the scanned product is correct
+- Confirm the addition to the order
 
 **Item Configuration**
+
 For each product in the order:
 
 Location Selection:
 
-Choose the warehouse location
-Verify stock availability at selected location
-Confirm the picking location
-
+- Choose the warehouse location
+- Verify stock availability at selected location
+- Confirm the picking location
 
 Unit of Measure Settings:
 
-Select appropriate unit of measure
-Verify the conversion rates if applicable
-Confirm unit pricing
-
+- Select appropriate unit of measure
+- Verify the conversion rates if applicable
+- Confirm unit pricing
 
 Quantity Configuration:
 
-Enter the total quantity needed
-Verify against available stock
-Confirm total amount matches customer request
+- Enter the total quantity needed
+- Verify against available stock
+- Confirm total amount matches customer request
 
-
-
-4. Picking Process
+**Picking Process**
 
 Initial Setup:
 
