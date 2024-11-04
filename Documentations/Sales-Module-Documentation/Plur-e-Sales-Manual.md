@@ -155,16 +155,6 @@ Unlike partial shipment:
 
 ##**3. SALES RETURN ORDERS**
 
-1. Create new return order
-2. Select customer
-3. Add items
-4. For each item:
-   - Select location
-   - Choose unit of measure
-   - Set quantity
-5. Verify in Business Central
-
-
 **Create New Return Order**
 
 - Open Plur-e Mobile
