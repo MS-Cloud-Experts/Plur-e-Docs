@@ -30,12 +30,6 @@
 ##7. Send Picked Items to Business Central
    - Once item selection is complete, send the details to Business Central to update the inventory.
 
-##8. Creating Shipping Boxes (Optional)
-   - Create a new shipping box in the app, scanning or selecting the items to include in the box.
-
-##9. ShipStation Integration and Validation (Optional)
-   - Set up the shipping agent and ShipStation service to sync shipments with this platform.
-   - Verify the shipment status and details in ShipStation.
 
 ##10. Finalizing the Shipment in Business Central
    - Complete the process by registering the pick and finalizing the shipment in the system.
