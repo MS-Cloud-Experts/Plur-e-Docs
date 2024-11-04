@@ -80,47 +80,29 @@ Quantity Configuration:
 
 Initial Setup:
 
-Access the picking function
-Verify order details
-Confirm picking location
-
+- Access the picking function
+- Verify order details
+- Confirm picking location
 
 Quantity Assignment:
 
-Assign full quantities for each item
-Verify stock availability
-Ensure picking quantities match order quantities
-
+- Assign full quantities for each item
+- Verify stock availability
+- Ensure picking quantities match order quantities
 
 Picking Confirmation:
 
-Review all assigned quantities
-Confirm complete picking list
-Generate picking documentation
+- Review all assigned quantities
+- Confirm complete picking list
+- Generate picking documentation
 
-
-
-5. Business Central Validation
-
-Order Review:
-
-Check all item details
-Verify pricing and discounts
-Confirm shipping information
-
-
-Document Generation:
-
-Create necessary shipping documents
-Generate packing lists
-Prepare delivery documentation
-
+**Business Central Validation**
 
 Final Validation:
 
-Verify all quantities match
-Confirm complete shipment details
-Approve order in Business Central
+- Verify all quantities match
+- Confirm complete shipment details
+- Approve order in Business Central
 
 ###**Creación de Orden de Venta con Envío Completo**
 
@@ -128,7 +110,7 @@ Approve order in Business Central
 
 - Abre Plur-e Mobile
 - Dirigirte a la sección de "Sales Orders"
-- Selecciona "Crear Nueva Orden de Venta", el sistema abrirar una pestaña nueva donde podras configurar la orden de venta nueva.
+- Selecciona "Crear Nueva Orden de Venta", el sistema abrirá una pestaña nueva donde podrás configurar la orden de venta nueva.
 
 **Agregar Productos**
 
@@ -185,6 +167,7 @@ A diferencia del envío parcial:
 - Confirma que tienes capacidad de envío para todo el pedido
 - Documenta cualquier incidencia durante el proceso
 
+------------
 
 ## 3. SALES RETURN ORDERS
 1. Create new return order
