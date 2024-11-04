@@ -209,6 +209,88 @@ For each item:
    - Set quantity
 5. Verify in Business Central
 
+
+###**SALES INVOICES - Detailed Guide**
+
+**1. Creating New Sales Invoice**
+1. Initial Access:
+   - Open Plur-e Mobile application
+   - Navigate to "Sales Invoices" section
+   - Click "Create New Invoice" button
+   - System opens new configuration tab
+
+2. Initial Documentation:
+   - Prepare customer order details
+   - Gather pricing information
+   - Check special discounts/promotions
+   - Have tax information ready
+
+**2. Customer Selection Process**
+1. Customer Identification:
+   - Search customer by:
+     * Customer name
+     * Customer ID
+     * Account number
+   - Verify customer account status
+   - Confirm billing information
+
+2. Account Verification:
+   - Check credit status
+   - Verify payment terms
+   - Confirm billing address
+   - Review special pricing agreements
+
+**3. Adding Items to Invoice**
+1. Manual Entry Method:
+   - Click "Add Item" button
+   - Search by:
+     * Product code
+     * Product name
+     * Category
+   - Select items from inventory
+   - Verify pricing and availability
+
+2. Scanning Function Method:
+   - Access scanner function
+     * Mobile device: Use camera
+     * Zebra device: Use built-in scanner
+   - Scan product barcode
+   - Verify product details
+   - Confirm pricing information
+
+**Item Configuration Process**
+
+Location Settings:
+   - Select warehouse location
+   - Verify stock availability
+   - Choose shipping point
+   - Confirm inventory levels
+
+Unit of Measure Configuration:
+   - Select appropriate unit
+   - Verify pricing per unit
+   - Check quantity breaks
+   - Confirm volume discounts
+
+Quantity Setup:
+
+   - Enter ordered quantity
+   - Verify against available stock
+   - Check minimum order requirements
+   - Calculate line total
+
+Additional Item Details:
+
+   - Apply any discounts
+   - Add special pricing
+   - Include item notes
+   - Set tax codes
+
+**5. Business Central Validation**
+
+
+Would you like me to provide more detail about any specific aspect of the invoice process?
+
 ## 5. SALES CREDIT MEMOS
 1. Create new credit memo
 2. Select customer
