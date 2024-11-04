@@ -159,7 +159,7 @@ Unlike partial shipment:
 
 - Open Plur-e Mobile
 - Navigate to "Sales Return Orders" section
-- Click "Create New Return Order"
+- Click "Create New Return Order", the system will open a new tab where you can configure the new Return Order.
 - Have original sales order reference ready
 
 **Customer Selection**
