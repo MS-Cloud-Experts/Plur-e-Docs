@@ -1,7 +1,7 @@
 #INVENTORY CYCLE COUNT MANUAL
 
 ##1. INTRODUCTION
-- Manual designed for Adventure Sports Retail's Inventory Cycle Count
+- Manual designed to explain the procedure to perform the Inventory Cycle Count in a company that use advanced Warehouse. 
 - Two main methods available in Business Central:
   1. Calculate Inventory by Specifications
   2. Calculate Inventory by Counting Period
@@ -59,7 +59,7 @@
 
 **Initial Setup**
 1. Open Plur-E application
-2. Select Adventure Sports retail company
+2. Select the company
 3. Access Inventory Cycle Count module
 
 **Counting Process**
@@ -69,8 +69,7 @@
 4. Perform product scanning:
    a. Scan product label
    b. Enter physical quantity
-   c. Use Select Action → Add option
-   d. Confirm with ADD icon
+   c. Use Select Action → Edit option
 
 **Verification and Completion**
 1. Check confirmation message for Business Central sync
