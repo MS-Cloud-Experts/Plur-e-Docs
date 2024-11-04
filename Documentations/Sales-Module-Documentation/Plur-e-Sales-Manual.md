@@ -7,6 +7,13 @@ Plur-E is a sales application integrated with Business Central
   - Sales-related permissions in Business Central
   - Be listed in the Salespeople/Purchasers window
 
+**IMPORTANT NOTES**
+
+- All document types follow similar attachment and printing procedures
+- Verification in Business Central is required for all transactions
+- Payment batch configuration is essential for processing payments
+
+
 ## **2. SALES ORDERS**
 
 ###**Creating Sales Order with Partial Shipment**
@@ -91,9 +98,9 @@ Picking Confirmation:
 - Confirm complete shipment details
 - Approve order in Business Central
 
-###Creating Sales Order with Complete Shipment
+###**Creating Sales Order with Complete Shipment**
 
-Starting the Order
+**Starting the Order**
 
 - Open Plur-e Mobile
 - Go to the "Sales Orders" section
@@ -136,7 +143,7 @@ Shipment Confirmation
 - Ensure all quantities are at 100%
 - Confirm complete shipment
 
-###Key Differences with Partial Shipment and Recommendations
+###**Key Differences with Partial Shipment and Recommendations**
 
 - No need to split quantities
 - All quantities must match the original order
@@ -192,8 +199,3 @@ Shipment Confirmation
 - View posted invoices
 - Print posted invoices
 
-
-IMPORTANT NOTES
-- All document types follow similar attachment and printing procedures
-- Verification in Business Central is required for all transactions
-- Payment batch configuration is essential for processing payments
