@@ -291,7 +291,7 @@ Additional Item Details:
 
 - Open Plur-e Mobile
 - Navigate to "Sales credit memo" section
-- Click "Create credit memo"
+- Click "Create credit memo", the system will open a new tab where you can configure the new sales credit memo.
 - Have original sales Invoice reference ready
 
 **Customer Selection**
