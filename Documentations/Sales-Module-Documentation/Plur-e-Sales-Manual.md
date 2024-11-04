@@ -13,6 +13,7 @@ Plur-E is a sales application integrated with Business Central
 - Verification in Business Central is required for all transactions
 - Payment batch configuration is essential for processing payments
 
+------------
 
 ## **2. SALES ORDERS**
 
@@ -95,6 +96,8 @@ Picking Confirmation:
 - Confirm complete shipment details
 - Approve order in Business Central
 
+------------
+
 ###**Creating Sales Order with Complete Shipment**
 
 
@@ -150,7 +153,8 @@ Unlike partial shipment:
 
 ------------
 
-## 3. SALES RETURN ORDERS
+##**3. SALES RETURN ORDERS**
+
 1. Create new return order
 2. Select customer
 3. Add items
@@ -159,6 +163,51 @@ Unlike partial shipment:
    - Choose unit of measure
    - Set quantity
 5. Verify in Business Central
+
+
+**Create New Return Order**
+
+- Open Plur-e Mobile
+- Navigate to "Sales Return Orders" section
+- Click "Create New Return Order"
+- Have original sales order reference ready
+
+**Customer Selection**
+
+- Search by:
+  * Customer name/ID
+  * Original order number
+- Verify account status and eligibility
+- Confirm shipping address
+
+**Adding Items**
+
+Manual Entry:
+- Click "Add Return Item"
+- Search by product code/name
+- Select from original order
+
+Scanning:
+- Use device camera or Zebra scanner
+- Scan product barcode
+- Verify against original order
+
+**4. Item Configuration**
+
+For each item:
+- Select return warehouse location
+- Choose unit of measure (match original)
+- Enter return quantity
+
+**5. Business Central Validation**
+- Review all return items
+- Verify quantities and pricing
+- Generate return authorization
+- Process documentation
+- Update inventory system
+
+
+------------
 
 ## 4. SALES INVOICES
 1. Create new sales invoice
