@@ -6,15 +6,15 @@ Payments Module
 
 Pago de una factura individual.
 
-- Una vez ubicada la factura a pagar, con el dedo deslizamos a la derecha la factura indicada y presionamos el boton para pagar.
+- Una vez ubicada la factura a pagar, con el dedo deslizamos a la derecha la factura indicada y presionamos el botón para pagar.
 
-- Una vez pulsado el boton pagar, saldra una ventana emergente con los diferentes pagos configurados en PLur-e web y  Business Central, y se presiona el botón pagar.
+- Una vez pulsado el botón pagar, saldrá una ventana emergente con los diferentes pagos configurados en Plur-e web y  Business Central, y se presiona el botón pagar.
 
 Pago de varias facturas al tiempo.
 
 - Se deberán ubicar las facturas a pagar mediante el buscador establecido en el botón dinámico ubicado en la parte inferior central de la aplicacion.
 
-- Para pagarlas deberás seleccionar las facturas a pagar y undir el boton "Pagar Facturas".
+- Para pagarlas deberás seleccionar las facturas a pagar y hundir el botón "Pagar Facturas".
 
 - Una vez pulsado el botón pagar, saldrá una ventana emergente con los diferentes pagos configurados en PLur-e web y  Business Central, y se presiona el botón pagar.
 
