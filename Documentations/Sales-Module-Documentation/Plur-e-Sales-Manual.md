@@ -87,8 +87,6 @@ Picking Confirmation:
 
 **Business Central Validation**
 
-Final Validation:
-
 - Verify all quantities match
 - Confirm complete shipment details
 - Approve order in Business Central
