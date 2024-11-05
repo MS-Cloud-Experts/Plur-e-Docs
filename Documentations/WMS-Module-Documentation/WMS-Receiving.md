@@ -1,29 +1,66 @@
-#**WMS Receiving Module**
+# **WMS Receiving Module**
 
+## **Overview**
 
-##**1. Receiving in Plur-e Mobile:**
+The Warehouse Management System (WMS) Receiving Module in Business Central streamlines the process of receiving and handling incoming inventory. This module integrates with the PLUR-E mobile application to enhance efficiency in receiving, tracking, and storing items, including serialized and License Plate-managed items.
 
-**Receiving Items**
+### **Contents**
+1. [Receiving in Plur-e Mobile](#receiving-in-plur-e-mobile)
+2. [Receiving in Business Central](#receiving-in-business-central)
 
-   - Open the Warehouse Receipt section in the PLUR-E app.
-   - Assign the user ID on the mobile device so that the orders are displayed.
-   - Enter the Receipt submodule to view the created orders.
-   - Select or scan the items to be received, entering the respective quantities and sending the data.
+---
 
-**Receiving Serialized Items**
-   - Scan serial numbers individually and record quantities to ensure inventory accuracy.
-   - If serial numbers are preloaded from an order, simply verify the data.
+## **1. Receiving in Plur-e Mobile**
 
-**Put-Away Process (Location Assignment)**
-   - When receiving items, choose whether you want to proceed with the put-away process.
-   - If you choose to continue, enter the quantities and select the destination Bin Code.
-   - Move items to specific locations or apply changes to all items in bulk.
+The **Plur-e Mobile App** allows users to handle receiving tasks directly from their mobile devices, enabling easy tracking of items and inventory updates as items arrive at the warehouse.
 
-----
-##**2. Receiving in Business Central:**
+### **Receiving Items**
 
-- Despues de crear la Purchase Order en Business Central, toca pulsar el botón "Create Warehouse Receipt", con el cual el sistema generara un documento de Warehouse Receipt, desde el cual podremos recivir las cantidades de los items que se pidieron en la Parchase Order.
+1. **Access the Warehouse Receipt Section**:
+   - Open the Warehouse Receipt section within the PLUR-E mobile app.
+   - Ensure the user ID is assigned on the mobile device to display relevant orders.
 
-- Ya en el Warehouse Receipt, se deberan llenar las cantidades a recibir (**Qty To Receive**) de los items que esten el documento, (**Nota:** si el item es manejado por plur-e, la manera de recibirlo es mediente las funcionalidades de License Plate).
+2. **View and Select Orders**:
+   - Enter the **Receipt** submodule to view created orders available for receiving.
 
-- Una ves la cantidades registradas se debera postear el documento de Warehouse Receip mediente el boton **"Post Receipt"**
+3. **Select and Receive Items**:
+   - Choose or scan the items to be received.
+   - Enter the respective quantities for each item and confirm the data to update inventory.
+
+### **Receiving Serialized Items**
+
+1. **Serial Number Scanning**:
+   - For serialized items, scan each serial number individually.
+   - Record the quantity to maintain inventory accuracy and traceability.
+
+2. **Verify Preloaded Serial Numbers**:
+   - If the serial numbers are preloaded from an order, verify the data and proceed to confirm the receipt.
+
+### **Put-Away Process (Location Assignment)**
+
+Once items are received, users can initiate the **Put-Away Process** to assign a storage location within the warehouse.
+
+1. **Initiate Put-Away**:
+   - Decide whether to proceed with the put-away process immediately after receiving items.
+
+2. **Assign Quantities and Locations**:
+   - Enter the quantities to be stored in specific locations.
+   - Select the destination Bin Code for each item, or apply location changes to all items in bulk.
+
+---
+
+## **2. Receiving in Business Central**
+
+The **Business Central** interface allows users to manage and complete receipt tasks for items ordered via Purchase Orders.
+
+1. **Create a Warehouse Receipt**:
+   - After creating a **Purchase Order** in Business Central, select the **"Create Warehouse Receipt"** button.
+   - This action generates a Warehouse Receipt document linked to the Purchase Order, where quantities can be received.
+
+2. **Enter Quantities to Receive**:
+   - Within the Warehouse Receipt document, fill in the quantities for each item in the **Qty to Receive** field.
+   - **Note:** For items managed by the Plur-e system, receiving is done via **License Plate** functionalities within the app.
+
+3. **Post the Receipt**:
+   - Once quantities are recorded, post the Warehouse Receipt by clicking the **"Post Receipt"** button. This step finalizes the receiving process in Business Central, updating the inventory status for each received item.
+
