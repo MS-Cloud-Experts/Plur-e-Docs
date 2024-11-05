@@ -3,4 +3,4 @@
 
 ##9. ShipStation Integration and Validation (Optional)
    - Set up the shipping agent and ShipStation service to sync shipments with this platform.
-   - Verify the shipment status and details in ShipStation.
+   - Verify the shipment status and details in ShipStation
