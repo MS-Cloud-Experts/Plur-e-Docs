@@ -23,3 +23,7 @@
 ##**2. Receiving in Business Central:**
 
 - Despues de crear la Purchase Order en Business Central, toca pulsar el botón "Create Warehouse Receipt", con el cual el sistema generara un documento de Warehouse Receipt, desde el cual podremos recivir las cantidades de los items que se pidieron en la Parchase Order.
+
+- Ya en el Warehouse Receipt, se deberan llenar las cantidades a recibir (**Qty To Receive**) de los items que esten el documento, (**Nota:** si el item es manejado por plur-e, la manera de recibirlo es mediente las funcionalidades de License Plate).
+
+- Una ves la cantidades registradas se debera postear el documento de Warehouse Receip mediente el boton **"Post Receipt"**
