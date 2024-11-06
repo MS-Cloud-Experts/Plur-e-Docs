@@ -35,3 +35,5 @@
 ### Posting the Receipt
 
 1. Once all LPs have been created, proceed to post the full Receive document.
+
+---
