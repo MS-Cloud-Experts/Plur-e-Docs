@@ -1,7 +1,9 @@
 ### API Documentation: CreateEmptyLPFromWarehousePick
 
 #### Overview
-El método `CreateEmptyLPFromWarehousePick` permite la creación de un License Plate (LP) vacío vinculado a un Warehouse Pick específico. Este proceso es especialmente útil para prepararse para futuras funcionalidades, como la integración con plataformas de envío (por ejemplo, Starship o ShipStation), y permite una mayor flexibilidad en la gestión de inventario durante las operaciones de picking en el almacén.
+El método AssignItemToLPFromWarehousePick asigna un artículo a un License Plate (LP) desde una línea específica de Warehouse Pick. Este proceso es aplicable solo para artículos o variantes que no dispongan de LPs existentes en estado Storage, lo cual asegura que se creen LPs únicamente para items sin asignación previa en almacenamiento. Para utilizar este método, es necesario que el LP header haya sido creado previamente; para más información, consulte la documentación de CreateEmptyLPFromWarehousePick.
+
+Esta funcionalidad permite una gestión de inventario precisa y está diseñada para soportar futuras funciones, como la integración con plataformas de envío (e.g., Starship, ShipStation).
 
 #### Request Structure
 ```json
