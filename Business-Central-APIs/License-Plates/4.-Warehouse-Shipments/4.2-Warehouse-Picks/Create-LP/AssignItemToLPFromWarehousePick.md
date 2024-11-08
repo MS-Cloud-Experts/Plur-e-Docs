@@ -1,7 +1,7 @@
 ### API Documentation: AssignItemToLPFromWarehousePick
 
 #### Overview
-El método `AssignItemToLPFromWarehousePick` asigna un artículo a un License Plate (LP) desde una línea específica de Warehouse Pick. Este método asegura que el artículo se enlace correctamente al License Plate en el contexto de las operaciones de picking en el almacén, lo que facilita una gestión de inventario precisa y efectiva.
+El método AssignItemToLPFromWarehousePick asigna un artículo a un License Plate (LP) desde una línea específica de Warehouse Pick. Este proceso es aplicable solo para artículos o variantes que no dispongan de LPs existentes en estado Storage, lo cual asegura que se creen LPs únicamente para items sin asignación previa en almacenamiento. Esta funcionalidad permite una gestión de inventario precisa y está diseñada para soportar futuras funciones, como la integración con plataformas de envío (e.g., Starship, ShipStation).
 
 #### Request Structure
 ```json
