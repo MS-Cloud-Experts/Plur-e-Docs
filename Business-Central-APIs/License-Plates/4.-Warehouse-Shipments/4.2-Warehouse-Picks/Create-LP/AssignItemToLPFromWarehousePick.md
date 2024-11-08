@@ -1,7 +1,3 @@
-Aquí está la documentación actualizada con la referencia adicional:
-
----
-
 ### API Documentation: AssignItemToLPFromWarehousePick
 
 #### Overview
