@@ -96,5 +96,5 @@ El método AssignItemToLPFromWarehousePick asigna un artículo a un License Plat
   - **UnitofMeasureCode**: Unidad de medida del artículo.
   - **PickNo**: Número del Warehouse Pick del cual se asignó el artículo.
 
-#### Summary
-El método `AssignItemToLPFromWarehousePick` es fundamental para asignar artículos a License Plates a partir de líneas de Warehouse Pick. Esta API permite una gestión de inventario efectiva, asegurando que los artículos se asignen correctamente, mejorando así la precisión en las operaciones de picking en el almacén.
+Summary
+El método AssignItemToLPFromWarehousePick es fundamental para asignar artículos a License Plates a partir de líneas de Warehouse Pick, aplicable exclusivamente a items que no tengan LPs previos en Storage. Este control asegura que los artículos se asignen correctamente, soportando la precisión en las operaciones de picking en el almacén y preparándose para futuras integraciones con sistemas de envío.
