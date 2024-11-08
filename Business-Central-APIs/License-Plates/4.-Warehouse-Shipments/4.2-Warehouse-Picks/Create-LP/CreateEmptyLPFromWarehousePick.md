@@ -49,5 +49,7 @@ Esta funcionalidad permite una gestión de inventario precisa y está diseñada 
 Para insertar items en el License Plate (LP) creado, refiérase a la documentación de `AssignItemToLPFromWarehousePick`, disponible en [este enlace](https://dev.azure.com/MSCloudExperts/Plur-e/_wiki/wikis/Plur-e.wiki/649/AssignItemToLPFromWarehousePick).
 
 #### Summary
-El método `CreateEmptyLPFromWarehousePick` es fundamental para generar LPs vacíos asociados a un Warehouse Pick, una funcionalidad diseñada para soportar futuras integraciones con sistemas de envío. Este proceso permite un flujo más flexible en la operación del almacén, brindando capacidad para gestionar picking y envíos en un ciclo optimizado de inventario.
+El método AssignItemToLPFromWarehousePick es fundamental para asignar artículos a License Plates a partir de líneas de Warehouse Pick, aplicable exclusivamente a items que no tengan LPs previos en Storage. Este control asegura que los artículos se asignen correctamente, soportando la precisión en las operaciones de picking en el almacén y preparándose para futuras integraciones con sistemas de envío.
+
+
 
