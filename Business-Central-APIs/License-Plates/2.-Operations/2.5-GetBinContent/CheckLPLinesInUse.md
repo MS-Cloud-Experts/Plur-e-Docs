@@ -11,11 +11,10 @@ A lightweight API that checks if specified items have License Plates (LPs) in St
     {
       "Items": [
         {
-          "ItemNo": "ITEM001",
-          "VariantCode": "VAR1"
+          "ItemNo": "1896-S"
         },
         {
-          "ItemNo": "ITEM002"
+          "ItemNo": "1928-S"
         }
       ]
     }
@@ -36,43 +35,18 @@ A lightweight API that checks if specified items have License Plates (LPs) in St
       "ItemNo": "1896-S",
       "VariantCode": "",
       "HasLPInStorage": false,
-      "StorageLPs": []
+      "TotalQuantityInStorage": 0,
+      "NumberOfLPs": 0
     },
     {
       "ItemNo": "1928-S",
       "VariantCode": "",
       "HasLPInStorage": true,
-      "StorageLPs": [
-        {
-          "LPNo": "LP-00001",
-          "Quantity": 100.0,
-          "LocationCode": "LOC_TEST",
-          "BinCode": "FLOOR",
-          "UnitOfMeasure": "PCS",
-          "SerialNo": "",
-          "LotNo": "",
-          "ExpirationDate": "0001-01-01",
-          "ParentLPNo": "",
-          "ContainsLPChild": false
-        }
-      ],
-      "BinContentDetails": {
-        "ItemNo": "1928-S",
-        "VariantCode": "",
-        "UnitofMeasureCode": "",
-        "LocationCode": "LOC_TEST",
-        "BinCode": "FLOOR",
-        "TotalQtyAvailToTakeUOM": 0.0,
-        "TotalQtyAvailToPick": 0.0,
-        "TotalQtyAvailToPutAway": 0.0,
-        "TotalQtyInBinContent": 0.0,
-        "TotalQtyToTake": 0.0,
-        "TotalQtyInLP": 0.0,
-        "Details": []
-      }
+      "TotalQuantityInStorage": 100.0,
+      "NumberOfLPs": 1
     }
   ],
-  "Duration": "131 milliseconds"
+  "Duration": "97 milliseconds"
 }
 ```
 
