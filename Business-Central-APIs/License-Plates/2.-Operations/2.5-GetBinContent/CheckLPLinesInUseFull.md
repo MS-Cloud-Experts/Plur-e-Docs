@@ -52,45 +52,46 @@ The `CheckLPLinesInUse` API analyzes a list of items to determine if they have a
 {
   "ItemsStatus": [
     {
-      "ItemNo": "D0AVESVTBLU00S",
-      "VariantCode": "LARGE",
+      "ItemNo": "1896-S",
+      "VariantCode": "",
+      "HasLPInStorage": false,
+      "StorageLPs": []
+    },
+    {
+      "ItemNo": "1928-S",
+      "VariantCode": "",
       "HasLPInStorage": true,
       "StorageLPs": [
         {
-          "LPNo": "LP-00084",
-          "Quantity": 15,
-          "LocationCode": "MAIN",
-          "BinCode": "10A1",
-          "UnitOfMeasure": "EA",
+          "LPNo": "LP-00001",
+          "Quantity": 100.0,
+          "LocationCode": "LOC_TEST",
+          "BinCode": "FLOOR",
+          "UnitOfMeasure": "PCS",
           "SerialNo": "",
-          "LotNo": "LOT123",
-          "ExpirationDate": "2024-12-31",
+          "LotNo": "",
+          "ExpirationDate": "0001-01-01",
           "ParentLPNo": "",
           "ContainsLPChild": false
         }
       ],
       "BinContentDetails": {
-        "ItemNo": "D0AVESVTBLU00S",
-        "VariantCode": "LARGE",
-        "UnitofMeasureCode": "EA",
-        "LocationCode": "MAIN",
-        "BinCode": "10A1",
-        "TotalQtyAvailToTakeUOM": 15.0,
-        "TotalQtyAvailToPick": 15.0,
+        "ItemNo": "1928-S",
+        "VariantCode": "",
+        "UnitofMeasureCode": "",
+        "LocationCode": "LOC_TEST",
+        "BinCode": "FLOOR",
+        "TotalQtyAvailToTakeUOM": 0.0,
+        "TotalQtyAvailToPick": 0.0,
         "TotalQtyAvailToPutAway": 0.0,
-        "TotalQtyInBinContent": 15.0,
-        "TotalQtyToTake": 15.0,
-        "TotalQtyInLP": 15.0
+        "TotalQtyInBinContent": 0.0,
+        "TotalQtyToTake": 0.0,
+        "TotalQtyInLP": 0.0,
+        "Details": []
       }
-    },
-    {
-      "ItemNo": "D1BDBKCBBLASTD",
-      "VariantCode": "",
-      "HasLPInStorage": false,
-      "StorageLPs": []
     }
   ],
-  "Duration": "67 milliseconds"
+  "Duration": "48 milliseconds"
 }
 ```
 
