@@ -36,11 +36,10 @@ The `CheckLPLinesInUse` API analyzes a list of items to determine if they have a
     {
       "Items": [
         {
-          "ItemNo": "D0AVESVTBLU00S",
-          "VariantCode": "LARGE"
+          "ItemNo": "1896-S"
         },
         {
-          "ItemNo": "D1BDBKCBBLASTD"
+          "ItemNo": "1928-S"
         }
       ]
     }
