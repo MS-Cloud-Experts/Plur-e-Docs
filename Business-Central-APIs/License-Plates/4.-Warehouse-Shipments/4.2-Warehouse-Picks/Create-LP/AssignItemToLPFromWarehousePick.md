@@ -1,9 +1,9 @@
 ### API Documentation: AssignItemToLPFromWarehousePick
 
 #### Overview
-El método `AssignItemToLPFromWarehousePick` asigna un artículo a un License Plate (LP) desde una línea específica de Warehouse Pick. Este proceso es aplicable solo para artículos o variantes que no dispongan de LPs existentes en estado **Storage**, lo cual asegura que se creen LPs únicamente para items sin asignación previa en almacenamiento. Para utilizar este método, es necesario que el **LP header** haya sido creado previamente; para más información, consulte la [documentación de CreateEmptyLPFromWarehousePick](https://dev.azure.com/MSCloudExperts/Plur-e/_wiki/wikis/Plur-e.wiki/651/CreateEmptyLPFromWarehousePick).
+El método `AssignItemToLPFromWarehousePick` permite asignar múltiples artículos a License Plates (LPs) desde líneas de Warehouse Pick, con soporte opcional para tracking (Serial Numbers, Lot Numbers, y Expiration Dates). Este proceso es aplicable solo para artículos o variantes que no dispongan de LPs existentes en estado **Storage**, asegurando la unicidad de los LPs en almacenamiento. 
 
-Esta funcionalidad permite una gestión de inventario precisa y está diseñada para soportar futuras funciones, como la integración con plataformas de envío (e.g., Starship, ShipStation).
+Esta funcionalidad mejorada soporta la asignación masiva de ítems y manejo de tracking, permitiendo una gestión de inventario más precisa y flexible.
 
 #### Request Structure
 ```json
@@ -11,95 +11,111 @@ Esta funcionalidad permite una gestión de inventario precisa y está diseñada 
   "ProcessMethod": "AssignItemToLPFromWarehousePick",
   "Parameters": [
     {
-      "LPDocumentNo": "LP-0002",
-      "ItemNo": "ITEM-002",
-      "VariantCode": "VAR002",
-      "QtyToPick": 5,
-      "UnitofMeasureCode": "BOX",
-      "PickNo": "PK-002",
-      "PickLineNo": 3000
+      "PickNo": "PK-00025",
+      "Items": [
+        {
+          "ItemNo": "ITEM001",
+          "VariantCode": "VAR1",
+          "QtyToPick": 5,
+          "UnitofMeasureCode": "PCS",
+          "PickLineNo": 10000,
+          "Tracking": {
+            "SerialNo": "SER001",
+            "LotNo": "LOT001",
+            "ExpirationDate": "2024-12-31"
+          }
+        },
+        {
+          "ItemNo": "ITEM002",
+          "VariantCode": "",
+          "QtyToPick": 10,
+          "UnitofMeasureCode": "BOX",
+          "PickLineNo": 20000
+        }
+      ]
     }
   ]
 }
 ```
 
 #### Parameters
-- **LPDocumentNo**: Número de documento del License Plate al que se asignará el artículo (e.g., `"LP-0002"`).
-- **ItemNo**: Número de artículo que se está asignando al License Plate (e.g., `"ITEM-002"`).
-- **VariantCode**: Código de variante del artículo, si es aplicable (e.g., `"VAR002"`).
-- **QtyToPick**: Cantidad del artículo a recoger y asignar al License Plate (e.g., `5`).
-- **UnitofMeasureCode**: Código de la unidad de medida asociada al artículo (e.g., `"BOX"`).
-- **PickNo**: Número del Warehouse Pick desde el cual se asignará el artículo (e.g., `"PK-002"`).
-- **PickLineNo**: Número de línea específico en el Warehouse Pick donde se encuentra el artículo (e.g., `3000`).
-
-#### Example Request
-```json
-{
-  "ProcessMethod": "AssignItemToLPFromWarehousePick",
-  "Parameters": [
-    {
-      "LPDocumentNo": "LP-00022",
-      "ItemNo": "2001",
-      "VariantCode": "",
-      "QtyToPick": 3,
-      "UnitofMeasureCode": "PCS",
-      "PickNo": "PK-00025",
-      "PickLineNo": 4000
-    },
-    {
-      "LPDocumentNo": "LP-00022",
-      "ItemNo": "2001",
-      "VariantCode": "",
-      "QtyToPick": 2,
-      "UnitofMeasureCode": "PCS",
-      "PickNo": "PK-00025",
-      "PickLineNo": 5000
-    }
-  ]
-}
-```
+- **PickNo**: Número del Warehouse Pick desde el cual se asignarán los artículos
+- **Items**: Array de artículos a asignar, cada uno conteniendo:
+  - **ItemNo**: Número de artículo (requerido)
+  - **VariantCode**: Código de variante (opcional)
+  - **QtyToPick**: Cantidad a recoger (requerido)
+  - **UnitofMeasureCode**: Unidad de medida (requerido)
+  - **PickLineNo**: Número de línea en el Warehouse Pick (requerido)
+  - **Tracking**: Información de tracking (opcional)
+    - **SerialNo**: Número de serie
+    - **LotNo**: Número de lote
+    - **ExpirationDate**: Fecha de caducidad
 
 #### Example Response
 ```json
 {
   "Details": [
     {
-      "PickNo": "PK-00025",
-      "ItemNo": "2001",
-      "LineNo": 4000,
-      "VariantCode": "",
-      "TrackingSpecificationOpen": [],
-      "LP_Pending_To_Pick": 3.0,
-      "LP_Picked": "LP-00022-4000",
-      "Message": "The LP was created successfully for LP-00022."
+      "ItemNo": "ITEM001",
+      "VariantCode": "VAR1",
+      "Success": true,
+      "LPDocumentNo": "LP-001",
+      "AssignedQuantity": 5,
+      "SerialNo": "SER001",
+      "LotNo": "LOT001"
     },
     {
-      "PickNo": "PK-00025",
-      "ItemNo": "2001",
-      "LineNo": 5000,
+      "ItemNo": "ITEM002",
       "VariantCode": "",
-      "TrackingSpecificationOpen": [],
-      "LP_Pending_To_Pick": 2.0,
-      "LP_Picked": "LP-00022-5000",
-      "Message": "The LP was created successfully for LP-00022."
+      "Success": true,
+      "LPDocumentNo": "LP-002",
+      "AssignedQuantity": 10
     }
   ],
-  "Message": "Items assigned to LPs successfully.",
-  "Duration": "3 seconds 789 milliseconds"
+  "Message": "Items assignment to LP completed",
+  "Duration": "2 seconds 456 milliseconds"
 }
 ```
 
-#### Explanation
-- **Message**: Mensaje de confirmación que indica que los artículos se han asignado con éxito a los License Plates.
-- **Details**: Objeto que contiene los detalles de la asignación al License Plate:
-  - **LPDocumentNo**: Número de documento del License Plate.
-  - **ItemNo**: Número de artículo asignado al License Plate.
-  - **QtyToPick**: Cantidad del artículo recogido y asignado.
-  - **UnitofMeasureCode**: Unidad de medida del artículo.
-  - **PickNo**: Número del Warehouse Pick del cual se asignó el artículo.
+#### Response Fields
+- **Details**: Array conteniendo el resultado de cada asignación:
+  - **ItemNo**: Número de artículo procesado
+  - **VariantCode**: Código de variante (si aplica)
+  - **Success**: Indicador de éxito de la operación
+  - **LPDocumentNo**: Número del LP asignado (en caso de éxito)
+  - **AssignedQuantity**: Cantidad asignada
+  - **SerialNo**: Número de serie (si se proporcionó)
+  - **LotNo**: Número de lote (si se proporcionó)
+  - **ErrorMessage**: Mensaje de error (en caso de fallo)
 
-#### Summary
-El método `AssignItemToLPFromWarehousePick` es fundamental para asignar artículos a License Plates a partir de líneas de Warehouse Pick, aplicable exclusivamente a items que no tengan LPs previos en **Storage**. Este control asegura que los artículos se asignen correctamente, soportando la precisión en las operaciones de picking en el almacén y preparándose para futuras integraciones con sistemas de envío.
+#### Error Response Example
+```json
+{
+  "Details": [
+    {
+      "ItemNo": "ITEM001",
+      "VariantCode": "VAR1",
+      "Success": false,
+      "ErrorMessage": "Cannot create new LP. Item ITEM001 Variant VAR1 already exists in LP LP-003 with Storage status. Please use existing LP."
+    }
+  ],
+  "Message": "Items assignment to LP completed"
+}
+```
 
+#### Validaciones
+1. No se pueden crear LPs para items que ya tienen LPs en estado Storage
+2. Las líneas de pick deben existir y no tener LPs asignados
+3. La información de tracking debe ser válida según la configuración del ítem
+4. Las cantidades deben ser positivas y estar dentro de las cantidades disponibles en la línea de pick
 
+#### Casos de Uso Comunes
+- Asignación masiva de items a LPs durante el proceso de picking
+- Creación de LPs con tracking (serial/lot)
+- Procesamiento de órdenes con múltiples items y variantes
 
+#### Consideraciones Técnicas
+- El proceso es transaccional: todas las asignaciones se procesan en una única transacción
+- Se pueden procesar múltiples items en una sola llamada
+- El tracking es opcional y se puede especificar por item
+- Las respuestas incluyen información detallada para cada item procesado
