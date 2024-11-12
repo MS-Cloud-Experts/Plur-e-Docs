@@ -33,20 +33,46 @@ A lightweight API that checks if specified items have License Plates (LPs) in St
 {
   "ItemsStatus": [
     {
-      "ItemNo": "ITEM001",
-      "VariantCode": "VAR1",
-      "HasLPInStorage": true,
-      "TotalQuantityInStorage": 150.0,
-      "NumberOfLPs": 3
-    },
-    {
-      "ItemNo": "ITEM002",
+      "ItemNo": "1896-S",
       "VariantCode": "",
       "HasLPInStorage": false,
-      "TotalQuantityInStorage": 0,
-      "NumberOfLPs": 0
+      "StorageLPs": []
+    },
+    {
+      "ItemNo": "1928-S",
+      "VariantCode": "",
+      "HasLPInStorage": true,
+      "StorageLPs": [
+        {
+          "LPNo": "LP-00001",
+          "Quantity": 100.0,
+          "LocationCode": "LOC_TEST",
+          "BinCode": "FLOOR",
+          "UnitOfMeasure": "PCS",
+          "SerialNo": "",
+          "LotNo": "",
+          "ExpirationDate": "0001-01-01",
+          "ParentLPNo": "",
+          "ContainsLPChild": false
+        }
+      ],
+      "BinContentDetails": {
+        "ItemNo": "1928-S",
+        "VariantCode": "",
+        "UnitofMeasureCode": "",
+        "LocationCode": "LOC_TEST",
+        "BinCode": "FLOOR",
+        "TotalQtyAvailToTakeUOM": 0.0,
+        "TotalQtyAvailToPick": 0.0,
+        "TotalQtyAvailToPutAway": 0.0,
+        "TotalQtyInBinContent": 0.0,
+        "TotalQtyToTake": 0.0,
+        "TotalQtyInLP": 0.0,
+        "Details": []
+      }
     }
-  ]
+  ],
+  "Duration": "131 milliseconds"
 }
 ```
 
