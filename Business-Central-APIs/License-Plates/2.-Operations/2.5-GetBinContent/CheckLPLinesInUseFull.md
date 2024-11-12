@@ -31,7 +31,7 @@ The `CheckLPLinesInUse` API analyzes a list of items to determine if they have a
 #### Example Request
 ```json
 {
-  "ProcessMethod": "CheckLPLinesInUse",
+  "ProcessMethod": "CheckLPLinesInUseFull",
   "Parameters": [
     {
       "Items": [
@@ -150,4 +150,4 @@ Common error scenarios include:
 - Consider pagination for large item sets
 
 #### Summary
-The `CheckLPLinesInUse` API is a crucial tool for warehouse management, providing comprehensive information about LP status and availability for specified items. It helps prevent duplicate LP creation and ensures efficient warehouse operations by providing detailed insights into existing LP storage status.
+The `CheckLPLinesInUseFull` API is a crucial tool for warehouse management, providing comprehensive information about LP status and availability for specified items. It helps prevent duplicate LP creation and ensures efficient warehouse operations by providing detailed insights into existing LP storage status.
