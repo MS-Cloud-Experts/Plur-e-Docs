@@ -1,4 +1,3 @@
-Here is a step-by-step guide in Markdown format for the PDF file:
 
 # Plur-E Installation and Configuration Manual V2
 
