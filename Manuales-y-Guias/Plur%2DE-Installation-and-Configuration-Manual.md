@@ -1,4 +1,3 @@
-
 # Plur-E Installation and Configuration Manual V2
 
 ## Introduction
