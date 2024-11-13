@@ -1,0 +1,429 @@
+name: Recording_Receive_full
+description: Test recording
+start:
+  profile: BUSINESS MANAGER EVALUATION
+steps:
+  - type: navigate
+    target:
+      - page: Business Manager Role Center
+      - action: <Page Purchase Orders>
+    description: Navigate to <caption>Purchase Orders</caption>
+  - type: page-shown
+    source:
+      page: Purchase Order List
+    modal: false
+    runtimeId: b9ei
+    description: Page <caption>Purchase Orders</caption> was shown.
+  - type: invoke
+    target:
+      - page: Purchase Order List
+        runtimeRef: b9ei
+      - action: Control_New
+    invokeType: New
+    description: Invoke New on <caption>New</caption>
+  - type: page-shown
+    source:
+      page: Purchase Order
+    modal: false
+    runtimeId: b9lh
+    description: Page <caption>New - Purchase Order</caption> was shown.
+  - type: focus
+    target:
+      - page: Purchase Order
+        runtimeRef: b9lh
+      - field: Buy-from Vendor Name
+    description: Focus <caption>Vendor Name</caption>
+  - type: invoke
+    target:
+      - page: Purchase Order
+        runtimeRef: b9lh
+      - field: Buy-from Vendor Name
+    invokeType: Lookup
+    description: Invoke Lookup on <caption>Vendor Name</caption>
+  - type: page-shown
+    source:
+      page: Vendor Lookup
+    modal: true
+    runtimeId: ba3l
+    description: Page <caption>Vendors</caption> was shown.
+  - type: set-current-row
+    target:
+      - page: Vendor Lookup
+        runtimeRef: ba3l
+      - repeater: Group
+    targetRecord:
+      relative: 2
+    description: Set current row in <caption>Group</caption>
+  - type: invoke
+    target:
+      - page: Vendor Lookup
+        runtimeRef: ba3l
+      - repeater: Group
+    parameters:
+      AlwaysCommit: false
+    description: Invoke row on <caption>Group</caption>
+  - type: page-closed
+    source:
+      page: Vendor Lookup
+    runtimeId: ba3l
+    description: Page <caption>Vendors</caption> was closed.
+  - type: input
+    target:
+      - page: Purchase Order
+        runtimeRef: b9lh
+      - field: Vendor Invoice No.
+    value: "78978989"
+    description: Input <value>78978989</value> into <caption>Vendor Invoice No.</caption>
+  - type: input
+    target:
+      - page: Purchase Order
+        runtimeRef: b9lh
+      - part: PurchLines
+      - page: Purchase Order Subform
+      - repeater: Control1
+      - field: No.
+    value: ""
+    isFilterAsYouType: true
+    description: Input <value></value> into <caption>No.</caption>
+  - type: focus
+    target:
+      - page: Purchase Order
+        runtimeRef: b9lh
+      - part: PurchLines
+      - page: Purchase Order Subform
+      - repeater: Control1
+      - field: No.
+    description: Focus <caption>No.</caption>
+  - type: page-shown
+    source:
+      page: lookup:No.
+    modal: false
+    runtimeId: ba8l
+    description: Page <caption>Select</caption> was shown.
+  - type: set-current-row
+    target:
+      - page: lookup:No.
+        runtimeRef: ba8l
+      - repeater: repeater
+    targetRecord:
+      relative: 1
+    description: Set current row in <caption>Item</caption>
+  - type: invoke
+    target:
+      - page: lookup:No.
+        runtimeRef: ba8l
+      - repeater: repeater
+    parameters:
+      AlwaysCommit: true
+    description: Invoke row on <caption>Item</caption>
+  - type: page-closed
+    source:
+      page: lookup:No.
+    runtimeId: ba8l
+    description: Page <caption>Select</caption> was closed.
+  - type: input
+    target:
+      - page: Purchase Order
+        runtimeRef: b9lh
+      - part: PurchLines
+      - page: Purchase Order Subform
+      - repeater: Control1
+      - field: Location Code
+    value: ""
+    isFilterAsYouType: true
+    description: Input <value></value> into <caption>Location Code</caption>
+  - type: page-shown
+    source:
+      page: lookup:Location Code
+    modal: false
+    runtimeId: ba9a
+    description: Page <caption>Select</caption> was shown.
+  - type: set-current-row
+    target:
+      - page: lookup:Location Code
+        runtimeRef: ba9a
+      - repeater: repeater
+    targetRecord:
+      relative: 1
+    description: Set current row in <caption>Location</caption>
+  - type: invoke
+    target:
+      - page: lookup:Location Code
+        runtimeRef: ba9a
+      - repeater: repeater
+    parameters:
+      AlwaysCommit: true
+    description: Invoke row on <caption>Location</caption>
+  - type: page-closed
+    source:
+      page: lookup:Location Code
+    runtimeId: ba9a
+    description: Page <caption>Select</caption> was closed.
+  - type: input
+    target:
+      - page: Purchase Order
+        runtimeRef: b9lh
+      - part: PurchLines
+      - page: Purchase Order Subform
+      - repeater: Control1
+      - field: Quantity
+    value: "100"
+    description: Input <value>100</value> into <caption>Quantity</caption>
+  - type: focus
+    target:
+      - page: Purchase Order
+        runtimeRef: b9lh
+      - field: null
+        automationId: fb8cccf3-54ac-4d77-9ad8-136cec25583a
+        caption: null
+    description: Focus <caption>null</caption>
+  - type: invoke
+    target:
+      - page: Purchase Order
+        runtimeRef: b9lh
+      - action: Create &Whse. Receipt
+    parameters: {}
+    description: Invoke <caption>Create Whse. Receipt</caption>
+  - type: message
+    automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+    text: 1 Warehouse Receipt Header has been created.
+    description: "Message: <value>1 Warehouse Receipt Header has been created.</value>"
+  - type: page-shown
+    source:
+      page: Warehouse Receipt
+    modal: false
+    runtimeId: ba9r
+    description: Page <caption>Warehouse Receipt - WHSE REC-00010</caption> was shown.
+  - type: invoke
+    target:
+      - page: Warehouse Receipt
+        runtimeRef: ba9r
+      - field: Assigned User ID
+    invokeType: Lookup
+    description: Invoke Lookup on <caption>Assigned User ID</caption>
+  - type: page-shown
+    source:
+      page: lookup:Assigned User ID
+    modal: false
+    runtimeId: bagw
+    description: Page <caption>Select</caption> was shown.
+  - type: invoke
+    target:
+      - page: lookup:Assigned User ID
+        runtimeRef: bagw
+      - repeater: repeater
+    parameters:
+      AlwaysCommit: true
+    description: Invoke row on <caption>Warehouse Employee</caption>
+  - type: page-closed
+    source:
+      page: lookup:Assigned User ID
+    runtimeId: bagw
+    description: Page <caption>Select</caption> was closed.
+  - type: invoke
+    target:
+      - page: Warehouse Receipt
+        runtimeRef: ba9r
+      - part: WhseReceiptLines
+      - page: Whse. Receipt Subform
+      - action: PLUCreateLP
+    description: Invoke <caption>Create a License Plates</caption>
+  - type: page-shown
+    source:
+      page: null
+      automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+      caption: Confirm
+    modal: true
+    runtimeId: bahd
+    description: Page <caption>Confirm</caption> was shown.
+  - type: invoke
+    target:
+      - page: null
+        automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+        caption: Confirm
+        runtimeRef: bahd
+    invokeType: Yes
+    description: Invoke Yes on <caption>Confirm</caption>
+  - type: page-closed
+    source:
+      page: null
+    runtimeId: bahd
+    description: Page <caption>Confirm</caption> was closed.
+  - type: page-shown
+    source:
+      page: PLU LP New Card
+    modal: true
+    runtimeId: bahj
+    description: Page <caption>LP New Card - LP-00015</caption> was shown.
+  - type: focus
+    target:
+      - page: PLU LP New Card
+        runtimeRef: bahj
+      - part: LicensePlateLines
+      - page: PLU LP New Subform
+      - field: null
+        automationId: fb8cccf3-54ac-4d77-9ad8-136cec25583a
+        caption: null
+    description: Focus <caption>null</caption>
+  - type: invoke
+    target:
+      - page: PLU LP New Card
+        runtimeRef: bahj
+      - part: LicensePlateLines
+      - page: PLU LP New Subform
+      - action: New
+    description: Invoke <caption>New</caption>
+  - type: page-shown
+    source:
+      page: PLU Whse. Receipt Subform
+    modal: true
+    runtimeId: bala
+    description: Page <caption>Lines - WHSE REC-00010 ∙ 10000</caption> was shown.
+  - type: invoke
+    target:
+      - page: PLU Whse. Receipt Subform
+        runtimeRef: bala
+    invokeType: LookupOk
+    description: Invoke LookupOk on <caption>Lines - WHSE REC-00010 ∙ 10000</caption>
+  - type: page-closed
+    source:
+      page: PLU Whse. Receipt Subform
+    runtimeId: bala
+    description: Page <caption>Lines - WHSE REC-00010 ∙ 10000</caption> was closed.
+  - type: focus
+    target:
+      - page: PLU LP New Card
+        runtimeRef: bahj
+      - part: LicensePlateLines
+      - page: PLU LP New Subform
+      - field: null
+        automationId: fb8cccf3-54ac-4d77-9ad8-136cec25583a
+        caption: null
+    description: Focus <caption>null</caption>
+  - type: invoke
+    target:
+      - page: PLU LP New Card
+        runtimeRef: bahj
+    invokeType: Cancel
+    description: Invoke Cancel on <caption>LP New Card - LP-00015</caption>
+  - type: page-closed
+    source:
+      page: PLU LP New Card
+    runtimeId: bahj
+    description: Page <caption>LP New Card - LP-00015</caption> was closed.
+  - type: invoke
+    target:
+      - page: Warehouse Receipt
+        runtimeRef: ba9r
+      - action: Post Receipt
+    parameters: {}
+    description: Invoke <caption>Post Receipt</caption>
+  - type: page-shown
+    source:
+      page: null
+      automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+      caption: Confirm
+    modal: true
+    runtimeId: bams
+    description: Page <caption>Confirm</caption> was shown.
+  - type: invoke
+    target:
+      - page: null
+        automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+        caption: Confirm
+        runtimeRef: bams
+    invokeType: Yes
+    description: Invoke Yes on <caption>Confirm</caption>
+  - type: page-closed
+    source:
+      page: null
+    runtimeId: bams
+    description: Page <caption>Confirm</caption> was closed.
+  - type: page-closed
+    source:
+      page: Warehouse Receipt
+    runtimeId: ba9r
+    description: Page <caption>Warehouse Receipt - WHSE REC-00010</caption> was closed.
+  - type: message
+    automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+    text: "Number of source documents posted: 1 out of a total of 1.\r
+
+      \r
+
+      Number of put-away activities created: 1."
+    description: "Message: <value>Number of source documents posted: 1 out of a
+      total of 1.\r
+
+      \r
+
+      Number of put-away activities created: 1.</value>"
+  - type: navigate
+    target:
+      - page: Warehouse Put-aways
+    description: Navigate to Warehouse Put-aways
+  - type: page-shown
+    source:
+      page: Warehouse Put-aways
+    modal: false
+    runtimeId: bank
+    description: Page <caption>Warehouse Put-aways</caption> was shown.
+  - type: invoke
+    target:
+      - page: Warehouse Put-aways
+        runtimeRef: bank
+      - repeater: Control1
+    invokeType: Edit
+    parameters:
+      AlwaysCommit: false
+    description: Invoke row on <caption>Control1</caption>
+  - type: page-shown
+    source:
+      page: Warehouse Put-away
+    modal: false
+    runtimeId: baqu
+    description: Page <caption>Warehouse Put-away - Put-away ∙ WHSE
+      PUTAWAY-00006</caption> was shown.
+  - type: invoke
+    target:
+      - page: Warehouse Put-away
+        runtimeRef: baqu
+      - action: "&Register Put-away"
+    parameters: {}
+    description: Invoke <caption>Register Put-away</caption>
+  - type: page-shown
+    source:
+      page: null
+      automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+      caption: Confirm
+    modal: true
+    runtimeId: baxk
+    description: Page <caption>Confirm</caption> was shown.
+  - type: invoke
+    target:
+      - page: null
+        automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+        caption: Confirm
+        runtimeRef: baxk
+    invokeType: Yes
+    description: Invoke Yes on <caption>Confirm</caption>
+  - type: page-closed
+    source:
+      page: null
+    runtimeId: baxk
+    description: Page <caption>Confirm</caption> was closed.
+  - type: page-closed
+    source:
+      page: Warehouse Put-away
+    runtimeId: baqu
+    description: Page <caption>Warehouse Put-away - Put-away ∙ WHSE
+      PUTAWAY-00006</caption> was closed.
+  - type: close-page
+    target:
+      - page: Warehouse Put-aways
+        runtimeRef: bank
+    description: Close page <caption>Warehouse Put-aways</caption>
+  - type: page-closed
+    source:
+      page: Warehouse Put-aways
+    runtimeId: bank
+    description: Page <caption>Warehouse Put-aways</caption> was closed.
