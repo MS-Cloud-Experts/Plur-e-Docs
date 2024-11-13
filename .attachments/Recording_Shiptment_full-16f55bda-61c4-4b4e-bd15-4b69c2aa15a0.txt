@@ -1,0 +1,402 @@
+name: Recording_Shiptment_full
+description: Test recording
+start:
+  profile: BUSINESS MANAGER EVALUATION
+steps:
+  - type: navigate
+    target:
+      - page: Business Manager Role Center
+      - action: Sales Orders
+    description: Navigate to <caption>Sales Orders</caption>
+  - type: page-shown
+    source:
+      page: Sales Order List
+    modal: false
+    runtimeId: bb6z
+    description: Page <caption>Sales Orders</caption> was shown.
+  - type: invoke
+    target:
+      - page: Sales Order List
+        runtimeRef: bb6z
+      - action: Control_New
+    invokeType: New
+    description: Invoke New on <caption>New</caption>
+  - type: page-shown
+    source:
+      page: Sales Order
+    modal: false
+    runtimeId: bbg1
+    description: Page <caption>New - Sales Order</caption> was shown.
+  - type: focus
+    target:
+      - page: Sales Order
+        runtimeRef: bbg1
+      - field: Sell-to Customer No.
+    description: Focus <caption>Customer No.</caption>
+  - type: invoke
+    target:
+      - page: Sales Order
+        runtimeRef: bbg1
+      - field: Sell-to Customer No.
+    invokeType: Lookup
+    description: Invoke Lookup on <caption>Customer No.</caption>
+  - type: page-shown
+    source:
+      page: lookup:Sell-to Customer No.
+    modal: false
+    runtimeId: bc0l
+    description: Page <caption>Select</caption> was shown.
+  - type: set-current-row
+    target:
+      - page: lookup:Sell-to Customer No.
+        runtimeRef: bc0l
+      - repeater: repeater
+    targetRecord:
+      relative: 2
+    description: Set current row in <caption>Customer</caption>
+  - type: invoke
+    target:
+      - page: lookup:Sell-to Customer No.
+        runtimeRef: bc0l
+      - repeater: repeater
+    parameters:
+      AlwaysCommit: true
+    description: Invoke row on <caption>Customer</caption>
+  - type: page-closed
+    source:
+      page: lookup:Sell-to Customer No.
+    runtimeId: bc0l
+    description: Page <caption>Select</caption> was closed.
+  - type: input
+    target:
+      - page: Sales Order
+        runtimeRef: bbg1
+      - part: SalesLines
+      - page: Sales Order Subform
+      - repeater: Control1
+      - field: No.
+    value: ""
+    isFilterAsYouType: true
+    description: Input <value></value> into <caption>No.</caption>
+  - type: focus
+    target:
+      - page: Sales Order
+        runtimeRef: bbg1
+      - part: SalesLines
+      - page: Sales Order Subform
+      - repeater: Control1
+      - field: No.
+    description: Focus <caption>No.</caption>
+  - type: page-shown
+    source:
+      page: lookup:No.
+    modal: false
+    runtimeId: bc1q
+    description: Page <caption>Select</caption> was shown.
+  - type: set-current-row
+    target:
+      - page: lookup:No.
+        runtimeRef: bc1q
+      - repeater: repeater
+    targetRecord:
+      relative: 1
+    description: Set current row in <caption>Item</caption>
+  - type: invoke
+    target:
+      - page: lookup:No.
+        runtimeRef: bc1q
+      - repeater: repeater
+    parameters:
+      AlwaysCommit: true
+    description: Invoke row on <caption>Item</caption>
+  - type: page-closed
+    source:
+      page: lookup:No.
+    runtimeId: bc1q
+    description: Page <caption>Select</caption> was closed.
+  - type: input
+    target:
+      - page: Sales Order
+        runtimeRef: bbg1
+      - part: SalesLines
+      - page: Sales Order Subform
+      - repeater: Control1
+      - field: Quantity
+    value: "100"
+    description: Input <value>100</value> into <caption>Quantity</caption>
+  - type: input
+    target:
+      - page: Sales Order
+        runtimeRef: bbg1
+      - part: SalesLines
+      - page: Sales Order Subform
+      - repeater: Control1
+      - field: Location Code
+    value: ""
+    isFilterAsYouType: true
+    description: Input <value></value> into <caption>Location Code</caption>
+  - type: page-shown
+    source:
+      page: lookup:Location Code
+    modal: false
+    runtimeId: bc4k
+    description: Page <caption>Select</caption> was shown.
+  - type: set-current-row
+    target:
+      - page: lookup:Location Code
+        runtimeRef: bc4k
+      - repeater: repeater
+    targetRecord:
+      relative: 1
+    description: Set current row in <caption>Location</caption>
+  - type: invoke
+    target:
+      - page: lookup:Location Code
+        runtimeRef: bc4k
+      - repeater: repeater
+    parameters:
+      AlwaysCommit: true
+    description: Invoke row on <caption>Location</caption>
+  - type: page-closed
+    source:
+      page: lookup:Location Code
+    runtimeId: bc4k
+    description: Page <caption>Select</caption> was closed.
+  - type: invoke
+    target:
+      - page: Sales Order
+        runtimeRef: bbg1
+      - action: Create &Warehouse Shipment
+    parameters: {}
+    description: Invoke <caption>Create Warehouse Shipment</caption>
+  - type: message
+    automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+    text: 1 Warehouse Shipment Header has been created.
+    description: "Message: <value>1 Warehouse Shipment Header has been created.</value>"
+  - type: page-shown
+    source:
+      page: Warehouse Shipment
+    modal: false
+    runtimeId: bc51
+    description: Page <caption>Warehouse Shipment - WHSE SHIP-00011</caption> was shown.
+  - type: invoke
+    target:
+      - page: Warehouse Shipment
+        runtimeRef: bc51
+      - field: Assigned User ID
+    invokeType: Lookup
+    description: Invoke Lookup on <caption>Assigned User ID</caption>
+  - type: page-shown
+    source:
+      page: lookup:Assigned User ID
+    modal: false
+    runtimeId: bcc1
+    description: Page <caption>Select</caption> was shown.
+  - type: invoke
+    target:
+      - page: lookup:Assigned User ID
+        runtimeRef: bcc1
+      - repeater: repeater
+    parameters:
+      AlwaysCommit: true
+    description: Invoke row on <caption>Warehouse Employee</caption>
+  - type: page-closed
+    source:
+      page: lookup:Assigned User ID
+    runtimeId: bcc1
+    description: Page <caption>Select</caption> was closed.
+  - type: invoke
+    target:
+      - page: Warehouse Shipment
+        runtimeRef: bc51
+      - action: Create Pick
+    parameters: {}
+    description: Invoke <caption>Create Pick...</caption>
+  - type: page-shown
+    source:
+      page: Whse.-Shipment - Create Pick
+    modal: true
+    runtimeId: bcci
+    description: Page <caption>Whse.-Shipment - Create Pick</caption> was shown.
+  - type: invoke
+    target:
+      - page: Whse.-Shipment - Create Pick
+        runtimeRef: bcci
+    invokeType: Ok
+    description: Invoke Ok on <caption>Whse.-Shipment - Create Pick</caption>
+  - type: page-closed
+    source:
+      page: Whse.-Shipment - Create Pick
+    runtimeId: bcci
+    description: Page <caption>Whse.-Shipment - Create Pick</caption> was closed.
+  - type: message
+    automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+    text: Pick activity no. WHSE PICK-00008 has been created.
+    description: "Message: <value>Pick activity no. WHSE PICK-00008 has been
+      created.</value>"
+  - type: invoke
+    target:
+      - page: Warehouse Shipment
+        runtimeRef: bc51
+      - action: Pick Lines
+    parameters: {}
+    description: Invoke <caption>Pick Lines</caption>
+  - type: page-shown
+    source:
+      page: Warehouse Activity Lines
+    modal: false
+    runtimeId: bcd9
+    description: Page <caption>Warehouse Pick Lines</caption> was shown.
+  - type: invoke
+    target:
+      - page: Warehouse Activity Lines
+        runtimeRef: bcd9
+      - action: ShowDocument
+    parameters: {}
+    description: Invoke <caption>Show Document</caption>
+  - type: page-shown
+    source:
+      page: Warehouse Pick
+    modal: true
+    runtimeId: bcj3
+    description: Page <caption>Warehouse Pick - Pick ∙ WHSE PICK-00008</caption> was shown.
+  - type: invoke
+    target:
+      - page: Warehouse Pick
+        runtimeRef: bcj3
+      - part: WhseActivityLines
+      - page: Whse. Pick Subform
+      - action: PLUAssignLPsToWarehousePick
+    description: Invoke <caption>Assign License Plates to Warehouse Pick</caption>
+  - type: page-shown
+    source:
+      page: PLU LP Dialog List
+    modal: true
+    runtimeId: bcyf
+    description: Page <caption>Plur-E License Plates List - LP-00001</caption> was shown.
+  - type: set-current-row
+    target:
+      - page: PLU LP Dialog List
+        runtimeRef: bcyf
+      - repeater: Control
+    targetRecord:
+      relative: 1
+    description: Set current row in <caption>Control</caption>
+  - type: invoke
+    target:
+      - page: PLU LP Dialog List
+        runtimeRef: bcyf
+    invokeType: Ok
+    description: Invoke Ok on <caption>Plur-E License Plates List - LP-00013</caption>
+  - type: page-closed
+    source:
+      page: PLU LP Dialog List
+    runtimeId: bcyf
+    description: Page <caption>Plur-E License Plates List - LP-00013</caption> was closed.
+  - type: message
+    automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+    text: "LP-00013 was successfully Assigned. \r
+
+      \r
+
+      \ \r
+
+      \ \r\n"
+    description: "Message: <value>LP-00013 was successfully Assigned. \r
+
+      \r
+
+      \ \r
+
+      \ \r
+
+      </value>"
+  - type: invoke
+    target:
+      - page: Warehouse Pick
+        runtimeRef: bcj3
+      - action: RegisterPick
+    parameters: {}
+    description: Invoke <caption>Register Pick</caption>
+  - type: page-shown
+    source:
+      page: null
+      automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+      caption: Confirm
+    modal: true
+    runtimeId: bczj
+    description: Page <caption>Confirm</caption> was shown.
+  - type: invoke
+    target:
+      - page: null
+        automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+        caption: Confirm
+        runtimeRef: bczj
+    invokeType: Yes
+    description: Invoke Yes on <caption>Confirm</caption>
+  - type: page-closed
+    source:
+      page: null
+    runtimeId: bczj
+    description: Page <caption>Confirm</caption> was closed.
+  - type: page-closed
+    source:
+      page: Warehouse Pick
+    runtimeId: bcj3
+    description: Page <caption>Warehouse Pick - Pick ∙ WHSE PICK-00008</caption> was closed.
+  - type: close-page
+    target:
+      - page: Warehouse Activity Lines
+        runtimeRef: bcd9
+    description: Close page <caption>Warehouse Pick Lines</caption>
+  - type: page-closed
+    source:
+      page: Warehouse Activity Lines
+    runtimeId: bcd9
+    description: Page <caption>Warehouse Pick Lines</caption> was closed.
+  - type: invoke
+    target:
+      - page: Warehouse Shipment
+        runtimeRef: bc51
+      - action: P&ost Shipment
+    parameters: {}
+    description: Invoke <caption>Post Shipment...</caption>
+  - type: page-shown
+    source:
+      page: null
+      automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+      caption: Choose
+    modal: true
+    runtimeId: bczp
+    description: Page <caption>Choose</caption> was shown.
+  - type: invoke
+    target:
+      - page: null
+        automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+        caption: Choose
+        runtimeRef: bczp
+    invokeType: Ok
+    description: Invoke Ok on <caption>Choose</caption>
+  - type: page-closed
+    source:
+      page: null
+    runtimeId: bczp
+    description: Page <caption>Choose</caption> was closed.
+  - type: page-closed
+    source:
+      page: Warehouse Shipment
+    runtimeId: bc51
+    description: Page <caption>Warehouse Shipment - WHSE SHIP-00011</caption> was closed.
+  - type: message
+    automationId: 8da61efd-0002-0003-0507-0b0d1113171d
+    text: "Number of source documents posted: 1 out of a total of 1.\r
+
+      \r
+
+      Ship lines have been posted."
+    description: "Message: <value>Number of source documents posted: 1 out of a
+      total of 1.\r
+
+      \r
+
+      Ship lines have been posted.</value>"
