@@ -47,3 +47,5 @@ In this appendix, you will find the way to configure a central business user wit
 4. Check the "Admin Center Access" and then "Global Administrator" options.
 
 It is also recommended to configure the user who is going to install the extension as "Super" in Business Central.
+
+[Plur-E Installation and Configuration Manual V2.pdf](/.attachments/Plur-E%20Installation%20and%20Configuration%20Manual%20V2-b9f416d3-2a2b-40f7-bed2-d44a10075d5b.pdf)
