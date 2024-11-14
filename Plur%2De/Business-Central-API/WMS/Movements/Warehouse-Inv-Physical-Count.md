@@ -1,1 +1,0 @@
-![Flujo.png](/.attachments/Flujo-6312f471-1302-4dab-a2b9-5035c10b3388.png)

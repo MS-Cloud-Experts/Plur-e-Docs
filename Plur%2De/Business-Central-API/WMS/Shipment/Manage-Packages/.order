@@ -1,8 +1,0 @@
-CheckPackageShipmentStatusPreRegisterPick
-UpdatePackageByOrderKey
-GetPackagesByDocument
-CreatePackageShipment
-UpdatePackageShipment
-DeleletePackageShipmentByKey
-DeleletePackageLineShipmentByKey
-DeleleteAllPackagesShipmentByWhseDocument
