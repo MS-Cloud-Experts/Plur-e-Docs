@@ -1,6 +1,5 @@
 title: [Plur-e Wiki]
 description: [Wiki Description]
-theme: midnight
 baseurl: "" 
 url: "https://ms-cloud-experts.github.io/Plur-e-Docs"
 remote_theme: pages-themes/midnight@v0.2.0
