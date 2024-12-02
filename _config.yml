@@ -1,3 +1,5 @@
 title: Plur-e Wiki
 description: Wiki Description
-theme: jekyll-theme-chirpy
+theme: midnight
+baseurl: "" 
+url: "https://ms-cloud-experts.github.io/Plur-e-Docs"
