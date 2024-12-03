@@ -1,8 +1,8 @@
 ## **Table of Contents**
 
-- Configuring Payment Methods
+- [Configuring Payment Methods](javascript:void(0))
   - [Configuring Payment Methods](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki/Configuring-Payment-Methods-in-Plur%E2%80%90e-on-Business-Central)
-- General Inventory Count
+- [General Inventory Count](javascript:void(0))
   - [General Inventory Count](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki/General-Inventory-Count)
   - [Inventory Cycle Count Manual](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki/Inventory-Cycle-Count-Manual)
   - [License Plate Receiving](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki/License-Plate-Receiving)
