@@ -1,6 +1,6 @@
 ## **Table of Contents**
 
--Configuring Payment Methods
+- Configuring Payment Methods
   - [Configuring Payment Methods](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki/Configuring-Payment-Methods-in-Plur%E2%80%90e-on-Business-Central)
 - General Inventory Count
   - [General Inventory Count](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki/General-Inventory-Count)
