@@ -12,3 +12,5 @@
   - [Payment Manual](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki/Payment-Manual)
   - [Plur-e Sales Manual](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki/Plur%E2%80%90e-Sales-Manual)
   - [Sales Module in Business Central](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki/Sales-Module-in-Business-Central)
+
+![Descripción de la imagen](https://plur-e.com/wp-content/uploads/2024/11/Imagotipo-Ruddy-BluePNG.png)
