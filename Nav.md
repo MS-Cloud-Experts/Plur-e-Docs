@@ -7,4 +7,3 @@
 - [General Inventory Count](javascript:void(0))
   - [General Inventory Count](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki/General-Inventory-Count)
   - [Inventory Cycle Count Manual](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki/Inventory-Cycle-Count-Manual)
-- [Test](javascript:void(0))
