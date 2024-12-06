@@ -5,16 +5,19 @@
 - [Payment Module Documentation](javascript:void(0))
   - [Configuration of the Payment module in Business Central](Docs/PaymentModuleDocumentation/ConfigurationofthePaymentmoduleinBusinessCentral.md)
   - [Pyament Manual](Docs/PaymentModuleDocumentation/PaymentManualAIStructured.md)
-
 - [PlurE Installation and PlurE Web Dashboard Manual](javascript:void(0))
   - [Configuration and Use of the PlurE Web Dashboard](Docs/PlureInstallationandPlureWebDashboardManual/ConfigurationandUseofthePlurEWebDashboard.md)
   - [PlurE Installation and Configuration Manual](Docs/PlureInstallationandPlureWebDashboardManual/PlurEInstallationandConfigurationManual.md)
- 
 - [Sales Module Documentation](javascript:void(0))
   - [PlurE Sales Manual AI Structured](Docs/SalesModuleDocumentation/PlurESalesManualAIStructured.md)
   - [Sales Module Business Central](Docs/SalesModuleDocumentation/SalesModuleBusinessCentral.md)
-
 - [WMS Module Documentation](javascript:void(0))
   - [General Inventory Count AI Structured](Docs/WMSModuleDocumentation/GeneralInventoryCountAIStructured.md)
   - [General Inventory Count](Docs/WMSModuleDocumentation/GeneralInventoryCount.md)
   - [Inventory Cycle Count Manual AI Structured](Docs/WMSModuleDocumentation/InventoryCycleCountManualAIStructured.md)
+  - [LicensePlateReceiving](Docs/WMSModuleDocumentation/LicensePlateReceiving.md)
+  - [LicensePlateRecivingScripting](Docs/WMSModuleDocumentation/LicensePlateRecivingScripting.md)
+  - [LicensePlateShipments](Docs/WMSModuleDocumentation/LicensePlateShipments.md)
+  - [PackageModule](Docs/WMSModuleDocumentation/PackageModule.md)
+  - [WMSInventoryCountModule](Docs/WMSModuleDocumentation/WMSInventoryCountModule.md)
+  - [WMSReceiving](Docs/WMSModuleDocumentation/WMSReceiving.md)
