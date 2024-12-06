@@ -4,16 +4,6 @@
 
 The Warehouse Shipments process in Business Central, integrated with the PLUR-E mobile app, provides a streamlined workflow for managing receiving, location assignments, and shipment preparation. This module supports various item types, including serialized and non-serialized items, enabling efficient inventory updates and accurate location tracking.
 
-### **Contents**
-1. [Receiving Items](#1-receiving-items)
-2. [Receiving Serialized Items](#2-receiving-serialized-items)
-3. [Put-Away Process (Location Assignment)](#3-put-away-process-location-assignment)
-4. [Creating a Shipment from Transfer or Sales Order](#4-creating-a-shipment-from-transfer-or-sales-order)
-5. [Preparing and Assigning the Shipment](#5-preparing-and-assigning-the-shipment)
-6. [Creating the Pick (Item Selection)](#6-creating-the-pick-item-selection)
-7. [Send Picked Items to Business Central](#7-send-picked-items-to-business-central)
-8. [Finalizing the Shipment in Business Central](#8-finalizing-the-shipment-in-business-central)
-
 ---
 
 ## **1. Receiving Items**

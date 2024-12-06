@@ -1,5 +1,3 @@
-## **Table of Contents**
-
 - [Home](javascript:void(0))
   - [Index](Docs/Home/Index.md)
 - [Payment Module Documentation](javascript:void(0))
@@ -19,5 +17,4 @@
   - [LicensePlateRecivingScripting](Docs/WMSModuleDocumentation/LicensePlateRecivingScripting.md)
   - [LicensePlateShipments](Docs/WMSModuleDocumentation/LicensePlateShipments.md)
   - [PackageModule](Docs/WMSModuleDocumentation/PackageModule.md)
-  - [WMSInventoryCountModule](Docs/WMSModuleDocumentation/WMSInventoryCountModule.md)
   - [WMSReceiving](Docs/WMSModuleDocumentation/WMSReceiving.md)

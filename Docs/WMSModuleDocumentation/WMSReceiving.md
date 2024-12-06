@@ -4,10 +4,6 @@
 
 The Warehouse Management System (WMS) Receiving Module in Business Central streamlines the process of receiving and handling incoming inventory. This module integrates with the PLUR-E mobile application to enhance efficiency in receiving, tracking, and storing items, including serialized and License Plate-managed items.
 
-### **Contents**
-1. [Receiving in Plur-e Mobile](#receiving-in-plur-e-mobile)
-2. [Receiving in Business Central](#receiving-in-business-central)
-
 ---
 
 ## **1. Receiving in Plur-e Mobile**

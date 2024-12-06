@@ -4,24 +4,6 @@ This guide explains the procedures for performing an Inventory Cycle Count in a 
 
 ---
 
-## **Table of Contents**
-1. [Introduction](#1-introduction)
-2. [Calculate Inventory by Specifications](#2-calculate-inventory-by-specifications)
-   - [Initial Setup](#initial-setup)
-   - [Configuration Steps](#configuration-steps)
-   - [Processing](#processing)
-3. [Calculate Inventory by Counting Period](#3-calculate-inventory-by-counting-period)
-   - [Setup Counting Periods](#setup-counting-periods)
-   - [Item Configuration](#item-configuration)
-   - [Processing](#processing-1)
-4. [Plur-E Inventory Cycle Count](#4-plur-e-inventory-cycle-count)
-   - [Initial Setup](#initial-setup-1)
-   - [Counting Process](#counting-process)
-   - [Verification and Completion](#verification-and-completion)
-5. [Important Notes and Best Practices](#important-notes-and-best-practices)
-
----
-
 ## **1. Introduction**
 
 This manual provides step-by-step guidance on performing the Inventory Cycle Count using Business Central’s advanced Warehouse features. Business Central offers two main methods:
