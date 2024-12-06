@@ -73,10 +73,4 @@ This guide details the step-by-step process for creating and processing a wareho
 - Document numbers may vary but follow similar format
 - Always ensure proper assignment of warehouse employees and license plates
 
-## Recording
-
-[Recording](https://github.com/MS-Cloud-Experts/Plur-e-Docs/blob/24cc27fc130049c6bfc42a13030a6fe528f0cb8c/Plur-Docs/docs/yml/Recording_Shiptment_full.yml)
-
----
-
-[Back Home](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki)
+[Recording_Shiptment_full.txt](/.attachments/Recording_Shiptment_full-16f55bda-61c4-4b4e-bd15-4b69c2aa15a0.txt)

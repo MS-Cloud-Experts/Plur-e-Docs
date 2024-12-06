@@ -37,5 +37,3 @@
 1. Once all LPs have been created, proceed to post the full Receive document.
 
 ---
-
-[Back Home](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki)

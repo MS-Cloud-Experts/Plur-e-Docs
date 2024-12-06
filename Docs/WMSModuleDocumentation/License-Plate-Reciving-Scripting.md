@@ -44,9 +44,8 @@
 - All lookups (vendor, item, location) must be selected from existing records
 - The process includes several automated system messages confirming successful operations
 
-## Recording
+## Document Flow
+Purchase Order → Warehouse Receipt → License Plates (Optional) → Put-away Activity → Registered Put-away
 
-[Recording](https://github.com/MS-Cloud-Experts/Plur-e-Docs/blob/24cc27fc130049c6bfc42a13030a6fe528f0cb8c/Plur-Docs/docs/yml/Recording%20Receive%20full.yml)
+[Recording_Receive_full.txt](/.attachments/Recording_Receive_full-4850bace-513f-41b0-b697-69b05d83eb05.txt)
 
----
-[Back Home](https://github.com/MS-Cloud-Experts/Plur-e-Docs/wiki)
