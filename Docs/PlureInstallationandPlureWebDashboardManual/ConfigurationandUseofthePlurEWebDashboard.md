@@ -16,6 +16,7 @@
 1. In this section, you can find the Customer Portal and the current Plur-E subscription.
 
 ![image](https://github.com/user-attachments/assets/9c64cfb9-d510-4812-9c17-5410464bac4d)
+
 ![image](https://github.com/user-attachments/assets/2a86ee41-938f-4b6f-88a3-bc21fa302b83)
 
 
@@ -28,6 +29,7 @@
 3. You will be able to modify aspects of the environment as well as test the connection to the Business Central extension.
 
 ![image](https://github.com/user-attachments/assets/4de8ac53-c52c-4cfc-a103-f94ebaf2b5ae)
+
 ![image](https://github.com/user-attachments/assets/0f0c82ef-a044-4926-8cae-acac546c860c)
 
 
@@ -40,7 +42,9 @@
 3. You can reset passwords, edit, activate, deactivate, and delete users.
 
 ![image](https://github.com/user-attachments/assets/0707b2fb-3362-4d14-9fe2-9267d9c7aada)
+
 ![image](https://github.com/user-attachments/assets/9d0579e3-1d0d-48b2-a277-dd9f902bdfd6)
+
 ![image](https://github.com/user-attachments/assets/9f8ae242-d080-4f5b-82ad-ac0e04e5388d)
 
 
@@ -84,6 +88,7 @@
 1. In the Payments section, you can create, edit, or delete payment methods, which must be equivalent to the Batches created in the General Journal Batches of Business Central.
 
 ![image](https://github.com/user-attachments/assets/ecfa12a5-17a8-44c3-a3b5-25738723880d)
+
 ![image](https://github.com/user-attachments/assets/f889207d-874d-4d78-921f-10b52bc11fc7)
 
 
@@ -108,5 +113,6 @@
 1. In the Shipments section, you can see the latest transactions and the settings to configure the Ship Station API.
 
 ![image](https://github.com/user-attachments/assets/87d26a12-0ef2-423b-90d7-77d525197692)
+
 ![image](https://github.com/user-attachments/assets/b90369f4-5588-442b-958c-9d1d2ae4e451)
 
