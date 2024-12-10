@@ -1,4 +1,4 @@
-## **INDEX**
+## **WELCOME**
 
 **PlurE - Official Documentation**  
 
