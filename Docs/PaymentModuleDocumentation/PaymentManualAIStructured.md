@@ -12,15 +12,23 @@ In the **"Posted Sales Invoice"** section of Plur-e Mobile, users can view all p
 
 1. Locate the invoice you wish to pay.
 2. Swipe right on the selected invoice and tap the **"Pay"** button.
-3. A pop-up window will display the available payment options configured in Plur-e Web and Business Central.
-4. Choose your preferred payment method and confirm the transaction by tapping **"Pay"** again.
+
+![image](https://github.com/user-attachments/assets/f8787235-a376-4fda-83b1-76d1d4a6a9e6)
+
+4. A pop-up window will display the available payment options configured in Plur-e Web and Business Central.
+5. Choose your preferred payment method and confirm the transaction by tapping **"Pay"** again.
+
+![image](https://github.com/user-attachments/assets/4570d743-53e0-4ce9-811d-05e4ca01919d)
 
 ### **Paying Multiple Invoices Simultaneously**
 
 1. Use the dynamic search button at the bottom center of the app to locate multiple invoices for payment.
 2. Select each invoice you want to pay, then tap **"Pay Invoices"**.
-3. A pop-up window will show the available payment methods configured in Plur-e Web and Business Central.
-4. Choose your payment method and confirm the payment by tapping **"Pay"**.
+
+![image](https://github.com/user-attachments/assets/1c976b68-02fa-47fd-b298-ac805550dbde)
+
+4. A pop-up window will show the available payment methods configured in Plur-e Web and Business Central.
+5. Choose your payment method and confirm the payment by tapping **"Pay"**.
 
 ---
 
@@ -28,11 +36,16 @@ In the **"Posted Sales Invoice"** section of Plur-e Mobile, users can view all p
 
 To view payment history, navigate to the **"Posted Sales Invoice Payment"** section. This section contains a complete record of paid invoices, with search functionality similar to that for unpaid invoices.
 
+![image](https://github.com/user-attachments/assets/d26a85df-3208-4834-b555-c9fa625403a0)
+
 ### **Printing Paid Invoices**
 
 1. Ensure that your printers are configured and that the Plur-e app has the necessary permissions to access them.
 2. To print an invoice, swipe right on the desired invoice and tap **"Print"**.
-3. Select the printer previously configured, then confirm to print the invoice.
+
+![image](https://github.com/user-attachments/assets/46d5139b-639a-4673-9d2b-1d31e6e9a977)
+
+4. Select the printer previously configured, then confirm to print the invoice.
 
 ### **Application Permission Settings**
 
