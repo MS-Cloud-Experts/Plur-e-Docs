@@ -2,7 +2,7 @@
   - [Index](Docs/Home/Index.md)
 - [Payment module documentation](javascript:void(0))
   - [Configuration of the payment module in business central](Docs/PaymentModuleDocumentation/ConfigurationofthePaymentmoduleinBusinessCentral.md)
-  - [Pyament manual](Docs/PaymentModuleDocumentation/PaymentManualAIStructured.md)
+  - [Payment manual](Docs/PaymentModuleDocumentation/PaymentManualAIStructured.md)
 - [Installation and web dashboard](javascript:void(0))
   - [Configuration and use of the web dashboard](Docs/PlureInstallationandPlureWebDashboardManual/ConfigurationandUseofthePlurEWebDashboard.md)
   - [Installation and configuration](Docs/PlureInstallationandPlureWebDashboardManual/PlurEInstallationandConfigurationManual.md)
