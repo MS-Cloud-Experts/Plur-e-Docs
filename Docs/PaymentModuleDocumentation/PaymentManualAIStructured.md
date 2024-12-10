@@ -4,16 +4,6 @@ This guide provides instructions for managing invoice payments within the Plur-e
 
 ---
 
-## **Table of Contents**
-1. [Invoice Search and Payment](#1-invoice-search-and-payment)
-   - [Paying a Single Invoice](#paying-a-single-invoice)
-   - [Paying Multiple Invoices Simultaneously](#paying-multiple-invoices-simultaneously)
-2. [Viewing Paid Invoices and Printing](#2-viewing-paid-invoices-and-printing)
-   - [Printing Paid Invoices](#printing-paid-invoices)
-   - [Application Permission Settings](#application-permission-settings)
-
----
-
 ## **1. Invoice Search and Payment**
 
 In the **"Posted Sales Invoice"** section of Plur-e Mobile, users can view all posted invoices that remain unpaid. This section provides options to search for specific invoices or to filter by date range, allowing easy access to past invoices ready for payment.
