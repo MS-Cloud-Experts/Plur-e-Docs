@@ -4,17 +4,6 @@ This document provides a comprehensive guide for using the Plur-E sales applicat
 
 ---
 
-## **Table of Contents**
-1. [Introduction](#1-introduction)
-2. [Sales Orders](#2-sales-orders)
-   - [Create Sales Order with Partial Shipment](#create-sales-order-with-partial-shipment)
-   - [Create Sales Order with Complete Shipment](#create-sales-order-with-complete-shipment)
-3. [Sales Return Orders](#3-sales-return-orders)
-4. [Sales Invoices](#4-sales-invoices)
-5. [Sales Credit Memos](#5-sales-credit-memos)
-
----
-
 ## **1. Introduction**
 
 Plur-E is a sales application integrated with Business Central.
