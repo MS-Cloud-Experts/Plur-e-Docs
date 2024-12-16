@@ -18,3 +18,5 @@
   - [License plate shipments](Docs/WMSModuleDocumentation/LicensePlateShipments.md)
   - [Package module](Docs/WMSModuleDocumentation/PackageModule.md)
   - [WMS receiving](Docs/WMSModuleDocumentation/WMSReceiving.md)
+  - [Warehouse Put Away](Docs/WMSModuleDocumentation/WarehousePutAway.md)
+  - [WarehouseReceipt](Docs/WMSModuleDocumentation/WarehouseReceipt.md)
