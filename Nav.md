@@ -19,4 +19,4 @@
   - [Package module](Docs/WMSModuleDocumentation/PackageModule.md)
   - [WMS receiving](Docs/WMSModuleDocumentation/WMSReceiving.md)
   - [Warehouse Put Away](Docs/WMSModuleDocumentation/WarehousePutAway.md)
-  - [WarehouseReceipt](Docs/WMSModuleDocumentation/WarehouseReceipt.md)
+  - [Warehouse Receipt](Docs/WMSModuleDocumentation/WarehouseReceipt.md)
