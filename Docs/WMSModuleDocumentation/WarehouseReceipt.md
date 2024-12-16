@@ -88,5 +88,6 @@ If serial numbers are preloaded from a transfer order or purchase order, there's
 
 Upon finalizing the receipt or pick process, you'll find a posting option at the bottom of the screen. This allows you to finalize the transaction in the system, indicating that the items are ready for the next phase in the workflow.
 
-![image](https://github.com/user-attachments/assets/cb3312af-602a-47da-b10e-17cd7d9d9c10)
+![image](https://github.com/user-attachments/assets/0b024873-64d5-4c08-b226-55f6dff17447)
+
 
