@@ -20,8 +20,12 @@ Sales Orders are used to record an agreement to sell specific products or servic
    - Access the **Sales Orders** page and select **New** to create a new order.
    - Enter **Customer Information** including name, address, payment terms, and delivery terms.
 
+![image](https://github.com/user-attachments/assets/8cf4c4ac-c6af-47fb-a987-ce177566a5a7)
+
 3. **Enter Sales Order Lines**:
    - Add each product or service in the **Lines** section with details such as **Item Number**, **Quantity**, **Price**, and **Discounts**.
+
+![image](https://github.com/user-attachments/assets/5efc1ee3-bf9a-45af-a7e3-e26261b8bf7e)
 
 4. **Order Promising and Delivery Dates**:
    - Use the **Order Promising** feature to set and communicate realistic delivery dates based on inventory and delivery schedules.
@@ -35,6 +39,8 @@ Sales Orders are used to record an agreement to sell specific products or servic
 
 7. **Posting the Sales Order**:
    - Post the **Sales Order** to create a **Sales Invoice** and record the transaction.
+
+![image](https://github.com/user-attachments/assets/95bd6adb-aabb-4334-8813-3901f85de8f6)
 
 8. **Correct or Cancel Sales Order**:
    - If unpaid, correct or cancel the posted invoice if adjustments are needed.
@@ -51,15 +57,21 @@ Sales Invoices finalize the sale agreement, recording the sale of goods or servi
 1. **Generate a Sales Invoice from a Sales Order**:
    - Convert a **Sales Order** directly into a Sales Invoice to maintain consistency.
 
+![image](https://github.com/user-attachments/assets/a26422d0-2aa6-4a7c-a521-1e694cab0070)
+
 2. **Create a New Sales Invoice**:
    - Access the **Sales Invoices** page and select **New**.
    - Enter **Customer Information** along with payment and delivery terms.
+
+![image](https://github.com/user-attachments/assets/4a6035f1-4eb4-496e-9094-5a1c9d350fe5)
 
 3. **Enter Sales Invoice Lines**:
    - Add each item or service, specifying quantities, prices, and applicable discounts.
 
 4. **Post the Sales Invoice**:
    - Post the invoice to update the general ledger and inventory records.
+
+![image](https://github.com/user-attachments/assets/b8fc66c1-e6a2-484e-9482-0f9e8d1ebdc3)
 
 5. **Correcting or Cancelling a Sales Invoice**:
    - For unpaid invoices, **Cancel** or **Correct** errors.
@@ -73,9 +85,13 @@ Sales Return Orders are created to process items returned by customers, updating
 
 ### **Steps to Create and Manage a Sales Return Order**
 
+![image](https://github.com/user-attachments/assets/9dd245a8-0a1c-4a86-b218-1deb38dbc64c)
+
 1. **Create a Sales Return Order**:
    - Access the **Sales Return Orders** page and select **New**.
    - Enter customer details and any return conditions on the **General FastTab**.
+
+![image](https://github.com/user-attachments/assets/018ceae2-f608-4fb1-aaab-9787356127d6)
 
 2. **Copy Information from Original Documents**:
    - Use the **Copy Document** function to pull details from the original Sales Invoice or Sales Order.
@@ -86,6 +102,8 @@ Sales Return Orders are created to process items returned by customers, updating
 4. **Process and Post the Return**:
    - Verify the return details and post the order, updating inventory and financial records.
 
+![image](https://github.com/user-attachments/assets/e96ee74d-fe8f-4fbc-8210-ecea8671af8c)
+
 ---
 
 ## **4. Sales Credit Memo**
@@ -94,9 +112,13 @@ Sales Credit Memos reverse or adjust previously posted sales transactions, espec
 
 ### **Steps to Create and Manage a Sales Credit Memo**
 
+![image](https://github.com/user-attachments/assets/2e58fd41-7ee1-4e0a-bda2-114deea1cf1b)
+
 1. **Create a Credit Memo from an Unpaid Invoice**:
    - Locate the unpaid Sales Invoice to be reversed.
    - Use the **Create Credit Memo** function to generate a credit memo linked to the invoice.
+
+![image](https://github.com/user-attachments/assets/b2abce44-e59b-4f4f-8ed9-09851948e1b3)
 
 2. **Enter Credit Memo Details**:
    - Adjust information on the **Sales Credit Memo** page to reflect the correction.
@@ -107,15 +129,6 @@ Sales Credit Memos reverse or adjust previously posted sales transactions, espec
 4. **Post the Credit Memo**:
    - Post the credit memo to update financial records, reflecting the reversal or correction.
 
----
-
-## **Summary of Document Functions**
-
-| Document              | Purpose                                                                                 | Key Features                                    |
-|-----------------------|-----------------------------------------------------------------------------------------|-------------------------------------------------|
-| **Sales Order**       | Record agreements with customers, including delivery and payment terms.                 | Allows partial shipments, order promising.      |
-| **Sales Invoice**     | Officially records a sale and updates general ledger and inventory.                     | Correct or cancel before payment is received.   |
-| **Sales Return Order**| Records customer returns and adjusts inventory and financial records.                   | Copy from original documents for accuracy.      |
-| **Sales Credit Memo** | Reverses or corrects transactions, especially for unpaid or erroneous invoices.         | Cancels or recreates original invoices.         |
+![image](https://github.com/user-attachments/assets/2f7476db-1b51-4ff6-b03d-34dfcfca44f0)
 
 
