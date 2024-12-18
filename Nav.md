@@ -13,7 +13,6 @@
   - [General inventory count](Docs/WMSModuleDocumentation/GeneralInventoryCount.md)
   - [Inventory cycle count manual](Docs/WMSModuleDocumentation/InventoryCycleCountManualAIStructured.md)
   - [Package module](Docs/WMSModuleDocumentation/PackageModule.md)
-  - [WMS receiving](Docs/WMSModuleDocumentation/WMSReceiving.md)
   - [Warehouse Put Away](Docs/WMSModuleDocumentation/WarehousePutAway.md)
   - [Warehouse Receipt ](Docs/WMSModuleDocumentation/WarehouseReceipt.md)
 - [WMS license plate module documentation](javascript:void(0))
