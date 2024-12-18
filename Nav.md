@@ -17,5 +17,5 @@
   - [Warehouse Put Away](Docs/WMSModuleDocumentation/WarehousePutAway.md)
   - [Warehouse Receipt ](Docs/WMSModuleDocumentation/WarehouseReceipt.md)
 - [WMS license plate module documentation](javascript:void(0))
-  - [License plate receiving](Docs/WMSLicensePlateModuleDocumentation/LicensePlateReceiving.md)
-  - [License plate shipments](Docs/WMSLicensePlateModuleDocumentation/LicensePlateShipments.md)
+  - [License Plate receiving](Docs/WMSLicensePlateModuleDocumentation/LicensePlateReceiving.md)
+  - [License Plate shipments](Docs/WMSLicensePlateModuleDocumentation/LicensePlateShipments.md)
