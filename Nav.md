@@ -19,3 +19,5 @@
 - [WMS license plate module documentation](javascript:void(0))
   - [License Plate receiving](Docs/WMSLicensePlateModuleDocumentation/LicensePlateReceiving.md)
   - [License Plate shipments](Docs/WMSLicensePlateModuleDocumentation/LicensePlateShipments.md)
+- [OpenAI Module](javascript:void(0))
+  - [ChatBot Assistant](Docs/OpenAIModule/ChatBotAssistant.md)
