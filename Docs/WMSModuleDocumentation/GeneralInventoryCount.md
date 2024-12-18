@@ -29,7 +29,9 @@
 ### Counting Process
 
 1. Access product scanning page
-![Media (51).jpg](/.attachments/Media%20(51)-bc1a0b50-7bc7-424d-80fe-0c9dfca0416e.jpg)
+
+![image](https://github.com/user-attachments/assets/554c74e5-9a38-4c71-a978-4e07ffacad50)
+
 2. For each item:
    - Scan product label
    - Enter physical quantity
