@@ -63,8 +63,5 @@ From this section, you can:
 ---
 
 # **Video**
+[![Video explicativo](https://img.youtube.com/vi/Ib3A-wlRcmQ/0.jpg)](https://youtu.be/Ib3A-wlRcmQ)
 
-[![image](https://github.com/user-attachments/assets/0538af29-721c-4ccc-a4ca-f5a10fb8c246
-)](https://youtu.be/Ib3A-wlRcmQ?si=IjrOA0VMhxbB7JI9)
-
----
