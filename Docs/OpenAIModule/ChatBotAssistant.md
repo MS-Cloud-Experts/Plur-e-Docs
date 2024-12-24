@@ -64,6 +64,6 @@ From this section, you can:
 
 # **Video**
 
-[![image](https://github.com/user-attachments/assets/222a82d2-4c0a-48d7-add9-fc794ad50af7)](https://youtu.be/DGd9AKebdKw?si=IWSkRSe1GXla7Vc9)
+[![image](https://github.com/user-attachments/assets/222a82d2-4c0a-48d7-add9-fc794ad50af7)](https://youtu.be/dQw4w9WgXcQ?si=ph0DKEyzVkv7HIx9)
 
 ---
