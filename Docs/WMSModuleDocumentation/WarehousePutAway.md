@@ -80,6 +80,11 @@ It's crucial to verify that all processes have been correctly executed and all i
 
 ![image](https://github.com/user-attachments/assets/c76d566e-f76d-469b-95c7-c81c8b754ee6)
 
+---
+
+# **Video**  
+[![Video explicativo](https://img.youtube.com/vi/3o1fFPjWnjk/0.jpg)](https://youtu.be/3o1fFPjWnjk?si=0ZneglH8oKZywXGp)
+
 
 
 
