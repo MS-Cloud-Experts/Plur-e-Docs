@@ -112,4 +112,8 @@ This manual provides step-by-step guidance on performing the Inventory Cycle Cou
 
 ---
 
+# **Video** 
+[![Video explicativo](https://img.youtube.com/vi/UtU60Vq-vPw/0.jpg)](https://youtu.be/UtU60Vq-vPw?si=YGzuT7zVd6Y48EeB)
+
+
 This guide provides a structured process for efficient inventory cycle counting, supporting accuracy and effective synchronization with Business Central.
