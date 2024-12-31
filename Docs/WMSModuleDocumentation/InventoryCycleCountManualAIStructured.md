@@ -10,7 +10,7 @@ This manual provides step-by-step guidance on performing the Inventory Cycle Cou
 
 ## **2. Calculate Inventory by Specifications**
 
-![image](https://github.com/user-attachments/assets/60016bdf-51fd-4081-98ff-45edfa3919cd)
+<img src="https://github.com/user-attachments/assets/60016bdf-51fd-4081-98ff-45edfa3919cd" alt="Product scanning" width="600">
 
 ![image](https://github.com/user-attachments/assets/7842ba9f-8751-4c50-a0cb-0555b7fed814)
 
