@@ -10,9 +10,9 @@ This manual provides step-by-step guidance on performing the Inventory Cycle Cou
 
 ## **2. Calculate Inventory by Specifications**
 
-![image](https://github.com/user-attachments/assets/6750e679-1e83-4f84-be2a-061e4978796f)
+![image](https://github.com/user-attachments/assets/2846ee68-1c2d-4e8e-849b-41a563fe30df)
 
-![image](https://github.com/user-attachments/assets/7842ba9f-8751-4c50-a0cb-0555b7fed814)
+![image](https://github.com/user-attachments/assets/72f47b03-8d52-43e2-974b-5024dc78406d)
 
 ### **Initial Setup**
 
@@ -24,8 +24,8 @@ This manual provides step-by-step guidance on performing the Inventory Cycle Cou
 
 1. Enter the **Document Number**.
 
- ![image](https://github.com/user-attachments/assets/24a74444-2772-45b9-802d-728a58d17127)
- 
+![image](https://github.com/user-attachments/assets/9ce325eb-d74d-45dc-aac9-5567cc98ed9b)
+
 2. Set filters:
    - **Filter by Item**:
      - General product posting group
@@ -35,18 +35,18 @@ This manual provides step-by-step guidance on performing the Inventory Cycle Cou
      - Brand
      - Additional filtering options
 
-![image](https://github.com/user-attachments/assets/add61087-af1c-4e0b-9c17-4d2dc0591dc4)
+![image](https://github.com/user-attachments/assets/ecf6f12e-82a1-4b11-90dd-8af44b7c6e50)
 
 ### **Processing**
 
 1. Review the updated **Physical Inventory Journals**.
 
-![image](https://github.com/user-attachments/assets/3fc5f918-fbad-48b1-b8e7-bfd1607be912)
+![image](https://github.com/user-attachments/assets/a4cbf679-c446-4867-9df3-550fc9b95f59)
 
 3. For serialized products:
    - Use the **Clear Serials** option to reset serial quantities to zero before counting.
 
-![image](https://github.com/user-attachments/assets/e093182a-e905-4bb5-b7be-9dbe0e9e3d2b)
+![image](https://github.com/user-attachments/assets/46fe57ad-1047-4e16-93e1-a8c47c2f4599)
 
 ## **3. Calculate Inventory by Counting Period**
 
@@ -54,13 +54,11 @@ This manual provides step-by-step guidance on performing the Inventory Cycle Cou
 
 1. Open the **Physical Inventory Counting Periods** page.
 
-![image](https://github.com/user-attachments/assets/5beeb99a-5748-465b-986b-2f6d981cf448)
+![image](https://github.com/user-attachments/assets/0523c2d4-4e8b-470b-ab1f-ff87f65308ca)
 
 2. Create a new counting period:
    - Define the frequency (e.g., monthly, quarterly).
    - Enter any required information.
-   - 
-![image](https://github.com/user-attachments/assets/3f18b288-d4b4-44f2-9b85-2a3dd5982ee8)
 
 ### **Item Configuration**
 
@@ -70,25 +68,29 @@ This manual provides step-by-step guidance on performing the Inventory Cycle Cou
    - Assign the **Next Counting Start Date**.
    - Set the **End Date**.
    - Note: Dates can be adjusted manually if needed.
+ 
+![image](https://github.com/user-attachments/assets/78d96565-ac10-4145-b46c-f359201faad9)
 
-![image](https://github.com/user-attachments/assets/883086cb-86a3-4c74-b9ab-a9746d9506f4)
+
 
 ### **Processing**
 
 1. Open the **Physical Inventory Journals** page.
 
-![image](https://github.com/user-attachments/assets/da557f3f-eb32-4b0c-8054-27e6c828a519)
+![image](https://github.com/user-attachments/assets/1fff9b44-8fed-4f18-9c09-945a3c1c3363)
 
 2. Select or create a **Batch**.
 3. Choose the **Calculate Counting Period** option.
 4. Review products scheduled for counting on the selected posting date.
 5. Enter the **Document Number**.
 
-![image](https://github.com/user-attachments/assets/d0017b27-072c-438c-a8ad-2ad81effcaf6)
+![image](https://github.com/user-attachments/assets/ae635893-bb25-4f4d-be63-42c6668c5c27)
 
 6. Confirm selections to proceed.
 
-![image](https://github.com/user-attachments/assets/241d7698-46f6-4717-a9cf-f0efc9a0ab6b)
+![image](https://github.com/user-attachments/assets/82f64308-ea6d-4958-8ec1-250d23fffc9a)
+
+---
 
 ## **4. Plur-E Inventory Cycle Count**
 
@@ -98,38 +100,36 @@ This manual provides step-by-step guidance on performing the Inventory Cycle Cou
 2. Select the relevant **Company**.
 3. Access the **Inventory Cycle Count** module.
 
-![image](https://github.com/user-attachments/assets/017e9a43-1211-4bab-a386-836954cfa268)
+![image](https://github.com/user-attachments/assets/38902992-c544-40f5-ab82-666a75b5cd1e)
 
 ### **Counting Process**
 
 1. Select the **Inventory Count** option.
 
-![image](https://github.com/user-attachments/assets/f7a8b559-c096-4710-bdfd-41399054bb7e)
+![image](https://github.com/user-attachments/assets/f8017b51-8f74-4361-9d43-1b5c40a66e47)
 
 2. Choose **Physical Inventory**.
 
-![image](https://github.com/user-attachments/assets/3b38afa4-3e60-4545-bbe4-7f700f2e5862)
+![image](https://github.com/user-attachments/assets/2324241f-b821-49f8-b17d-d7899d982127)
 
 3. Select the appropriate **Batch**.
 
-![image](https://github.com/user-attachments/assets/10c83c02-af32-476b-8b8c-aafd87d0115b)
+![image](https://github.com/user-attachments/assets/d5a09a06-a6cb-4886-bf2b-46d13d8a8562)
 
 4. Begin product scanning:
-
-![image](https://github.com/user-attachments/assets/55715b00-900f-4044-a88d-dba1f54ca36f)
 
    - Scan the product label.
    - Enter the **Physical Quantity** for each product.
 
-![image](https://github.com/user-attachments/assets/b25e742b-9d4b-4b41-b8b9-af04896be70b)
+![image](https://github.com/user-attachments/assets/0ffd6d01-e9fe-4fc2-b1e8-59b0d8f47740)
 
    - Use **Select Action → Edit** to adjust quantities if needed.
 
-![image](https://github.com/user-attachments/assets/90fa3f23-4e65-4909-b8bb-b04aa7831fe4)
+![image](https://github.com/user-attachments/assets/49be5bc5-f96b-4ddd-877e-89abbaaf03f0)
 
-![image](https://github.com/user-attachments/assets/c29feac1-34f7-4229-82df-778118dc0c3d)
+![image](https://github.com/user-attachments/assets/70d5c202-6e4f-49bf-beaa-d8b39a35b638)
 
-![image](https://github.com/user-attachments/assets/52900bcb-b6a7-46d8-b778-8a5d47725de6)
+![image](https://github.com/user-attachments/assets/6bbd714b-bbe2-444a-99fe-4f8025a41879)
 
 
 ### **Verification and Completion**
