@@ -10,7 +10,6 @@
   - [Configuration of the payment module in business central](Docs/PaymentModuleDocumentation/ConfigurationofthePaymentmoduleinBusinessCentral.md)
   - [Payment manual](Docs/PaymentModuleDocumentation/PaymentManualAIStructured.md)
 - [WMS module documentation](javascript:void(0))
-  - [General inventory count](Docs/WMSModuleDocumentation/GeneralInventoryCount.md)
   - [Inventory cycle count manual](Docs/WMSModuleDocumentation/InventoryCycleCountManualAIStructured.md)
   - [Package module](Docs/WMSModuleDocumentation/PackageModule.md)
   - [Warehouse Put Away](Docs/WMSModuleDocumentation/WarehousePutAway.md)
