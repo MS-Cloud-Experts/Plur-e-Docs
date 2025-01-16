@@ -17,6 +17,10 @@ This guide details the step-by-step process for creating and processing a wareho
    - Select customer using the lookup function
    - Choose appropriate customer from the list
 
+![image](https://github.com/user-attachments/assets/ac9040bb-66ba-4662-acd1-5dd55d245872)
+
+![image](https://github.com/user-attachments/assets/45123121-c94b-489c-b25c-2df20fa2e667)
+
 ### 2. Adding Items to Sales Order
 1. In the Sales Lines section:
    - Click the lookup function in the "No." field
@@ -30,6 +34,8 @@ This guide details the step-by-step process for creating and processing a wareho
 2. System confirms creation with message: "1 Warehouse Shipment Header has been created"
 3. The Warehouse Shipment document opens (Example: WHSE SHIP-00011)
 
+![image](https://github.com/user-attachments/assets/245a3618-1892-460d-b6c0-c2c06bbb471e)
+
 ### 4. Assigning Warehouse Employee
 1. Click lookup function in "Assigned User ID" field
 2. Select appropriate warehouse employee from the list
@@ -39,6 +45,10 @@ This guide details the step-by-step process for creating and processing a wareho
 2. Confirm in the "Whse.-Shipment - Create Pick" dialog
 3. System generates pick document (Example: WHSE PICK-00008)
 
+![image](https://github.com/user-attachments/assets/26ff28c1-ee31-4575-a5dc-729b20b133e4)
+ 
+![image](https://github.com/user-attachments/assets/95878c8e-44ef-4a7c-a08e-0d419ee020ad) 
+
 ### 6. Processing Pick Lines
 1. Click "Pick Lines" to view Warehouse Pick Lines
 2. Click "Show Document" to view full pick document
@@ -46,6 +56,8 @@ This guide details the step-by-step process for creating and processing a wareho
    - Click "Assign License Plates to Warehouse Pick"
    - Select appropriate license plate from the list (Example: LP-00013)
    - System confirms successful assignment
+
+![image](https://github.com/user-attachments/assets/45977fff-64ba-43fd-b74f-415491de16ea)
 
 ### 7. Registering and Posting Pick
 1. Click "Register Pick"
